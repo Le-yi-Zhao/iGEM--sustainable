@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dry-lab wiki framework for an iGEM project: design, modeling, engineering, software, and reproducibility."
+    />
+    <title>Dry Lab · iGEM Wiki Framework</title>
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script src="assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-site-header>
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Dry Lab home">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <span>
+            <strong>GALATEA</strong>
+            <small>Dry Lab · iGEM 2026</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          data-nav-toggle
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation" data-nav>
+          <a href="#overview">Overview</a>
+          <a href="#design">Design</a>
+          <a href="#models">Models</a>
+          <a href="#engineering">Engineering</a>
+          <a href="#results">Results</a>
+          <a href="#software">Software</a>
+          <a href="#reproducibility">Reproduce</a>
+        </nav>
+      </div>
+      <div class="reading-progress" aria-hidden="true"><span data-reading-progress></span></div>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero section-dark" aria-labelledby="hero-title">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Dry-lab wiki framework</p>
+            <h1 id="hero-title">From biological question to an auditable design decision.</h1>
+            <p class="hero-lead">
+              Replace this introduction with a concise project question, the dry-lab strategy, and the
+              decision that connects computation to experiments.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#overview">Explore the workflow</a>
+              <a class="button button-ghost" href="#software">View the software</a>
+            </div>
+            <ul class="hero-meta" aria-label="Framework qualities">
+              <li>Evidence-bounded</li>
+              <li>Experiment-linked</li>
+              <li>Reproducible</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Four-stage dry-lab workflow placeholder">
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <div class="droplet" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="workflow-node node-design">
+              <span>01</span>
+              <strong>Design</strong>
+              <small>Candidate space</small>
+            </div>
+            <div class="workflow-node node-screen">
+              <span>02</span>
+              <strong>Screen</strong>
+              <small>Risk and structure</small>
+            </div>
+            <div class="workflow-node node-model">
+              <span>03</span>
+              <strong>Model</strong>
+              <small>Mechanism and pathway</small>
+            </div>
+            <div class="workflow-node node-test">
+              <span>04</span>
+              <strong>Validate</strong>
+              <small>Wet-lab feedback</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="evidence-strip" aria-label="Evidence status legend">
+        <div class="shell evidence-strip-inner">
+          <p><strong>Evidence key</strong> — apply one label to every major claim and figure.</p>
+          <div class="tag-row">
+            <span class="evidence-tag tag-measured">Measured</span>
+            <span class="evidence-tag tag-simulated">Simulated</span>
+            <span class="evidence-tag tag-literature">Literature-derived</span>
+            <span class="evidence-tag tag-validated">Software-validated</span>
+            <span class="evidence-tag tag-planned">Planned</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section" data-section>
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 · Overview</p>
+            <h2>Give judges the complete story in three minutes.</h2>
+            <p>
+              This section should stand on its own: define the biological problem, show the full workflow,
+              state the decisions made, and separate supported conclusions from open questions.
+            </p>
+          </div>
+
+          <div class="overview-grid">
+            <article class="prompt-card reveal">
+              <span class="card-index">A</span>
+              <h3>Biological question</h3>
+              <p>One paragraph: what is difficult, why spatial organization may help, and what is being tested.</p>
+              <span class="editor-note">Add project context</span>
+            </article>
+            <article class="prompt-card reveal">
+              <span class="card-index">B</span>
+              <h3>Computational strategy</h3>
+              <p>Summarize candidate design, negative screening, mechanistic modeling, and experiment handoff.</p>
+              <span class="editor-note">Add workflow summary</span>
+            </article>
+            <article class="prompt-card reveal">
+              <span class="card-index">C</span>
+              <h3>Design decision</h3>
+              <p>State which construct or panel moved forward and exactly which evidence informed that choice.</p>
+              <span class="editor-note">Add final decision</span>
+            </article>
+            <article class="prompt-card reveal">
+              <span class="card-index">D</span>
+              <h3>Next experiment</h3>
+              <p>Identify the measurement most likely to confirm, reject, or revise the current design.</p>
+              <span class="editor-note">Add validation plan</span>
+            </article>
+          </div>
+
+          <div class="figure-frame figure-frame-wide reveal">
+            <div class="figure-placeholder">
+              <span class="placeholder-kicker">Primary system figure</span>
+              <strong>Place the final construct and dry–wet loop here</strong>
+              <p>Recommended: responsive SVG with an accessible text alternative.</p>
+            </div>
+            <div class="figure-caption-grid">
+              <div><strong>What it shows</strong><span>Add the intended takeaway.</span></div>
+              <div><strong>What it does not show</strong><span>Add the evidence boundary.</span></div>
+              <div><strong>Why it changed the design</strong><span>Add the resulting decision.</span></div>
+              <div><strong>Data and code</strong><span>Add stable artifact links.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="design" class="section section-tint" data-section>
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">02 · Candidate design</p>
+              <h2>Move from sequence space to an interpretable panel.</h2>
+            </div>
+            <p>
+              Organize this page around controlled design families, transparent screening gates, and the
+              experimental role of each selected candidate—not around a list of software names.
+            </p>
+          </div>
+
+          <div class="pipeline" aria-label="Candidate design pipeline placeholder">
+            <article class="pipeline-step reveal">
+              <span>G0</span>
+              <h3>Generate</h3>
+              <p>Define candidate families and controlled changes.</p>
+            </article>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <article class="pipeline-step reveal">
+              <span>G1</span>
+              <h3>Negative screen</h3>
+              <p>Remove explicit sequence-level risks.</p>
+            </article>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <article class="pipeline-step reveal">
+              <span>G2</span>
+              <h3>Rank within family</h3>
+              <p>Use declared objectives and model comparisons.</p>
+            </article>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <article class="pipeline-step reveal">
+              <span>G3</span>
+              <h3>Select a panel</h3>
+              <p>Preserve controls and mechanistic diversity.</p>
+            </article>
+          </div>
+
+          <div class="two-column">
+            <div class="figure-frame reveal">
+              <div class="figure-placeholder figure-placeholder-chart">
+                <span class="placeholder-kicker">Figure placeholder</span>
+                <strong>Candidate family comparison</strong>
+                <p>Show what each family preserves and changes.</p>
+              </div>
+              <p class="figure-caption">Add a complete caption, sample definition, model version, and limitation.</p>
+            </div>
+            <div class="content-stack reveal">
+              <article class="content-card">
+                <p class="mini-label">Design logic</p>
+                <h3>Explain each perturbation as a hypothesis.</h3>
+                <p>For every family, state the controlled variable, expected direction, and experimental interpretation.</p>
+              </article>
+              <article class="content-card">
+                <p class="mini-label">Selection logic</p>
+                <h3>Show every gate and every excluded candidate.</h3>
+                <p>Distinguish an uncalibrated project rule from a literature-supported or experimentally calibrated threshold.</p>
+              </article>
+              <a class="text-link" href="#candidate-explorer">Open candidate explorer framework <span>→</span></a>
+            </div>
+          </div>
+
+          <div id="candidate-explorer" class="explorer-shell reveal">
+            <div class="explorer-toolbar">
+              <div>
+                <p class="mini-label">Interactive module placeholder</p>
+                <h3>Candidate explorer</h3>
+              </div>
+              <div class="control-group" aria-label="Non-functional preview controls">
+                <label>Family <select disabled><option>All families</option></select></label>
+                <label>Metric <select disabled><option>Select a metric</option></select></label>
+                <label>Search <input type="search" placeholder="Candidate ID" disabled /></label>
+              </div>
+            </div>
+            <div class="mock-chart" aria-label="Chart placeholder">
+              <span class="axis axis-y"></span><span class="axis axis-x"></span>
+              <i style="--x: 16%; --y: 34%"></i><i style="--x: 29%; --y: 66%"></i>
+              <i style="--x: 43%; --y: 45%"></i><i style="--x: 58%; --y: 24%"></i>
+              <i style="--x: 72%; --y: 55%"></i><i style="--x: 84%; --y: 38%"></i>
+              <strong>Replace with the existing interactive candidate dataset</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="structure" class="section" data-section>
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">03 · Scaffold and structure</p>
+            <h2>Use structural models as negative screens, not activity claims.</h2>
+            <p>
+              Present the current construct first. Move superseded architectures into the engineering history,
+              then explain which structural risks were screened and which require experiments.
+            </p>
+          </div>
+
+          <div class="structure-layout">
+            <div class="construct-frame reveal">
+              <div class="construct-track" aria-label="Protein construct placeholder">
+                <span class="domain domain-one">Module A</span>
+                <span class="linker">Linker</span>
+                <span class="domain domain-two">IDR</span>
+                <span class="linker">Linker</span>
+                <span class="domain domain-three">Reporter</span>
+                <span class="linker">Linker</span>
+                <span class="domain domain-four">Core</span>
+              </div>
+              <p>Replace labels with the final construct and provide residue boundaries below the diagram.</p>
+            </div>
+
+            <div class="risk-grid">
+              <article class="risk-card reveal"><span>01</span><h3>Local confidence</h3><p>Insert domain-level confidence and its interpretation.</p></article>
+              <article class="risk-card reveal"><span>02</span><h3>Accessibility</h3><p>Insert declared pocket or surface accessibility checks.</p></article>
+              <article class="risk-card reveal"><span>03</span><h3>Assembly geometry</h3><p>Insert multimer or template-expansion crowding checks.</p></article>
+              <article class="risk-card reveal"><span>04</span><h3>Functional boundary</h3><p>State why structural similarity cannot establish enzyme activity.</p></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="models" class="section section-dark models-section" data-section>
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">04 · Mechanistic models</p>
+            <h2>Separate recruitment physics from pathway kinetics.</h2>
+            <p>
+              Give each model its own question, inputs, equations, validation, outputs, and claim boundary.
+              Connect them only through explicit, candidate-scoped parameters.
+            </p>
+          </div>
+
+          <div class="model-grid">
+            <article id="recruitment" class="model-card reveal">
+              <div class="model-card-head">
+                <span class="model-number">M3</span>
+                <span class="evidence-tag tag-simulated">Mechanistic</span>
+              </div>
+              <h3>Two-phase recruitment</h3>
+              <p class="model-question">Question placeholder: how do finite sites, affinity, abundance, and partitioning determine dense/dilute concentrations?</p>
+              <div class="equation-placeholder">Equation and mass-balance diagram</div>
+              <dl class="model-contract">
+                <div><dt>Inputs</dt><dd>Add scoped parameter list</dd></div>
+                <div><dt>Outputs</dt><dd>Add conserved concentrations</dd></div>
+                <div><dt>Validation</dt><dd>Add limiting cases and tests</dd></div>
+                <div><dt>Decision</dt><dd>Add experimental implication</dd></div>
+              </dl>
+            </article>
+
+            <article id="pathway" class="model-card reveal">
+              <div class="model-card-head">
+                <span class="model-number">M4</span>
+                <span class="evidence-tag tag-simulated">Mechanistic</span>
+              </div>
+              <h3>Two-phase pathway kinetics</h3>
+              <p class="model-question">Question placeholder: under which measured parameter combinations could spatial organization alter pathway flux?</p>
+              <div class="network-placeholder" aria-label="Reaction network placeholder">
+                <span>Input</span><b>→</b><span>Intermediate</span><b>→</b><span>Product</span>
+                <i>↘ competing branch</i>
+              </div>
+              <dl class="model-contract">
+                <div><dt>Inputs</dt><dd>Add kinetic and phase data</dd></div>
+                <div><dt>Outputs</dt><dd>Add trajectories and fluxes</dd></div>
+                <div><dt>Validation</dt><dd>Add conservation and controls</dd></div>
+                <div><dt>Decision</dt><dd>Add measurement priority</dd></div>
+              </dl>
+            </article>
+          </div>
+
+          <div class="assumption-panel reveal">
+            <div>
+              <p class="mini-label">Required on both model pages</p>
+              <h3>Assumptions, uncertainty, and parameter provenance</h3>
+            </div>
+            <ul>
+              <li>Show physical units and model scope.</li>
+              <li>Distinguish measured values from priors and scenarios.</li>
+              <li>Report sensitivity and identifiability separately.</li>
+              <li>State which conclusion would change with new data.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="engineering" class="section" data-section>
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">05 · Engineering success</p>
+              <h2>Tell the project through iterations.</h2>
+            </div>
+            <p>
+              Each cycle should link a defined design, an implemented build, a test, the resulting lesson,
+              and the exact change made in the next iteration.
+            </p>
+          </div>
+
+          <div class="timeline" aria-label="Engineering iteration framework">
+            <article class="timeline-item reveal">
+              <span class="timeline-marker">1</span>
+              <div>
+                <p class="mini-label">Iteration one</p>
+                <h3>Initial architecture</h3>
+                <div class="cycle-grid">
+                  <span><strong>Design</strong>Add initial rationale</span>
+                  <span><strong>Build</strong>Add implemented artifact</span>
+                  <span><strong>Test</strong>Add computational or experimental test</span>
+                  <span><strong>Learn</strong>Add failure, risk, or constraint</span>
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-marker">2</span>
+              <div>
+                <p class="mini-label">Iteration two</p>
+                <h3>Revised architecture</h3>
+                <div class="cycle-grid">
+                  <span><strong>Design</strong>Add explicit revision</span>
+                  <span><strong>Build</strong>Add revised construct or model</span>
+                  <span><strong>Test</strong>Add matched comparison</span>
+                  <span><strong>Learn</strong>Add resulting panel or experiment</span>
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item timeline-future reveal">
+              <span class="timeline-marker">3</span>
+              <div>
+                <p class="mini-label">Next loop</p>
+                <h3>Wet-lab feedback</h3>
+                <p>Reserve this space for measured results and the next design revision. Do not write planned work in the past tense.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="results" class="section section-tint" data-section>
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">06 · Results and validation</p>
+            <h2>Make the evidence level visible before the conclusion.</h2>
+            <p>Use one claim–evidence table as the source of truth, then link to detailed methods and artifacts.</p>
+          </div>
+
+          <div class="tabs reveal" data-tabs>
+            <div class="tab-list" role="tablist" aria-label="Result categories">
+              <button role="tab" aria-selected="true" aria-controls="tab-computational" id="tab-button-computational">Computational</button>
+              <button role="tab" aria-selected="false" aria-controls="tab-experimental" id="tab-button-experimental" tabindex="-1">Experimental</button>
+              <button role="tab" aria-selected="false" aria-controls="tab-pending" id="tab-button-pending" tabindex="-1">Pending</button>
+            </div>
+            <div id="tab-computational" role="tabpanel" aria-labelledby="tab-button-computational">
+              <div class="result-placeholder-grid">
+                <article><span class="evidence-tag tag-simulated">Simulated</span><h3>Finding title</h3><p>Add observation, uncertainty, and the design decision it informed.</p></article>
+                <article><span class="evidence-tag tag-validated">Software-validated</span><h3>Validation title</h3><p>Add conservation, regression, repeat, or benchmark evidence.</p></article>
+              </div>
+            </div>
+            <div id="tab-experimental" role="tabpanel" aria-labelledby="tab-button-experimental" hidden>
+              <div class="empty-state"><strong>Experimental result area</strong><p>Add sample definition, replicates, controls, raw points, statistics, and interpretation.</p></div>
+            </div>
+            <div id="tab-pending" role="tabpanel" aria-labelledby="tab-button-pending" hidden>
+              <div class="empty-state"><strong>Open questions</strong><p>List blocked claims, missing inputs, and the experiment that can resolve each one.</p></div>
+            </div>
+          </div>
+
+          <div class="claim-table-wrap reveal">
+            <table class="claim-table">
+              <caption>Claim–evidence mapping framework</caption>
+              <thead><tr><th>Claim</th><th>Evidence</th><th>Status</th><th>Boundary</th><th>Artifact</th></tr></thead>
+              <tbody>
+                <tr><td>Add a narrow claim</td><td>Add direct evidence</td><td><span class="evidence-tag tag-planned">Status</span></td><td>Add what cannot be concluded</td><td><a href="#reproducibility">Link</a></td></tr>
+                <tr><td>Add a narrow claim</td><td>Add direct evidence</td><td><span class="evidence-tag tag-planned">Status</span></td><td>Add what cannot be concluded</td><td><a href="#reproducibility">Link</a></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="software" class="section" data-section>
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">07 · Software</p>
+              <h2>Present the software as a reusable scientific workflow.</h2>
+            </div>
+            <p>
+              State the user problem first. Follow with architecture, supported standards, validation,
+              integrations, quick start, limitations, license, and a stable release link.
+            </p>
+          </div>
+
+          <div class="software-layout">
+            <div class="architecture-diagram reveal" aria-label="Software architecture placeholder">
+              <div class="arch-layer"><span>Evidence and inputs</span><small>Literature · sequences · measurements</small></div>
+              <b>↓</b>
+              <div class="arch-layer arch-primary"><span>Deterministic scientific modules</span><small>Design · structure · recruitment · kinetics</small></div>
+              <b>↓</b>
+              <div class="arch-layer"><span>Review and experiment handoff</span><small>Artifacts · decisions · provenance</small></div>
+            </div>
+
+            <div class="software-copy reveal">
+              <article class="content-card">
+                <p class="mini-label">User story</p>
+                <h3>Who uses this, for what task, and with which input?</h3>
+                <p>Add a concrete start-to-finish example that another iGEM team can reproduce.</p>
+              </article>
+              <div class="check-grid">
+                <span>□ Versioned release</span><span>□ Open-source license</span>
+                <span>□ Tests and benchmarks</span><span>□ Example inputs</span>
+                <span>□ External integrations</span><span>□ Known limitations</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="quick-start reveal">
+            <div>
+              <p class="mini-label">Quick start placeholder</p>
+              <h3>One command path from installation to an inspectable result.</h3>
+            </div>
+            <pre><code># Replace with reviewed release commands
+git clone &lt;repository-url&gt;
+cd &lt;repository&gt;
+python -m pip install -e ".[test]"
+python -m pytest -q</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="reproducibility" class="section section-dark" data-section>
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">08 · Reproducibility and contribution</p>
+            <h2>Let future teams reproduce the decision, not just view the figure.</h2>
+            <p>Each public artifact should have a stable name, version, provenance, checksum, license status, and a short usage note.</p>
+          </div>
+
+          <div class="artifact-grid">
+            <article class="artifact-card reveal"><span>FASTA / GB</span><h3>Sequence package</h3><p>Final constructs, controls, residue maps, and naming rules.</p><em class="pending-link">Add download link</em></article>
+            <article class="artifact-card reveal"><span>TSV / JSON</span><h3>Analysis package</h3><p>Candidate features, selection traces, model inputs, and outputs.</p><em class="pending-link">Add download link</em></article>
+            <article class="artifact-card reveal"><span>YAML / CLI</span><h3>Workflow package</h3><p>Versioned configuration, exact commands, and environment details.</p><em class="pending-link">Add repository link</em></article>
+            <article class="artifact-card reveal"><span>MD / DOI</span><h3>Evidence package</h3><p>Claim mapping, citations, permissions, and evidence boundaries.</p><em class="pending-link">Add evidence index</em></article>
+          </div>
+
+          <div class="citation-placeholder reveal">
+            <strong>References and attributions</strong>
+            <p>Insert numbered references, software citations, figure credits, licenses, and team/external contributions here.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <strong>GALATEA · Dry Lab</strong>
+          <p>Static framework preview. Replace placeholders with reviewed team content.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <a href="#overview">Overview</a>
+          <a href="#models">Models</a>
+          <a href="#engineering">Engineering</a>
+          <a href="#software">Software</a>
+        </nav>
+        <p>© <span data-current-year>2026</span> iGEM Team · Add content license</p>
+      </div>
+    </footer>
+  </body>
+</html>
