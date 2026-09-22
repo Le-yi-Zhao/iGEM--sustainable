@@ -1,0 +1,72 @@
+{
+  "allowed_statuses": [
+    "COMPLETE",
+    "PARTIAL",
+    "BLOCKED",
+    "WAITING_FOR_DATA"
+  ],
+  "generated_by": "analysis/validation/readiness.py",
+  "evidence": {
+    "S1 Problem & Baseline": {
+      "status": "PARTIAL",
+      "evidence": [
+        "docs/methodology/COMPUTATIONAL_SUSTAINABILITY.md",
+        "data/compounds/compound_manifest.csv"
+      ],
+      "gap": "matched No-LLPS versus LLPS results are absent"
+    },
+    "S2 Stakeholder Evidence": {
+      "status": "PARTIAL",
+      "evidence": [
+        "data/stakeholder_intervention_log.csv"
+      ],
+      "gap": "Round 2 and process/sustainability expert validation are absent"
+    },
+    "S3 Wet Lab Benchmark": {
+      "status": "WAITING_FOR_DATA",
+      "evidence": [
+        "data/wetlab/metabolite_timecourse_template.csv"
+      ],
+      "gap": "raw biological replicates for G1 versus LLPS are absent"
+    },
+    "S4 Resource/Energy": {
+      "status": "WAITING_FOR_DATA",
+      "evidence": [
+        "data/wetlab/material_inventory_template.csv",
+        "data/wetlab/equipment_usage_template.csv"
+      ],
+      "gap": "actual batch material and equipment-use records are absent"
+    },
+    "S5 Safety": {
+      "status": "WAITING_FOR_DATA",
+      "evidence": [
+        "data/wetlab/containment_template.csv",
+        "results/tables/toxicity_consensus.csv"
+      ],
+      "gap": "CFU containment data and model exports are absent"
+    },
+    "S6 Trade-off": {
+      "status": "PARTIAL",
+      "evidence": [
+        "figures/framework/positive_negative_mitigation_matrix.svg"
+      ],
+      "gap": "trade-offs are structured but not yet quantified"
+    },
+    "S7 Integrated Impact": {
+      "status": "PARTIAL",
+      "evidence": [
+        "figures/framework/integrated_impact_dashboard.svg"
+      ],
+      "gap": "environmental and economic results await measured inputs"
+    },
+    "S8 Reproducibility": {
+      "status": "PARTIAL",
+      "evidence": [
+        "analysis/run_all.py",
+        "requirements.txt",
+        "docs/provenance/MODEL_PROVENANCE.md"
+      ],
+      "gap": "external model exports and wet-lab datasets are not yet available"
+    }
+  }
+}

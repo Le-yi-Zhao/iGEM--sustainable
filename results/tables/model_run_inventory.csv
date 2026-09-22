@@ -1,0 +1,6 @@
+model,raw_file,status,records,reason
+ADMETlab 3.0,data/raw/admetlab/admetlab_predictions.csv,BLOCKED,0,raw export not supplied
+ProTox 3.0,data/raw/protox/protox_predictions.csv,BLOCKED,0,raw export not supplied
+admetSAR 3.0,data/raw/admetsar/admetsar_predictions.csv,BLOCKED,0,raw export not supplied
+EPA CompTox,data/raw/comptox/comptox_fate.csv,BLOCKED,0,raw export not supplied
+EPA ECOSAR,data/raw/ecosar/ecosar_aquatic.csv,BLOCKED,0,raw export not supplied

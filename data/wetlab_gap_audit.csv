@@ -17,4 +17,3 @@ Product quality,Purity and recovery,"Industry relevance and downstream efficienc
 Safety,Containment / inactivation evidence,"Negative-impact and GMO waste mitigation","Not present in current protocol","Add one quantitative containment/inactivation test if feasible","High"
 QA,Biological replicates >=3 for core endpoints,"Reproducibility and statistical significance","Required by sustainability plan; actual completed replicate count not confirmed","Lock replicate plan and IDs","Critical"
 QA,Standard curves / detection limits / raw-data links,"Quantitative credibility and reusability","Requested in data package; not yet supplied","Archive standards, LOD/LOQ if available, raw-data path","Critical"
-Removed,Process light-control parameters,"Old energy model no longer applies","Wet-lab team confirmed process light control is no longer used","Remove wavelength/irradiance/duty-cycle fields","Not applicable"

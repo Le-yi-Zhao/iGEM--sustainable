@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 44257508,
+        "MolecularFormula": "C21H24O4",
+        "MolecularWeight": "340.4",
+        "SMILES": "CC(=CCC1=C(C=CC2=C1OCC(C2)C3=C(C=C(C=C3)OC)O)O)C",
+        "ConnectivitySMILES": "CC(=CCC1=C(C=CC2=C1OCC(C2)C3=C(C=C(C=C3)OC)O)O)C",
+        "InChI": "InChI=1S/C21H24O4/c1-13(2)4-7-18-19(22)9-5-14-10-15(12-25-21(14)18)17-8-6-16(24-3)11-20(17)23/h4-6,8-9,11,15,22-23H,7,10,12H2,1-3H3",
+        "InChIKey": "CFIGHBKJMKQTBW-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

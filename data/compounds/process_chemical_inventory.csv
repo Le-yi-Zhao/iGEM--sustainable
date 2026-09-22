@@ -1,0 +1,14 @@
+chemical_id,chemical_name,category,role,amount_status,human_hazard_status,environmental_fate_status,ecotoxicity_status,source,notes
+9,vestitol,pathway compound,DMT early substrate,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,Model outputs must be imported before assessment
+10,4'-O-methylpreglabridin,pathway compound,fed precursor,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,Current working precursor
+11,4'-O-methylglabridin,pathway compound,terminal DMT substrate,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,
+13,demethylvestitol,pathway compound,leakage marker,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,
+14,preglabridin,pathway compound,branch intermediate,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,
+15,glabridin,pathway compound,target product,missing,not_assessed,not_assessed,not_assessed,compound_manifest.csv,
+METHANOL,methanol,process solvent,re-dissolution and analytical preparation,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Record actual volume per batch
+ETHYL_ACETATE,ethyl acetate,process solvent,metabolite extraction,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Record extraction count and phase ratio
+ACETONITRILE,acetonitrile,process solvent,HPLC mobile phase,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Record actual analytical consumption
+GALACTOSE,galactose,inducer,prototype induction where applicable,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Not used in every final construct
+WATER,water,process material,culture washing extraction and purification,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Record by use stage
+YPD,YPD medium,composite medium,seed and expression culture,missing,not_assessed,not_assessed,not_assessed,protocol v1.0,Expand to individual ingredients when batch recipe is frozen
+

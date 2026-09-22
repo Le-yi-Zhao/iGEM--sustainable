@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 9927807,
+        "MolecularFormula": "C21H22O4",
+        "MolecularWeight": "338.4",
+        "SMILES": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)OC)O)C",
+        "ConnectivitySMILES": "CC1(C=CC2=C(O1)C=CC3=C2OCC(C3)C4=C(C=C(C=C4)OC)O)C",
+        "InChI": "InChI=1S/C21H22O4/c1-21(2)9-8-17-19(25-21)7-4-13-10-14(12-24-20(13)17)16-6-5-15(23-3)11-18(16)22/h4-9,11,14,22H,10,12H2,1-3H3/t14-/m0/s1",
+        "InChIKey": "ZZAIPFIGEGQNHP-AWEZNQCLSA-N"
+      }
+    ]
+  }
+}
