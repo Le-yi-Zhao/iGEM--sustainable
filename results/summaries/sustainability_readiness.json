@@ -38,12 +38,13 @@
       "gap": "actual batch material and equipment-use records are absent"
     },
     "S5 Safety": {
-      "status": "WAITING_FOR_DATA",
+      "status": "PARTIAL",
       "evidence": [
         "data/wetlab/containment_template.csv",
+        "data/raw/admetlab/admetlab_predictions.csv",
         "results/tables/toxicity_consensus.csv"
       ],
-      "gap": "CFU containment data and model exports are absent"
+      "gap": "ADMETlab is single-model screening evidence; CFU containment data and an independent toxicity model are absent"
     },
     "S6 Trade-off": {
       "status": "PARTIAL",
@@ -66,7 +67,7 @@
         "requirements.txt",
         "docs/provenance/MODEL_PROVENANCE.md"
       ],
-      "gap": "external model exports and wet-lab datasets are not yet available"
+      "gap": "ADMETlab is reproducible, but independent model exports and wet-lab datasets are not yet available"
     }
   }
 }

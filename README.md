@@ -19,9 +19,10 @@ python3 -m venv .venv
 
 - Six pathway compounds (9, 10, 11, 13, 14 and 15) have traceable PubChem structures and pass RDKit consistency checks.
 - The 2026 Nature Communications source workbook is cached unchanged and checksum-recorded.
-- ADMETlab, ProTox, CompTox and ECOSAR outputs are blocked until raw exports are supplied.
+- ADMETlab 3.0 was actually run through its official web batch service for all six compounds; the 122-column raw CSV, metadata, normalized table and three numerical SVG figures are included.
+- ProTox, CompTox and ECOSAR remain blocked until raw exports or the required API access are supplied, so the current ADMET results are explicitly `SINGLE_MODEL_ONLY`.
 - Matched No-LLPS versus LLPS results, resource inventories, containment results and Round 2 stakeholder validation are waiting for data.
-- Framework figures describe evidence status and trade-offs; they are not simulated model results.
+- Model-result figures are generated only from the cached ADMETlab CSV; framework figures remain clearly separated and are not simulated results.
 
 ## Input locations
 

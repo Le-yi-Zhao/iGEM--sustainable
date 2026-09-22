@@ -16,6 +16,8 @@ Only compounds with a traceable structure source and `structure_confirmed=yes` e
 
 External services are cache-first. `analysis/run_all.py` never repeatedly calls ADMETlab, ProTox, CompTox or ECOSAR. Raw service exports are immutable inputs. Missing exports remain missing and propagate to readiness status rather than becoming zeros.
 
+ADMETlab 3.0 was run once through its official web batch interface on the six confirmed structures. The complete 122-column CSV is cached unchanged. Ten toxicity probabilities and four physicochemical/environmental outputs are selected by an explicit endpoint map for visualization. A probability of at least 0.5 is used only to describe the model's positive-class prediction; it is not a safety threshold. Because the web export did not include model uncertainty, uncertainty is reported as unavailable rather than inferred.
+
 ## Endpoint harmonization and consensus
 
 Each model's original label, probability, confidence, uncertainty and applicability-domain fields are preserved. Probabilities from different models are not averaged. Consensus categories are assigned only when endpoint mappings and directional interpretations are explicit:
@@ -42,4 +44,3 @@ Bootstrap resampling is used only when replicate data exist. Monte Carlo analysi
 ## Interpretation boundary
 
 QSAR predictions are early-stage screening evidence. They do not prove safety, efficacy or environmental compatibility and do not replace containment or viability experiments. Resource accounting is LCA-inspired unless system boundary, inventory, baseline and database provenance are sufficient for a defensible LCA.
-

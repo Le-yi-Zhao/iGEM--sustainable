@@ -7,6 +7,8 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import FancyBboxPatch
 
 
@@ -59,12 +61,90 @@ def structure_audit(root: Path) -> None:
     _save(fig, root / "figures/evidence/compound_structure_audit.svg")
 
 
+def admetlab_toxicity_probability(root: Path) -> None:
+    rows = [r for r in _rows(root / "results/tables/admetlab_selected_predictions.csv") if r["category"] == "toxicity_probability"]
+    if not rows:
+        return
+    compounds = list(dict.fromkeys((r["compound_id"], r["compound_name"]) for r in rows))
+    endpoints = list(dict.fromkeys(r["endpoint"] for r in rows))
+    lookup = {(r["compound_id"], r["endpoint"]): float(r["value"]) for r in rows}
+    matrix = np.array([[lookup[(compound_id, endpoint)] for endpoint in endpoints] for compound_id, _ in compounds])
+    labels = [f"{compound_id} · {name}" for compound_id, name in compounds]
+    short_endpoints = [e.replace("Drug-induced liver injury", "DILI").replace("Human hepatotoxicity", "Hepatotoxicity") for e in endpoints]
+    cmap = LinearSegmentedColormap.from_list("screening_probability", ["#EAF6EF", "#FFF3D2", "#B94C59"])
+    fig, ax = plt.subplots(figsize=(14.5, 6.8))
+    image = ax.imshow(matrix, cmap=cmap, vmin=0, vmax=1, aspect="auto")
+    ax.set_title("ADMETlab 3.0 toxicity prediction probabilities", loc="left", fontsize=18, weight="bold", color=INK, pad=16)
+    ax.set_xticks(range(len(short_endpoints)), short_endpoints, rotation=35, ha="right")
+    ax.set_yticks(range(len(labels)), labels)
+    ax.tick_params(axis="both", labelsize=9)
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[1]):
+            ax.text(j, i, f"{matrix[i, j]:.2f}", ha="center", va="center", fontsize=8, color="white" if matrix[i, j] > .72 else INK, weight="bold")
+    colorbar = fig.colorbar(image, ax=ax, fraction=.025, pad=.02)
+    colorbar.set_label("Predicted positive-class probability", color=MUTED)
+    ax.text(0, -0.30, "PREDICTED · Official ADMETlab 3.0 web batch result. Values are screening probabilities, not measured toxicity or a safety determination. The web export did not include uncertainty fields.", transform=ax.transAxes, fontsize=9, color=MUTED)
+    _save(fig, root / "figures/evidence/toxicity_prediction_probability.svg")
+
+
+def admetlab_environmental_profiles(root: Path) -> None:
+    rows = [r for r in _rows(root / "results/tables/admetlab_selected_predictions.csv") if r["category"] == "environmental_property"]
+    if not rows:
+        return
+    compounds = list(dict.fromkeys((r["compound_id"], r["compound_name"]) for r in rows))
+    endpoints = list(dict.fromkeys(r["endpoint"] for r in rows))
+    lookup = {(r["compound_id"], r["endpoint"]): float(r["value"]) for r in rows}
+    labels = [compound_id for compound_id, _ in compounds]
+    fig, axes = plt.subplots(2, 3, figsize=(15, 8.2))
+    palette = ["#5A2C83", "#6F3CA7", "#8454B3", "#9A70C4", "#B18BD2", "#C8A9DF"]
+    for ax, endpoint in zip(axes.flat, endpoints):
+        values = [lookup[(compound_id, endpoint)] for compound_id, _ in compounds]
+        bars = ax.bar(labels, values, color=palette, edgecolor="white")
+        ax.axhline(0, color=LINE, linewidth=1)
+        ax.set_title(endpoint, loc="left", fontsize=12, weight="bold", color=INK)
+        ax.set_xlabel("Compound ID", color=MUTED)
+        ax.grid(axis="y", color=LINE, linewidth=.7, alpha=.7)
+        ax.set_axisbelow(True)
+        for bar, value in zip(bars, values):
+            ax.text(bar.get_x() + bar.get_width()/2, value, f"{value:.2f}", ha="center", va="bottom" if value >= 0 else "top", fontsize=8, color=INK)
+    fig.suptitle("ADMETlab 3.0 physicochemical and environmental model outputs", x=.08, ha="left", fontsize=18, weight="bold", color=INK)
+    fig.text(.08, .01, "PREDICTED · Raw model outputs are shown without cross-endpoint normalization. BCF and ecotoxicity endpoints are retained in ADMETlab's exported output scales.", fontsize=9, color=MUTED)
+    fig.tight_layout(rect=(0, .05, 1, .94))
+    _save(fig, root / "figures/evidence/environmental_model_outputs.svg")
+
+
+def admetlab_chemical_space(root: Path) -> None:
+    raw = _rows(root / "data/raw/admetlab/admetlab_predictions.csv")
+    manifest = _rows(root / "data/compounds/compound_manifest.csv")
+    by_smiles = {row["canonical_smiles"]: row for row in manifest}
+    points = [(by_smiles[r["raw_smiles"]], r) for r in raw if r.get("raw_smiles") in by_smiles]
+    if not points:
+        return
+    x = np.array([float(r["logP"]) for _, r in points])
+    y = np.array([float(r["logS"]) for _, r in points])
+    color = np.array([float(r["BCF"]) for _, r in points])
+    size = np.array([float(r["MW"]) for _, r in points])
+    sizes = 120 + 280 * (size - size.min()) / max(size.max() - size.min(), 1)
+    fig, ax = plt.subplots(figsize=(9.4, 6.4))
+    scatter = ax.scatter(x, y, c=color, s=sizes, cmap="viridis", edgecolor="white", linewidth=1.3, alpha=.9)
+    for (compound, _), xv, yv in zip(points, x, y):
+        ax.annotate(compound["compound_id"], (xv, yv), xytext=(5, 5), textcoords="offset points", fontsize=9, weight="bold", color=INK)
+    ax.set_title("Predicted chemical-property landscape", loc="left", fontsize=18, weight="bold", color=INK, pad=15)
+    ax.set_xlabel("ADMETlab predicted logP")
+    ax.set_ylabel("ADMETlab predicted logS")
+    ax.grid(color=LINE, linewidth=.8, alpha=.8)
+    colorbar = fig.colorbar(scatter, ax=ax, pad=.02)
+    colorbar.set_label("ADMETlab BCF model output")
+    ax.text(0, -.18, "PREDICTED · Point area encodes model molecular weight. Labels are pathway compound IDs. This plot is a screening comparison, not environmental risk.", transform=ax.transAxes, fontsize=9, color=MUTED)
+    _save(fig, root / "figures/evidence/predicted_chemical_property_landscape.svg")
+
+
 def provenance_matrix(root: Path) -> None:
     rows = [
         ("Pathway identifiers and reaction edges", "DATABASE", "Nature Communications 2026"),
         ("Molecular structures", "DATABASE", "PubChem cached records"),
         ("Structure QC and descriptors", "COMPUTED", "RDKit"),
-        ("Human toxicity screening", "MISSING", "ADMETlab/ProTox exports required"),
+        ("Human toxicity screening", "PREDICTED", "ADMETlab 3.0 web batch; ProTox missing"),
         ("Environmental fate", "MISSING", "CompTox export required"),
         ("Aquatic ecotoxicity", "MISSING", "ECOSAR export required"),
         ("Matched production benchmark", "MISSING", "G1 versus LLPS wet-lab data required"),
@@ -72,7 +152,7 @@ def provenance_matrix(root: Path) -> None:
         ("Containment", "MISSING", "CFU before/after required"),
         ("Functional unit", "SCENARIO", "working value: 1 g purified glabridin"),
     ]
-    colors = {"DATABASE": "#366D96", "COMPUTED": PURPLE, "MISSING": "#D6CDD9", "SCENARIO": AMBER}
+    colors = {"DATABASE": "#366D96", "COMPUTED": PURPLE, "PREDICTED": "#B94C59", "MISSING": "#D6CDD9", "SCENARIO": AMBER}
     fig, ax = plt.subplots(figsize=(11, 6.1)); ax.axis("off")
     ax.set_title("Evidence provenance and current availability", loc="left", fontsize=18, weight="bold", color=INK, pad=15)
     y = .89
@@ -128,7 +208,7 @@ def tradeoff_matrix(root: Path) -> None:
 
 
 def integrated_dashboard(root: Path) -> None:
-    panels=[("Environmental",[("Structures","available",GREEN),("Toxicity/fate","missing",RED),("Resource inventory","missing",RED),("Containment","missing",RED)]),("Economic",[("Productivity","missing",RED),("Recovery/purity","missing",RED),("Cost per g","missing",RED),("Sensitivity","waiting",AMBER)]),("Social",[("Round 1 concerns","partial",AMBER),("Evidence transparency","implemented",GREEN),("Safety evidence","missing",RED),("Round 2 validation","missing",RED)])]
+    panels=[("Environmental",[("Structures","available",GREEN),("ADMETlab screen","predicted",AMBER),("Resource inventory","missing",RED),("Containment","missing",RED)]),("Economic",[("Productivity","missing",RED),("Recovery/purity","missing",RED),("Cost per g","missing",RED),("Sensitivity","waiting",AMBER)]),("Social",[("Round 1 concerns","partial",AMBER),("Evidence transparency","implemented",GREEN),("Safety evidence","partial",AMBER),("Round 2 validation","missing",RED)])]
     fig,ax=plt.subplots(figsize=(11.5,5)); ax.axis("off"); ax.set_title("Integrated impact evidence status",loc="left",fontsize=18,weight="bold",color=INK,pad=16)
     for j,(title,items) in enumerate(panels):
         x=.02+j*.33
@@ -160,9 +240,11 @@ def sdg_map(root: Path) -> None:
 
 def run(root: Path) -> None:
     structure_audit(root)
+    admetlab_toxicity_probability(root)
+    admetlab_environmental_profiles(root)
+    admetlab_chemical_space(root)
     provenance_matrix(root)
     stakeholder_flow(root)
     tradeoff_matrix(root)
     integrated_dashboard(root)
     sdg_map(root)
-

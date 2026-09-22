@@ -29,6 +29,18 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual([], check_links(ROOT))
         self.assertEqual([], check_links(ROOT / "wiki_export", ROOT / "wiki_export/index.html"))
 
+    def test_real_admetlab_outputs(self) -> None:
+        with (ROOT / "data/raw/admetlab/admetlab_predictions.csv").open(encoding="utf-8-sig", newline="") as handle:
+            raw = list(csv.DictReader(handle))
+        with (ROOT / "results/tables/admetlab_selected_predictions.csv").open(encoding="utf-8", newline="") as handle:
+            selected = list(csv.DictReader(handle))
+        metadata = json.loads((ROOT / "data/raw/admetlab/run_metadata.json").read_text(encoding="utf-8"))
+        self.assertEqual(6, len(raw))
+        self.assertEqual(96, len(selected))
+        self.assertEqual("339e57a1a97c24b31790055148", metadata["result_id"])
+        for name in ["toxicity_prediction_probability.svg", "environmental_model_outputs.svg", "predicted_chemical_property_landscape.svg"]:
+            self.assertGreater((ROOT / "figures/evidence" / name).stat().st_size, 1000)
+
     def test_no_obsolete_light_fields(self) -> None:
         targets = [ROOT / "data/process_inventory.csv", ROOT / "data/wetlab_gap_audit.csv", ROOT / "index.html"]
         banned = ["LED wavelength", "irradiance", "duty cycle", "Light Paradox", "No LLPS + Light", "LLPS + Light"]
@@ -40,4 +52,3 @@ class PipelineTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

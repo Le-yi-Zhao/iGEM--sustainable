@@ -37,7 +37,7 @@ def main() -> int:
     gp_outputs = metabolite_gp.run(ROOT); completed.append(f"GP figures: {len(gp_outputs)}")
     source_manifest(); completed.append("source manifest")
     readiness.run(ROOT); completed.append("readiness audit")
-    generate_figures.run(ROOT); completed.append("framework figures")
+    generate_figures.run(ROOT); completed.append("evidence and framework figures")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")
@@ -50,4 +50,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

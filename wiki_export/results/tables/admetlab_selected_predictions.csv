@@ -1,0 +1,97 @@
+compound_id,compound_name,category,endpoint,raw_endpoint,value,model,evidence_type
+9,vestitol,toxicity_probability,Skin sensitization,SkinSen,0.33189111948013306,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Ames mutagenicity,Ames,0.4945051968097687,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Drug-induced liver injury,DILI,0.25079306960105896,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Carcinogenicity,Carcinogenicity,0.6870729327201843,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Respiratory toxicity,Respiratory,0.8480971455574036,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Human hepatotoxicity,H-HT,0.6083526611328125,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.31642019748687744,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.17957018315792084,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,Genotoxicity,Genotoxicity,0.35474762320518494,ADMETlab 3.0,PREDICTED
+9,vestitol,toxicity_probability,hERG inhibition,hERG,0.28651437163352966,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,logP,logP,2.9544880057311507,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,logS,logS,-3.0972258428023793,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,BCF model output,BCF,1.3028918929551911,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,Tetrahymena IGC50 output,IGC50,3.9244929530392123,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,Daphnia LC50 output,LC50DM,4.809663385935564,ADMETlab 3.0,PREDICTED
+9,vestitol,environmental_property,Fathead minnow LC50 output,LC50FM,4.358770356421441,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Skin sensitization,SkinSen,0.6598843932151794,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Ames mutagenicity,Ames,0.5533154010772705,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Drug-induced liver injury,DILI,0.36191731691360474,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Carcinogenicity,Carcinogenicity,0.535907506942749,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Respiratory toxicity,Respiratory,0.9604402184486389,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Human hepatotoxicity,H-HT,0.6502286791801453,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.437726229429245,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.6370229125022888,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,Genotoxicity,Genotoxicity,0.468120813369751,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,toxicity_probability,hERG inhibition,hERG,0.19155676662921906,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,logP,logP,4.094919376064604,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,logS,logS,-4.116694913082151,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,BCF model output,BCF,1.9270726847176853,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,Tetrahymena IGC50 output,IGC50,4.749240405090587,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,Daphnia LC50 output,LC50DM,6.130859244622738,ADMETlab 3.0,PREDICTED
+10,4'-O-methylpreglabridin,environmental_property,Fathead minnow LC50 output,LC50FM,5.551354946244355,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Skin sensitization,SkinSen,0.5747218132019043,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Ames mutagenicity,Ames,0.5618171691894531,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Drug-induced liver injury,DILI,0.7390751838684082,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Carcinogenicity,Carcinogenicity,0.6845101714134216,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Respiratory toxicity,Respiratory,0.9856956601142883,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Human hepatotoxicity,H-HT,0.755935549736023,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.6769357323646545,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.6421052813529968,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,Genotoxicity,Genotoxicity,0.24591240286827087,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,toxicity_probability,hERG inhibition,hERG,0.3738560676574707,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,logP,logP,4.218190222722445,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,logS,logS,-4.96865236255757,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,BCF model output,BCF,1.9267925760563818,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,Tetrahymena IGC50 output,IGC50,4.498409507789197,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,Daphnia LC50 output,LC50DM,6.107132909343599,ADMETlab 3.0,PREDICTED
+11,4'-O-methylglabridin,environmental_property,Fathead minnow LC50 output,LC50FM,5.490358412514954,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Skin sensitization,SkinSen,0.5201659202575684,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Ames mutagenicity,Ames,0.4737323522567749,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Drug-induced liver injury,DILI,0.07026529312133789,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Carcinogenicity,Carcinogenicity,0.6431609392166138,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Respiratory toxicity,Respiratory,0.7349361181259155,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Human hepatotoxicity,H-HT,0.6671686768531799,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.24120154976844788,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.07295285165309906,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,Genotoxicity,Genotoxicity,0.7323291301727295,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,toxicity_probability,hERG inhibition,hERG,0.25048166513442993,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,logP,logP,2.342558925302409,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,logS,logS,-2.799556174659484,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,BCF model output,BCF,1.369272354518342,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,Tetrahymena IGC50 output,IGC50,3.733760886248461,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,Daphnia LC50 output,LC50DM,4.449081458382082,ADMETlab 3.0,PREDICTED
+13,demethylvestitol,environmental_property,Fathead minnow LC50 output,LC50FM,4.156006106130171,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Skin sensitization,SkinSen,0.9579405784606934,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Ames mutagenicity,Ames,0.49503210186958313,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Drug-induced liver injury,DILI,0.38310715556144714,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Carcinogenicity,Carcinogenicity,0.27217477560043335,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Respiratory toxicity,Respiratory,0.9869275689125061,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Human hepatotoxicity,H-HT,0.8201214075088501,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.6470482349395752,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.6304465532302856,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,Genotoxicity,Genotoxicity,0.9553987383842468,ADMETlab 3.0,PREDICTED
+14,preglabridin,toxicity_probability,hERG inhibition,hERG,0.1386437714099884,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,logP,logP,3.7213092960737155,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,logS,logS,-4.436037155148575,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,BCF model output,BCF,1.6907451889335476,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,Tetrahymena IGC50 output,IGC50,4.72204035963586,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,Daphnia LC50 output,LC50DM,5.750508109798681,ADMETlab 3.0,PREDICTED
+14,preglabridin,environmental_property,Fathead minnow LC50 output,LC50FM,5.32524914735556,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Skin sensitization,SkinSen,0.8513730764389038,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Ames mutagenicity,Ames,0.7145677208900452,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Drug-induced liver injury,DILI,0.1210717186331749,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Carcinogenicity,Carcinogenicity,0.6303020715713501,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Respiratory toxicity,Respiratory,0.6082200407981873,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Human hepatotoxicity,H-HT,0.9039456248283386,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Neurotoxicity,Neurotoxicity-DI,0.7271113395690918,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Nephrotoxicity,Nephrotoxicity-DI,0.7542347311973572,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,Genotoxicity,Genotoxicity,0.7752140164375305,ADMETlab 3.0,PREDICTED
+15,glabridin,toxicity_probability,hERG inhibition,hERG,0.2300914078950882,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,logP,logP,4.142360097183076,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,logS,logS,-4.6880815454409515,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,BCF model output,BCF,1.8125994164021015,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,Tetrahymena IGC50 output,IGC50,4.569415091844068,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,Daphnia LC50 output,LC50DM,5.918795845665669,ADMETlab 3.0,PREDICTED
+15,glabridin,environmental_property,Fathead minnow LC50 output,LC50FM,5.377140563719452,ADMETlab 3.0,PREDICTED

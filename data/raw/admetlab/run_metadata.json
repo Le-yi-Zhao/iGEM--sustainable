@@ -1,0 +1,12 @@
+{
+  "model": "ADMETlab 3.0",
+  "submission_mode": "official web batch screening",
+  "result_id": "339e57a1a97c24b31790055148",
+  "result_url": "https://admetlab3.scbdd.com/server/result/339e57a1a97c24b31790055148",
+  "download_url": "https://admetlab3.scbdd.com/server/result/339e57a1a97c24b31790055148/download/csv",
+  "downloaded_utc": "2026-09-22T05:33:24.758165+00:00",
+  "input_manifest": "data/compounds/compound_manifest.csv",
+  "compound_count": 6,
+  "raw_table": "data/raw/admetlab/admetlab_predictions.csv",
+  "api_note": "The documented /api/admet endpoint returned HTTP 404; the official web batch service completed successfully."
+}

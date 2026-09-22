@@ -22,6 +22,7 @@ def run(root: Path) -> tuple[Path, Path]:
     containment_rows = _data_rows(root / "data/wetlab/containment_template.csv")
     stakeholder_rows = _data_rows(root / "data/stakeholder_intervention_log.csv")
     consensus_rows = _data_rows(root / "results/tables/toxicity_consensus.csv")
+    admet_rows = _data_rows(root / "data/raw/admetlab/admetlab_predictions.csv")
 
     evidence = {
         "S1 Problem & Baseline": {
@@ -45,9 +46,9 @@ def run(root: Path) -> tuple[Path, Path]:
             "gap": "actual batch material and equipment-use records are absent",
         },
         "S5 Safety": {
-            "status": "WAITING_FOR_DATA" if containment_rows == 0 and consensus_rows == 0 else "PARTIAL",
-            "evidence": ["data/wetlab/containment_template.csv", "results/tables/toxicity_consensus.csv"],
-            "gap": "CFU containment data and model exports are absent",
+            "status": "WAITING_FOR_DATA" if containment_rows == 0 and consensus_rows == 0 and admet_rows == 0 else "PARTIAL",
+            "evidence": ["data/wetlab/containment_template.csv", "data/raw/admetlab/admetlab_predictions.csv", "results/tables/toxicity_consensus.csv"],
+            "gap": "ADMETlab is single-model screening evidence; CFU containment data and an independent toxicity model are absent",
         },
         "S6 Trade-off": {
             "status": "PARTIAL",
@@ -62,7 +63,7 @@ def run(root: Path) -> tuple[Path, Path]:
         "S8 Reproducibility": {
             "status": "PARTIAL" if structure_rows else "BLOCKED",
             "evidence": ["analysis/run_all.py", "requirements.txt", "docs/provenance/MODEL_PROVENANCE.md"],
-            "gap": "external model exports and wet-lab datasets are not yet available",
+            "gap": "ADMETlab is reproducible, but independent model exports and wet-lab datasets are not yet available",
         },
     }
     readiness = {
@@ -84,4 +85,3 @@ def run(root: Path) -> tuple[Path, Path]:
     readiness_path.write_text(json.dumps(readiness, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     mapping_path.write_text(json.dumps(mapping, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return readiness_path, mapping_path
-
