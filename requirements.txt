@@ -4,8 +4,12 @@ scipy==1.16.2
 scikit-learn==1.7.2
 matplotlib==3.10.6
 statsmodels==0.14.5
-rdkit==2025.3.6
+rdkit==2026.3.6
+admet-ai==2.0.1
+chemprop==2.3.1
+torch==2.14.0
+lightning==2.6.6
+seaborn==0.13.2
 pydantic==2.13.5
 PyYAML==6.0.2
 requests==2.32.5
-

@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "path": "data/raw/literature/zhang_2026_source_data.xlsx",
+      "sha256": "a9e0ffe6eb870b7e993a5ad7aeca685629408ab7f921a2803191c62826caf68d",
+      "bytes": 11695274,
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-68881-8/MediaObjects/41467_2026_68881_MOESM9_ESM.xlsx"
+    }
+  ]
+}

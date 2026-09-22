@@ -1,6 +1,8 @@
 model,raw_file,status,records,reason
+ADMET-AI 2.0.1,data/raw/admet_ai/admet_ai_predictions.csv,COMPLETE,6,cached raw export loaded
 ADMETlab 3.0,data/raw/admetlab/admetlab_predictions.csv,COMPLETE,6,cached raw export loaded
-ProTox 3.0,data/raw/protox/protox_predictions.csv,BLOCKED,0,raw export not supplied
+ProTox 3.0,data/raw/protox/protox_predictions.csv,BLOCKED,0,official sample API script currently returns HTTP 404; no manual export cached
+VEGA QSAR 1.2.6,data/raw/vega/vega_predictions.csv,BLOCKED,0,Java 17 runtime and VEGA model bundle are not installed
 admetSAR 3.0,data/raw/admetsar/admetsar_predictions.csv,BLOCKED,0,raw export not supplied
-EPA CompTox,data/raw/comptox/comptox_fate.csv,BLOCKED,0,raw export not supplied
-EPA ECOSAR,data/raw/ecosar/ecosar_aquatic.csv,BLOCKED,0,raw export not supplied
+EPA CompTox,data/raw/comptox/comptox_fate.csv,BLOCKED,0,CTX API key or official batch export not supplied
+EPA ECOSAR,data/raw/ecosar/ecosar_aquatic.csv,BLOCKED,0,official ECOSAR/EPI Suite export not supplied

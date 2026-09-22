@@ -1,7 +1,10 @@
 # Current limitations
 
 - No matched G1 versus G2/G5 wet-lab dataset has been supplied.
-- One ADMETlab 3.0 web batch export is present, but it has no uncertainty fields and no independent ProTox cross-check. CompTox and ECOSAR exports are still absent.
+- ADMET-AI 2.0.1 and ADMETlab 3.0 provide two model platforms for four definition-matched endpoints, but this is not a three-model consensus and ADMETlab exposes no uncertainty fields.
+- VEGA QSAR 1.2.6 is blocked because Java 17+ is not installed on the current host.
+- ProTox 3.0 is blocked because its officially linked sample API script returns HTTP 404 and no supported export was available; CompTox requires API/batch access and ECOSAR requires an export.
+- DrugBank percentiles and PCA are prediction-space context, not a formal chemical applicability-domain certificate.
 - SBD and self-inhibitory peptide sequences remain unfrozen in the wet-lab protocol.
 - Authentic standard availability for compounds 9, 10, 11, 13, 14 and 15 is not confirmed in the repository.
 - The 1 g purified glabridin functional unit has not yet been reviewed by a sustainability or process stakeholder.

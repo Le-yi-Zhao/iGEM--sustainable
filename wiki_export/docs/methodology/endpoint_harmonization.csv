@@ -1,0 +1,7 @@
+harmonized_endpoint,admet_ai_task,admetlab_raw_endpoint,comparable,direction,notes
+AMES mutagenicity,AMES,Ames,yes,higher_probability_more_concern,Both outputs are positive-class mutagenicity probabilities
+Drug-induced liver injury,DILI,DILI,yes,higher_probability_more_concern,Both outputs are positive-class DILI probabilities
+Carcinogenicity,Carcinogens_Lagunin,Carcinogenicity,yes,higher_probability_more_concern,Both outputs are positive-class carcinogenicity probabilities; training sets may differ
+hERG inhibition,hERG,hERG,yes,higher_probability_more_concern,Both outputs are positive-class hERG blocking/inhibition probabilities
+Skin response,Skin_Reaction,SkinSen,no,not_compared,ADMET-AI Skin Reaction uses a mouse dataset while ADMETlab reports skin sensitization; definitions are not treated as interchangeable
+Clinical toxicity,ClinTox,,no,not_available,No directly harmonized ADMETlab endpoint in the selected export

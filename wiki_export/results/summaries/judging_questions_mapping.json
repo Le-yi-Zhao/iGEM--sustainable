@@ -1,0 +1,32 @@
+{
+  "Q1": {
+    "evidence_file": "data/stakeholder_intervention_log.csv",
+    "figure": "figures/framework/stakeholder_intervention_flow.svg",
+    "website_section": "stakeholders",
+    "missing_gap": "Round 2 validation"
+  },
+  "Q2": {
+    "evidence_file": "docs/methodology/COMPUTATIONAL_SUSTAINABILITY.md",
+    "figure": "figures/framework/integrated_impact_dashboard.svg",
+    "website_section": "integrated-impact",
+    "missing_gap": "measured environmental and economic outcomes"
+  },
+  "Q3": {
+    "evidence_file": "docs/limitations/CURRENT_LIMITATIONS.md",
+    "figure": "figures/framework/positive_negative_mitigation_matrix.svg",
+    "website_section": "trade-offs",
+    "missing_gap": "quantified burden and mitigation results"
+  },
+  "Q4": {
+    "evidence_file": "analysis/run_all.py",
+    "figure": "figures/framework/evidence_provenance_matrix.svg",
+    "website_section": "toolkit",
+    "missing_gap": "complete model and wet-lab raw data"
+  },
+  "Q5": {
+    "evidence_file": "data/wetlab/metabolite_timecourse_template.csv",
+    "figure": "",
+    "website_section": "benchmark",
+    "missing_gap": "matched G1 versus LLPS measured data"
+  }
+}

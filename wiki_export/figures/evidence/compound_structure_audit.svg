@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-22T13:42:26.453134</dc:date>
+    <dc:date>2026-09-22T15:05:32.892362</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -2192,7 +2192,7 @@ z
     </g>
    </g>
    <g id="text_57">
-    <!-- PubChem records re-parsed with RDKit 2025.03.6 -->
+    <!-- PubChem records re-parsed with RDKit 2026.03.6 -->
     <g style="fill: #6e6576" transform="translate(7.2 36.216067) scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-50" d="M 1259 4147 
@@ -2360,13 +2360,6 @@ Q 2828 2175 2409 1742
 Q 1991 1309 1228 531 
 z
 " transform="scale(0.015625)"/>
-      <path id="DejaVuSans-2e" d="M 684 794 
-L 1344 794 
-L 1344 0 
-L 684 0 
-L 684 794 
-z
-" transform="scale(0.015625)"/>
       <path id="DejaVuSans-36" d="M 2113 2584 
 Q 1688 2584 1439 2293 
 Q 1191 2003 1191 1497 
@@ -2395,6 +2388,13 @@ Q 447 3434 972 4092
 Q 1497 4750 2381 4750 
 Q 2619 4750 2861 4703 
 Q 3103 4656 3366 4563 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-2e" d="M 684 794 
+L 1344 794 
+L 1344 0 
+L 684 0 
+L 684 794 
 z
 " transform="scale(0.015625)"/>
      </defs>
@@ -2438,7 +2438,7 @@ z
      <use xlink:href="#DejaVuSans-32" transform="translate(1978.621094 0)"/>
      <use xlink:href="#DejaVuSans-30" transform="translate(2042.244141 0)"/>
      <use xlink:href="#DejaVuSans-32" transform="translate(2105.867188 0)"/>
-     <use xlink:href="#DejaVuSans-35" transform="translate(2169.490234 0)"/>
+     <use xlink:href="#DejaVuSans-36" transform="translate(2169.490234 0)"/>
      <use xlink:href="#DejaVuSans-2e" transform="translate(2233.113281 0)"/>
      <use xlink:href="#DejaVuSans-30" transform="translate(2264.900391 0)"/>
      <use xlink:href="#DejaVuSans-33" transform="translate(2328.523438 0)"/>

@@ -9,11 +9,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from analysis.adapters import model_cache
-from analysis.models import metabolite_gp, resource_metrics
-from analysis.plotting import generate_figures
+from analysis.adapters import admet_ai_local, model_cache
+from analysis.models import metabolite_gp, multi_model_consensus, resource_metrics
+from analysis.plotting import generate_figures, model_result_figures
 from analysis.preprocessing import structure_qc
-from analysis.validation import link_check, readiness
+from analysis.validation import analysis_status, link_check, readiness
 from analysis import build_site
 
 
@@ -32,12 +32,16 @@ def source_manifest() -> Path:
 def main() -> int:
     completed: list[str] = []
     structure_qc.run(ROOT); completed.append("structure validation")
+    admet_ai_local.run(force=False); completed.append("ADMET-AI local prediction cache")
     model_cache.run(ROOT); completed.append("cached model import")
+    multi_model_consensus.run(ROOT); completed.append("multi-model consensus")
     resource_metrics.run(ROOT); completed.append("resource metrics")
     gp_outputs = metabolite_gp.run(ROOT); completed.append(f"GP figures: {len(gp_outputs)}")
     source_manifest(); completed.append("source manifest")
     readiness.run(ROOT); completed.append("readiness audit")
     generate_figures.run(ROOT); completed.append("evidence and framework figures")
+    model_result_figures.run(ROOT); completed.append("real model result figures")
+    analysis_status.run(ROOT); completed.append("M0-M14 analysis status")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")

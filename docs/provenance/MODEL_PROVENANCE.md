@@ -3,13 +3,34 @@
 ## Chemical structure quality control
 
 - Name: RDKit
-- Version: 2025.03.6
+- Version: 2026.03.6
 - Official source: https://www.rdkit.org/
 - Input: cached PubChem structure records for compounds 9, 10, 11, 13, 14 and 15
 - Output: `results/tables/compound_structure_audit.csv`
 - Evidence type: DATABASE for input structures; COMPUTED for RDKit normalization and descriptors
 - Script: `analysis/preprocessing/structure_qc.py`
 - Interpretation boundary: a successful parse confirms internal consistency, not experimental identity of a laboratory standard
+
+## ADMET-AI v2
+
+- Status: COMPLETE for all six structure-confirmed compounds
+- Official repository: https://github.com/swansonk14/admet_ai
+- Package version: ADMET-AI 2.0.1
+- Model framework: Chemprop 2.3.1, PyTorch 2.14.0, Lightning 2.6.6
+- Access/run date: 2026-09-22
+- Dataset: 41 TDC ADMET tasks bundled by the official package; task-level training size and reference AUROC/AUPRC or R2/MAE are retained in the processed table
+- Reference database: packaged DrugBank-approved set, 2,845 molecules
+- Input: canonical SMILES for compounds 9, 10, 11, 13, 14 and 15 after RDKit QC
+- Method: official five-checkpoint classification ensemble and five-checkpoint regression ensemble; per-member predictions retained
+- Raw output: `data/raw/admet_ai/admet_ai_predictions.csv`
+- Ensemble output: `data/raw/admet_ai/ensemble_member_predictions.csv`
+- Run metadata: `data/raw/admet_ai/run_metadata.json`
+- Normalized output: `data/processed/admet_ai_predictions.csv`
+- Script: `analysis/adapters/admet_ai_local.py`
+- Generated figures: `admet_ai_endpoint_heatmap.svg`, `admet_ai_compound_profiles.svg`, `admet_ai_drugbank_reference.svg`, `admet_ai_compound_distance.svg`, `admet_ai_ensemble_uncertainty.svg`
+- Evidence type: PREDICTED
+- Uncertainty: between-member standard deviation for the five predictions belonging to each compound–task pair
+- Applicability note: DrugBank percentiles and prediction-space PCA contextualize outputs but do not establish a formal chemical applicability domain or safety rank
 
 ## ADMETlab 3.0
 
@@ -31,9 +52,28 @@
 
 ## ProTox 3.0
 
-- Status: BLOCKED until a raw export is supplied
+- Status: BLOCKED; the official FAQ documents a rate-limited POST API, but its linked sample script returned HTTP 404 on 2026-09-22, and no supported authenticated endpoint/export was available
+- Official site: https://tox.charite.de/protox3/
 - Intended use: independent toxicity cross-check
 - Raw output location: `data/raw/protox/`
+- Evidence type: PREDICTED
+
+## VEGA QSAR 1.2.6
+
+- Status: BLOCKED on this host because Java 17+ is not installed; no result values or figures were fabricated
+- Official download: https://www.vegahub.eu/download/vega-qsar-download/
+- Intended output: `data/raw/vega/` and `data/processed/vega_predictions.csv`
+- Intended evidence type: PREDICTED
+
+## Definition-matched multi-model comparison
+
+- Status: PARTIAL; ADMET-AI and ADMETlab are available, while VEGA and ProTox are blocked
+- Endpoint map: `docs/methodology/endpoint_harmonization.csv`
+- Comparable endpoints: AMES, DILI, carcinogenicity and hERG only
+- Method: preserve platform predictions and probabilities; never average probabilities; classify agreement, disagreement or high ADMET-AI ensemble uncertainty
+- Output: `results/tables/multi_model_toxicity_consensus.csv`
+- Script: `analysis/models/multi_model_consensus.py`
+- Generated figures: `multi_model_toxicity_consensus.svg`, `multi_model_agreement_matrix.svg`, `toxicity_model_disagreement.svg`, `prediction_vs_uncertainty.svg`
 - Evidence type: PREDICTED
 
 ## EPA CompTox

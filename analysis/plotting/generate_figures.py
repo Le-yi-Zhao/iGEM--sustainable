@@ -38,7 +38,7 @@ def structure_audit(root: Path) -> None:
     fig, ax = plt.subplots(figsize=(11, 4.8))
     ax.axis("off")
     ax.set_title("Chemical structure quality control", loc="left", fontsize=18, weight="bold", color=INK, pad=18)
-    ax.text(0, 1.01, "PubChem records re-parsed with RDKit 2025.03.6", transform=ax.transAxes, color=MUTED, fontsize=10)
+    ax.text(0, 1.01, "PubChem records re-parsed with RDKit 2026.03.6", transform=ax.transAxes, color=MUTED, fontsize=10)
     headers = ["ID", "Compound", "Parse", "Formula", "MW", "InChIKey", "Duplicate", "Status"]
     data = []
     for r in rows:

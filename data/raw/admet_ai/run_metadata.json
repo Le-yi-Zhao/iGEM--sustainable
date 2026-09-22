@@ -1,0 +1,24 @@
+{
+  "model": "ADMET-AI v2",
+  "package_version": "2.0.1",
+  "chemprop_version": "2.3.1",
+  "torch_version": "2.14.0",
+  "rdkit_version": "2026.3.6",
+  "official_repository": "https://github.com/swansonk14/admet_ai",
+  "dataset": "Therapeutics Data Commons ADMET tasks; packaged model checkpoints",
+  "reference_distribution": "Packaged DrugBank approved compounds",
+  "input_manifest": "data/compounds/compound_manifest.csv",
+  "compound_count": 6,
+  "task_count": 41,
+  "ensemble_sizes": {
+    "classification": 5,
+    "regression": 5
+  },
+  "device": "cpu",
+  "platform": "macOS-15.7.7-arm64-arm-64bit",
+  "started_utc": "2026-09-22T06:28:48.866099+00:00",
+  "completed_utc": "2026-09-22T06:28:49.112708+00:00",
+  "raw_predictions": "data/raw/admet_ai/admet_ai_predictions.csv",
+  "raw_member_predictions": "data/raw/admet_ai/ensemble_member_predictions.csv",
+  "processed_predictions": "data/processed/admet_ai_predictions.csv"
+}
