@@ -61,6 +61,8 @@ def build() -> Path:
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python analysis/run_all.py</code></pre><p>The command validates structures, reuses or generates the local ADMET-AI cache, normalizes cached outputs, calculates definition-matched consensus, regenerates figures, rebuilds this site and checks local links. It makes no external API call by default.</p><div class="downloads"><a href="results/tables/compound_structure_audit.csv">Structure audit CSV</a><a href="results/tables/model_run_inventory.csv">Model inventory CSV</a><a href="results/tables/multi_model_toxicity_consensus.csv">Multi-model consensus</a><a href="docs/methodology/endpoint_harmonization.csv">Endpoint harmonization</a><a href="results/summaries/analysis_status.json">M0–M14 status</a><a href="docs/methodology/COMPUTATIONAL_SUSTAINABILITY.md">Methodology</a><a href="docs/provenance/MODEL_PROVENANCE.md">Model provenance</a><a href="docs/limitations/CURRENT_LIMITATIONS.md">Limitations</a></div></section>
 </main></div><footer><b>GALATEA Sustainable Development Impact</b><br>All displayed evidence is traceable to repository data and code. Missing results remain explicitly missing.</footer></body></html>'''
+    # Keep all computed figures immediately visible while preserving the option to collapse them.
+    body = body.replace('<details class="supporting">', '<details class="supporting" open>')
     index = ROOT / "index.html"
     index.write_text(body, encoding="utf-8")
     return index
