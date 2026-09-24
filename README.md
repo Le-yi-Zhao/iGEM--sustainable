@@ -45,3 +45,19 @@ python3 -m venv .venv
 ## Scientific integrity rules
 
 Missing data remain missing. Predictions are labeled `PREDICTED`, database values `DATABASE`, model fits `FITTED`, scenarios `SCENARIO`, and direct observations `MEASURED`. QSAR does not establish safety, and LCA-inspired inventories are not described as a full LCA without a defensible boundary, inventory, baseline and database provenance.
+
+## Local extension: metabolite panel coverage
+
+Run `python -m analysis.models.panel_coverage` for a standard-library-only comparison of five candidate panels. Results and limitations appear in the Model-informed experimental design website section and `docs/methodology/metabolite_panel_coverage_zh.md`. Coverage is a design scenario, not a wet-lab measurement or proof of distinguishability.
+
+## Matvision cached rebuild
+
+Project: `/root/autodl-tmp/IGEM/GALATEA-sustainable`. Python: `/root/autodl-tmp/IGEM/.venv/bin/python`.
+
+```bash
+cd /root/autodl-tmp/IGEM/GALATEA-sustainable
+/root/autodl-tmp/IGEM/.venv/bin/python analysis/run_all.py
+/root/autodl-tmp/IGEM/.venv/bin/python -m unittest discover -s tests -v
+```
+
+The environment reuses installed scientific packages and ADMET-AI 2.0.1 reference data. Cache-only rebuilds defer inference imports; fresh model inference still requires the full prediction dependencies. Actual versions and verification results are recorded in `results/summaries/matvision_reproduction.json`. This is not an exact recreation of the original inference environment.

@@ -1,0 +1,62 @@
+{
+  "status": "PARTIAL",
+  "evidence_type": "SCENARIO",
+  "source": "data/compounds/compound_manifest.csv",
+  "source_sha256": "a322ce1b00851b6d73ad593e8b4bd5d716b548fcbc3bc710174758e5224d12ab",
+  "definition": "Unique planned analytes / six compounds in the project manifest; not whole-pathway coverage.",
+  "panel_origin": "Five candidate designs in the user-supplied GALATEA reference document.",
+  "limitations": [
+    "No reaction edges inferred from compound IDs.",
+    "Coverage does not measure information gain, observability or bottleneck distinguishability.",
+    "No detection limits, recovery, analytical cost, concentration data or authenticated standards are supplied.",
+    "Branch and transformation coverage require separately verified reaction provenance.",
+    "SCENARIO refers to panel selection; compound identities come from the existing database-derived manifest."
+  ],
+  "panels": [
+    {
+      "panel": "15",
+      "planned_analytes": 1,
+      "reference_compounds": 6,
+      "node_coverage_percent": 16.67,
+      "added_vs_previous": "15",
+      "unmeasured_ids": "9;10;11;13;14",
+      "evidence_type": "SCENARIO"
+    },
+    {
+      "panel": "11;15",
+      "planned_analytes": 2,
+      "reference_compounds": 6,
+      "node_coverage_percent": 33.33,
+      "added_vs_previous": "11",
+      "unmeasured_ids": "9;10;13;14",
+      "evidence_type": "SCENARIO"
+    },
+    {
+      "panel": "10;11;15",
+      "planned_analytes": 3,
+      "reference_compounds": 6,
+      "node_coverage_percent": 50.0,
+      "added_vs_previous": "10",
+      "unmeasured_ids": "9;13;14",
+      "evidence_type": "SCENARIO"
+    },
+    {
+      "panel": "9;10;11;14;15",
+      "planned_analytes": 5,
+      "reference_compounds": 6,
+      "node_coverage_percent": 83.33,
+      "added_vs_previous": "9;14",
+      "unmeasured_ids": "13",
+      "evidence_type": "SCENARIO"
+    },
+    {
+      "panel": "9;10;11;13;14;15",
+      "planned_analytes": 6,
+      "reference_compounds": 6,
+      "node_coverage_percent": 100.0,
+      "added_vs_previous": "13",
+      "unmeasured_ids": "",
+      "evidence_type": "SCENARIO"
+    }
+  ]
+}

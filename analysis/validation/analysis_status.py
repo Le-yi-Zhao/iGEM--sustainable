@@ -25,6 +25,15 @@ def run(root: Path) -> Path:
             "M14_pareto": {"status": "WAITING_FOR_DATA", "reason": "time-resolved production and resource metrics are absent"},
         },
     }
+    status["iteration_tasks"] = {
+        "T1": {"status": "PARTIAL", "evidence": "results/summaries/metabolite_panel_coverage.json", "gap": "Node coverage implemented; reaction-level provenance and pathway-state distinguishability remain unresolved."},
+        "T2": {"status": "NOT_STARTED", "gap": "No solvent validation or Pareto analysis; inventory templates are not extraction evidence."},
+        "T3": {"status": "NOT_STARTED", "gap": "GP scaffold is present, but no literature sampling-schedule comparison has been implemented."},
+        "T4": {"status": "PARTIAL", "gap": "ADMETlab environmental screening available; VEGA, EPA CompTox and ECOSAR outputs unavailable."},
+        "T5": {"status": "NOT_STARTED", "gap": "Chemprop-backed predictions are available, but no molecular attribution analysis exists."},
+        "T6": {"status": "NOT_STARTED", "gap": "Reference metrics are cached; independent test split and calibration validation not reconstructed."},
+        "T7": {"status": "NOT_STARTED", "gap": "Measured-inventory calculation scaffold exists; traceable process scenario and sensitivity model not implemented."}
+    }
     output = root / "results/summaries/analysis_status.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(status, indent=2) + "\n", encoding="utf-8")
