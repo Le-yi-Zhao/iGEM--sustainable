@@ -8,7 +8,11 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from admet_ai.constants import DEFAULT_DRUGBANK_PATH
+from importlib.metadata import distribution
+
+# Locate packaged reference data without importing the inference stack.
+DEFAULT_DRUGBANK_PATH = Path(distribution("admet-ai").locate_file(
+    "admet_ai/resources/data/drugbank_approved.csv"))
 from matplotlib.colors import BoundaryNorm, LinearSegmentedColormap, ListedColormap
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler

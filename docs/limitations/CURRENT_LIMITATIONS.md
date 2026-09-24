@@ -12,3 +12,5 @@
 - No quantitative containment result is available.
 - Round 2 stakeholder validation has not been completed.
 - Consequently, no claim that LLPS reduces resource burden or improves safety is currently supported.
+
+- Panel coverage is a SCENARIO count over six manifest compounds, not complete pathway coverage or demonstrated bottleneck distinguishability. Reaction provenance, assay performance and panel cost remain unresolved.

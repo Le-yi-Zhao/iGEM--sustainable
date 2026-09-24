@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from analysis.adapters import admet_ai_local, model_cache
-from analysis.models import metabolite_gp, multi_model_consensus, resource_metrics
-from analysis.plotting import generate_figures, model_result_figures
+from analysis.models import metabolite_gp, multi_model_consensus, resource_metrics, panel_coverage
+from analysis.plotting import generate_figures, model_result_figures, panel_coverage_figure
 from analysis.preprocessing import structure_qc
 from analysis.validation import analysis_status, link_check, readiness
 from analysis import build_site
@@ -37,6 +37,8 @@ def main() -> int:
     multi_model_consensus.run(ROOT); completed.append("multi-model consensus")
     resource_metrics.run(ROOT); completed.append("resource metrics")
     gp_outputs = metabolite_gp.run(ROOT); completed.append(f"GP figures: {len(gp_outputs)}")
+    panel_coverage.run(ROOT); completed.append("metabolite panel coverage")
+    panel_coverage_figure.run(ROOT); completed.append("panel coverage figure")
     source_manifest(); completed.append("source manifest")
     readiness.run(ROOT); completed.append("readiness audit")
     generate_figures.run(ROOT); completed.append("evidence and framework figures")

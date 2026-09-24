@@ -9,13 +9,7 @@ import platform
 from datetime import datetime, timezone
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
-import torch
-from admet_ai import ADMETModel
-from admet_ai.admet_info import get_admet_info
-from admet_ai.physchem import compute_physicochemical_properties
-from lightning import pytorch as pl
+
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -34,6 +28,15 @@ def confirmed_compounds() -> list[dict[str, str]]:
 def run(force: bool = False) -> Path:
     if RAW_WIDE.exists() and RAW_MEMBERS.exists() and PROCESSED.exists() and not force:
         return RAW_WIDE
+
+    # Prediction dependencies are needed only when rebuilding the model cache.
+    import numpy as np
+    import pandas as pd
+    import torch
+    from admet_ai import ADMETModel
+    from admet_ai.admet_info import get_admet_info
+    from admet_ai.physchem import compute_physicochemical_properties
+    from lightning import pytorch as pl
 
     started = datetime.now(timezone.utc).isoformat()
     compounds = confirmed_compounds()
