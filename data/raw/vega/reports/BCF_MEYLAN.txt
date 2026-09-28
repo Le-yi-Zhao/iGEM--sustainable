@@ -1,0 +1,11 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (Meylan) (version 1.0.4)
+(calculation core version : 1.3.19)
+
+No.	Id	SMILES	Assessment	Predicted BCF [log(L/kg)]	Predicted BCF [L/kg]	Predicted LogP (Meylan/Kowwin)	Predicted LogP reliability	MW	Ionic compound	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	LogP reliability	Descriptors range check	ACF index	Remarks
+1	9	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3	2.14  log(L/kg) (LOW reliability)	2.14	139	3.75	Low	271.45	no	-	0.75	0.814	0.625	0.209	0.863	0	True	1	-
+2	10	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3CC=C(C)C	3.7  log(L/kg) (LOW reliability)	3.7	4975	6.11	Low	339.19	no	-	0.75	0.83	0.62	2.042	0.863	0	True	1	-
+3	11	Oc1cc(OC)ccc1C3COc2c4C=CC(Oc4(ccc2C3))(C)C	3.56  log(L/kg) (LOW reliability)	3.56	3618	5.9	Low	337.27	no	-	0.75	0.816	0.62	1.903	0.863	0	True	1	-
+4	13	Oc1ccc(c(O)c1)C3COc2cc(O)ccc2C3	1.77  log(L/kg) (LOW reliability)	1.77	59	3.19	Low	257.52	no	-	0.75	0.809	0.625	0.161	0.863	0	True	1	-
+5	14	Oc1ccc(c(O)c1)C3COc2c(ccc(O)c2CC=C(C)C)C3	3.33  log(L/kg) (LOW reliability)	3.33	2121	5.55	Low	325.26	no	-	0.75	0.821	0.62	1.672	0.863	0	True	1	-
+6	15	Oc1ccc(c(O)c1)C3COc2c4C=CC(Oc4(ccc2C3))(C)C	3.19  log(L/kg) (LOW reliability)	3.19	1542	5.34	Low	323.34	no	-	0.75	0.808	0.62	1.533	0.863	0	True	1	-

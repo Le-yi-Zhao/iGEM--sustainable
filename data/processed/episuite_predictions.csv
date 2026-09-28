@@ -1,0 +1,55 @@
+compound_id,endpoint,value,unit,evidence_type,applicability_domain,raw_file
+9,Predicted Log Kow,3.7546995,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,"Predicted Water Solubility, WSKow (mg/L)",41.89596176147461,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,"Predicted Water Solubility, WaterNT (mg/L)",86.60747528076172,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,Bioconcentration Factor (L/kg wet-wt),139.43,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,Bioaccumulation Factor (L/kg wet-wt),37.9,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,BioWin3 (Ultimate Biodegradation Timeframe),2.4442362785339355,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,BioWin5 (MITI Linear Model Prediction),0.31701985001564026,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,BioWin6 (MITI Non-Linear Model Prediction),0.18266794085502625,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+9,Predicted Log Koc,4.088872909545898,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,Predicted Log Kow,6.1075993,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,"Predicted Water Solubility, WSKow (mg/L)",0.16362568736076355,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,"Predicted Water Solubility, WaterNT (mg/L)",0.8349606394767761,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,Bioconcentration Factor (L/kg wet-wt),4975.01,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,Bioaccumulation Factor (L/kg wet-wt),164.86,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,BioWin3 (Ultimate Biodegradation Timeframe),2.21885085105896,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,BioWin5 (MITI Linear Model Prediction),0.3100024163722992,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,BioWin6 (MITI Non-Linear Model Prediction),0.08552490919828415,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+10,Predicted Log Koc,5.2990007400512695,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,Predicted Log Kow,5.8979,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,"Predicted Water Solubility, WSKow (mg/L)",0.25411567091941833,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,"Predicted Water Solubility, WaterNT (mg/L)",0.1290653944015503,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,Bioconcentration Factor (L/kg wet-wt),3617.72,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,Bioaccumulation Factor (L/kg wet-wt),364.7,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,BioWin3 (Ultimate Biodegradation Timeframe),1.9715360403060913,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,BioWin5 (MITI Linear Model Prediction),0.20315158367156982,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,BioWin6 (MITI Non-Linear Model Prediction),0.02816607616841793,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+11,Predicted Log Koc,5.382607460021973,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,Predicted Log Kow,3.1936,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,"Predicted Water Solubility, WSKow (mg/L)",151.5304412841797,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,"Predicted Water Solubility, WaterNT (mg/L)",109.11575317382812,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,Bioconcentration Factor (L/kg wet-wt),59.45,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,Bioaccumulation Factor (L/kg wet-wt),6.87,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,BioWin3 (Ultimate Biodegradation Timeframe),2.5897340774536133,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,BioWin5 (MITI Linear Model Prediction),0.25654056668281555,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,BioWin6 (MITI Non-Linear Model Prediction),0.14971774816513062,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+13,Predicted Log Koc,4.390888214111328,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,Predicted Log Kow,5.5464997,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,"Predicted Water Solubility, WSKow (mg/L)",0.5982373356819153,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,"Predicted Water Solubility, WaterNT (mg/L)",1.0633893013000488,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,Bioconcentration Factor (L/kg wet-wt),2121.19,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,Bioaccumulation Factor (L/kg wet-wt),32.47,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,BioWin3 (Ultimate Biodegradation Timeframe),2.364348888397217,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,BioWin5 (MITI Linear Model Prediction),0.2495231032371521,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,BioWin6 (MITI Non-Linear Model Prediction),0.06862634420394897,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+14,Predicted Log Koc,5.601016521453857,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,Predicted Log Kow,5.3368,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,"Predicted Water Solubility, WSKow (mg/L)",0.9288437962532043,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,"Predicted Water Solubility, WaterNT (mg/L)",1.5192830562591553,mg/L,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,Bioconcentration Factor (L/kg wet-wt),1542.48,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,Bioaccumulation Factor (L/kg wet-wt),65.88,L/kg wet-wt,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,BioWin3 (Ultimate Biodegradation Timeframe),2.1170339584350586,ordinal model score (not days),PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,BioWin5 (MITI Linear Model Prediction),0.14267230033874512,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,BioWin6 (MITI Non-Linear Model Prediction),0.02232419140636921,model score,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv
+15,Predicted Log Koc,5.005536079406738,dimensionless log10,PREDICTED,NOT_EXPORTED,data/raw/episuite/episuite_results.csv

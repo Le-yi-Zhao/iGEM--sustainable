@@ -49,7 +49,7 @@ def run(root: Path) -> tuple[Path, Path]:
         "S5 Safety": {
             "status": "WAITING_FOR_DATA" if containment_rows == 0 and consensus_rows == 0 and admet_rows == 0 and admet_ai_rows == 0 else "PARTIAL",
             "evidence": ["data/wetlab/containment_template.csv", "data/processed/admet_ai_predictions.csv", "data/raw/admetlab/admetlab_predictions.csv", "results/tables/multi_model_toxicity_consensus.csv"],
-            "gap": "ADMET-AI and ADMETlab are computational screening evidence; CFU containment data and a third independent platform are absent",
+            "gap": "ADMET-AI, ADMETlab, VEGA, ProTox and EPA outputs provide computational screening; endpoint harmonization, experimental toxicology and CFU containment remain incomplete",
         },
         "S6 Trade-off": {
             "status": "PARTIAL",
@@ -64,7 +64,7 @@ def run(root: Path) -> tuple[Path, Path]:
         "S8 Reproducibility": {
             "status": "PARTIAL" if structure_rows else "BLOCKED",
             "evidence": ["analysis/run_all.py", "requirements.txt", "docs/provenance/MODEL_PROVENANCE.md", "data/raw/admet_ai/run_metadata.json"],
-            "gap": "ADMET-AI and cached ADMETlab results are reproducible; VEGA/ProTox and wet-lab datasets are not yet available",
+            "gap": "Local inference, selected VEGA runs and official EPA/ProTox exports are recorded; live-service changes and missing wet-lab data limit full reproducibility",
         },
     }
     readiness = {

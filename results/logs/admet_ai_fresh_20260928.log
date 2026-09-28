@@ -1,0 +1,11 @@
+Seed set to 20260928
+SMILES to Mol:   0%|          | 0/6 [00:00<?, ?it/s]SMILES to Mol: 100%|██████████| 6/6 [00:00<00:00, 5112.93it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+/root/autodl-tmp/IGEM/.venv/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:434: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=223` in the `DataLoader` to improve performance.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Computing physchem properties:   0%|          | 0/6 [00:00<?, ?it/s]Computing physchem properties: 100%|██████████| 6/6 [00:00<00:00, 132.54it/s]
+/root/autodl-tmp/IGEM/GALATEA-sustainable/data/raw/admet_ai/admet_ai_predictions.csv

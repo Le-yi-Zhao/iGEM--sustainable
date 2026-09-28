@@ -1,0 +1,28 @@
+{
+  "platform": "EPA EPI Web Suite",
+  "ui_version": "1.1.0",
+  "url": "https://episuite.dev/",
+  "epa_reference": "https://www.epa.gov/tsca-screening-tools/ecological-structure-activity-relationships-ecosar-predictive-model",
+  "executed_utc_date": "2026-09-28",
+  "compound_count": 6,
+  "ui_confirmation": "Successfully processed 6 of 6 chemicals.",
+  "input_file": "data/raw/episuite/input.csv",
+  "input_sha256": "ccd574dc7d233d7ca78a18295e748f859949e435f419050c502d5f651c24abeb",
+  "settings": "SMILES-only CSV; service defaults; no user-supplied physicochemical overrides",
+  "native_files": [
+    {
+      "path": "data/raw/episuite/episuite_results.csv",
+      "sha256": "d78ec3f54c9cf6351be66adf83693b204725f1783d7f211c397784f190513845"
+    },
+    {
+      "path": "data/raw/ecosar/ecosar_aquatic.csv",
+      "sha256": "f32472ce1f883b3a04ea7e116ef5b1de463f0e5f1d90480a78aa77e39c703ab1"
+    }
+  ],
+  "normalization": "Exact Submitted Chemical SMILES join; preserve all ECOSAR classes, units, flags and model logKow maxima.",
+  "limitations": [
+    "Model-specific engine versions were not included in batch CSV.",
+    "No formal applicability-domain fields in EPI wide CSV.",
+    "ECOSAR warnings retained; lack of warnings is not evidence of safety."
+  ]
+}

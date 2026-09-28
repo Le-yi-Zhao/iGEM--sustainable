@@ -1,0 +1,29 @@
+{
+  "host": "Matvision / autodl",
+  "project_path": "/root/autodl-tmp/IGEM/GALATEA-sustainable",
+  "python": "3.12.12",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.8",
+    "rdkit": "2025.9.3",
+    "admet-ai": "2.0.1"
+  },
+  "baseline_commit": "a295a2f5893763ef3ef823510324d178eb6f1be9",
+  "mode": "cached prediction rebuild; no new model inference; GPU not needed",
+  "pipeline_status": "PASS",
+  "tests_passed": 14,
+  "local_links": "PASS",
+  "raw_data_git_diff": [],
+  "environment_note": "Project venv uses existing Miniconda site packages. Versions differ from original requirements.txt; original prediction metadata is preserved.",
+  "gpu_probe": {
+    "count": 2,
+    "name": "NVIDIA GeForce RTX 4090",
+    "reported_memory_mib_per_device": 49140
+  },
+  "java": "not installed",
+  "nvcc": "not installed"
+}

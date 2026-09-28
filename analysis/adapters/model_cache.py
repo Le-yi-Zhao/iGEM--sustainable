@@ -8,8 +8,11 @@ MODEL_FILES = {
     "ADMET-AI 2.0.1": "data/raw/admet_ai/admet_ai_predictions.csv",
     "ADMETlab 3.0": "data/raw/admetlab/admetlab_predictions.csv",
     "ProTox 3.0": "data/raw/protox/protox_predictions.csv",
-    "VEGA QSAR 1.2.6": "data/raw/vega/vega_predictions.csv",
-    "admetSAR 3.0": "data/raw/admetsar/admetsar_predictions.csv",
+    "VEGA QSAR 1.2.6 (10 selected models)": "data/processed/vega_predictions.csv",
+    "Chemprop integrated gradients (4 endpoints)": "results/tables/chemprop_atom_attribution.csv",
+    "MapLight (3 selected tasks)": "data/processed/maplight_predictions.csv",
+    "EPA EPI Web Suite 1.1.0": "data/raw/episuite/episuite_results.csv",
+    "admetSAR 3.0": "data/processed/admetsar_predictions.csv",
     "EPA CompTox": "data/raw/comptox/comptox_fate.csv",
     "EPA ECOSAR": "data/raw/ecosar/ecosar_aquatic.csv",
 }
@@ -63,9 +66,9 @@ def run(root: Path) -> tuple[Path, Path]:
                 "raw_file": rel,
                 "status": "COMPLETE" if records else "BLOCKED",
                 "records": str(len(records)),
-                "reason": "cached raw export loaded" if records else {
+                "reason": {"ProTox 3.0": "six official web runs, four selected endpoints", "MapLight (3 selected tasks)": "three tasks, five trained members each", "VEGA QSAR 1.2.6 (10 selected models)": "ten official models executed; domain warnings retained"}.get(model, "cached executed output loaded") if records else {
                     "ProTox 3.0": "official sample API script currently returns HTTP 404; no manual export cached",
-                    "VEGA QSAR 1.2.6": "Java 17 runtime and VEGA model bundle are not installed",
+                    "VEGA QSAR 1.2.6 (10 selected models)": "selected-model report not available",
                     "EPA CompTox": "CTX API key or official batch export not supplied",
                     "EPA ECOSAR": "official ECOSAR/EPI Suite export not supplied",
                     "admetSAR 3.0": "raw export not supplied",

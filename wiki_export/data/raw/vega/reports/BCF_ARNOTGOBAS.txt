@@ -1,0 +1,11 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (Arnot-Gobas) (version 1.0.1)
+(calculation core version : 1.3.19)
+
+No.	Id	SMILES	Assessment	Predicted BCF (up) [log(L/kg)]	Predicted BCF (up) [L/kg]	Predicted BCF (low) [log(L/kg)]	Predicted BCF (low) [L/kg]	Predicted BCF (mid) [log(L/kg)]	Predicted BCF (mid) [L/kg]	Predicted LogP (Meylan/Kowwin)	Predicted LogP reliability	Predicted kM (Meylan)	Predicted kM reliability	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	LogP reliability	ACF index	null	Remarks
+1	9	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3	1.08  log(L/kg) (LOW reliability)	1.08	12	1.24	17	1.2	16	3.75	Low	-1.57	Low	-	0.75	0.814	0.358	0.697	0.557	0	1	-
+2	10	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3CC=C(C)C	1.87  log(L/kg) (LOW reliability)	1.87	75	2.05	113	2.01	102	6.11	Low	-0.66	Moderate	-	0.75	0.83	0.576	0.379	0.596	0	1	-
+3	11	Oc1cc(OC)ccc1C3COc2c4C=CC(Oc4(ccc2C3))(C)C	2.92  log(L/kg) (LOW reliability)	2.92	832	3.09	1243	3.05	1133	5.9	Low	0.37	Low	-	0.75	0.816	0.576	1.425	0.596	0	1	-
+4	13	Oc1ccc(c(O)c1)C3COc2cc(O)ccc2C3	0.43  log(L/kg) (LOW reliability)	0.43	3	0.55	4	0.52	3	3.19	Low	-2.35	Low	-	0.75	0.809	0.358	1.354	0.557	0	1	-
+5	14	Oc1ccc(c(O)c1)C3COc2c(ccc(O)c2CC=C(C)C)C3	1.19  log(L/kg) (LOW reliability)	1.19	15	1.36	23	1.32	21	5.55	Low	-1.44	Moderate	-	0.75	0.821	0.576	0.31	0.596	0	1	-
+6	15	Oc1ccc(c(O)c1)C3COc2c4C=CC(Oc4(ccc2C3))(C)C	2.2  log(L/kg) (LOW reliability)	2.2	158	2.37	236	2.33	215	5.34	Low	-0.41	Moderate	-	0.75	0.808	0.576	0.703	0.596	0	1	-

@@ -1,0 +1,273 @@
+{
+  "host": "Matvision / autodl",
+  "runs": {
+    "admet_ai": {
+      "metadata": "data/raw/admet_ai/run_metadata.json",
+      "sha256": "fedc7a14594b759c477f53547ada02b1d304095345cff9deb615241e78bc5c07"
+    },
+    "chemprop": {
+      "metadata": "data/raw/chemprop/attribution_metadata.json",
+      "sha256": "7c85639b0b583a1449d640118d9b42e9a44149c1675bd1bdb9f593f5b938274b"
+    },
+    "vega": {
+      "metadata": "data/raw/vega/run_metadata.json",
+      "sha256": "19c12bffb5acb0a3e64e32b6cc83de16dcc9ed7ad6be4d9357803e4e6a4d70f4"
+    },
+    "episuite": {
+      "metadata": "data/raw/episuite/run_metadata.json",
+      "sha256": "193f32e5e180ced77ac51d22bb010373c6cf7a9a90f17b9b17c5da02964c7ba7"
+    },
+    "protox": {
+      "metadata": "data/raw/protox/run_metadata.json",
+      "sha256": "e04a5f33a5eb09b0cf70826244d8e968adb8aa0cae3c74ac608849741672dbea"
+    },
+    "maplight": {
+      "metadata": "data/raw/maplight/run_metadata.json",
+      "sha256": "41e500d4c28d941d1e4d8bc0a80f1ff74dc50f1d80cad20b99fdd516964780de"
+    },
+    "admetsar": {
+      "metadata": "data/raw/admetsar/run_metadata.json",
+      "sha256": "4db5d7aff03603a2f2cf8d02cfacc33b04ad19c064d15516a177f640c783aefe"
+    }
+  },
+  "files": [
+    {
+      "path": "data/raw/vega/README.md",
+      "bytes": 329,
+      "sha256": "4c12360475f6d3b1fdffee98baf48b2285e2e38887a0b7b813b03abaa024eca2"
+    },
+    {
+      "path": "data/raw/vega/input.tsv",
+      "bytes": 309,
+      "sha256": "abbdbc55f332e8ec1550eeda181e027f1df54b76162cae5d032765f18848bd0f"
+    },
+    {
+      "path": "data/raw/vega/reports/ALGAE_EC50.txt",
+      "bytes": 1211,
+      "sha256": "bb1a9aafddd89645c0b1f9d2b8f4bf60feaab67aa0f50793af1d4e5281137141"
+    },
+    {
+      "path": "data/raw/vega/reports/BCF_ARNOTGOBAS.txt",
+      "bytes": 1528,
+      "sha256": "7532c6fd9c5d3a7a07d574e4dd7539472a7773b2c95d6f65a5e33be7a2a333a1"
+    },
+    {
+      "path": "data/raw/vega/reports/BCF_CAESAR.txt",
+      "bytes": 1408,
+      "sha256": "4a990ac2de30d16592a76a99cffdc8d55676ed5417f69055c508caf405eae642"
+    },
+    {
+      "path": "data/raw/vega/reports/BCF_MEYLAN.txt",
+      "bytes": 1305,
+      "sha256": "a65fa55eab7183789ceea6fd96d613fac5aac9989893e53a8f2d35eba190e4d6"
+    },
+    {
+      "path": "data/raw/vega/reports/DAPHNIA_EC50.txt",
+      "bytes": 1253,
+      "sha256": "dfa826c508ea059027985b70c9797b5653fa3cf160c69c508e4b82e3f3600bf7"
+    },
+    {
+      "path": "data/raw/vega/reports/FISH_LC50.txt",
+      "bytes": 1196,
+      "sha256": "73e76af0520e15b0bd50155a0d715f5b5af08e12a7cb857e0f5535953bc391ee"
+    },
+    {
+      "path": "data/raw/vega/reports/LOGP_MEYLAN.txt",
+      "bytes": 895,
+      "sha256": "0bbac208bdb3640fd8b487ee1ba87fa8ca8af89cc6d9999077d5f8f98b32cd6b"
+    },
+    {
+      "path": "data/raw/vega/reports/MUTA_CAESAR.txt",
+      "bytes": 1079,
+      "sha256": "5fdb3e2af592cc9383a265b0942bd78484e06deeb07b3dd490980dcea0896d1d"
+    },
+    {
+      "path": "data/raw/vega/reports/READYBIO_IRFMN.txt",
+      "bytes": 1980,
+      "sha256": "a41debe88fd64f6f4a4ee615efe7f4f2744819b7d74fb7e97ad502ad38b5dfb8"
+    },
+    {
+      "path": "data/raw/vega/reports/SKIN_CAESAR.txt",
+      "bytes": 1125,
+      "sha256": "d09d5f2077ef0de85612b3d04ffb05e2454691d2125b22e5d8226eb91262370c"
+    },
+    {
+      "path": "data/raw/vega/run_metadata.json",
+      "bytes": 3687,
+      "sha256": "19c12bffb5acb0a3e64e32b6cc83de16dcc9ed7ad6be4d9357803e4e6a4d70f4"
+    },
+    {
+      "path": "data/raw/episuite/episuite_results.csv",
+      "bytes": 11192,
+      "sha256": "d78ec3f54c9cf6351be66adf83693b204725f1783d7f211c397784f190513845"
+    },
+    {
+      "path": "data/raw/episuite/input.csv",
+      "bytes": 308,
+      "sha256": "ccd574dc7d233d7ca78a18295e748f859949e435f419050c502d5f651c24abeb"
+    },
+    {
+      "path": "data/raw/episuite/run_metadata.json",
+      "bytes": 1264,
+      "sha256": "193f32e5e180ced77ac51d22bb010373c6cf7a9a90f17b9b17c5da02964c7ba7"
+    },
+    {
+      "path": "data/raw/ecosar/README.md",
+      "bytes": 338,
+      "sha256": "d0c0496b59822d1cecfa0c3028e9b45bc1caa9f39a89d414728de9be2216cf03"
+    },
+    {
+      "path": "data/raw/ecosar/ecosar_aquatic.csv",
+      "bytes": 38333,
+      "sha256": "f32472ce1f883b3a04ea7e116ef5b1de463f0e5f1d90480a78aa77e39c703ab1"
+    },
+    {
+      "path": "data/raw/protox/README.md",
+      "bytes": 338,
+      "sha256": "74debab062d9b28b0921eb4d0aceab5542fea13b49b3ec0ac5ffc559a0580e8b"
+    },
+    {
+      "path": "data/raw/protox/native/compound_10.csv",
+      "bytes": 318,
+      "sha256": "da7c04dd0f16772765c8d81ace95a6b3abd27dc8b02755c3df2d86f37f61b928"
+    },
+    {
+      "path": "data/raw/protox/native/compound_11.csv",
+      "bytes": 318,
+      "sha256": "bcb0b76e28bcfbda1b88a13eb7297c90db0025a57ef9b340767a03aa203f648a"
+    },
+    {
+      "path": "data/raw/protox/native/compound_13.csv",
+      "bytes": 318,
+      "sha256": "81d5f78be9d3135ae825fa45e9dffd342bcc335348035a0adbeb9ff7bd6aa8bb"
+    },
+    {
+      "path": "data/raw/protox/native/compound_14.csv",
+      "bytes": 318,
+      "sha256": "165b78a789ad5f08e2cf02a3e9f0433394258a4d32508bb7cabc304364712b88"
+    },
+    {
+      "path": "data/raw/protox/native/compound_15.csv",
+      "bytes": 318,
+      "sha256": "d7364b9b92dacc7febdf4628506f89e47a32aeef5aaf1b14dc8426a8b65e9812"
+    },
+    {
+      "path": "data/raw/protox/native/compound_9.csv",
+      "bytes": 318,
+      "sha256": "0b637f1ba96edbe52a62695fb33219dc67fae7a0adf03fad462efe1ff513f869"
+    },
+    {
+      "path": "data/raw/protox/oral_predictions.csv",
+      "bytes": 1483,
+      "sha256": "7712dba533b9948325d3a2b870f789258c66e99f90d37dac39fefd7de77a6c52"
+    },
+    {
+      "path": "data/raw/protox/protox_predictions.csv",
+      "bytes": 4578,
+      "sha256": "21579677022502f41cc543da8eadce7051d956ab0cf2138cbe50c3d6724ec629"
+    },
+    {
+      "path": "data/raw/protox/run_metadata.json",
+      "bytes": 3247,
+      "sha256": "e04a5f33a5eb09b0cf70826244d8e968adb8aa0cae3c74ac608849741672dbea"
+    },
+    {
+      "path": "data/raw/maplight/README.md",
+      "bytes": 236,
+      "sha256": "78d8915603d0850a82bafb755bdf1374006d890284a0355a9501371b2b39c7f2"
+    },
+    {
+      "path": "data/raw/maplight/ames_test.csv",
+      "bytes": 69441,
+      "sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f"
+    },
+    {
+      "path": "data/raw/maplight/ames_test_predictions.csv",
+      "bytes": 209082,
+      "sha256": "cf18386df82e4c6022b7ceef1bac9c9dbb0a925fd36adfb2b3263880eff67f84"
+    },
+    {
+      "path": "data/raw/maplight/ames_train_val.csv",
+      "bytes": 245590,
+      "sha256": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d"
+    },
+    {
+      "path": "data/raw/maplight/dili_test.csv",
+      "bytes": 5726,
+      "sha256": "eb4cacff67a3f25d1d5e6a4c15ada68239af630ec19979097c4c832b185478e8"
+    },
+    {
+      "path": "data/raw/maplight/dili_test_predictions.csv",
+      "bytes": 15001,
+      "sha256": "38bba730e825915ff15461b40c75632040fc075b02c02a06229c11a63281deca"
+    },
+    {
+      "path": "data/raw/maplight/dili_train_val.csv",
+      "bytes": 20016,
+      "sha256": "0a5c221e3a62b204a990586be505ae1373884b7ef10e983bea1821901755c908"
+    },
+    {
+      "path": "data/raw/maplight/herg_test.csv",
+      "bytes": 9147,
+      "sha256": "14277bd932dce885e2f7a8d706effb455816f983e05b230f4f1c9590eb6c4248"
+    },
+    {
+      "path": "data/raw/maplight/herg_test_predictions.csv",
+      "bytes": 21751,
+      "sha256": "7eff7e020dac5ed1a09101a618b7cffa970262d149e649ad28c7792ad9bc7d01"
+    },
+    {
+      "path": "data/raw/maplight/herg_train_val.csv",
+      "bytes": 38458,
+      "sha256": "22fc4c4b6079f72b392cf2ae675d99c6927a6351377ee50c4f9f98c586a3f206"
+    },
+    {
+      "path": "data/raw/maplight/member_predictions.csv",
+      "bytes": 3578,
+      "sha256": "1f67718ff23021509286951cf41dcc2cea2600a60da560949cf02d3d424464bf"
+    },
+    {
+      "path": "data/raw/maplight/run_metadata.json",
+      "bytes": 7606,
+      "sha256": "41e500d4c28d941d1e4d8bc0a80f1ff74dc50f1d80cad20b99fdd516964780de"
+    },
+    {
+      "path": "data/raw/chemprop/README.md",
+      "bytes": 221,
+      "sha256": "29c33b44b3725a9ec9c765d3cb3f34e240a140a931b18f58ddaaccdfb489f256"
+    },
+    {
+      "path": "data/raw/chemprop/attribution_metadata.json",
+      "bytes": 1303,
+      "sha256": "7c85639b0b583a1449d640118d9b42e9a44149c1675bd1bdb9f593f5b938274b"
+    },
+    {
+      "path": "data/raw/chemprop/integrated_gradients_members.csv",
+      "bytes": 246787,
+      "sha256": "b4a249029c40b75c34cfbedc9b5952e8709afbafa572cca2ace8d65f0796e583"
+    },
+    {
+      "path": "data/raw/admetsar/175746_pred.txt",
+      "bytes": 14570,
+      "sha256": "2a3d4297bc7e397eea20f7c13b2690528c47983bb3dd95c7dd95a73f39316c0d"
+    },
+    {
+      "path": "data/raw/admetsar/README.md",
+      "bytes": 199,
+      "sha256": "32cd4dae0a528b693192b4fc01e7083866d9c99b6cac0db7f2b913620a07d10c"
+    },
+    {
+      "path": "data/raw/admetsar/input.txt",
+      "bytes": 292,
+      "sha256": "eced3911c107aee1e6b8ff4084b432b40b6231db2456ad1f45d20faa0160a4b5"
+    },
+    {
+      "path": "data/raw/admetsar/run_metadata.json",
+      "bytes": 1103,
+      "sha256": "4db5d7aff03603a2f2cf8d02cfacc33b04ad19c064d15516a177f640c783aefe"
+    }
+  ],
+  "evidence_type": "PREDICTED",
+  "cache_rebuild_performs_inference": false,
+  "cross_platform_probabilities_averaged": false
+}

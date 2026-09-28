@@ -1,0 +1,82 @@
+{
+  "platform": "VEGA QSAR 1.2.6",
+  "official_download": "https://www.vegahub.eu/vegahub-dwn/vega-gui-1.2.6.zip",
+  "bundle_sha256": "67766ce739ed9ec280c563e4873071028a5d642b8d79fb130096523e70fca6b1",
+  "java": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-22.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-22.04-Ubuntu, mixed mode, sharing)",
+  "model_core_version": "1.3.19",
+  "execution": "official bundle via headless Java API, freshly executed on Matvision",
+  "executed_utc_date": "2026-09-28",
+  "compound_count": 6,
+  "selected_model_count": 10,
+  "record_count": 60,
+  "input_sha256": "abbdbc55f332e8ec1550eeda181e027f1df54b76162cae5d032765f18848bd0f",
+  "runner": "analysis/adapters/GalateaVega.java",
+  "models": [
+    {
+      "tag": "ALGAE_EC50",
+      "model_version": "Algae Acute (EC50) Toxicity model (IRFMN) (version 1.0.1)",
+      "raw_report": "data/raw/vega/reports/ALGAE_EC50.txt",
+      "sha256": "bb1a9aafddd89645c0b1f9d2b8f4bf60feaab67aa0f50793af1d4e5281137141"
+    },
+    {
+      "tag": "BCF_ARNOTGOBAS",
+      "model_version": "BCF model (Arnot-Gobas) (version 1.0.1)",
+      "raw_report": "data/raw/vega/reports/BCF_ARNOTGOBAS.txt",
+      "sha256": "7532c6fd9c5d3a7a07d574e4dd7539472a7773b2c95d6f65a5e33be7a2a333a1"
+    },
+    {
+      "tag": "BCF_CAESAR",
+      "model_version": "BCF model (CAESAR) (version 2.1.15)",
+      "raw_report": "data/raw/vega/reports/BCF_CAESAR.txt",
+      "sha256": "4a990ac2de30d16592a76a99cffdc8d55676ed5417f69055c508caf405eae642"
+    },
+    {
+      "tag": "BCF_MEYLAN",
+      "model_version": "BCF model (Meylan) (version 1.0.4)",
+      "raw_report": "data/raw/vega/reports/BCF_MEYLAN.txt",
+      "sha256": "a65fa55eab7183789ceea6fd96d613fac5aac9989893e53a8f2d35eba190e4d6"
+    },
+    {
+      "tag": "DAPHNIA_EC50",
+      "model_version": "Daphnia Magna Acute (EC50) Toxicity model (IRFMN) (version 1.0.3)",
+      "raw_report": "data/raw/vega/reports/DAPHNIA_EC50.txt",
+      "sha256": "dfa826c508ea059027985b70c9797b5653fa3cf160c69c508e4b82e3f3600bf7"
+    },
+    {
+      "tag": "FISH_LC50",
+      "model_version": "Fish Acute (LC50) Toxicity model (IRFMN) (version 1.0.2)",
+      "raw_report": "data/raw/vega/reports/FISH_LC50.txt",
+      "sha256": "73e76af0520e15b0bd50155a0d715f5b5af08e12a7cb857e0f5535953bc391ee"
+    },
+    {
+      "tag": "LOGP_MEYLAN",
+      "model_version": "LogP model (Meylan-Kowwin) (version 1.1.5)",
+      "raw_report": "data/raw/vega/reports/LOGP_MEYLAN.txt",
+      "sha256": "0bbac208bdb3640fd8b487ee1ba87fa8ca8af89cc6d9999077d5f8f98b32cd6b"
+    },
+    {
+      "tag": "MUTA_CAESAR",
+      "model_version": "Mutagenicity (Ames test) model (CAESAR) (version 2.1.14)",
+      "raw_report": "data/raw/vega/reports/MUTA_CAESAR.txt",
+      "sha256": "5fdb3e2af592cc9383a265b0942bd78484e06deeb07b3dd490980dcea0896d1d"
+    },
+    {
+      "tag": "READYBIO_IRFMN",
+      "model_version": "Ready Biodegradability model (IRFMN) (version 1.0.10)",
+      "raw_report": "data/raw/vega/reports/READYBIO_IRFMN.txt",
+      "sha256": "a41debe88fd64f6f4a4ee615efe7f4f2744819b7d74fb7e97ad502ad38b5dfb8"
+    },
+    {
+      "tag": "SKIN_CAESAR",
+      "model_version": "Skin Sensitization model (CAESAR) (version 2.1.7)",
+      "raw_report": "data/raw/vega/reports/SKIN_CAESAR.txt",
+      "sha256": "d09d5f2077ef0de85612b3d04ffb05e2454691d2125b22e5d8226eb91262370c"
+    }
+  ],
+  "limitations": [
+    "Only ten selected models were run.",
+    "Source reliability and ADI fields retained.",
+    "Some native MW fields differ from RDKit by >0.5 g/mol; flagged, not corrected.",
+    "Output structures omit stereochemistry; constitutional connectivity verified."
+  ]
+}

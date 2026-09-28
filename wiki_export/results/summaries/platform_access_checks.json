@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-09-28T15:52:26.961999+00:00",
+  "checks": [
+    {
+      "name": "ADMETlab API documentation",
+      "url": "https://admetlab3.scbdd.com/api/admet",
+      "status_code": 404,
+      "bytes": 179
+    },
+    {
+      "name": "EPA EPI Suite",
+      "url": "https://episuite.dev/EpiWebSuite/",
+      "status_code": 200,
+      "bytes": 1556
+    },
+    {
+      "name": "ProTox FAQ",
+      "url": "https://tox.charite.de/protox3/index.php?site=faq",
+      "status_code": 200,
+      "bytes": 70217
+    }
+  ]
+}

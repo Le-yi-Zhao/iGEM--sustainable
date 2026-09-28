@@ -1,0 +1,7 @@
+compound_id,ld50_mg_kg,toxicity_class,average_similarity_percent,source_prediction_accuracy_percent,accuracy_note,source_url,evidence_type
+15,500,4,75.03,69.26,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17113821663640&models=dili,carcino,mutagen,eco",PREDICTED
+9,500,4,77.35,69.26,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17116968415168&models=dili,carcino,mutagen,eco",PREDICTED
+10,500,4,68.47,68.07,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17838630422632&models=dili,carcino,mutagen,eco",PREDICTED
+11,500,4,75.03,69.26,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17270025293184&models=dili,carcino,mutagen,eco",PREDICTED
+13,500,4,76.18,69.26,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17117337276759&models=dili,carcino,mutagen,eco",PREDICTED
+14,500,4,67.47,68.07,"service-provided reference estimate, not accuracy measured on project compounds","https://tox.charite.de/protox3/index.php?site=direct_load&id=17906120063655&models=dili,carcino,mutagen,eco",PREDICTED

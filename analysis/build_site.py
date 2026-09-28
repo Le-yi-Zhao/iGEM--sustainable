@@ -33,6 +33,8 @@ def table(rows: list[dict[str, str]], columns: list[tuple[str, str]]) -> str:
 
 def build() -> Path:
     from analysis.models import panel_coverage
+    from analysis.executed_models_section import render
+    executed_section = render(ROOT, table)
     panel_coverage.run(ROOT)
     panel_table = table(csv_rows("results/tables/metabolite_panel_coverage.csv"), [("panel", "Planned compound IDs"), ("planned_analytes", "Analytes"), ("node_coverage_percent", "Coverage (%)"), ("unmeasured_ids", "Unmeasured IDs"), ("evidence_type", "Evidence")])
     structures = csv_rows("results/tables/compound_structure_audit.csv")
@@ -65,6 +67,8 @@ def build() -> Path:
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python analysis/run_all.py</code></pre><p>The command validates structures, reuses or generates the local ADMET-AI cache, normalizes cached outputs, calculates definition-matched consensus, regenerates figures, rebuilds this site and checks local links. It makes no external API call by default.</p><div class="downloads"><a href="results/tables/compound_structure_audit.csv">Structure audit CSV</a><a href="results/tables/model_run_inventory.csv">Model inventory CSV</a><a href="results/tables/multi_model_toxicity_consensus.csv">Multi-model consensus</a><a href="docs/methodology/endpoint_harmonization.csv">Endpoint harmonization</a><a href="results/summaries/analysis_status.json">M0–M14 status</a><a href="docs/methodology/COMPUTATIONAL_SUSTAINABILITY.md">Methodology</a><a href="docs/provenance/MODEL_PROVENANCE.md">Model provenance</a><a href="docs/limitations/CURRENT_LIMITATIONS.md">Limitations</a></div></section>
 </main></div><footer><b>GALATEA Sustainable Development Impact</b><br>All displayed evidence is traceable to repository data and code. Missing results remain explicitly missing.</footer></body></html>'''
+    body = body.replace('<section class="section" id="experimental-design">', executed_section + '<section class="section" id="experimental-design">')
+    body = body.replace('<a href="#experimental-design">', '<a href="#executed-models">Fresh model runs</a><a href="#experimental-design">')
     # Keep all computed figures immediately visible while preserving the option to collapse them.
     body = body.replace('<details class="supporting">', '<details class="supporting" open>')
     index = ROOT / "index.html"
@@ -78,9 +82,9 @@ def export_wiki() -> Path:
         shutil.rmtree(destination)
     destination.mkdir(exist_ok=True)
     shutil.copy2(ROOT / "index.html", destination / "index.html")
-    for directory in ["assets", "figures/evidence", "figures/supporting", "figures/framework", "analysis/adapters"]:
+    for directory in ["assets", "figures/evidence", "figures/supporting", "figures/framework", "analysis/adapters", "analysis/models"]:
         shutil.copytree(ROOT / directory, destination / directory, dirs_exist_ok=True)
-    for directory in ["results/tables", "results/summaries", "data/raw/admet_ai", "data/raw/admetlab", "data/processed", "docs/methodology", "docs/provenance", "docs/limitations"]:
+    for directory in ["results/tables", "results/summaries", "data/raw/admet_ai", "data/raw/admetlab", "data/raw/chemprop", "data/raw/vega", "data/raw/episuite", "data/raw/admetsar", "data/raw/ecosar", "data/raw/protox", "data/raw/maplight", "data/processed", "docs/methodology", "docs/provenance", "docs/limitations"]:
         shutil.copytree(ROOT / directory, destination / directory, dirs_exist_ok=True)
     (destination / ".nojekyll").touch()
     return destination
