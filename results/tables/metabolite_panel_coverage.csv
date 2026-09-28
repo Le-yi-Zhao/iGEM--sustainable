@@ -1,0 +1,6 @@
+panel,planned_analytes,reference_compounds,node_coverage_percent,added_vs_previous,unmeasured_ids,evidence_type
+15,1,6,16.67,15,9;10;11;13;14,SCENARIO
+11;15,2,6,33.33,11,9;10;13;14,SCENARIO
+10;11;15,3,6,50.0,10,9;13;14,SCENARIO
+9;10;11;14;15,5,6,83.33,9;14,13,SCENARIO
+9;10;11;13;14;15,6,6,100.0,13,,SCENARIO

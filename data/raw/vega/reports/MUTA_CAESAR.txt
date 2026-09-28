@@ -1,0 +1,11 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (CAESAR) (version 2.1.14)
+(calculation core version : 1.3.19)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	9	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3	NON-Mutagenic (MODERATE reliability)	NON-Mutagenic	-		0.755	0.85	0.671	0.671	True	1	-
+2	10	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3CC=C(C)C	NON-Mutagenic (LOW reliability)	NON-Mutagenic	-		0.696	0.832	1	0.338	True	1	-
+3	11	Oc1cc(OC)ccc1C3COc2c4C=CC(Oc4(ccc2C3))(C)C	Mutagenic (LOW reliability)	Mutagenic	-		0.694	0.836	1	0.332	True	1	-
+4	13	Oc1ccc(c(O)c1)C3COc2cc(O)ccc2C3	NON-Mutagenic (MODERATE reliability)	NON-Mutagenic	-		0.759	0.856	0.672	0.672	True	1	-
+5	14	Oc1ccc(c(O)c1)C3COc2c(ccc(O)c2CC=C(C)C)C3	NON-Mutagenic (MODERATE reliability)	NON-Mutagenic	-		0.822	0.827	1	0.666	True	1	-
+6	15	Oc1ccc(c(O)c1)C3COc2c4C=CC(Oc4(ccc2C3))(C)C	NON-Mutagenic (LOW reliability)	NON-Mutagenic	-		0.693	0.831	1	0.334	True	1	-

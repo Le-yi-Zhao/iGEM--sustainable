@@ -37,7 +37,7 @@ The exact mappings and exclusions are versioned in `endpoint_harmonization.csv`.
 
 ADMET-AI's packaged DrugBank-approved predictions provide distributional context. Percentiles and PCA distances are prediction-space visualizations, not formal structural applicability-domain decisions and not safety rankings. Reference performance metrics distributed with ADMET-AI are reported as model metadata; this project did not independently recreate calibration curves because the training, validation and held-out labels were not redistributed in a form that supports leakage-safe recalibration.
 
-No project compound is used for training, tuning, threshold selection or model selection. No test-set result is optimized in this repository. Future MapLight or standalone Chemprop training must freeze official train/validation/test splits, use validation data only for selection, evaluate the test split once, and report all prespecified random seeds rather than the best run.
+No project labels are used for tuning, threshold selection or model selection. MapLight uses fixed official TDC train_val/test splits and five prespecified seeds without test-based tuning or early stopping. Exact canonical overlap with project compounds and between splits is reported rather than assuming disjointness. Test predictions and all seeds are retained; independent project validation remains absent.
 
 ## Wet-lab benchmark and statistics
 

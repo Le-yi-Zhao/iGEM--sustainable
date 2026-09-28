@@ -1,0 +1,74 @@
+{
+  "platform": "ProTox 3.0",
+  "compound_count": 6,
+  "selected_endpoints": [
+    "dili",
+    "carcino",
+    "mutagen",
+    "eco"
+  ],
+  "endpoint_rows": 24,
+  "oral_rows": 6,
+  "accessed_utc_date": "2026-09-28",
+  "execution": "official web prediction requests; all completed; server-side cache behavior unknown",
+  "browser_batch_order": [
+    "15",
+    "9",
+    "10",
+    "11",
+    "13",
+    "14"
+  ],
+  "api_example_status": 404,
+  "export": "Native CSV downloaded per structure; oral fields transcribed from visible result headings; no predicted-class confidence converted to positive-class probability.",
+  "inputs_and_results": [
+    {
+      "compound_id": "15",
+      "submitted_smiles": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)O)O)C",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17113821663640&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_15.csv",
+      "sha256": "d7364b9b92dacc7febdf4628506f89e47a32aeef5aaf1b14dc8426a8b65e9812"
+    },
+    {
+      "compound_id": "9",
+      "submitted_smiles": "COC1=CC(=C(C=C1)C2CC3=C(C=C(C=C3)O)OC2)O",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17116968415168&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_9.csv",
+      "sha256": "0b637f1ba96edbe52a62695fb33219dc67fae7a0adf03fad462efe1ff513f869"
+    },
+    {
+      "compound_id": "10",
+      "submitted_smiles": "CC(=CCC1=C(C=CC2=C1OCC(C2)C3=C(C=C(C=C3)OC)O)O)C",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17838630422632&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_10.csv",
+      "sha256": "da7c04dd0f16772765c8d81ace95a6b3abd27dc8b02755c3df2d86f37f61b928"
+    },
+    {
+      "compound_id": "11",
+      "submitted_smiles": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)OC)O)C",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17270025293184&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_11.csv",
+      "sha256": "bcb0b76e28bcfbda1b88a13eb7297c90db0025a57ef9b340767a03aa203f648a"
+    },
+    {
+      "compound_id": "13",
+      "submitted_smiles": "C1C(COC2=C1C=CC(=C2)O)C3=C(C=C(C=C3)O)O",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17117337276759&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_13.csv",
+      "sha256": "81d5f78be9d3135ae825fa45e9dffd342bcc335348035a0adbeb9ff7bd6aa8bb"
+    },
+    {
+      "compound_id": "14",
+      "submitted_smiles": "CC(=CCC1=C(C=CC2=C1OC[C@@H](C2)C3=C(C=C(C=C3)O)O)O)C",
+      "result_url": "https://tox.charite.de/protox3/index.php?site=direct_load&id=17906120063655&models=dili,carcino,mutagen,eco",
+      "raw_file": "data/raw/protox/native/compound_14.csv",
+      "sha256": "165b78a789ad5f08e2cf02a3e9f0433394258a4d32508bb7cabc304364712b88"
+    }
+  ],
+  "limitations": [
+    "Selected endpoints only.",
+    "No formal applicability-domain certification.",
+    "Oral similarity and source accuracy fields are not independent project validation.",
+    "Predicted-class confidence is not calibrated risk."
+  ]
+}

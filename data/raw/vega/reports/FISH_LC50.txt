@@ -1,0 +1,11 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity model (IRFMN) (version 1.0.2)
+(calculation core version : 1.3.19)
+
+No.	Id	SMILES	Assessment	Predicted LC50 [a-dimensional]	Predicted LC50 [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	9	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3	5.21 mg/L (LOW reliability)	-3.21	5.21	272.32	-	-	0.7	0.804	0.86	0.782	1.68	True	1	-
+2	10	Oc3ccc2c(OCC(c1ccc(OC)cc1(O))C2)c3CC=C(C)C	1.5 mg/L (MODERATE reliability)	-4.08	1.5	340.45	-	-	0.85	0.757	0.187	0.63	0.335	True	1	-
+3	11	Oc1cc(OC)ccc1C3COc2c4C=CC(Oc4(ccc2C3))(C)C	2.51 mg/L (LOW reliability)	-3.79	2.51	338.43	-	-	0.629	0.74	0.187	0.335	0.335	True	0.85	-
+4	13	Oc1ccc(c(O)c1)C3COc2cc(O)ccc2C3	4.05 mg/L (LOW reliability)	-3.34	4.05	258.29	-	-	0.7	0.813	0.86	0.821	1.68	True	1	-
+5	14	Oc1ccc(c(O)c1)C3COc2c(ccc(O)c2CC=C(C)C)C3	2.2 mg/L (MODERATE reliability)	-3.84	2.2	326.42	-	-	0.85	0.76	0.187	0.389	0.335	True	1	-
+6	15	Oc1ccc(c(O)c1)C3COc2c4C=CC(Oc4(ccc2C3))(C)C	2.54 mg/L (LOW reliability)	-3.76	2.54	324.4	-	-	0.635	0.747	0.187	0.304	0.335	True	0.85	-

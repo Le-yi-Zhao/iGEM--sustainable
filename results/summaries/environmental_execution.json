@@ -1,0 +1,18 @@
+{
+  "vega_selected_models": 10,
+  "vega_records": 60,
+  "vega_molecular_weight_warnings": 12,
+  "epi_compounds": 6,
+  "epi_selected_values": 54,
+  "ecosar_records": 118,
+  "ecosar_logkow_exceedances": 24,
+  "ecosar_source_flags": 35,
+  "evidence_type": "PREDICTED",
+  "normalization": "join EPA exact Submitted Chemical; verify VEGA IDs and constitutional connectivity; retain native units, all classes and source flags; no cross-model probability averaging",
+  "limitations": [
+    "No formal domain values in the EPA wide export.",
+    "ECOSAR no-exceedance is not a full applicability-domain certificate.",
+    "VEGA removes stereochemistry; certain reported molecular weights differ from RDKit by >0.5 g/mol; source values retained and flagged, not corrected.",
+    "Related methods across VEGA and EPI are not independent votes."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "status": "COMPLETE_FOR_SELECTED_TASKS",
+  "official_repository": "https://github.com/maplightrx/MapLight-TDC",
+  "source_commit": "c249378c63232354d17083c83fe94fe728960a27",
+  "method": "official MapLight (without GNN) ECFP/Avalon/ErG/200-descriptor CatBoost recipe",
+  "selected_tasks": [
+    "dili",
+    "herg",
+    "ames"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "iterations": 1000,
+  "depth": 6,
+  "random_strength": 2,
+  "thread_count": 12,
+  "device": "CPU",
+  "feature_count": 2563,
+  "started_utc": "2026-09-28T16:14:09.612263+00:00",
+  "completed_utc": "2026-09-28T16:18:06.751058+00:00",
+  "packages": {
+    "catboost": "1.2.8",
+    "PyTDC": "0.4.1",
+    "rdkit": "2026.3.6",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.7.2"
+  },
+  "input_sha256": "a322ce1b00851b6d73ad593e8b4bd5d716b548fcbc3bc710174758e5224d12ab",
+  "checkpoints": [
+    {
+      "task": "dili",
+      "seed": 1,
+      "sha256": "2151d5508fdac2aafe0c4e3febf9cca5d1fb003a792ed4a8897edfc1166604a8",
+      "bytes": 1193080,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/dili_seed_1.cbm"
+    },
+    {
+      "task": "dili",
+      "seed": 2,
+      "sha256": "7318a167b920084bb1eb9efb400c37013cbe2e923ceb274bf998a717d123de27",
+      "bytes": 1189640,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/dili_seed_2.cbm"
+    },
+    {
+      "task": "dili",
+      "seed": 3,
+      "sha256": "f6422d6a54d26227ccd80a86bf72185d24beadbab9889b3e1dff5607dab7f412",
+      "bytes": 1194496,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/dili_seed_3.cbm"
+    },
+    {
+      "task": "dili",
+      "seed": 4,
+      "sha256": "ab210399c66eb5038c3c8f328bc1abf31ac288a574608e809499fa37fef92d4c",
+      "bytes": 1192600,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/dili_seed_4.cbm"
+    },
+    {
+      "task": "dili",
+      "seed": 5,
+      "sha256": "3908baae28fec0274362b4f67a38e8726c562d8537ca5b0826df4b936dcadcfb",
+      "bytes": 1192280,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/dili_seed_5.cbm"
+    },
+    {
+      "task": "herg",
+      "seed": 1,
+      "sha256": "e726bd33f86ed09a8b3744125e7066433d93bedbff14b6120a1160602868a3a3",
+      "bytes": 1193696,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/herg_seed_1.cbm"
+    },
+    {
+      "task": "herg",
+      "seed": 2,
+      "sha256": "c7147fddcb6d0888863f11b6bf03feba748240a2d4cfb9bd74d382f506fb6924",
+      "bytes": 1194304,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/herg_seed_2.cbm"
+    },
+    {
+      "task": "herg",
+      "seed": 3,
+      "sha256": "8ea4ea2388c98b5d0ba95f11ae6d29fdd73f06b008a0dc03de5ad36d7be5abba",
+      "bytes": 1194176,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/herg_seed_3.cbm"
+    },
+    {
+      "task": "herg",
+      "seed": 4,
+      "sha256": "b5ce71cfccbb5677764404a4739132fe9c27422dee4b35100fadded2c0d2f033",
+      "bytes": 1194128,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/herg_seed_4.cbm"
+    },
+    {
+      "task": "herg",
+      "seed": 5,
+      "sha256": "0214b8aa87add5a6a27c5833ef4d1d7397d6e5b7a719285ccb2380c059a5c8bd",
+      "bytes": 1196304,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/herg_seed_5.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 1,
+      "sha256": "88a43e6b2190d6ec8606e7f416089bece4cc50fa5d755125de3514951838bfdb",
+      "bytes": 1192680,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/ames_seed_1.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 2,
+      "sha256": "e776eca996df3e56fb0458f080953205ae4040784451e90daa76cb37a5afcbec",
+      "bytes": 1192048,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/ames_seed_2.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 3,
+      "sha256": "70fc30df4c73b299cde1d95c182b4815339449c0211332a31901c0b0e348a076",
+      "bytes": 1191648,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/ames_seed_3.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 4,
+      "sha256": "13517440002480c62813038be23b51d0b328957a32c411eae0b397f2ea5e6c74",
+      "bytes": 1192576,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/ames_seed_4.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 5,
+      "sha256": "f3a4d57152a21299bb0f3ac3d61f64f7b5eb3b02878d11e96745c7dcef9b2cda",
+      "bytes": 1192512,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight/ames_seed_5.cbm"
+    }
+  ],
+  "datasets": [
+    {
+      "task": "dili",
+      "split": "train_val",
+      "rows": 379,
+      "sha256": "0a5c221e3a62b204a990586be505ae1373884b7ef10e983bea1821901755c908",
+      "file": "data/raw/maplight/dili_train_val.csv"
+    },
+    {
+      "task": "dili",
+      "split": "test",
+      "rows": 96,
+      "sha256": "eb4cacff67a3f25d1d5e6a4c15ada68239af630ec19979097c4c832b185478e8",
+      "file": "data/raw/maplight/dili_test.csv"
+    },
+    {
+      "task": "dili",
+      "split": "train_val",
+      "undefined_feature_values": 0,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "dili",
+      "split": "test",
+      "undefined_feature_values": 0,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "dili",
+      "canonical_train_test_overlap": 0,
+      "project_ids_in_train": [],
+      "project_ids_in_test": []
+    },
+    {
+      "task": "herg",
+      "split": "train_val",
+      "rows": 523,
+      "sha256": "22fc4c4b6079f72b392cf2ae675d99c6927a6351377ee50c4f9f98c586a3f206",
+      "file": "data/raw/maplight/herg_train_val.csv"
+    },
+    {
+      "task": "herg",
+      "split": "test",
+      "rows": 132,
+      "sha256": "14277bd932dce885e2f7a8d706effb455816f983e05b230f4f1c9590eb6c4248",
+      "file": "data/raw/maplight/herg_test.csv"
+    },
+    {
+      "task": "herg",
+      "split": "train_val",
+      "undefined_feature_values": 4,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "herg",
+      "split": "test",
+      "undefined_feature_values": 0,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "herg",
+      "canonical_train_test_overlap": 0,
+      "project_ids_in_train": [],
+      "project_ids_in_test": []
+    },
+    {
+      "task": "ames",
+      "split": "train_val",
+      "rows": 5821,
+      "sha256": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d",
+      "file": "data/raw/maplight/ames_train_val.csv"
+    },
+    {
+      "task": "ames",
+      "split": "test",
+      "rows": 1457,
+      "sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f",
+      "file": "data/raw/maplight/ames_test.csv"
+    },
+    {
+      "task": "ames",
+      "split": "train_val",
+      "undefined_feature_values": 8,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "ames",
+      "split": "test",
+      "undefined_feature_values": 12,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "ames",
+      "canonical_train_test_overlap": 0,
+      "project_ids_in_train": [],
+      "project_ids_in_test": []
+    }
+  ],
+  "limitations": [
+    "Selected tasks only; other MapLight endpoints and MapLight+GNN were not run.",
+    "RDKit/CatBoost versions differ from original publication; this is a recipe reproduction, not an exact leaderboard replication.",
+    "TDC test splits were not used for fitting, stopping or tuning. Overlap audit is reported; no independent GALATEA wet-lab validation.",
+    "Ensemble spread is not a calibrated confidence interval. No formal chemical applicability domain established."
+  ],
+  "missing_feature_policy": "CatBoost nan_mode=Min; infinite values become NaN; no row deletion and no imputation fitted on test data"
+}

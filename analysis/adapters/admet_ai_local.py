@@ -3,19 +3,15 @@
 from __future__ import annotations
 
 import csv
+import hashlib
+import shutil
 import importlib.metadata
 import json
 import platform
 from datetime import datetime, timezone
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
-import torch
-from admet_ai import ADMETModel
-from admet_ai.admet_info import get_admet_info
-from admet_ai.physchem import compute_physicochemical_properties
-from lightning import pytorch as pl
+
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -35,7 +31,18 @@ def run(force: bool = False) -> Path:
     if RAW_WIDE.exists() and RAW_MEMBERS.exists() and PROCESSED.exists() and not force:
         return RAW_WIDE
 
+    # Prediction dependencies are needed only when rebuilding the model cache.
+    import numpy as np
+    import pandas as pd
+    import torch
+    from admet_ai import ADMETModel
+    from admet_ai.admet_info import get_admet_info
+    from admet_ai.physchem import compute_physicochemical_properties
+    from lightning import pytorch as pl
+
     started = datetime.now(timezone.utc).isoformat()
+    pl.seed_everything(20260928, workers=True)
+    torch.set_num_threads(4)
     compounds = confirmed_compounds()
     smiles = [row["canonical_smiles"] for row in compounds]
     model = ADMETModel(include_physchem=True, num_workers=0)
@@ -60,7 +67,7 @@ def run(force: bool = False) -> Path:
         arrays = []
         for member_index, member in enumerate(members):
             with torch.inference_mode():
-                values = torch.cat(trainer.predict(model=member, dataloaders=loader), dim=0).numpy()
+                values = torch.cat(trainer.predict(model=member, dataloaders=loader), dim=0).detach().cpu().numpy()
             arrays.append(values)
             for compound, task_values in zip(compounds, values, strict=True):
                 for task_index, task in enumerate(tasks):
@@ -73,6 +80,8 @@ def run(force: bool = False) -> Path:
                         "evidence_type": "PREDICTED",
                     })
         stacked = np.stack(arrays)
+        if stacked.shape != (len(members), len(compounds), len(tasks)) or not np.isfinite(stacked).all():
+            raise RuntimeError("Invalid ensemble prediction shape or nonfinite output")
         ensemble_sizes["classification" if np.all((stacked >= 0) & (stacked <= 1)) else "regression"] = len(members)
         for task_index, task in enumerate(tasks):
             task_means[task] = stacked[:, :, task_index].mean(axis=0)
@@ -88,6 +97,14 @@ def run(force: bool = False) -> Path:
 
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED.parent.mkdir(parents=True, exist_ok=True)
+    # Preserve the exact previous exports before promoting a successful fresh inference.
+    if force and RAW_WIDE.exists():
+        archive = RAW_DIR / "archive" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        archive.mkdir(parents=True, exist_ok=False)
+        for previous in [RAW_WIDE, RAW_MEMBERS, METADATA, PROCESSED]:
+            if previous.exists():
+                name = "processed_predictions.csv" if previous == PROCESSED else previous.name
+                shutil.copy2(previous, archive / name)
     combined.to_csv(RAW_WIDE)
     pd.DataFrame(member_records).to_csv(RAW_MEMBERS, index=False)
 
@@ -119,7 +136,18 @@ def run(force: bool = False) -> Path:
             })
     pd.DataFrame(processed_records).to_csv(PROCESSED, index=False)
 
+    from admet_ai.constants import DEFAULT_MODELS_DIR
+    checkpoints = [{"path": path.relative_to(DEFAULT_MODELS_DIR).as_posix(),
+                    "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
+                   for path in sorted(DEFAULT_MODELS_DIR.glob("**/*.pt"))]
     metadata = {
+        "execution_mode": "fresh checkpoint inference (not cache import)",
+        "seed": 20260928,
+        "checkpoint_manifest": checkpoints,
+        "input_sha256": hashlib.sha256((ROOT / "data/compounds/compound_manifest.csv").read_bytes()).hexdigest(),
+        "numpy_version": np.__version__,
+        "cuda_runtime": torch.version.cuda,
+        "gpu_name": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
         "model": "ADMET-AI v2",
         "package_version": importlib.metadata.version("admet-ai"),
         "chemprop_version": importlib.metadata.version("chemprop"),

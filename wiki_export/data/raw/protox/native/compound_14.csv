@@ -1,0 +1,5 @@
+"Classification","Target","Shorthand","Prediction","Probability"
+"Organ toxicity","Hepatotoxicity","dili","Inactive","0.76"
+"Toxicity end points","Carcinogenicity","carcino","Inactive","0.71"
+"Toxicity end points","Mutagenicity","mutagen","Inactive","0.65"
+"Toxicity end points","Ecotoxicity","eco","Active","0.52"

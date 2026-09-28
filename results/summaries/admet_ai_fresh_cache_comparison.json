@@ -1,0 +1,6 @@
+{
+  "archive": "data/raw/admet_ai/archive/20260928T155115Z/processed_predictions.csv",
+  "matched_compound_tasks": 246,
+  "note": "Fresh run replaces active cache; original metadata and values remain archived.",
+  "prediction_max_absolute_change": 1.9999999992137418e-05
+}

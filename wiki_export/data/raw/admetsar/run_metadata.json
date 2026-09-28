@@ -1,0 +1,20 @@
+{
+  "platform": "admetSAR 3.0",
+  "job_id": "175746",
+  "result_url": "https://lmmd.ecust.edu.cn/admetsar3/predict_result.php?id-input=175746",
+  "raw_download_url": "https://lmmd.ecust.edu.cn/admetsar3/user_data/175746_pred.txt",
+  "request_date_local": "2026-09-29",
+  "request_timezone": "Asia/Shanghai",
+  "compound_count": 6,
+  "native_column_count": 121,
+  "native_output_sha256": "2a3d4297bc7e397eea20f7c13b2690528c47983bb3dd95c7dd95a73f39316c0d",
+  "input_sha256": "eced3911c107aee1e6b8ff4084b432b40b6231db2456ad1f45d20faa0160a4b5",
+  "status": "COMPLETE_FOR_SIX_STRUCTURE_BATCH",
+  "input_output_join": "exact RDKit canonical isomeric SMILES; unique six-to-six mapping",
+  "evidence_type": "PREDICTED endpoints and COMPUTED physicochemical descriptors, native fields kept separate",
+  "limitations": [
+    "No applicability-domain or uncertainty fields exported in batch TXT.",
+    "Endpoint thresholds differ (including three hERG cutoffs); not merged into the existing ADMET-AI/ADMETlab consensus.",
+    "Server caching behavior unknown; official request and returned output retained."
+  ]
+}

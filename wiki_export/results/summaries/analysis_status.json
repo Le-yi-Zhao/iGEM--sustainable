@@ -15,12 +15,14 @@
       "evidence": "data/raw/admet_ai/admet_ai_predictions.csv"
     },
     "M2_vega": {
-      "status": "BLOCKED",
-      "reason": "Java 17 runtime and VEGA QSAR model bundle are not installed"
+      "status": "PARTIAL",
+      "evidence": "data/processed/vega_predictions.csv",
+      "reason": "Ten selected models executed for six compounds; full platform not run; source domain and MW warnings retained"
     },
     "M3_protox": {
-      "status": "BLOCKED",
-      "reason": "official sample API script link returned HTTP 404; no manual export cached"
+      "status": "PARTIAL",
+      "evidence": "data/raw/protox/protox_predictions.csv",
+      "reason": "Official web runs for six structures and four selected toxicity endpoints; API sample still returns 404; full platform not run"
     },
     "M4_consensus": {
       "status": "PARTIAL",
@@ -37,17 +39,19 @@
       "reason": "EPA CTX API key or official batch export not supplied"
     },
     "M7_ecosar": {
-      "status": "BLOCKED",
-      "reason": "ECOSAR/EPI Suite export not supplied"
+      "status": "PARTIAL",
+      "evidence": "data/processed/ecosar_predictions.csv",
+      "reason": "Six-structure EPI Web Suite batch executed; 118 class-specific ECOSAR rows; domain exceedances and source flags retained"
     },
     "M8_maplight": {
-      "status": "BLOCKED",
-      "reason": "official reproducible repository/configuration not yet installed or validated"
+      "status": "PARTIAL",
+      "evidence": "data/raw/maplight/run_metadata.json",
+      "reason": "Official feature/CatBoost recipe trained for three toxicity tasks with five seeds and held-out TDC evaluation; remaining tasks and GNN extension not run"
     },
     "M9_chemprop": {
       "status": "PARTIAL",
-      "evidence": "ADMET-AI 2.0.1 uses Chemprop 2.3.1 checkpoints",
-      "reason": "standalone task retraining and attribution not yet run"
+      "evidence": "data/raw/chemprop/attribution_metadata.json",
+      "reason": "Fresh official checkpoint inference plus five-member integrated gradients for four endpoints completed; baseline sensitivity and causal validation remain absent"
     },
     "M10_gp": {
       "status": "WAITING_FOR_DATA",
@@ -68,6 +72,39 @@
     "M14_pareto": {
       "status": "WAITING_FOR_DATA",
       "reason": "time-resolved production and resource metrics are absent"
+    }
+  },
+  "iteration_tasks": {
+    "T1": {
+      "status": "PARTIAL",
+      "evidence": "results/summaries/metabolite_panel_coverage.json",
+      "gap": "Node coverage implemented; reaction-level provenance and pathway-state distinguishability remain unresolved."
+    },
+    "T2": {
+      "status": "NOT_STARTED",
+      "gap": "No solvent validation or Pareto analysis; inventory templates are not extraction evidence."
+    },
+    "T3": {
+      "status": "NOT_STARTED",
+      "gap": "GP scaffold is present, but no literature sampling-schedule comparison has been implemented."
+    },
+    "T4": {
+      "status": "PARTIAL",
+      "gap": "ADMETlab, ten VEGA models and EPA EPI/ECOSAR outputs available. CompTox API access and independent ecological validation remain absent."
+    },
+    "T5": {
+      "status": "PARTIAL",
+      "evidence": "results/tables/chemprop_attribution_completeness.csv",
+      "gap": "Five-member, four-endpoint atom/bond attribution completed; numerical completeness passed for 120 cases. Alternative baselines and causal validation remain unresolved."
+    },
+    "T6": {
+      "status": "PARTIAL",
+      "evidence": "results/tables/maplight_heldout_metrics.csv",
+      "gap": "MapLight held-out TDC metrics and overlap audit available; independent GALATEA measurements and calibration curves remain absent."
+    },
+    "T7": {
+      "status": "NOT_STARTED",
+      "gap": "Measured-inventory calculation scaffold exists; traceable process scenario and sensitivity model not implemented."
     }
   }
 }
