@@ -69,3 +69,9 @@ cd /root/autodl-tmp/IGEM/GALATEA-sustainable
 ```
 
 Fresh models were executed on Matvision on 28–29 September 2026. The earlier cached rebuild is archived as `matvision_cached_reproduction_20260928.json`; current versions are in `results/summaries/matvision_reproduction.json`. The former broad pipeline generated four additional attribution/domain/environmental figures; current skincare rebuilds use the scoped figures described above. Force inference and training remain explicit separate commands. Prior ADMET-AI outputs are preserved under `data/raw/admet_ai/archive/`.
+
+## Cosmetic ingredient reference panel
+
+[Evidence and results](docs/methodology/skincare_reference_panel_zh.md) document five literature-selected skincare ingredients, their source use conditions, fresh ADMET-AI/MapLight inference and training-membership audit. They are contextual references, not an all-endpoint negative-control set or a calibrated safety threshold.
+
+`LD_LIBRARY_PATH=/root/miniconda3/lib /root/autodl-tmp/IGEM/.venv/bin/python -m analysis.models.skincare_references --predict` runs fresh checkpoint inference on Matvision; omit `--predict` for an offline report rebuild. The original six pathway-compound manifest is unchanged.

@@ -1,5 +1,6 @@
 """Website account of the current cosmetic-ingredient scope."""
 import json
+from analysis.models.skincare_references import render_html as render_references
 from analysis.models.skincare_evaluation import read
 
 def render(root,table):
@@ -29,6 +30,7 @@ def render(root,table):
 <figure class="figure"><img src="figures/skincare/atom_attribution_spread.svg" alt="原子归因均值及五成员差异"><figcaption>均值 ± 五成员标准差；不是实验置信区间或因果致毒基团。六分子 × 三任务 × 五成员的 90 项数值完整性检查保留。</figcaption></figure>
 <h3>MapLight：AMES 训练与留出集验证</h3><p>官方无 GNN 指纹/描述符 + CatBoost 方法，五个随机种子。固定测试集未参与训练、选阈值或调参。当前不再运行 DILI/hERG，也没有把尚未运行的 GNN 扩展记作完成。</p>'''
     body+=table(metrics,[('seed','种子'),('train_n','训练行数'),('test_n','测试行数'),('roc_auc','ROC-AUC'),('average_precision','AP'),('brier_score','Brier')])
+    body += render_references(root, table)
     body+='''<h3>如何读分数与基线</h3><p>当前没有经护肤品数据校准的“低风险”阈值。0.5 只能作为模型分类分界，不是产品安全线。没有将 DrugBank 已批准药物分布当作无毒对照，也未把皮肤致敏分数等同于皮肤刺激或经皮吸收。六个通路分子之间的比较不能证明最终配方安全；已知阳性/阴性对照组和外部校准仍待补充。</p>
 <details class="supporting"><summary>长期及全身暴露相关信号</summary><p>重复给药、生殖毒性和内分泌相关信号保留为后续评估线索。它们尚未构成经皮暴露评估或人体效应证据；需要实际配方、浓度和经皮吸收信息。</p><figure class="figure"><img src="figures/skincare/mechanistic_followup.svg" alt="保留的受体与细胞应答模型信号"><figcaption>预测的是特定试验活性；不能直接推断实际人体毒性、内分泌干扰或功效。</figcaption></figure></details>
 <h3>环境归趋和生态毒性继续保留</h3><p>护肤品使用后进入污水及生产排放仍与可持续性有关。VEGA、EPI Suite 和 ECOSAR 保留原生单位、适用域和警告。环境危害与真实环境风险之间仍缺排放和暴露数据。</p>

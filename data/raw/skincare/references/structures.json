@@ -1,0 +1,60 @@
+[
+  {
+    "id": "glabridin",
+    "name": "Glabridin",
+    "name_zh": "光甘草定",
+    "smiles": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)O)O)C",
+    "inchikey": "LBQIJVLKGVZRIW-ZDUSSCGKSA-N",
+    "role": "TARGET"
+  },
+  {
+    "id": "alpha_arbutin",
+    "name": "Alpha-arbutin",
+    "name_zh": "α-熊果苷",
+    "role": "PRIMARY_FUNCTIONAL_REFERENCE",
+    "smiles": "C1=CC(=CC=C1O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O",
+    "inchikey": "BJRNKVDFDLYUGJ-ZIQFBCGOSA-N",
+    "cas": "84380-01-8",
+    "pubchem_cid": 158637
+  },
+  {
+    "id": "niacinamide",
+    "name": "Niacinamide",
+    "name_zh": "烟酰胺",
+    "role": "PRIMARY_FUNCTIONAL_REFERENCE",
+    "smiles": "C1=CC(=CN=C1)C(=O)N",
+    "inchikey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
+    "cas": "98-92-0",
+    "pubchem_cid": 936
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "name": "Ascorbyl glucoside",
+    "name_zh": "抗坏血酸葡糖苷",
+    "role": "SUPPORTING_ANTIOXIDANT_SKIN_CONDITIONING_REFERENCE",
+    "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)OC2=C([C@H](OC2=O)[C@H](CO)O)O)O)O)O)O",
+    "inchikey": "MLSJBGYKDYSOAE-DCWMUDTNSA-N",
+    "cas": "129499-78-1",
+    "pubchem_cid": 54693473
+  },
+  {
+    "id": "kojic_acid",
+    "name": "Kojic acid",
+    "name_zh": "曲酸",
+    "role": "CONDITIONAL_FUNCTIONAL_REFERENCE",
+    "smiles": "C1=C(OC=C(C1=O)O)CO",
+    "inchikey": "BEJNERDRQOWKJM-UHFFFAOYSA-N",
+    "cas": "501-30-4",
+    "pubchem_cid": 3840
+  },
+  {
+    "id": "beta_arbutin",
+    "name": "Beta-arbutin",
+    "name_zh": "β-熊果苷",
+    "role": "EXTENDED_FUNCTIONAL_STEREOISOMER_REFERENCE",
+    "smiles": "C1=CC(=CC=C1O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O",
+    "inchikey": "BJRNKVDFDLYUGJ-RMPHRYRLSA-N",
+    "cas": "497-76-7",
+    "pubchem_cid": 440936
+  }
+]

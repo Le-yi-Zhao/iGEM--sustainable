@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-09-29",
+  "selection_basis": "Public primary safety assessments, relevance to leave-on facial skincare, and unambiguous molecular identity. Membership fixed before new comparator predictions were inspected.",
+  "purpose": "Contextual ingredient benchmarks; not a validated negative-control set, efficacy-matched trial, or calibration dataset.",
+  "product_assumption": "Provisional non-spray leave-on facial skincare; glabridin concentration, formulation and exposure remain unknown.",
+  "concentration_note": "Source concentrations are assessment/use contexts, not model inputs, recommended formulations, or glabridin limits. EU provisions are contextual evidence, not a China compliance determination.",
+  "selection_rules": [
+    "Retain every preselected reference regardless of its prediction.",
+    "Compare scores only within the same model and endpoint; do not average platforms or endpoints.",
+    "No global non-toxic label is assigned to any reference; endpoint-specific experimental findings and use conditions must be retained.",
+    "Reference ranks cannot establish a low-risk threshold or a safe glabridin concentration.",
+    "No independent validation is claimed for compounds overlapping model training/test data; unknown training membership is reported as unknown."
+  ],
+  "sources": {
+    "SCCS_ARBUTINS_2023": {"title": "SCCS/1642/22: Safety of alpha-arbutin and beta-arbutin in cosmetic products", "year": 2023, "kind": "scientific_committee_final_opinion", "url": "https://health.ec.europa.eu/publications/safety-alpha-arbutin-and-beta-arbutin-cosmetic-products_en"},
+    "EU_2024_996": {"title": "Commission Regulation (EU) 2024/996, Annex III entries 375, 377 and 378", "year": 2024, "kind": "EU_regulation", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0996"},
+    "CIR_NIACINAMIDE_2005": {"title": "Final Report of the Safety Assessment of Niacinamide and Niacin", "year": 2005, "kind": "expert_panel_safety_assessment", "doi": "10.1080/10915810500434183", "url": "https://pubmed.ncbi.nlm.nih.gov/16596767/", "report_url": "https://cir-reports.cir-safety.org/view-attachment/?id=39cd1a17-8e74-ec11-8943-0022482f06a6"},
+    "NIACINAMIDE_PIGMENT_2002": {"title": "The effect of niacinamide on reducing cutaneous pigmentation and suppression of melanosome transfer", "year": 2002, "kind": "primary_clinical_and_mechanistic_study", "doi": "10.1046/j.1365-2133.2002.04834.x", "url": "https://pubmed.ncbi.nlm.nih.gov/12100180/"},
+    "CIR_ASCORBYL_GLUCOSIDE_2020": {"title": "Safety Assessment of Ascorbyl Glucoside and Sodium Ascorbyl Glucoside as Used in Cosmetics", "year": 2020, "kind": "expert_panel_final_report", "url": "https://www.cir-safety.org/sites/default/files/ascorb092020FR.pdf", "locator": "PDF pages 2-3 (scope/use), 11 (discussion/conclusion)"},
+    "SCCS_KOJIC_2022": {"title": "SCCS/1637/21: Kojic acid, final opinion with June 2022 corrigendum", "year": 2022, "kind": "scientific_committee_final_opinion", "url": "https://health.ec.europa.eu/publications/kojic-acid_en"}
+  },
+  "references": [
+    {
+      "id": "alpha_arbutin", "name": "Alpha-arbutin", "name_zh": "α-熊果苷", "cas": "84380-01-8", "pubchem_cid": 158637,
+      "role": "PRIMARY_FUNCTIONAL_REFERENCE", "rationale": "Skin-lightening ingredient with a concentration- and product-specific SCCS assessment.",
+      "evidence_summary_zh": "SCCS 支持面霜不超过 2%、身体乳不超过 0.5% 的指定用途；需控制氢醌痕量。",
+      "concentration_contexts": [{"percent": 2, "product": "face cream", "basis": "SCCS assessment and EU Annex III restriction"}, {"percent": 0.5, "product": "body lotion", "basis": "SCCS assessment and EU Annex III restriction; outside current facial scenario"}],
+      "qualifications": ["Hydroquinone must be as low as possible and no higher than unavoidable trace levels.", "No universal 1 ppm acceptance limit is inferred from this source.", "Alpha and beta stereochemistry must remain distinct; identical model predictions do not prove biological equivalence."],
+      "source_ids": ["SCCS_ARBUTINS_2023", "EU_2024_996"]
+    },
+    {
+      "id": "niacinamide", "name": "Niacinamide", "name_zh": "烟酰胺", "cas": "98-92-0", "pubchem_cid": 936,
+      "role": "PRIMARY_FUNCTIONAL_REFERENCE", "rationale": "Skin-conditioning ingredient with human tolerability evidence and a primary pigmentation study using a different mechanism.",
+      "evidence_summary_zh": "CIR 2005 支持所评估的化妆品用法；报告包含最高 5% 的人体刺激性试验。2% 和 5% 的色素研究提供用途参照，均不是通用安全上限。",
+      "concentration_contexts": [{"percent": 3, "product": "reported cosmetic uses in 2005 assessment", "basis": "historical highest reported use; not a legal maximum"}, {"percent": 5, "product": "specific human use/cumulative irritation tests", "basis": "study concentration; not a universal safety limit"}, {"percent": 2, "product": "niacinamide plus sunscreen in pigmentation study", "basis": "primary clinical study; not an efficacy-matched comparison with glabridin"}],
+      "qualifications": ["2005 assessment is historical evidence; no claim that it is a newly issued 2026 review.", "Do not extrapolate assessed concentrations to 10-20% products.", "Some tested formulations had slight ocular irritation; do not assign an all-endpoint negative label.", "Niacinamide is not niacin; retain CAS 98-92-0."],
+      "source_ids": ["CIR_NIACINAMIDE_2005", "NIACINAMIDE_PIGMENT_2002"]
+    },
+    {
+      "id": "ascorbyl_glucoside", "name": "Ascorbyl glucoside", "name_zh": "抗坏血酸葡糖苷", "cas": "129499-78-1", "pubchem_cid": 54693473,
+      "role": "SUPPORTING_ANTIOXIDANT_SKIN_CONDITIONING_REFERENCE", "rationale": "Vitamin C derivative with a CIR assessment covering antioxidant and skin-conditioning cosmetic uses; complementary to the primary pigment references.",
+      "evidence_summary_zh": "CIR 支持报告所述用法和浓度；非喷雾面颈产品报告用量最高 5%。该评估未覆盖以皮肤脱色为目的的使用。",
+      "concentration_contexts": [{"percent": 5, "product": "non-spray face and neck skincare", "basis": "maximum reported use in CIR assessment, not a regulatory limit"}],
+      "qualifications": ["The CIR panel explicitly did not assess skin-bleaching use; do not present this as approval of a depigmenting claim.", "This is Ascorbyl Glucoside, not free ascorbic acid or Sodium Ascorbyl Glucoside.", "Reported use concentration is not an experimentally determined universal no-effect threshold."],
+      "source_ids": ["CIR_ASCORBYL_GLUCOSIDE_2020"]
+    },
+    {
+      "id": "kojic_acid", "name": "Kojic acid", "name_zh": "曲酸", "cas": "501-30-4", "pubchem_cid": 3840,
+      "role": "CONDITIONAL_FUNCTIONAL_REFERENCE", "rationale": "Same-purpose skin-lightening reference with an explicit safety assessment and restricted use conditions; retained even if hazard predictions are unfavorable.",
+      "evidence_summary_zh": "SCCS 最终意见支持不超过 1% 的指定美白用途；EU 2024/996 限面部和手部产品。皮肤屏障受损或去角质场景需额外关注。",
+      "concentration_contexts": [{"percent": 1, "product": "face and hand products", "basis": "EU Annex III restriction; SCCS topical safety assessment"}],
+      "qualifications": ["Not a universal non-sensitizing or non-genotoxic negative control.", "Weakened skin barrier in peeling products may increase absorption.", "Kojic acid esters/derivatives were not covered by the SCCS opinion.", "Use the final corrected 2022 opinion, not the superseded unfavorable 2021 preliminary conclusion."],
+      "source_ids": ["SCCS_KOJIC_2022", "EU_2024_996"]
+    },
+    {
+      "id": "beta_arbutin", "name": "Beta-arbutin", "name_zh": "β-熊果苷", "cas": "497-76-7", "pubchem_cid": 440936,
+      "role": "EXTENDED_FUNCTIONAL_STEREOISOMER_REFERENCE", "rationale": "Separate SCCS-assessed ingredient that extends the arbutin comparison and reveals whether structure representations distinguish stereoisomers.",
+      "evidence_summary_zh": "SCCS 支持面霜不超过 7% 的指定用途，并要求控制氢醌痕量；不能把 α/β 两者当作独立安全证据票数。",
+      "concentration_contexts": [{"percent": 7, "product": "face cream", "basis": "SCCS assessment and EU Annex III restriction"}],
+      "qualifications": ["Hydroquinone must be as low as possible and no higher than unavoidable trace levels.", "Not independent chemical-family coverage relative to alpha-arbutin.", "Identical connectivity is not identical stereochemistry or interchangeable formulation evidence."],
+      "source_ids": ["SCCS_ARBUTINS_2023", "EU_2024_996"]
+    }
+  ]
+}

@@ -81,6 +81,8 @@ def export_wiki() -> Path:
     for directory in ["results/tables", "results/summaries", "data/raw/admet_ai", "data/raw/skincare", "data/raw/admetlab", "data/raw/chemprop", "data/raw/vega", "data/raw/episuite", "data/raw/admetsar", "data/raw/ecosar", "data/raw/protox", "data/raw/maplight", "data/processed", "docs/methodology", "docs/provenance", "docs/limitations"]:
         shutil.copytree(ROOT / directory, destination / directory, dirs_exist_ok=True)
     shutil.copy2(ROOT / "data/skincare_exposure.csv", destination / "data/skincare_exposure.csv")
+    (destination / "data/compounds").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ROOT / "data/compounds/skincare_reference_panel.json", destination / "data/compounds/skincare_reference_panel.json")
     (destination / ".nojekyll").touch()
     return destination
 

@@ -1,0 +1,183 @@
+{
+  "started_utc": "2026-09-29T06:04:22.871716+00:00",
+  "completed_utc": "2026-09-29T06:04:24.481382+00:00",
+  "execution_host": "Matvision via SSH alias autodl",
+  "execution": "Fresh inference with existing verified checkpoints; no retraining or threshold tuning",
+  "panel_sha256": "3919b990eddb35c451897482d3d0ef2dbe285fa6490182ed6eb036773a94c6f2",
+  "structure_sources": [
+    {
+      "path": "data/raw/skincare/references/pubchem/alpha_arbutin.json",
+      "sha256": "f4eacb669dff3c3e456b089de52943433ae4bd13e4e61dd417509043e1de2537"
+    },
+    {
+      "path": "data/raw/skincare/references/pubchem/niacinamide.json",
+      "sha256": "66eab419148d78993e82aebadc812c6bce52ccb2b0d34fedaf805ebd695b162a"
+    },
+    {
+      "path": "data/raw/skincare/references/pubchem/ascorbyl_glucoside.json",
+      "sha256": "84a89f6648f17c6784f29d07dd767c5257ec7b0707f5460b2bd310a340e3bc03"
+    },
+    {
+      "path": "data/raw/skincare/references/pubchem/kojic_acid.json",
+      "sha256": "315c5c00a861e287935c668e8f65857ac9117d57820db1cfe311427ccd5713fb"
+    },
+    {
+      "path": "data/raw/skincare/references/pubchem/beta_arbutin.json",
+      "sha256": "eb98db5e13e077baaafca8508ce28d87a565fbf9ffe2bcebabe0c7731702e047"
+    }
+  ],
+  "checkpoints": [
+    {
+      "model": "ADMET-AI",
+      "path": "admet_classification/model_0.pt",
+      "sha256": "9a5fb298a6564e8ef739890c90b02e831521073f49eefd2310fb56cdb61a2378"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_classification/model_1.pt",
+      "sha256": "2bf047553eef397060af376e78dd4e990114df8428e05f734c4e4aca284280ca"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_classification/model_2.pt",
+      "sha256": "0e9d7eb3ff0b53bd2f20e43a75e0872c682b0ee27059dd50735c416d97a3fd24"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_classification/model_3.pt",
+      "sha256": "4b35cb5686f23c6e3e5a4c587a5c4dd79b7f1f46be26684260c0b78366145d58"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_classification/model_4.pt",
+      "sha256": "9fdac559e3058b5f7b03780f9c696223d27adb94c78f9eb9aba6154e2dbff492"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_regression/model_0.pt",
+      "sha256": "c709dc4526dc7f6cf39cea64190f63adbb2b95e280d34582c492fc53da64a1a4"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_regression/model_1.pt",
+      "sha256": "57e8011a180cddf8acf66f94f5b123023c3fed503e3870a2f3f6f5300a7f3c82"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_regression/model_2.pt",
+      "sha256": "05e8509fea4ddc4686c521d75ee2fe770113cb93f09a849a6378b0a0e3ce113e"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_regression/model_3.pt",
+      "sha256": "04b265ff444190247b159932ab2225afc844bae9552299bf1ddf99b336c28d71"
+    },
+    {
+      "model": "ADMET-AI",
+      "path": "admet_regression/model_4.pt",
+      "sha256": "b58c76493744edfb022e50e531a8ad82453bdf543c2195d878ecfd248795c7c8"
+    },
+    {
+      "model": "MapLight",
+      "path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_1.cbm",
+      "sha256": "b4eb761119fb53d8aab797f0092a500c5c664b00e697e931e0d2ecedb8472842"
+    },
+    {
+      "model": "MapLight",
+      "path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_2.cbm",
+      "sha256": "44f142b6af513c27980f24cf6fd4c16ee7c2eb950fcd08ad9a813e52330fe7e5"
+    },
+    {
+      "model": "MapLight",
+      "path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_3.cbm",
+      "sha256": "e99b006b0e65e3714d9105b94f9fc42173f7f87d196cbb76bba6ab5b674ec33d"
+    },
+    {
+      "model": "MapLight",
+      "path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_4.cbm",
+      "sha256": "97f7642c3efd6895f059518ef86f3aec87a31b543835ab16a5c1c762fa6f28c8"
+    },
+    {
+      "model": "MapLight",
+      "path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_5.cbm",
+      "sha256": "2aa46254225c98f65e5ecabdc4466191ea6ee3169dbab1049708869646634f77"
+    }
+  ],
+  "packages": {
+    "admet-ai": "2.0.1",
+    "chemprop": "2.3.1",
+    "torch": "2.8.0+cpu",
+    "rdkit": "2026.3.6",
+    "catboost": "1.2.8"
+  },
+  "selected_tasks_admet_ai": [
+    "AMES",
+    "Skin_Reaction",
+    "Carcinogens_Lagunin",
+    "Solubility_AqSolDB",
+    "Lipophilicity_AstraZeneca",
+    "NR-AR",
+    "NR-AR-LBD",
+    "NR-AhR",
+    "NR-Aromatase",
+    "NR-ER",
+    "NR-ER-LBD",
+    "NR-PPAR-gamma",
+    "SR-ARE",
+    "SR-ATAD5",
+    "SR-HSE",
+    "SR-MMP",
+    "SR-p53"
+  ],
+  "packaged_forward_pass_tasks": 41,
+  "maplight_tasks": [
+    "AMES"
+  ],
+  "seed": 20260928,
+  "compound_count": 6,
+  "prediction_rows": 108,
+  "member_prediction_rows": 540,
+  "membership_audit": [
+    {
+      "model": "MapLight",
+      "split": "train_val",
+      "dataset_sha256": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d",
+      "overlapping_ids_connectivity": [
+        "niacinamide"
+      ]
+    },
+    {
+      "model": "MapLight",
+      "split": "test",
+      "dataset_sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f",
+      "overlapping_ids_connectivity": [
+        "kojic_acid"
+      ]
+    },
+    {
+      "model": "ADMET-AI",
+      "training_membership": "NOT_AUDITED; do not treat this panel as independent validation"
+    }
+  ],
+  "glabridin_reproduction_max_abs_delta": {
+    "ADMET-AI": 4.7009277359677526e-08,
+    "MapLight": 0.0
+  },
+  "arbutin_stereochemistry_audit": {
+    "distinct_inchikeys": true,
+    "same_connectivity": true,
+    "maplight_features_identical": true,
+    "admet_ai_max_mean_difference": 0.03127583861351013
+  },
+  "calibrated_low_risk_threshold": null,
+  "safe_glabridin_concentration": null,
+  "actual_exposure_comparison": "NOT_AVAILABLE",
+  "limitations": [
+    "SD describes member spread, not a confidence interval.",
+    "Literature concentrations are not supplied as model inputs.",
+    "Scores must not be multiplied by concentration to estimate risk.",
+    "No new eye irritation or phototoxicity model predictions exist for this reference panel.",
+    "ADMETlab, admetSAR, VEGA and ProTox were not newly run for these references.",
+    "No formal applicability domain or independent calibration established."
+  ]
+}

@@ -1,0 +1,3782 @@
+[
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.32445845007896423
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.022053059190511703
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.029411884024739265
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.022039096802473068
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.6303902268409729
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.5267438888549805
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.5348464846611023
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.645932137966156
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.10639764368534088
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.8856621980667114
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.17075663805007935
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.6598742604255676
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.9696844220161438
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.6117918491363525
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.7353689670562744
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.3640837073326111
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.09830328077077866
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.03793061152100563
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.07710063457489014
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.016979187726974487
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.01115377526730299
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.0677163377404213
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.20717473328113556
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.008767340332269669
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.0583924762904644
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.041286367923021317
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.006724587641656399
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.0095973564311862
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.043598856776952744
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.381415456533432
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.04425516724586487
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.2340075671672821
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.0028043666388839483
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.011341534554958344
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.02439909428358078
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.0025284618604928255
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.002032655058428645
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.02895219437777996
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.0007537042838521302
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.01352350041270256
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.0021701480727642775
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.005063408054411411
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.0014638061402365565
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.0012863342417404056
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.41661685705184937
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.17404551804065704
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.055056121200323105
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.014088395982980728
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.041663963347673416
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.0003645231481641531
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.0005368842394091189
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.017025763168931007
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.11615759879350662
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.0008968597976490855
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.019210845232009888
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.005636930000036955
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.0011106351157650352
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.0002528020413592458
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.009003896266222
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.3972700834274292
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.45447108149528503
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.28529804944992065
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.013565083965659142
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.01671142503619194
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.028042538091540337
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.0020936033688485622
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.010057404637336731
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.05963382497429848
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.005085421726107597
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.0590251162648201
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.01154341734945774
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.013991530053317547
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.004534150939434767
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.017118485644459724
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.6091358065605164
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 0,
+    "value": 0.44892504811286926
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 0,
+    "value": 0.1024949699640274
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 0,
+    "value": 0.03829577937722206
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 0,
+    "value": 0.07186796516180038
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 0,
+    "value": 0.020298581570386887
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 0,
+    "value": 0.010802035219967365
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 0,
+    "value": 0.06008118391036987
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 0,
+    "value": 0.20004689693450928
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 0,
+    "value": 0.007935685105621815
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 0,
+    "value": 0.05808097869157791
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 0,
+    "value": 0.04398025944828987
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 0,
+    "value": 0.006568497978150845
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 0,
+    "value": 0.008901610039174557
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 0,
+    "value": 0.047979556024074554
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 0,
+    "value": 0.4114060401916504
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.3107052147388458
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.10805854201316833
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.033092524856328964
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.04424414783716202
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.321683406829834
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.3040704131126404
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.5693648457527161
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.647564709186554
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.1214367225766182
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.7318093776702881
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.12738478183746338
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.325668603181839
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.9198710918426514
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.3536345064640045
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.7714971899986267
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.31690776348114014
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.009135412983596325
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.013753279112279415
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.04521317407488823
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.011580768041312695
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.010722799226641655
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.06885240226984024
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.10334035754203796
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.006701869424432516
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.09228669106960297
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.020390791818499565
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.006814082618802786
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.034961502999067307
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.03807884082198143
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.2108490765094757
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.04468471556901932
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.09979292750358582
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.0018993103876709938
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.010248142294585705
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.004395849537104368
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.001112657249905169
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.0014718755846843123
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.029343850910663605
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.00041853406582958996
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.0056297071278095245
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.0014311315026134253
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.0026434287428855896
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.0009103856864385307
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.0014011346502229571
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.3613862097263336
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.14684779942035675
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.004643046762794256
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.006012990605086088
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.04485435038805008
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.0013092906447127461
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.001378618529997766
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.023738045245409012
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.07563919574022293
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.0005536114913411438
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.03374865651130676
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.006227368488907814
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.0013712778454646468
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.002350650727748871
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.011335738934576511
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.15770630538463593
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.27987992763519287
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.2549351453781128
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.008812204003334045
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.010394604876637459
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.02530026063323021
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.00279437517747283
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.016525873914361
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.049321871250867844
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.01502075046300888
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.1808728128671646
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.0171810332685709
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.04194103926420212
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.023943617939949036
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.046186599880456924
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.6535747647285461
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.3093506097793579
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 1,
+    "value": 0.010709285736083984
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 1,
+    "value": 0.013053689152002335
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 1,
+    "value": 0.04469088464975357
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 1,
+    "value": 0.013038327917456627
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 1,
+    "value": 0.0103699816390872
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 1,
+    "value": 0.06232941523194313
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 1,
+    "value": 0.10081102699041367
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 1,
+    "value": 0.006336750462651253
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 1,
+    "value": 0.08826935291290283
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 1,
+    "value": 0.01907053217291832
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 1,
+    "value": 0.006523605901747942
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 1,
+    "value": 0.03190314769744873
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 1,
+    "value": 0.034919265657663345
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 1,
+    "value": 0.223011314868927
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.2703450322151184
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.059908125549554825
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.002429694402962923
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.008992339484393597
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.6680189967155457
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.5982454419136047
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.44593384861946106
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.5215772986412048
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.03742482140660286
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.844374418258667
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.10496462881565094
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.5384864807128906
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.9727625250816345
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.4548814594745636
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.6943415999412537
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.5005078315734863
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.056183505803346634
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.04559706524014473
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.07659298181533813
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.02652803622186184
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.03418076038360596
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.10719988495111465
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.21065160632133484
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.006934174336493015
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.15807291865348816
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.047225356101989746
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.02416445128619671
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.05295860767364502
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.050634074956178665
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.6658125519752502
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.02360251359641552
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.17718906700611115
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.0021483369637280703
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.009727634489536285
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.007929369807243347
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.0020186949986964464
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.0011495266808196902
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.026642469689249992
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.0004197683010715991
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.003973607439547777
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.0004968160064890981
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.002485506935045123
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.0007954096072353423
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.0006830533966422081
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.2636137008666992
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.5041564106941223
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.011073951609432697
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.0543055459856987
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.07599160075187683
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.0008488188614137471
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.0036528287455439568
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.03289758414030075
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.10501277446746826
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.0011936528608202934
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.06622104346752167
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.015934541821479797
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.0036133427638560534
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.0021352008916437626
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.03633827343583107
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.6433473825454712
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.22556616365909576
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.27205690741539
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.011469569988548756
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.019749119877815247
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.10314236581325531
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.004909622482955456
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.013773084618151188
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.08224382996559143
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.006675321143120527
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.10502373427152634
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.013600951060652733
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.01591169275343418
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.017207743600010872
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.029580291360616684
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.41556984186172485
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.506710410118103
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 2,
+    "value": 0.06722631305456161
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 2,
+    "value": 0.03779926523566246
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 2,
+    "value": 0.07153954356908798
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 2,
+    "value": 0.03582955524325371
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 2,
+    "value": 0.033733345568180084
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 2,
+    "value": 0.08998460322618484
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 2,
+    "value": 0.19271068274974823
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 2,
+    "value": 0.006195999216288328
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 2,
+    "value": 0.15279515087604523
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 2,
+    "value": 0.04343652352690697
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 2,
+    "value": 0.02127203717827797
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 2,
+    "value": 0.06001419946551323
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 2,
+    "value": 0.04613751173019409
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 2,
+    "value": 0.6397882699966431
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.3353917598724365
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.030688924714922905
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.012726751156151295
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.0225689634680748
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.6657264828681946
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.6282817721366882
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.42055508494377136
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.6755241751670837
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.061294253915548325
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.7750505805015564
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.16690070927143097
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.6002212762832642
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.9475865960121155
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.4750185012817383
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.7773045897483826
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.27060467004776
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.0034252337645739317
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.030141353607177734
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.06045732647180557
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.04668327420949936
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.01608431525528431
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.05298849567770958
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.12320282310247421
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.007207116112112999
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.026997560635209084
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.020794657990336418
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.0017092793714255095
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.012968732975423336
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.016496017575263977
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.15034672617912292
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.02704266458749771
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.25206640362739563
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.0010473745642229915
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.012075324542820454
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.005106219090521336
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.0012271929299458861
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.0008122295839712024
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.03381675109267235
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.00018347290460951626
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.004068116191774607
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.000670294277369976
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.0013608457520604134
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.0002547393669374287
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.0004216203233227134
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.16031043231487274
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.27893343567848206
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.0004886583192273974
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.07317080348730087
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.05646480247378349
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.002671681810170412
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.003323076758533716
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.05035429447889328
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.1389743536710739
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.008229938335716724
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.02813931740820408
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.017852097749710083
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.0006730234017595649
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.0020183827728033066
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.03872554376721382
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.13550661504268646
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.6641974449157715
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.3015187382698059
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.015627503395080566
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.011511046439409256
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.03026340715587139
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.00293491268530488
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.011579365469515324
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.04929212108254433
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.007880105637013912
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.10776346176862717
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.014185003936290741
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.0428955964744091
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.00579666206613183
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.04822953790426254
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.7356283068656921
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.2580164074897766
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 3,
+    "value": 0.004357664845883846
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 3,
+    "value": 0.025169415399432182
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 3,
+    "value": 0.05708499997854233
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 3,
+    "value": 0.05195029452443123
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 3,
+    "value": 0.015147670172154903
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 3,
+    "value": 0.04646287113428116
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 3,
+    "value": 0.10985635966062546
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 3,
+    "value": 0.005363486707210541
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 3,
+    "value": 0.026809370145201683
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 3,
+    "value": 0.016444450244307518
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 3,
+    "value": 0.001571987639181316
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 3,
+    "value": 0.012264752760529518
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 3,
+    "value": 0.012560524977743626
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 3,
+    "value": 0.17253261804580688
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.24800534546375275
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.045172709971666336
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.01191889587789774
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.034925900399684906
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.43144306540489197
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.5365605354309082
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.5878762006759644
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.7751199007034302
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.05356672778725624
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.8090208768844604
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.08278816193342209
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.39941444993019104
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.9731228351593018
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.5093838572502136
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.7986788153648376
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.21291808784008026
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.012913238257169724
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.018737144768238068
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.0612441711127758
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.025731077417731285
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.014322717674076557
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.07451117783784866
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.20533661544322968
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.0016375863924622536
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.058284033089876175
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.0032383559737354517
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.002017433987930417
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.01851280778646469
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.020124759525060654
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.3346249461174011
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.019231624901294708
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.20399309694766998
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.0007751952507533133
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.010486201383173466
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.004859028849750757
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.000611815950833261
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.0009565941873006523
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.030494622886180878
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.0004366924404166639
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.003289505373686552
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.0009085048222914338
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.0018387861782684922
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.000300584826618433
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.0006331586046144366
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.24518387019634247
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.21878311038017273
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.0037349481135606766
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.026633135974407196
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.04212246090173721
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.002262749709188938
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.007163216359913349
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.06300324201583862
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.19121171534061432
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.0004269410273991525
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.08150925487279892
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.000609742128290236
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.0010097133927047253
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.0023771440610289574
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.022194573655724525
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.33335962891578674
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.28136128187179565
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.24774225056171417
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.0067374929785728455
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.009430301375687122
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.040004778653383255
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.007111620623618364
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.01802583783864975
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.07695445418357849
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.0117643466219306
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.12262913584709167
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.008749254047870636
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.024285947903990746
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.03505392000079155
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.03388232737779617
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.5602801442146301
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.2024540901184082
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "member": 4,
+    "value": 0.014114455319941044
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "member": 4,
+    "value": 0.014698881655931473
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "member": 4,
+    "value": 0.05502614006400108
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "member": 4,
+    "value": 0.02751212567090988
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "member": 4,
+    "value": 0.01400693878531456
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "member": 4,
+    "value": 0.06449990719556808
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "member": 4,
+    "value": 0.19165340065956116
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "member": 4,
+    "value": 0.001504995976574719
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "member": 4,
+    "value": 0.05707946792244911
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "member": 4,
+    "value": 0.0026840013451874256
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "member": 4,
+    "value": 0.0018254945753142238
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "member": 4,
+    "value": 0.018252409994602203
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "member": 4,
+    "value": 0.017012368887662888
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "member": 4,
+    "value": 0.34440845251083374
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": 3.9145917892456055
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": -4.709134101867676
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": -0.3615412712097168
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": -0.6335623264312744
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": -0.5240695476531982
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": -0.12300372123718262
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": -2.935856342315674
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": 0.15969371795654297
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": -0.8011841773986816
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": 0.37589240074157715
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 0,
+    "value": -0.21358489990234375
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 0,
+    "value": -0.6647951602935791
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": 3.8139257431030273
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -4.539382457733154
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": 0.34940171241760254
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -1.0316637754440308
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": -0.3124518394470215
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -0.19024014472961426
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": -0.6824033260345459
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -0.05826067924499512
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": -0.18652009963989258
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -0.362046480178833
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 1,
+    "value": 0.364446759223938
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 1,
+    "value": -0.9984183311462402
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": 3.5643422603607178
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": -3.9992358684539795
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": 0.3194316625595093
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": -1.1485706567764282
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": -0.42427945137023926
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": 0.22947263717651367
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": -1.7160704135894775
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": -1.2482092380523682
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": -0.37917160987854004
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": -0.3614029884338379
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 2,
+    "value": 0.2964291572570801
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 2,
+    "value": -1.0589746236801147
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": 3.2226881980895996
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": -3.983107089996338
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": -0.7828447818756104
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": -0.9878107309341431
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": -0.4471933841705322
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": 0.001461029052734375
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": -2.884718418121338
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": -0.4134330749511719
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": -0.45625972747802734
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": -0.13681936264038086
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 3,
+    "value": -0.6852219104766846
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 3,
+    "value": -1.0599526166915894
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": 3.401848316192627
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -4.346177577972412
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": -0.3295624256134033
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -0.6205642223358154
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": -0.4650702476501465
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -0.2712900638580322
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": -1.8294141292572021
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -0.41522884368896484
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": -0.33347105979919434
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -0.03557014465332031
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "member": 4,
+    "value": -0.41080498695373535
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "member": 4,
+    "value": -0.5781199932098389
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.2100241070766416
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.20608865292765507
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.09461506131162946
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.19310911991942808
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.16085275094605395
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 1,
+    "value": 0.20608865292765507
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.21124076328601263
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.23113406563639272
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.112014694226299
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.2512097437333903
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.1485990662400205
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 2,
+    "value": 0.23113406563639272
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.15093492568438394
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.19381932775838404
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.1130398906243878
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.18432839046331095
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.2045083026689697
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 3,
+    "value": 0.19381932775838404
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.2613362884502469
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.2016994821630092
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.11000369003572238
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.21999391120971834
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.1653254827851475
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 4,
+    "value": 0.2016994821630092
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.252320161822209
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.22805824532982222
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.10628081973344912
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.14684152888056637
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.19312363078363953
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "member": 5,
+    "value": 0.22805824532982222
+  }
+]

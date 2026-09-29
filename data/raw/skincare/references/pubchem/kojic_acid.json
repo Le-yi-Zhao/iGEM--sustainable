@@ -1,0 +1,17 @@
+{
+  "query_cas": "501-30-4",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/501-30-4/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 3840,
+          "MolecularFormula": "C6H6O4",
+          "MolecularWeight": "142.11",
+          "SMILES": "C1=C(OC=C(C1=O)O)CO",
+          "InChIKey": "BEJNERDRQOWKJM-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}
