@@ -1,0 +1,9 @@
+platform,selected_records,execution,status
+ADMET-AI,102,FRESH_CHECKPOINT_INFERENCE,PREDICTED; ingredient screening only
+admetSAR,114,SELECTED_FROM_VERIFIED_PRIOR_RUN,PREDICTED; ingredient screening only
+ADMETlab,54,SELECTED_FROM_VERIFIED_PRIOR_RUN,PREDICTED; ingredient screening only
+MapLight,6,FRESH_AMES_TRAINING,PREDICTED; ingredient screening only
+ProTox,18,SELECTED_FROM_VERIFIED_PRIOR_RUN,PREDICTED; ingredient screening only
+VEGA,60,SELECTED_FROM_VERIFIED_PRIOR_RUN,PREDICTED; ingredient screening only
+EPA EPI Suite,54,SELECTED_FROM_VERIFIED_PRIOR_RUN,ENVIRONMENT; native domain flags retained
+ECOSAR,118,SELECTED_FROM_VERIFIED_PRIOR_RUN,ENVIRONMENT; native domain flags retained

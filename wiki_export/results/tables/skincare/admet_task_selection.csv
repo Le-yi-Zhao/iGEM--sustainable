@@ -1,0 +1,42 @@
+task,endpoint,task_type,scope,active,reason
+AMES,Mutagenicity,classification,CORE_HAZARD,True,Dermal contact or genotoxic/carcinogenic hazard screening
+BBB_Martins,Blood-Brain Barrier Penetration,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Bioavailability_Ma,Oral Bioavailability,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP1A2_Veith,CYP1A2 Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP2C19_Veith,CYP2C19 Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP2C9_Substrate_CarbonMangels,CYP2C9 Substrate,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP2C9_Veith,CYP2C9 Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP2D6_Substrate_CarbonMangels,CYP2D6 Substrate,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP2D6_Veith,CYP2D6 Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP3A4_Substrate_CarbonMangels,CYP3A4 Substrate,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+CYP3A4_Veith,CYP3A4 Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Carcinogens_Lagunin,Carcinogenicity,classification,CORE_HAZARD,True,Dermal contact or genotoxic/carcinogenic hazard screening
+ClinTox,Clinical Toxicity,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+DILI,Drug Induced Liver Injury,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+HIA_Hou,Human Intestinal Absorption,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+NR-AR-LBD,Androgen Receptor (Ligand Binding Domain),classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-AR,Androgen Receptor (Full Length),classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-AhR,Aryl Hydrocarbon Receptor,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-Aromatase,Aromatase,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-ER-LBD,Estrogen Receptor (Ligand Binding Domain),classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-ER,Estrogen Receptor (Full Length),classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+NR-PPAR-gamma,Peroxisome Proliferator-Activated Receptor Gamma,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+PAMPA_NCATS,PAMPA Permeability,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Pgp_Broccatelli,P-glycoprotein Inhibition,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+SR-ARE,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+SR-ATAD5,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+SR-HSE,Heat Shock Factor Response Element,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+SR-MMP,Mitochondrial Membrane Potential,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+SR-p53,Tumor Protein p53,classification,MECHANISTIC_FOLLOWUP,True,Cell/ receptor activity only; preserve signals for exposure-led follow-up
+Skin_Reaction,Skin Reaction,classification,CORE_HAZARD,True,Dermal contact or genotoxic/carcinogenic hazard screening
+hERG,hERG Blocking,classification,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Caco2_Wang,Cell Effective Permeability,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Clearance_Hepatocyte_AZ,Drug Clearance (Hepatocyte),regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Clearance_Microsome_AZ,Drug Clearance (Microsome),regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Half_Life_Obach,Half Life,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+HydrationFreeEnergy_FreeSolv,Hydration Free Energy,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+LD50_Zhu,Acute Toxicity LD50,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Lipophilicity_AstraZeneca,Lipophilicity,regression,FORMULATION_CONTEXT,True,Solubility and partitioning context; not measured skin absorption
+PPBR_AZ,Plasma Protein Binding Rate,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"
+Solubility_AqSolDB,Aqueous Solubility,regression,FORMULATION_CONTEXT,True,Solubility and partitioning context; not measured skin absorption
+VDss_Lombardo,Volume of Distribution at Steady State,regression,NOT_IN_ROUTINE_SKINCARE_SCREEN,False,"Drug-disposition or organ-specific drug-screen endpoint; historical evidence retained, not waived as a hazard"

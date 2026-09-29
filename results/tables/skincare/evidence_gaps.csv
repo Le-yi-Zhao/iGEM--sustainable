@@ -1,0 +1,10 @@
+topic,status,reason
+Dermal absorption,WAITING_FOR_DATA,No measured skin absorption or validated formulation-specific model; Caco-2/PAMPA are not skin substitutes.
+Concentration and use,WAITING_FOR_DATA,"Final concentration, applied amount, frequency, area, rinse/leave-on and target population are needed."
+Formulation and local tolerance,WAITING_FOR_DATA,"Ingredient QSAR cannot validate finished-product irritation, sensitisation or ocular tolerance."
+Photo safety,PARTIAL,"admetSAR photo scores available; UV/visible spectrum, photostability and formulation testing are absent."
+Systemic safety margin,WAITING_FOR_DATA,"No systemic exposure dose or suitable point of departure; repeated-dose, reproductive and endocrine concerns are not waived."
+Purity and residuals,WAITING_FOR_DATA,"Pathway compounds are comparison candidates, not measured impurities; quantify purity, residual solvents and contaminants."
+Model calibration and controls,WAITING_FOR_DATA,No cosmetic-specific calibrated cutoff or independent positive/negative control panel. DrugBank is not a safe control set.
+Finished-product quality,WAITING_FOR_DATA,"Stability, preservation/microbial quality and packaging compatibility need formulation evidence."
+Benefit / efficacy,OUTSIDE_SAFETY_SCREEN,"No whitening, efficacy or skin-benefit claim is inferred from toxicity predictions."

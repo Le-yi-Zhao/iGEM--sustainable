@@ -41,6 +41,17 @@ def run(root: Path) -> Path:
     if (root / "data/raw/maplight/run_metadata.json").exists():
         status["modules"]["M8_maplight"] = {"status":"PARTIAL", "evidence":"data/raw/maplight/run_metadata.json", "reason":"Official feature/CatBoost recipe trained for three toxicity tasks with five seeds and held-out TDC evaluation; remaining tasks and GNN extension not run"}
         status["iteration_tasks"]["T6"] = {"status":"PARTIAL", "evidence":"results/tables/maplight_heldout_metrics.csv", "gap":"MapLight held-out TDC metrics and overlap audit available; independent GALATEA measurements and calibration curves remain absent."}
+    skincare_path = root / "results/summaries/skincare_scope.json"
+    if skincare_path.exists():
+        status["current_profile"] = json.loads(skincare_path.read_text())
+        for key, evidence, reason in [
+            ("M1_admet_ai", "data/processed/skincare/admet_ai_predictions.csv", "17 dermal-use tasks extracted from fresh shared forward passes; other 24 tasks are historical"),
+            ("M4_consensus", "results/tables/skincare/platform_comparison.csv", "Descriptive comparison only; no cosmetic-calibrated decision threshold or pooled vote"),
+            ("M8_maplight", "data/raw/skincare/maplight/run_metadata.json", "AMES-only five-seed training for current scope; prior DILI/hERG results are historical"),
+            ("M9_chemprop", "data/raw/skincare/chemprop/attribution_metadata.json", "Three relevant hazard endpoints, six compounds, five members; alternative baselines and causal validation absent")]:
+            status["modules"][key] = {"status":"PARTIAL", "evidence":evidence, "reason":reason}
+        status["iteration_tasks"]["T5"] = {"status":"PARTIAL", "evidence":"results/tables/skincare/chemprop_attribution_completeness.csv", "gap":"90 numerical checks; alternative baseline validation absent"}
+        status["iteration_tasks"]["T6"] = {"status":"PARTIAL", "evidence":"results/tables/skincare/maplight_heldout_metrics.csv", "gap":"AMES held-out evaluation; cosmetic-specific calibration and control compounds absent"}
     output = root / "results/summaries/analysis_status.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(status, indent=2) + "\n", encoding="utf-8")

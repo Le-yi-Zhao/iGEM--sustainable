@@ -1,0 +1,121 @@
+Found local copy...
+Training ames seed 1: 5821 train / 1457 test
+Completed ames seed 1
+Training ames seed 2: 5821 train / 1457 test
+Completed ames seed 2
+Training ames seed 3: 5821 train / 1457 test
+Completed ames seed 3
+Training ames seed 4: 5821 train / 1457 test
+Completed ames seed 4
+Training ames seed 5: 5821 train / 1457 test
+Completed ames seed 5
+{
+  "status": "COMPLETE_FOR_SELECTED_TASKS",
+  "official_repository": "https://github.com/maplightrx/MapLight-TDC",
+  "source_commit": "c249378c63232354d17083c83fe94fe728960a27",
+  "method": "official MapLight (without GNN) ECFP/Avalon/ErG/200-descriptor CatBoost recipe",
+  "selected_tasks": [
+    "ames"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "iterations": 1000,
+  "depth": 6,
+  "random_strength": 2,
+  "thread_count": 12,
+  "device": "CPU",
+  "missing_feature_policy": "CatBoost nan_mode=Min; infinite values become NaN; no row deletion and no imputation fitted on test data",
+  "feature_count": 2563,
+  "started_utc": "2026-09-29T03:27:40.901484+00:00",
+  "completed_utc": "2026-09-29T03:29:55.732792+00:00",
+  "packages": {
+    "catboost": "1.2.8",
+    "PyTDC": "0.4.1",
+    "rdkit": "2026.3.6",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.7.2"
+  },
+  "input_sha256": "a322ce1b00851b6d73ad593e8b4bd5d716b548fcbc3bc710174758e5224d12ab",
+  "checkpoints": [
+    {
+      "task": "ames",
+      "seed": 1,
+      "sha256": "b4eb761119fb53d8aab797f0092a500c5c664b00e697e931e0d2ecedb8472842",
+      "bytes": 1192680,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_1.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 2,
+      "sha256": "44f142b6af513c27980f24cf6fd4c16ee7c2eb950fcd08ad9a813e52330fe7e5",
+      "bytes": 1192048,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_2.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 3,
+      "sha256": "e99b006b0e65e3714d9105b94f9fc42173f7f87d196cbb76bba6ab5b674ec33d",
+      "bytes": 1191648,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_3.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 4,
+      "sha256": "97f7642c3efd6895f059518ef86f3aec87a31b543835ab16a5c1c762fa6f28c8",
+      "bytes": 1192576,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_4.cbm"
+    },
+    {
+      "task": "ames",
+      "seed": 5,
+      "sha256": "2aa46254225c98f65e5ecabdc4466191ea6ee3169dbab1049708869646634f77",
+      "bytes": 1192512,
+      "matvision_path": "/root/autodl-tmp/IGEM/work/maplight_skincare/ames_seed_5.cbm"
+    }
+  ],
+  "datasets": [
+    {
+      "task": "ames",
+      "split": "train_val",
+      "rows": 5821,
+      "sha256": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d",
+      "file": "data/raw/skincare/maplight/ames_train_val.csv"
+    },
+    {
+      "task": "ames",
+      "split": "test",
+      "rows": 1457,
+      "sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f",
+      "file": "data/raw/skincare/maplight/ames_test.csv"
+    },
+    {
+      "task": "ames",
+      "split": "train_val",
+      "undefined_feature_values": 8,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "ames",
+      "split": "test",
+      "undefined_feature_values": 12,
+      "infinite_feature_values": 0
+    },
+    {
+      "task": "ames",
+      "canonical_train_test_overlap": 0,
+      "project_ids_in_train": [],
+      "project_ids_in_test": []
+    }
+  ],
+  "limitations": [
+    "Selected tasks only; other MapLight endpoints and MapLight+GNN were not run.",
+    "RDKit/CatBoost versions differ from original publication; this is a recipe reproduction, not an exact leaderboard replication.",
+    "TDC test splits were not used for fitting, stopping or tuning. Overlap audit is reported; no independent GALATEA wet-lab validation.",
+    "Ensemble spread is not a calibrated confidence interval. No formal chemical applicability domain established."
+  ]
+}

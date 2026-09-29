@@ -1,0 +1,33 @@
+test_cached_rebuild_does_not_import_inference_dependencies (test_cache_only.CacheOnlyTests.test_cached_rebuild_does_not_import_inference_dependencies) ... ok
+test_admetsar_structure_mapping_and_domain (test_executed_models.ExecutedModelsTests.test_admetsar_structure_mapping_and_domain) ... ok
+test_attribution_completeness_and_members (test_executed_models.ExecutedModelsTests.test_attribution_completeness_and_members) ... ok
+test_ecosar_domain_edges_and_native_flags (test_executed_models.ExecutedModelsTests.test_ecosar_domain_edges_and_native_flags) ... ok
+test_fresh_checkpoint_provenance (test_executed_models.ExecutedModelsTests.test_fresh_checkpoint_provenance) ... ok
+test_maplight_heldout_protocol (test_executed_models.ExecutedModelsTests.test_maplight_heldout_protocol) ... ok
+test_protox_predicted_class_confidence (test_executed_models.ExecutedModelsTests.test_protox_predicted_class_confidence) ... ok
+test_raw_provenance_hashes (test_executed_models.ExecutedModelsTests.test_raw_provenance_hashes) ... ok
+test_vega_coverage_and_warnings (test_executed_models.ExecutedModelsTests.test_vega_coverage_and_warnings) ... ok
+test_counts_and_missing_members (test_panel_coverage.PanelCoverageTests.test_counts_and_missing_members) ... ok
+test_order_invariance_and_denominator (test_panel_coverage.PanelCoverageTests.test_order_invariance_and_denominator) ... ok
+test_provenance_tracks_exact_input_bytes (test_panel_coverage.PanelCoverageTests.test_provenance_tracks_exact_input_bytes) ... ok
+test_reference_set_validation (test_panel_coverage.PanelCoverageTests.test_reference_set_validation) ... ok
+test_unknown_duplicate_and_nonnested_panels_fail (test_panel_coverage.PanelCoverageTests.test_unknown_duplicate_and_nonnested_panels_fail) ... ok
+test_analysis_status_and_endpoint_harmonization (test_pipeline.PipelineTests.test_analysis_status_and_endpoint_harmonization) ... ok
+test_links (test_pipeline.PipelineTests.test_links) ... ok
+test_multi_model_outputs_and_figures (test_pipeline.PipelineTests.test_multi_model_outputs_and_figures) ... ok
+test_no_obsolete_light_fields (test_pipeline.PipelineTests.test_no_obsolete_light_fields) ... ok
+test_readiness_uses_allowed_states (test_pipeline.PipelineTests.test_readiness_uses_allowed_states) ... ok
+test_real_admet_ai_outputs (test_pipeline.PipelineTests.test_real_admet_ai_outputs) ... ok
+test_real_admetlab_outputs (test_pipeline.PipelineTests.test_real_admetlab_outputs) ... ok
+test_structure_audit_passes (test_pipeline.PipelineTests.test_structure_audit_passes) ... ok
+test_attribution_matches_current_inference_and_sums (test_skincare.SkincareTests.test_attribution_matches_current_inference_and_sums) ... ok
+test_mapping_rejects_duplicate_or_bad_values (test_skincare.SkincareTests.test_mapping_rejects_duplicate_or_bad_values) ... ok
+test_missing_inputs_never_become_safety_claims (test_skincare.SkincareTests.test_missing_inputs_never_become_safety_claims) ... ok
+test_scoped_training_and_evaluation (test_skincare.SkincareTests.test_scoped_training_and_evaluation) ... ok
+test_selected_predictions_and_historical_retention (test_skincare.SkincareTests.test_selected_predictions_and_historical_retention) ... ok
+test_selected_source_provenance (test_skincare.SkincareTests.test_selected_source_provenance) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.659s
+
+OK

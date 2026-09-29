@@ -11,8 +11,9 @@
       "evidence": "results/tables/compound_structure_audit.csv"
     },
     "M1_admet_ai": {
-      "status": "COMPLETE",
-      "evidence": "data/raw/admet_ai/admet_ai_predictions.csv"
+      "status": "PARTIAL",
+      "evidence": "data/processed/skincare/admet_ai_predictions.csv",
+      "reason": "17 dermal-use tasks extracted from fresh shared forward passes; other 24 tasks are historical"
     },
     "M2_vega": {
       "status": "PARTIAL",
@@ -26,8 +27,8 @@
     },
     "M4_consensus": {
       "status": "PARTIAL",
-      "evidence": "results/tables/multi_model_toxicity_consensus.csv",
-      "reason": "ADMET-AI and ADMETlab only; four definition-matched endpoints"
+      "evidence": "results/tables/skincare/platform_comparison.csv",
+      "reason": "Descriptive comparison only; no cosmetic-calibrated decision threshold or pooled vote"
     },
     "M5_admetlab": {
       "status": "PARTIAL",
@@ -45,13 +46,13 @@
     },
     "M8_maplight": {
       "status": "PARTIAL",
-      "evidence": "data/raw/maplight/run_metadata.json",
-      "reason": "Official feature/CatBoost recipe trained for three toxicity tasks with five seeds and held-out TDC evaluation; remaining tasks and GNN extension not run"
+      "evidence": "data/raw/skincare/maplight/run_metadata.json",
+      "reason": "AMES-only five-seed training for current scope; prior DILI/hERG results are historical"
     },
     "M9_chemprop": {
       "status": "PARTIAL",
-      "evidence": "data/raw/chemprop/attribution_metadata.json",
-      "reason": "Fresh official checkpoint inference plus five-member integrated gradients for four endpoints completed; baseline sensitivity and causal validation remain absent"
+      "evidence": "data/raw/skincare/chemprop/attribution_metadata.json",
+      "reason": "Three relevant hazard endpoints, six compounds, five members; alternative baselines and causal validation absent"
     },
     "M10_gp": {
       "status": "WAITING_FOR_DATA",
@@ -94,17 +95,117 @@
     },
     "T5": {
       "status": "PARTIAL",
-      "evidence": "results/tables/chemprop_attribution_completeness.csv",
-      "gap": "Five-member, four-endpoint atom/bond attribution completed; numerical completeness passed for 120 cases. Alternative baselines and causal validation remain unresolved."
+      "evidence": "results/tables/skincare/chemprop_attribution_completeness.csv",
+      "gap": "90 numerical checks; alternative baseline validation absent"
     },
     "T6": {
       "status": "PARTIAL",
-      "evidence": "results/tables/maplight_heldout_metrics.csv",
-      "gap": "MapLight held-out TDC metrics and overlap audit available; independent GALATEA measurements and calibration curves remain absent."
+      "evidence": "results/tables/skincare/maplight_heldout_metrics.csv",
+      "gap": "AMES held-out evaluation; cosmetic-specific calibration and control compounds absent"
     },
     "T7": {
       "status": "NOT_STARTED",
       "gap": "Measured-inventory calculation scaffold exists; traceable process scenario and sensitivity model not implemented."
     }
+  },
+  "current_profile": {
+    "profile": "skincare",
+    "product_assumption": "Provisional non-spray leave-on facial skincare; concentration and formulation not supplied",
+    "focus_compound": "15 / glabridin",
+    "guidance": "https://health.ec.europa.eu/publications/sccs-notes-guidance-testing-cosmetic-ingredients-and-their-safety-evaluation-12th-revision_en",
+    "regulatory_status": "Scientific scoping reference, not a jurisdiction-specific compliance assessment",
+    "selected_admet_tasks": 17,
+    "inactive_admet_tasks": 24,
+    "attribution_tasks": [
+      "AMES",
+      "Skin_Reaction",
+      "Carcinogens_Lagunin"
+    ],
+    "maplight_tasks": [
+      "ames"
+    ],
+    "records": 354,
+    "scope_selected_by": "intended use and endpoint meaning, not favorable prediction values",
+    "calibrated_low_risk_threshold": null,
+    "systemic_safety_margin": null,
+    "missing_exposure_data": true,
+    "cross_platform_probabilities_averaged": false,
+    "archive_policy": "Prior broad outputs remain unchanged for traceability; not current scheduled tasks",
+    "fresh_run_files": [
+      {
+        "path": "data/raw/skincare/admet_ai/admet_ai_predictions.csv",
+        "sha256": "8a229ee3cbadbab5c392e6093824a66105cf7924ec1007691300e6a9919599f7"
+      },
+      {
+        "path": "data/raw/skincare/admet_ai/ensemble_member_predictions.csv",
+        "sha256": "7ab6284ca6d81c0f98aa4e50d0c2b45a8583dac573f4f1c3e367c4e73e6bcd2f"
+      },
+      {
+        "path": "data/raw/skincare/admet_ai/run_metadata.json",
+        "sha256": "5308a11989064ed5abb31f293591c0da167fea4b696e0342559a5e7db21408b4"
+      },
+      {
+        "path": "data/raw/skincare/chemprop/attribution_metadata.json",
+        "sha256": "9926cb81e4bc1d738e4de43405b71a4639ed5485bfdcaf157efa8a109b3e8600"
+      },
+      {
+        "path": "data/raw/skincare/chemprop/integrated_gradients_members.csv",
+        "sha256": "5a159f7e2b3bc1429dae45727c9cbf323ee0b01f94aa0a6ac381a09a58a6ccb7"
+      },
+      {
+        "path": "data/raw/skincare/maplight/ames_test.csv",
+        "sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f"
+      },
+      {
+        "path": "data/raw/skincare/maplight/ames_test_predictions.csv",
+        "sha256": "cf18386df82e4c6022b7ceef1bac9c9dbb0a925fd36adfb2b3263880eff67f84"
+      },
+      {
+        "path": "data/raw/skincare/maplight/ames_train_val.csv",
+        "sha256": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d"
+      },
+      {
+        "path": "data/raw/skincare/maplight/member_predictions.csv",
+        "sha256": "3f099e7d54b5debe58f55961816454397fb1de029c10057901656a1a037e8541"
+      },
+      {
+        "path": "data/raw/skincare/maplight/run_metadata.json",
+        "sha256": "a528f57ce4efca23bb84d254436923bd8a74f3e067a9056c81d93637366654bd"
+      }
+    ],
+    "files": [
+      {
+        "path": "data/processed/admetsar_predictions.csv",
+        "sha256": "81df0306d8efcd01ca5321196caee1ac38143f170bb7cf6dbba066be50921bac"
+      },
+      {
+        "path": "data/processed/ecosar_predictions.csv",
+        "sha256": "eaf25c16de51028a88d0545cccde1cf56a148f9366de8bb6fcd66e70f99f8aa4"
+      },
+      {
+        "path": "data/processed/episuite_predictions.csv",
+        "sha256": "2c2e6eab24bf8a86244ee327dc4d4265d83c148ce0b59d5da768e2b70462d920"
+      },
+      {
+        "path": "data/processed/skincare/admet_ai_predictions.csv",
+        "sha256": "a2332303a7e19210ccc47d5d593d388438c8098d5aaf6f88518b1d989389622a"
+      },
+      {
+        "path": "data/processed/skincare/maplight_predictions.csv",
+        "sha256": "b7683c0329fab23de7a14f0ad4121bd5943a9037f99ef7806bd31620c0168551"
+      },
+      {
+        "path": "data/processed/vega_predictions.csv",
+        "sha256": "915e39c83ca6b413e9c24bbc1564c9b3bd1d4dcc70f2b0bfb7953d176740949f"
+      },
+      {
+        "path": "data/raw/admetlab/admetlab_predictions.csv",
+        "sha256": "fa8fd6767716fb1aaeae551ca1c6508e0125ff2854907c73714a3082676b1997"
+      },
+      {
+        "path": "data/raw/protox/protox_predictions.csv",
+        "sha256": "21579677022502f41cc543da8eadce7051d956ab0cf2138cbe50c3d6724ec629"
+      }
+    ]
   }
 }

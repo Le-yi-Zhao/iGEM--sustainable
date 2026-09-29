@@ -15,11 +15,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-RAW_DIR = ROOT / "data/raw/admet_ai"
+RAW_DIR = ROOT / "data/raw/skincare/admet_ai"
 RAW_WIDE = RAW_DIR / "admet_ai_predictions.csv"
 RAW_MEMBERS = RAW_DIR / "ensemble_member_predictions.csv"
 METADATA = RAW_DIR / "run_metadata.json"
-PROCESSED = ROOT / "data/processed/admet_ai_predictions.csv"
+PROCESSED = ROOT / "data/processed/skincare/admet_ai_predictions.csv"
 
 
 def confirmed_compounds() -> list[dict[str, str]]:
@@ -40,6 +40,7 @@ def run(force: bool = False) -> Path:
     from admet_ai.physchem import compute_physicochemical_properties
     from lightning import pytorch as pl
 
+    from analysis.models.skincare_scope import ACTIVE_AI
     started = datetime.now(timezone.utc).isoformat()
     pl.seed_everything(20260928, workers=True)
     torch.set_num_threads(4)
@@ -57,6 +58,10 @@ def run(force: bool = False) -> Path:
     ensemble_sizes: dict[str, int] = {}
 
     for tasks, members in zip(model.task_lists, model.model_lists, strict=True):
+        selected_indices = [i for i, task in enumerate(tasks) if task in ACTIVE_AI]
+        tasks = [tasks[i] for i in selected_indices]
+        if not tasks:
+            continue
         trainer = pl.Trainer(
             logger=False,
             enable_checkpointing=False,
@@ -68,6 +73,7 @@ def run(force: bool = False) -> Path:
         for member_index, member in enumerate(members):
             with torch.inference_mode():
                 values = torch.cat(trainer.predict(model=member, dataloaders=loader), dim=0).detach().cpu().numpy()
+            values = values[:, selected_indices]
             arrays.append(values)
             for compound, task_values in zip(compounds, values, strict=True):
                 for task_index, task in enumerate(tasks):
@@ -141,6 +147,10 @@ def run(force: bool = False) -> Path:
                     "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
                    for path in sorted(DEFAULT_MODELS_DIR.glob("**/*.pt"))]
     metadata = {
+        "profile": "skincare",
+        "selected_tasks": list(ACTIVE_AI),
+        "packaged_output_tasks": 41,
+        "selection_note": "Packaged multitask forward passes are shared; only 17 selected tasks are extracted and analyzed. No retraining or independent computation of excluded tasks is scheduled.",
         "execution_mode": "fresh checkpoint inference (not cache import)",
         "seed": 20260928,
         "checkpoint_manifest": checkpoints,

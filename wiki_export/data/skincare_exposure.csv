@@ -1,0 +1,11 @@
+field,value,unit,status
+product_type,,category,NOT_PROVIDED
+concentration,,percent_w_w,NOT_PROVIDED
+daily_product_amount,,g_day,NOT_PROVIDED
+application_frequency,,per_day,NOT_PROVIDED
+application_area,,cm2,NOT_PROVIDED
+dermal_absorption,,percent,NOT_PROVIDED
+formulation_vehicle,,description,NOT_PROVIDED
+target_population,,description,NOT_PROVIDED
+purity,,percent,NOT_PROVIDED
+point_of_departure,,mg_kg_day,NOT_PROVIDED

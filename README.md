@@ -4,6 +4,14 @@ This repository is the development and reproducibility package for the Tsinghua-
 
 The repository does not claim that LLPS improves sustainability until matched wet-lab measurements and process inventories are supplied.
 
+## Current scope: skincare ingredient evaluation
+
+Glabridin is intended for skincare. The default analysis now selects skin/eye contact, photo-related, genetic/carcinogenic hazard, formulation and environmental endpoints. Systemic and endocrine signals remain follow-up evidence because dermal exposure is not established. Oral/brain/ADME drug-development tasks are not routine current tasks.
+
+Fresh Matvision calculations cover 17 selected ADMET-AI tasks, three Chemprop attribution endpoints and five AMES MapLight models. Prior broad exports are historical and are preserved unchanged. Relevant prior web-service outputs are selected without claiming new service execution. No cosmetic-calibrated low-risk threshold, final concentration or measured dermal absorption is available.
+
+See [scope, methods and gaps](docs/methodology/skincare_evaluation.md), [task selection](results/tables/skincare/admet_task_selection.csv) and [current results](results/tables/skincare/evidence.csv). Rebuild with `python analysis/run_all.py`; force inference/training commands are in the methods. Current charts are under `figures/skincare/`.
+
 ## Reproduce the current package
 
 ```bash
@@ -15,7 +23,7 @@ python3 -m venv .venv
 
 `analysis/run_all.py` is cache-first. It validates structures, imports any available model exports, calculates only metrics supported by real inputs, regenerates code-based SVG figures, updates readiness JSON, rebuilds the site and validates local links. It does not call external model services by default.
 
-## Current evidence status
+## Historical broad execution and continuing process evidence
 
 - Six pathway compounds (9, 10, 11, 13, 14 and 15) have traceable PubChem structures and pass RDKit consistency checks.
 - The 2026 Nature Communications source workbook is cached unchanged and checksum-recorded.
@@ -60,4 +68,4 @@ cd /root/autodl-tmp/IGEM/GALATEA-sustainable
 /root/autodl-tmp/IGEM/.venv/bin/python -m unittest discover -s tests -v
 ```
 
-Fresh models were executed on Matvision on 28–29 September 2026. The earlier cached rebuild is archived as `matvision_cached_reproduction_20260928.json`; current versions are in `results/summaries/matvision_reproduction.json`. The default pipeline now regenerates four additional attribution/domain/environmental figures from those outputs. Force inference and training remain explicit separate commands. Prior ADMET-AI outputs are preserved under `data/raw/admet_ai/archive/`.
+Fresh models were executed on Matvision on 28–29 September 2026. The earlier cached rebuild is archived as `matvision_cached_reproduction_20260928.json`; current versions are in `results/summaries/matvision_reproduction.json`. The former broad pipeline generated four additional attribution/domain/environmental figures; current skincare rebuilds use the scoped figures described above. Force inference and training remain explicit separate commands. Prior ADMET-AI outputs are preserved under `data/raw/admet_ai/archive/`.

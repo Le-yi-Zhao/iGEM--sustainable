@@ -1,4 +1,4 @@
-"""Run the official MapLight feature + CatBoost recipe on three TDC toxicity tasks.
+"""Run the official MapLight feature + CatBoost recipe on the skincare-relevant TDC AMES task.
 
 Five CPU members use the official default 1000 iterations and depth 6. The fixed
 TDC test split is used only for evaluation, never for training or model selection.
@@ -21,14 +21,17 @@ ROOT=Path(__file__).resolve().parents[2]
 
 def run():
     started=datetime.now(timezone.utc).isoformat()
-    raw=ROOT/'data/raw/maplight';raw.mkdir(parents=True,exist_ok=True)
-    cache=ROOT.parent/'work/maplight';cache.mkdir(parents=True,exist_ok=True)
-    group=admet_group(path=str(cache/'tdc'))
+    raw=ROOT/'data/raw/skincare/maplight';raw.mkdir(parents=True,exist_ok=True)
+    cache=ROOT.parent/'work/maplight_skincare';cache.mkdir(parents=True,exist_ok=True)
+    group=admet_group(path=str(ROOT.parent/'work/maplight/tdc'))
     manifest=pd.read_csv(ROOT/'data/compounds/compound_manifest.csv')
     features=get_fingerprints(manifest.canonical_smiles)
     if not np.isfinite(features).all(): raise ValueError('Nonfinite project descriptors')
     member_rows=[]; validation=[]; checkpoints=[]; datasets=[]
-    for task in ['dili','herg','ames']:
+    from analysis.models.skincare_scope import MAPLIGHT_TASKS
+    (ROOT/'data/processed/skincare').mkdir(parents=True,exist_ok=True)
+    (ROOT/'results/tables/skincare').mkdir(parents=True,exist_ok=True)
+    for task in MAPLIGHT_TASKS:
         bench=group.get(task)
         train,test=bench['train_val'].copy(),bench['test'].copy()
         for name,frame in [('train_val',train),('test',test)]:
@@ -62,9 +65,9 @@ def run():
         datasets.append({'task':task,'canonical_train_test_overlap':len(train_keys&test_keys),'project_ids_in_train':[int(c.compound_id) for _,c in manifest.iterrows() if norm(c.canonical_smiles) in train_keys],'project_ids_in_test':[int(c.compound_id) for _,c in manifest.iterrows() if norm(c.canonical_smiles) in test_keys]})
     frame=pd.DataFrame(member_rows);frame.to_csv(raw/'member_predictions.csv',index=False)
     summary=frame.groupby(['compound_id','task']).positive_class_probability.agg(['mean','std','count']).reset_index();summary['evidence_type']='PREDICTED'
-    summary.to_csv(ROOT/'data/processed/maplight_predictions.csv',index=False)
-    pd.DataFrame(validation).to_csv(ROOT/'results/tables/maplight_heldout_metrics.csv',index=False)
-    metadata={'status':'COMPLETE_FOR_SELECTED_TASKS','official_repository':'https://github.com/maplightrx/MapLight-TDC','source_commit':(ROOT/'analysis/vendor/maplight_source_commit.txt').read_text().strip(),'method':'official MapLight (without GNN) ECFP/Avalon/ErG/200-descriptor CatBoost recipe','selected_tasks':['dili','herg','ames'],'seeds':[1,2,3,4,5],'iterations':1000,'depth':6,'random_strength':2,'thread_count':12,'device':'CPU','missing_feature_policy':'CatBoost nan_mode=Min; infinite values become NaN; no row deletion and no imputation fitted on test data','feature_count':features.shape[1],'started_utc':started,'completed_utc':datetime.now(timezone.utc).isoformat(),'packages':{p:version(p) for p in ['catboost','PyTDC','rdkit','numpy','scikit-learn']},'input_sha256':hashlib.sha256((ROOT/'data/compounds/compound_manifest.csv').read_bytes()).hexdigest(),'checkpoints':checkpoints,'datasets':datasets,'limitations':['Selected tasks only; other MapLight endpoints and MapLight+GNN were not run.','RDKit/CatBoost versions differ from original publication; this is a recipe reproduction, not an exact leaderboard replication.','TDC test splits were not used for fitting, stopping or tuning. Overlap audit is reported; no independent GALATEA wet-lab validation.','Ensemble spread is not a calibrated confidence interval. No formal chemical applicability domain established.']}
+    summary.to_csv(ROOT/'data/processed/skincare/maplight_predictions.csv',index=False)
+    pd.DataFrame(validation).to_csv(ROOT/'results/tables/skincare/maplight_heldout_metrics.csv',index=False)
+    metadata={'status':'COMPLETE_FOR_SELECTED_TASKS','official_repository':'https://github.com/maplightrx/MapLight-TDC','source_commit':(ROOT/'analysis/vendor/maplight_source_commit.txt').read_text().strip(),'method':'official MapLight (without GNN) ECFP/Avalon/ErG/200-descriptor CatBoost recipe','selected_tasks':list(MAPLIGHT_TASKS),'seeds':[1,2,3,4,5],'iterations':1000,'depth':6,'random_strength':2,'thread_count':12,'device':'CPU','missing_feature_policy':'CatBoost nan_mode=Min; infinite values become NaN; no row deletion and no imputation fitted on test data','feature_count':features.shape[1],'started_utc':started,'completed_utc':datetime.now(timezone.utc).isoformat(),'packages':{p:version(p) for p in ['catboost','PyTDC','rdkit','numpy','scikit-learn']},'input_sha256':hashlib.sha256((ROOT/'data/compounds/compound_manifest.csv').read_bytes()).hexdigest(),'checkpoints':checkpoints,'datasets':datasets,'limitations':['Selected tasks only; other MapLight endpoints and MapLight+GNN were not run.','RDKit/CatBoost versions differ from original publication; this is a recipe reproduction, not an exact leaderboard replication.','TDC test splits were not used for fitting, stopping or tuning. Overlap audit is reported; no independent GALATEA wet-lab validation.','Ensemble spread is not a calibrated confidence interval. No formal chemical applicability domain established.']}
     (raw/'run_metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     return metadata
 

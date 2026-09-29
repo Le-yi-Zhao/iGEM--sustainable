@@ -11,7 +11,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-TASKS = ['AMES', 'Skin_Reaction', 'DILI', 'hERG']
+from analysis.models.skincare_scope import ATTRIBUTION_TASKS
+TASKS = list(ATTRIBUTION_TASKS)
 
 def run(steps=128):
     import numpy as np
@@ -33,7 +34,8 @@ def run(steps=128):
     if len(selected) != 1: raise RuntimeError('Exactly one ensemble must contain all interpretation endpoints')
     names, members = selected[0]
     task_indices = [names.index(t) for t in TASKS]
-    fresh = pd.read_csv(ROOT/'data/raw/admet_ai/ensemble_member_predictions.csv', dtype={'compound_id':str})
+    fresh = pd.read_csv(ROOT/'data/raw/skincare/admet_ai/ensemble_member_predictions.csv', dtype={'compound_id':str})
+    (ROOT/'results/tables/skincare').mkdir(parents=True,exist_ok=True)
     records, checks = [], []
     for member_id, member in enumerate(members):
         member = member.cpu().eval()
@@ -82,13 +84,13 @@ def run(steps=128):
                     records.append({'compound_id':c.compound_id,'task':t,'ensemble_member':member_id,'atom_index':a,'element':mols[i].GetAtomWithIdx(a).GetSymbol(),'node_feature_contribution':float(node_values[j,offset+a]),'allocated_bond_contribution':float(edge_to_nodes[j,offset+a]),'attribution':float(atoms[j,offset+a]),'evidence_type':'PREDICTED'})
             offset+=mols[i].GetNumAtoms()
         print(f'Explained member {member_id}: {n} steps, max residual {np.max(np.abs(residual)):.6f}',flush=True)
-    raw=ROOT/'data/raw/chemprop';raw.mkdir(parents=True,exist_ok=True)
+    raw=ROOT/'data/raw/skincare/chemprop';raw.mkdir(parents=True,exist_ok=True)
     pd.DataFrame(records).to_csv(raw/'integrated_gradients_members.csv',index=False)
-    pd.DataFrame(checks).to_csv(ROOT/'results/tables/chemprop_attribution_completeness.csv',index=False)
+    pd.DataFrame(checks).to_csv(ROOT/'results/tables/skincare/chemprop_attribution_completeness.csv',index=False)
     frame=pd.DataFrame(records)
     summary=frame.groupby(['compound_id','task','atom_index','element'],sort=False).attribution.agg(['mean','std','count']).reset_index()
-    summary.to_csv(ROOT/'results/tables/chemprop_atom_attribution.csv',index=False)
-    metadata={'status':'COMPLETE' if all(c['passes_0_005'] for c in checks) else 'PARTIAL','method':'trapezoidal integrated gradients of atom and directed-bond features; fixed topology','baseline':'all atom/bond features set to zero with original graph topology retained','bond_allocation':'each directed-edge contribution split equally between its two endpoint atoms','seed':20260928,'endpoints':TASKS,'members':len(members),'molecules':len(mols),'completeness_tolerance':0.005,'max_absolute_completeness_residual':max(abs(c['completeness_residual']) for c in checks),'forward_pass_matches_fresh_predictions':True,'started_utc':started,'completed_utc':datetime.now(timezone.utc).isoformat(),'evidence_type':'PREDICTED','input_sha256':hashlib.sha256((ROOT/'data/compounds/compound_manifest.csv').read_bytes()).hexdigest(),'prediction_run':'data/raw/admet_ai/run_metadata.json','limitations':['Zero features are an out-of-distribution mathematical baseline, not a physical molecule.','Graph topology is held fixed; contributions explain features conditional on connectivity.','Ensemble standard deviation is model spread, not a confidence interval.','Numerical completeness checks do not validate biological causality.','Not a causal toxicophore or proof of safety.']}
+    summary.to_csv(ROOT/'results/tables/skincare/chemprop_atom_attribution.csv',index=False)
+    metadata={'status':'COMPLETE' if all(c['passes_0_005'] for c in checks) else 'PARTIAL','method':'trapezoidal integrated gradients of atom and directed-bond features; fixed topology','baseline':'all atom/bond features set to zero with original graph topology retained','bond_allocation':'each directed-edge contribution split equally between its two endpoint atoms','seed':20260928,'endpoints':TASKS,'members':len(members),'molecules':len(mols),'completeness_tolerance':0.005,'max_absolute_completeness_residual':max(abs(c['completeness_residual']) for c in checks),'forward_pass_matches_fresh_predictions':True,'started_utc':started,'completed_utc':datetime.now(timezone.utc).isoformat(),'evidence_type':'PREDICTED','input_sha256':hashlib.sha256((ROOT/'data/compounds/compound_manifest.csv').read_bytes()).hexdigest(),'prediction_run':'data/raw/skincare/admet_ai/run_metadata.json','limitations':['Zero features are an out-of-distribution mathematical baseline, not a physical molecule.','Graph topology is held fixed; contributions explain features conditional on connectivity.','Ensemble standard deviation is model spread, not a confidence interval.','Numerical completeness checks do not validate biological causality.','Not a causal toxicophore or proof of safety.']}
     (raw/'attribution_metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     return metadata
 
