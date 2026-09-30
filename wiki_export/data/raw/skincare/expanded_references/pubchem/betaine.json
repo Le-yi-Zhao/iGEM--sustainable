@@ -1,0 +1,18 @@
+{
+  "query_cas": "107-43-7",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/107-43-7/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "retrieved_utc": "2026-09-30T05:33:06.492990+00:00",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 247,
+          "MolecularFormula": "C5H11NO2",
+          "MolecularWeight": "117.15",
+          "SMILES": "C[N+](C)(C)CC(=O)[O-]",
+          "InChIKey": "KWIUHFFTVRNATP-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

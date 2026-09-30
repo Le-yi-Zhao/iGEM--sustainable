@@ -1,0 +1,61 @@
+﻿figure,model,compound_id,endpoint,value,unit,warning,source
+environmental_fate,EPI Suite,9,Predicted Log Kow,3.7546995,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,10,Predicted Log Kow,6.1075993,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,11,Predicted Log Kow,5.8979,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,13,Predicted Log Kow,3.1936,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,14,Predicted Log Kow,5.5464997,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,15,Predicted Log Kow,5.3368,log10 比值,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,9,"Predicted Water Solubility, WSKow (mg/L)",41.89596176147461,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,10,"Predicted Water Solubility, WSKow (mg/L)",0.16362568736076355,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,11,"Predicted Water Solubility, WSKow (mg/L)",0.25411567091941833,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,13,"Predicted Water Solubility, WSKow (mg/L)",151.5304412841797,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,14,"Predicted Water Solubility, WSKow (mg/L)",0.5982373356819153,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,15,"Predicted Water Solubility, WSKow (mg/L)",0.9288437962532043,mg/L，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,9,Bioconcentration Factor (L/kg wet-wt),139.43,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,10,Bioconcentration Factor (L/kg wet-wt),4975.01,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,11,Bioconcentration Factor (L/kg wet-wt),3617.72,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,13,Bioconcentration Factor (L/kg wet-wt),59.45,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,14,Bioconcentration Factor (L/kg wet-wt),2121.19,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,15,Bioconcentration Factor (L/kg wet-wt),1542.48,L/kg 湿重，对数坐标,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,9,BioWin6 (MITI Non-Linear Model Prediction),0.18266794085502625,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,10,BioWin6 (MITI Non-Linear Model Prediction),0.08552490919828415,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,11,BioWin6 (MITI Non-Linear Model Prediction),0.02816607616841793,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,13,BioWin6 (MITI Non-Linear Model Prediction),0.14971774816513062,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,14,BioWin6 (MITI Non-Linear Model Prediction),0.06862634420394897,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+environmental_fate,EPI Suite,15,BioWin6 (MITI Non-Linear Model Prediction),0.02232419140636921,模型分数，不是降解率,适用域未导出,data/processed/episuite_predictions.csv
+aquatic_toxicity,VEGA,9,ALGAE_EC50,8.22,mg/L,MODERATE reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,10,ALGAE_EC50,0.3306,mg/L,LOW reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,11,ALGAE_EC50,0.7839,mg/L,LOW reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,13,ALGAE_EC50,9.0,mg/L,MODERATE reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,14,ALGAE_EC50,0.8883,mg/L,LOW reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,15,ALGAE_EC50,1.34,mg/L,LOW reliability; MW warning=True,data/raw/vega/reports/ALGAE_EC50.txt
+aquatic_toxicity,VEGA,9,DAPHNIA_EC50,2.48,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,10,DAPHNIA_EC50,1.97,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,11,DAPHNIA_EC50,3.05,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,13,DAPHNIA_EC50,2.53,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,14,DAPHNIA_EC50,1.56,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,15,DAPHNIA_EC50,2.48,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/DAPHNIA_EC50.txt
+aquatic_toxicity,VEGA,9,FISH_LC50,5.21,mg/L,LOW reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+aquatic_toxicity,VEGA,10,FISH_LC50,1.5,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+aquatic_toxicity,VEGA,11,FISH_LC50,2.51,mg/L,LOW reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+aquatic_toxicity,VEGA,13,FISH_LC50,4.05,mg/L,LOW reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+aquatic_toxicity,VEGA,14,FISH_LC50,2.2,mg/L,MODERATE reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+aquatic_toxicity,VEGA,15,FISH_LC50,2.54,mg/L,LOW reliability; MW warning=False,data/raw/vega/reports/FISH_LC50.txt
+ecosar_screening,ECOSAR Neutral Organics,9,Fish 96-hr LC50,5.939599990844727,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,10,Fish 96-hr LC50,0.05722469463944435,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,11,Fish 96-hr LC50,0.08776776492595673,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,13,Fish 96-hr LC50,17.976787567138672,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,14,Fish 96-hr LC50,0.1750786453485489,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,15,Fish 96-hr LC50,0.26845625042915344,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,9,Daphnid 48-hr LC50,3.9657065868377686,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,10,Daphnid 48-hr LC50,0.04747863858938217,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,11,Daphnid 48-hr LC50,0.07142344862222672,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,13,Daphnid 48-hr LC50,11.39660358428955,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,14,Daphnid 48-hr LC50,0.13792641460895538,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,15,Daphnid 48-hr LC50,0.20743367075920105,mg/L,aboveLogKowCutoff; EXCEEDS_MAX_LOGKOW,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,9,Green Algae 96-hr EC50,5.772310256958008,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,10,Green Algae 96-hr EC50,0.169683039188385,mg/L,aboveWaterSolubility; SOURCE_FLAG_PRESENT,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,11,Green Algae 96-hr EC50,0.2356201410293579,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,13,Green Algae 96-hr EC50,13.389805793762207,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,14,Green Algae 96-hr EC50,0.39788463711738586,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv
+ecosar_screening,ECOSAR Neutral Organics,15,Green Algae 96-hr EC50,0.5523576736450195,mg/L,; NO_EXCEEDANCE_DETECTED_NOT_DOMAIN_CERTIFIED,data/processed/ecosar_predictions.csv

@@ -1,0 +1,18 @@
+{
+  "query_cas": "59-02-9",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/59-02-9/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "retrieved_utc": "2026-09-30T05:33:11.812339+00:00",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 14985,
+          "MolecularFormula": "C29H50O2",
+          "MolecularWeight": "430.7",
+          "SMILES": "CC1=C(C2=C(CC[C@@](O2)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C(=C1O)C)C",
+          "InChIKey": "GVJHHUAWPYXKBD-IEOSBIPESA-N"
+        }
+      ]
+    }
+  }
+}

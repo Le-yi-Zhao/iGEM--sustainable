@@ -1,0 +1,18 @@
+{
+  "query_cas": "97-59-6",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/97-59-6/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "retrieved_utc": "2026-09-30T05:33:03.946415+00:00",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 204,
+          "MolecularFormula": "C4H6N4O3",
+          "MolecularWeight": "158.12",
+          "SMILES": "C1(C(=O)NC(=O)N1)NC(=O)N",
+          "InChIKey": "POJWUDADGALRAB-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

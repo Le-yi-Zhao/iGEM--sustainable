@@ -1,0 +1,50 @@
+{
+  "new_environment_resource_figures": 7,
+  "new_cosmetic_figures": 2,
+  "environment_compounds": [
+    "9",
+    "10",
+    "11",
+    "13",
+    "14",
+    "15"
+  ],
+  "new_cosmetic_reference_environment_predictions": false,
+  "environment_source": "Existing verified exports; no new environmental model inference in this update",
+  "actual_resource_results": null,
+  "resource_intensity_formula": "batch_resource_ratio / pure_product_ratio",
+  "solvent_formula": "(1 - effective_recovery_fraction) / pure_product_ratio",
+  "solvent_assumptions": [
+    "steady state",
+    "same gross batch solvent demand",
+    "usable recovered solvent",
+    "no recovery energy or startup inventory included"
+  ],
+  "literature_counts": {
+    "可再生／植物资源": {
+      "any_match": 23,
+      "title_match": 11
+    },
+    "水与废水": {
+      "any_match": 3,
+      "title_match": 2
+    },
+    "溶剂使用": {
+      "any_match": 35,
+      "title_match": 1
+    },
+    "能量与碳排放": {
+      "any_match": 1,
+      "title_match": 0
+    },
+    "废物与副产物利用": {
+      "any_match": 1,
+      "title_match": 1
+    },
+    "可持续性／生命周期": {
+      "any_match": 23,
+      "title_match": 12
+    }
+  },
+  "literal_counts_are_fulltext_search": false
+}

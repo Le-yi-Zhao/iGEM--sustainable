@@ -26,7 +26,7 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8')
 
 
-def predict():
+def predict(panel_path=PANEL, raw_dir=RAW, result_path=RESULT):
     import numpy as np
     import pandas as pd
     import torch
@@ -40,13 +40,13 @@ def predict():
     from analysis.vendor.maplight import get_fingerprints
 
     started = datetime.now(timezone.utc).isoformat()
-    panel = json.loads(PANEL.read_text())
+    panel = json.loads(panel_path.read_text())
     rows = list(csv.DictReader((ROOT/'data/compounds/compound_manifest.csv').open()))
     target = next(r for r in rows if r['compound_id'] == '15')
     compounds = [{'id': 'glabridin', 'name': 'Glabridin', 'name_zh': '光甘草定', 'smiles': target['canonical_smiles'], 'inchikey': target['inchikey'], 'role': 'TARGET'}]
     structure_sources = []
     for ref in panel['references']:
-        source = RAW/'pubchem'/f"{ref['id']}.json"
+        source = raw_dir/'pubchem'/f"{ref['id']}.json"
         doc = json.loads(source.read_text())
         props = doc['response']['PropertyTable']['Properties']
         assert doc['query_cas'] == ref['cas'] and len(props) == 1
@@ -84,14 +84,14 @@ def predict():
             for c, row in zip(compounds, pred, strict=True):
                 members.extend({'id': c['id'], 'model': 'ADMET-AI', 'task': t, 'member': member_id, 'value': float(v)} for t, v in zip(selected, row, strict=True))
         values = np.stack(values)
-        assert np.isfinite(values).all() and values.shape == (5, 6, len(selected))
+        assert np.isfinite(values).all() and values.shape == (5, len(compounds), len(selected))
         for i, c in enumerate(compounds):
             for j, t in enumerate(selected):
                 summary.append({'id': c['id'], 'model': 'ADMET-AI', 'task': t, 'mean': float(values[:, i, j].mean()), 'sd': float(values[:, i, j].std(ddof=1)), 'n_members': 5, 'evidence_type': 'PREDICTED'})
     checkpoints = [{'model': 'ADMET-AI', 'path': str(p.relative_to(DEFAULT_MODELS_DIR)), 'sha256': digest(p)} for p in sorted(DEFAULT_MODELS_DIR.glob('**/*.pt'))]
     old_ai = json.loads((ROOT/'data/raw/skincare/admet_ai/run_metadata.json').read_text())
     assert {c['path']: c['sha256'] for c in checkpoints} == {c['path']: c['sha256'] for c in old_ai['checkpoint_manifest']}
-    print('ADMET-AI completed for all six structures and 17 selected tasks.', flush=True)
+    print(f'ADMET-AI completed for {len(compounds)} structures and 17 selected tasks.', flush=True)
 
     features = get_fingerprints(pd.Series(smiles))
     assert np.isfinite(features).all()
@@ -126,12 +126,17 @@ def predict():
     assert ai_delta < 1e-5 and map_delta < 1e-10
     arbutin_indices = [next(i for i, c in enumerate(compounds) if c['id'] == k) for k in ['alpha_arbutin', 'beta_arbutin']]
     arbutin_ai_delta = max(abs(next(r['mean'] for r in summary if r['id'] == 'alpha_arbutin' and r['model'] == 'ADMET-AI' and r['task'] == t) - next(r['mean'] for r in summary if r['id'] == 'beta_arbutin' and r['model'] == 'ADMET-AI' and r['task'] == t)) for t in ACTIVE_AI)
-    metadata = {'started_utc': started, 'completed_utc': datetime.now(timezone.utc).isoformat(), 'execution_host': 'Matvision via SSH alias autodl', 'execution': 'Fresh inference with existing verified checkpoints; no retraining or threshold tuning', 'panel_sha256': digest(PANEL), 'structure_sources': structure_sources, 'checkpoints': checkpoints, 'packages': {p: importlib.metadata.version(p) for p in ['admet-ai', 'chemprop', 'torch', 'rdkit', 'catboost']}, 'selected_tasks_admet_ai': list(ACTIVE_AI), 'packaged_forward_pass_tasks': 41, 'maplight_tasks': ['AMES'], 'seed': 20260928, 'compound_count': len(compounds), 'prediction_rows': len(summary), 'member_prediction_rows': len(members), 'membership_audit': audit, 'glabridin_reproduction_max_abs_delta': {'ADMET-AI': ai_delta, 'MapLight': float(map_delta)}, 'arbutin_stereochemistry_audit': {'distinct_inchikeys': True, 'same_connectivity': True, 'maplight_features_identical': bool(np.array_equal(features[arbutin_indices[0]], features[arbutin_indices[1]])), 'admet_ai_max_mean_difference': arbutin_ai_delta}, 'calibrated_low_risk_threshold': None, 'safe_glabridin_concentration': None, 'actual_exposure_comparison': 'NOT_AVAILABLE', 'limitations': ['SD describes member spread, not a confidence interval.', 'Literature concentrations are not supplied as model inputs.', 'Scores must not be multiplied by concentration to estimate risk.', 'No new eye irritation or phototoxicity model predictions exist for this reference panel.', 'ADMETlab, admetSAR, VEGA and ProTox were not newly run for these references.', 'No formal applicability domain or independent calibration established.']}
-    assert len(summary) == 108 and len(members) == 540
-    write_json(RAW/'structures.json', compounds)
-    write_json(RAW/'member_predictions.json', members)
-    write_json(RAW/'run_metadata.json', metadata)
-    write_json(RESULT, summary)
+    metadata = {'started_utc': started, 'completed_utc': datetime.now(timezone.utc).isoformat(), 'execution_host': 'Matvision via SSH alias autodl', 'execution': 'Fresh inference with existing verified checkpoints; no retraining or threshold tuning', 'panel_sha256': digest(panel_path), 'structure_sources': structure_sources, 'checkpoints': checkpoints, 'packages': {p: importlib.metadata.version(p) for p in ['admet-ai', 'chemprop', 'torch', 'rdkit', 'catboost']}, 'selected_tasks_admet_ai': list(ACTIVE_AI), 'packaged_forward_pass_tasks': 41, 'maplight_tasks': ['AMES'], 'seed': 20260928, 'compound_count': len(compounds), 'prediction_rows': len(summary), 'member_prediction_rows': len(members), 'membership_audit': audit, 'glabridin_reproduction_max_abs_delta': {'ADMET-AI': ai_delta, 'MapLight': float(map_delta)}, 'arbutin_stereochemistry_audit': {'distinct_inchikeys': True, 'same_connectivity': True, 'maplight_features_identical': bool(np.array_equal(features[arbutin_indices[0]], features[arbutin_indices[1]])), 'admet_ai_max_mean_difference': arbutin_ai_delta}, 'calibrated_low_risk_threshold': None, 'safe_glabridin_concentration': None, 'actual_exposure_comparison': 'NOT_AVAILABLE', 'limitations': ['SD describes member spread, not a confidence interval.', 'Literature concentrations are not supplied as model inputs.', 'Scores must not be multiplied by concentration to estimate risk.', 'No new eye irritation or phototoxicity model predictions exist for this reference panel.', 'ADMETlab, admetSAR, VEGA and ProTox were not newly run for these references.', 'No formal applicability domain or independent calibration established.']}
+    metadata['panel_path'] = str(panel_path.relative_to(ROOT))
+    metadata['panel_frozen_utc'] = panel.get('frozen_utc')
+    if metadata['panel_frozen_utc']:
+        assert datetime.fromisoformat(metadata['panel_frozen_utc']) < datetime.fromisoformat(started)
+    assert len(summary) == len(compounds)*18 and len(members) == len(summary)*5
+    assert len({(r['id'],r['model'],r['task']) for r in summary}) == len(summary)
+    write_json(raw_dir/'structures.json', compounds)
+    write_json(raw_dir/'member_predictions.json', members)
+    write_json(raw_dir/'run_metadata.json', metadata)
+    write_json(result_path, summary)
     print(json.dumps(metadata, ensure_ascii=False, indent=2), flush=True)
 
 
@@ -201,7 +206,15 @@ def render_html(root, table):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--predict', action='store_true')
+    parser.add_argument('--expanded', action='store_true', help='Run the frozen 15-reference panel; use with --predict')
     args = parser.parse_args()
-    if args.predict:
-        predict()
-    build_report()
+    if args.expanded:
+        if not args.predict:
+            parser.error('--expanded requires --predict; run analysis/run_all.py to rebuild cached tables')
+        predict(ROOT/'data/compounds/skincare_reference_panel_expanded.json',
+                ROOT/'data/raw/skincare/expanded_references',
+                ROOT/'results/tables/skincare/expanded_reference_predictions.json')
+    else:
+        if args.predict:
+            predict()
+        build_report()

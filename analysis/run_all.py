@@ -58,6 +58,9 @@ def main() -> int:
     analysis_status.run(ROOT); completed.append("M0-M14 analysis status")
     resource_scenarios.run(ROOT); wiki_zh.run(ROOT); completed.append("Chinese evidence figures and conditional resource analysis")
     literature_content.run(ROOT); completed.append("Eight literature content figures")
+    from analysis import expanded_dashboard
+    from analysis.plotting import expanded_analysis
+    expanded_dashboard.run(ROOT); expanded_analysis.run(ROOT); completed.append("Expanded reference tables and environment/resource figures")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")

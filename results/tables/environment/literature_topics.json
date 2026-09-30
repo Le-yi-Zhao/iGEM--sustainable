@@ -1,0 +1,654 @@
+{
+  "source_sha256_uncompressed": "e3d9939c72c38013e17a23867c3be71bc984613b93c065fd623b01ba12dd4314",
+  "record_count": 20567,
+  "doi_count": 1397,
+  "quality_filter_applied": false,
+  "text_fields": [
+    "title_clean",
+    "primary_result_evidence",
+    "best_enzyme_name_evidence",
+    "best_main_product_name_evidence",
+    "best_reaction_system_type_evidence",
+    "best_llps_component_evidence",
+    "catalytic_efficiency_fold_change_evidence"
+  ],
+  "rules": {
+    "可再生／植物资源": "renewable|plant.based|plant biomass|agricultural (?:waste|residue)|lignocellulos|licorice root|liquorice root",
+    "水与废水": "wastewater|waste water|water consumption|water use|water footprint|aqueous effluent",
+    "溶剂使用": "solvent|ethanol extract|methanol extract|ethyl acetate extract",
+    "能量与碳排放": "energy consum|energy efficien|energy demand|electricity|carbon footprint|greenhouse gas|carbon emission",
+    "废物与副产物利用": "waste.valori|waste.utiliz|waste.utilis|by.product.valori|by.product.utiliz|by.product.utilis|waste treatment|waste stream",
+    "可持续性／生命周期": "sustainab|life.cycle assess|environmental impact|green extraction|green chemistr"
+  },
+  "counts": {
+    "可再生／植物资源": {
+      "any_match": 23,
+      "title_match": 11
+    },
+    "水与废水": {
+      "any_match": 3,
+      "title_match": 2
+    },
+    "溶剂使用": {
+      "any_match": 35,
+      "title_match": 1
+    },
+    "能量与碳排放": {
+      "any_match": 1,
+      "title_match": 0
+    },
+    "废物与副产物利用": {
+      "any_match": 1,
+      "title_match": 1
+    },
+    "可持续性／生命周期": {
+      "any_match": 23,
+      "title_match": 12
+    }
+  },
+  "records": [
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s00018-021-03918-3",
+      "title": "Metabolomics and health: from nutritional crops and plant-based pharmaceuticals to profiling of human biofluids",
+      "title_match": true,
+      "matched_snippet": "Metabolomics and health: from nutritional crops and plant-based pharmaceuticals to profiling of human biofluids"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s00216-011-5061-9",
+      "title": "Agonistic and antagonistic estrogens in licorice root (Glycyrrhiza glabra)",
+      "title_match": true,
+      "matched_snippet": "Agonistic and antagonistic estrogens in licorice root (Glycyrrhiza glabra)"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s00253-012-4173-2",
+      "title": "Pectin-rich biomass as feedstock for fuel ethanol production",
+      "title_match": false,
+      "matched_snippet": "process may be more economically viable than lignocellulosic ethanol processes is the generation of the citrus-derived co-product limonene, which can be sold to help off-set ethanol produc- tion costs (Zhou et al. 2007). Pectin structure "
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s00253-014-5991-1",
+      "title": "Sustainable conversion of coffee and other crop wastes to biofuels and bioproducts using coupled biochemical and thermochemical processes in a multi-stage biorefinery concept",
+      "title_match": false,
+      "matched_snippet": "e fatty acid profile of the oil produced byYarrowia is favorable for the production of high-quality renewable"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s00253-025-13702-z",
+      "title": "Enhanced bacterial cellulose production by Komagataeibacter xylinus using agro-derived flour nitrogen sources",
+      "title_match": false,
+      "matched_snippet": "residues, and lignocellulosic hydrolysates. For instance, muskmelon (8.08 g/L), orange (6.18 g/L), and watermelon (5.98 g/L) juices (Wang et al. 2018), along with coconut and"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s10343-025-01113-z",
+      "title": "Evaluation of Salinity Tolerance Threshold of Two Wheat Cultivars Via Photosynthetic Efficiency and Ion Homeostasis",
+      "title_match": false,
+      "matched_snippet": "41 Page 12 of 15 Journal of Crop Health (2025) 77:41 0123456789 Fig.9 Plant-based principal component analysis. The load- i n gp l o ti nA m i n(a) and Barze- gar ( b) cultivars. Fv/Fm PSII maximum quantum yield, Fv/F0 variable ﬂuorescence out of the minimal ﬂu"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s10668-024-04792-2",
+      "title": "Current progress on lignocellulosic bioethanol including a technological and economical perspective",
+      "title_match": true,
+      "matched_snippet": "Current progress on lignocellulosic bioethanol including a technological and economical perspective"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s11101-025-10093-x",
+      "title": "Antifungal potential of plant-based extracts against Candida species: values, safety concerns, and possible applications",
+      "title_match": true,
+      "matched_snippet": "Antifungal potential of plant-based extracts against Candida species: values, safety concerns, and possible applications"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s11306-018-1454-5",
+      "title": "Characterizing alternative feeds for rainbow trout (O. mykiss) by 1 H NMR metabolomics",
+      "title_match": false,
+      "matched_snippet": "tion Five different feeds were tested: a commercial-like (COM) feed containing FM and FO, a totally plant-based feed (PB) and plant-based feeds with 15% insect meal (INS), spirulina biomass (SPI) or yeast protein fraction (YST), respectively (Table 1)."
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1007/s42994-024-00170-8",
+      "title": "Plants against cancer: towards green Taxol production through pathway discovery and metabolic engineering",
+      "title_match": false,
+      "matched_snippet": "way discovery and optimization discussed here, advances in metabolic engineering, fermentation, and plant biomass production, as well as semi-synthetic approaches are certain to continue boosting natural product titers in microbial and plant platforms (Wang et al. 2021; Biggs et al., 2021; Be"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1016/j.aqrep.2024.102196",
+      "title": "Effects of dietary marine red yeast supplementation on growth performance, antioxidant, immunity, lipid metabolism and mTOR signaling pathway in Juvenile Tilapia ( Oreochromis niloticus )",
+      "title_match": false,
+      "matched_snippet": "n plant-based ingredients. Rev. Aquac. 16, 121 – 153. https://doi.org/10.1111/raq.12824 . Hung, S.W., Tu, C.Y., Wang, W.S., 2007. In vivo effects of adding singular or combined anti-oxidative v"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1016/j.aqrep.2026.103477",
+      "title": "Growth performance of GIFT tilapia (Oreochromis niloticus) in biofloc system supplemented with aquatic weed, Eichhornia crassipes: A sustainable waste-to-wealth approach",
+      "title_match": false,
+      "matched_snippet": "Context is conversion of lignocellulose to fermentable sugars (glucose)."
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1016/j.fbio.2025.107224",
+      "title": "Metabolic engineering of Saccharomyces cerevisiae for squalene production from lignocellulosic hydrolysates",
+      "title_match": true,
+      "matched_snippet": "Metabolic engineering of Saccharomyces cerevisiae for squalene production from lignocellulosic hydrolysates"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1016/j.jtice.2024.105616",
+      "title": "Yeast as a cell factory for fermentative production of ethanol from xylose",
+      "title_match": false,
+      "matched_snippet": "lulose fractions account for 20 - 30 % in the lignocellulose biomass. However, bioconversion of xylose into ethanol is challenging for industrial prospective a sonly few microbes encompass the pentose fermentation pathway."
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1016/j.mec.2026.e00274",
+      "title": "Multi-layered metabolic remodeling of Pseudomonas putida for efficient conversion of lignocellulosic sugars to the precursors of advanced aviation fuel",
+      "title_match": true,
+      "matched_snippet": "Multi-layered metabolic remodeling of Pseudomonas putida for efficient conversion of lignocellulosic sugars to the precursors of advanced aviation fuel"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1038/s41598-022-26843-2",
+      "title": "Multi-omics network model reveals key genes associated with p-coumaric acid stress response in an industrial yeast strain",
+      "title_match": false,
+      "matched_snippet": "dose-dependent manner ⁠ and inhibiting the efficient bioconversion of lignocellulose biomass by fermentative organisms46,47. Although the S. cerevisiae CEN.PK113-7D strain was shown to be capable of slow in situ catabolic conversion of 9.7 mM pCA in aerobic batch"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1093/jn/nxaa206",
+      "title": "Proton-NMR Metabolomics of Rainbow Trout Fed a Plant-Based Diet Supplemented with Graded Levels of a Protein-Rich Yeast Fraction Reveal Several Metabolic Processes Involved in Growth",
+      "title_match": true,
+      "matched_snippet": "Proton-NMR Metabolomics of Rainbow Trout Fed a Plant-Based Diet Supplemented with Graded Levels of a Protein-Rich Yeast Fraction Reveal Several Metabolic Processes Involved in Growth"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1186/1472-6750-14-41",
+      "title": "Simultaneously improving xylose fermentation and tolerance to lignocellulosic inhibitors through evolutionary engineering of recombinant Saccharomyces cerevisiae harbouring xylose isomerase",
+      "title_match": true,
+      "matched_snippet": "Simultaneously improving xylose fermentation and tolerance to lignocellulosic inhibitors through evolutionary engineering of recombinant Saccharomyces cerevisiae harbouring xylose isomerase"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1186/s13068-018-1272-z",
+      "title": "Renewable production of high density jet fuel precursor sesquiterpenes from Escherichia coli",
+      "title_match": true,
+      "matched_snippet": "Renewable production of high density jet fuel precursor sesquiterpenes from Escherichia coli"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1186/s13068-020-1671-9",
+      "title": "Genome sequencing of gut symbiotic Bacillus velezensis LC1 for bioethanol production from bamboo shoots",
+      "title_match": false,
+      "matched_snippet": "nol at 96 h. Conclusions: These findings provide an insight for B. velezensis strains in converting lignocellulose into ethanol. B."
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1186/s13068-021-01950-w",
+      "title": "Further engineering of R. toruloides for the production of terpenes from lignocellulosic biomass",
+      "title_match": true,
+      "matched_snippet": "Further engineering of R. toruloides for the production of terpenes from lignocellulosic biomass"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.1186/s41938-020-00323-z",
+      "title": "Statistical optimization of xylanase production, using different agricultural wastes by Aspergillus oryzae MN894021, as a biological control of faba bean root diseases",
+      "title_match": true,
+      "matched_snippet": "Statistical optimization of xylanase production, using different agricultural wastes by Aspergillus oryzae MN894021, as a biological control of faba bean root diseases"
+    },
+    {
+      "theme": "可再生／植物资源",
+      "doi": "10.3389/fbioe.2025.1716709",
+      "title": "Beyond pigments and perfumes: engineering in the carotenoid and apocarotenoid spectrum, novel enzymes, and synthetic biology strategies",
+      "title_match": false,
+      "matched_snippet": "ition in S. cerevisiae systems, resulting in a lycopene yield of 343.7 mg/L ( Huang et al., 2024 ). Plant-based strategies emphasize modular control, as"
+    },
+    {
+      "theme": "水与废水",
+      "doi": "10.1016/j.biombioe.2025.108587",
+      "title": "Breaking the acid barrier: Unveiling the metabolic response mechanisms of oleaginous yeasts to volatile fatty acids using novel optical photothermal infrared technology",
+      "title_match": false,
+      "matched_snippet": "produced from the fermentation of kitchen waste, ani - mal or human feces, and high-organic-content wastewater typically ranges from 10 to 60 g/L [ 11 ]."
+    },
+    {
+      "theme": "水与废水",
+      "doi": "10.1186/s12302-025-01261-z",
+      "title": "Importance and challenges of bromate analysis in wastewater: a systematic review",
+      "title_match": true,
+      "matched_snippet": "Importance and challenges of bromate analysis in wastewater: a systematic review"
+    },
+    {
+      "theme": "水与废水",
+      "doi": "10.1186/s12934-015-0375-5",
+      "title": "Mussel processing wastewater: A low-cost substrate for the production of astaxanthin by Xanthophyllomyces dendrorhous",
+      "title_match": true,
+      "matched_snippet": "Mussel processing wastewater: A low-cost substrate for the production of astaxanthin by Xanthophyllomyces dendrorhous"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s00204-021-03186-x",
+      "title": "Organophosphorus pesticides exhibit compound specific effects in rat precision-cut lung slices (PCLS): mechanisms involved in airway response, cytotoxicity, inflammatory activation and antioxidative defense",
+      "title_match": false,
+      "matched_snippet": "ngth of 560 nm and emis- sion wavelength of 590 nm. Signal intensity was referred to the respective solvent control acetonitrile (< 2%). To detect"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s00204-022-03346-7",
+      "title": "Sulfur mustard single-dose exposure triggers senescence in primary human dermal fibroblasts",
+      "title_match": false,
+      "matched_snippet": "onfluence. For qRT- PCR and Western blot experiments, senescent (65 uM SM) and non-senescent cells (solvent control) were used 21 days"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s00253-023-12856-y",
+      "title": "Long chain capsaicin analogues synthetized by CALB-CLEAs show cytotoxicity on glioblastoma cell lines",
+      "title_match": false,
+      "matched_snippet": "ained with CALB-CLEAs by using LC-MS-MS in the positive ESI mode. Collision energy 6.0 kV. Compound Solvent system Precursor ion (theoretical m/z) Theoretical relative intensity Product ions (experimental m/z) Relative intensity to base peak Livanil Methanol/water (7/3)+formic acid 0.5%"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s00253-023-12928-z",
+      "title": "Metabolic control analysis enabled the improvement of the L-cysteine production process with Escherichia coli",
+      "title_match": false,
+      "matched_snippet": "A 36-min gradient of solvent A (10 mM tributylamine, 15 mM acetic acid, 5% (v/v) methanol) and solvent B (100% isopro- panol) was utilised for the metabolite elution."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s00344-026-12178-z",
+      "title": "The Boesenbergia rotunda R2R3-MYB Transcription Factor BrMYB2 Regulates Flavonoid Biosynthesis in Nicotiana tabacum",
+      "title_match": false,
+      "matched_snippet": "nd a reversed-phase Eclipse Plus C18 col - umn (1.8 um, 2.1 × 50 mm). The mobile phase consisted of solvent A (0.1% formic acid in water) and solvent B (0.1%"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s10068-023-01275-4",
+      "title": "Enzyme-derived deer velvet extract activate the immune response in cyclophosphamide-induced immunosuppressive mice",
+      "title_match": false,
+      "matched_snippet": "The gradient elution system consisted of 90% of acetonitrile with 50 mM ammonium acetate (pH 5.6) (solvent A) and 50% acetoni- trile with 10 mM ammonium acetate (pH 5.6) (solvent B)."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11030-026-11526-1",
+      "title": "Managing Malassezia species and related infections: new insights into recent natural and synthetic antifungal compounds and their mechanism of action",
+      "title_match": false,
+      "matched_snippet": "80 ug/mL and 6.7 mm at 160 ug/mL). Conversely, ethanol extract of S. alata exhibited better antifungal activity than S. auriculata (4.3 mm at 80 ug/mL and 7.7 at 160 ug/mL)."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11240-017-1208-5",
+      "title": "In vitro regeneration, Agrobacterium-mediated transformation, and genetic assay of chalcone synthase in the medicinal plant Echinacea pallida",
+      "title_match": false,
+      "matched_snippet": "rmic acid in H 2O (A) and aceton- nitrile (B), and separations were performed using the fol- lowing solvent gradient: 0 (10% B), 2 (15% B), 12 (30%B), 20 (65% B), 27 (80% B), 32 (90% B), and 50 min (10% B) (Pellati et al."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11240-024-02690-z",
+      "title": "Establishment and elicitation of liquid adventitious root cultures of Inula crithmoides L. for increased caffeoylquinic acids production and hepatoprotective properties",
+      "title_match": false,
+      "matched_snippet": "(ug/mg DW) of metabolites present in the ethanol extract of the adventitious roots of golden samphire cultivated in control media (Ctrl; MS + 1 mg/L IBA), elicited with yeast extract (YE) at three"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11240-026-03395-1",
+      "title": "Development of in vitro cultures from Astragalus thracicus Griseb and Astragalus aitosensis (Ivanisch.) and evaluation of their bioproduction potential",
+      "title_match": false,
+      "matched_snippet": " program: 5% to 35% of B for 35 min, followed by increasing B from 35% to 70% for a further 15 min (solvent A: deionized"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11306-019-1580-8",
+      "title": "Functional analysis of isoprenoid precursors biosynthesis by quantitative metabolomics and isotopologue profiling",
+      "title_match": false,
+      "matched_snippet": "s of isoprenoid precursors biosynthesis by quantitative metabolomics and isotopologue profiling The solvent system consis"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11356-009-0107-7",
+      "title": "Endocrine disruptors in bottled mineral water: Total estrogenic burden and migration from plastic bottles",
+      "title_match": false,
+      "matched_snippet": "Borosilicate Erlenmeyer flasks with 700 ml culturing water served as a negative solvent control (0.0014% v/v ethanol, n=3); 17 α-ethinylestradiol (EE2, CAS 57-63-6) was used as positive control at a nominal concentration of 25 ng/l (in 0.0014% v/v ethanol, n=3)."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11357-019-00103-0",
+      "title": "The transfer of specific mitochondrial lipids and proteins to lipid droplets contributes to proteostasis upon stress and aging in the eukaryotic model system Saccharomyces cerevisiae",
+      "title_match": false,
+      "matched_snippet": "PepMap RSLC column (C18, 75 um × 15 cm) and the column was developed with an acetonitrile gradient (solvent A: 0.1% ( v/v) formic acid; solvent B: 0.1% (v/v) formic acid/90% (v/v) acetonitrile; 5 -45% B in 140 min) at a flow rate of 300 nl/min at 55 degC."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s11694-025-03950-y",
+      "title": "Effects of various water-based biocompatible solvents on the extraction of propolis from Artvin, Türkiye: Physicochemical properties, biological activity, and phenolic profile",
+      "title_match": true,
+      "matched_snippet": "Effects of various water-based biocompatible solvents on the extraction of propolis from Artvin, Türkiye: Physicochemical properties, biological activity, and phenolic profile"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s12161-025-02805-y",
+      "title": "Determination of Selected Biologically Active Substances in Dietary Supplements and the Adaptogenic Herb Rhaponticum carthamoides Using HPLC–MS/MS",
+      "title_match": false,
+      "matched_snippet": "18 (2.1 mm × 50 mm, 1.8 um, Agilent Technologies) column with precolumn using a gradient elution of solvents A (water with 5 mM ammonium acetate and 0.35% acetic acid) and B (methanol)."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s43450-024-00527-6",
+      "title": "Seasonal Chemical Variation and Antidiabetic Activity of Major Compounds in Artemisia afra Infusions",
+      "title_match": false,
+      "matched_snippet": "Poroshell 120 EC-C18, 3 × 150 mm, 2.7-um column with the column oven set to 35 degC. The solvent system consisted of water + 0.1% formic acid (A) and acetonitrile (ACN) + 0.1%"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s43621-025-02293-4",
+      "title": "Biochemical and microbiological characterization of Coffea arabica sidestreams for food ingredient applications",
+      "title_match": false,
+      "matched_snippet": "AE in previous studies, such as Julieta et al. (2024), who achieved 9 mg GAE/g using acetone as the solvent. Thaiphanit et al. [73] observed relatively low yields from MAE, with TPC values of only 1 mg/g, high -"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1007/s44187-025-00407-5",
+      "title": "TOPSIS based comprehensive evaluation of the effect of drying methods on polyphenolic contents and associated antioxidant activities of Moringa oleifera leaves",
+      "title_match": false,
+      "matched_snippet": "] with some modifications. Gradient separa- tion was performed for each sample using a mobile phase solvent A: 0.1% (v/v) formic acid water and solvent B: 100%"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.biotechadv.2024.108452",
+      "title": "Recent advances in engineering synthetic biomolecular condensates",
+      "title_match": false,
+      "matched_snippet": "eit locus protein 6 ; synIDPs, synthetic IDPs ; TEARS, transcriptionally engineered addressable RNA solvent droplets ; tRNA Pyl"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.cej.2026.176984",
+      "title": "Metabolic engineering of Yarrowia lipolytica for liquiritin production",
+      "title_match": false,
+      "matched_snippet": "lavonoid bioproduction and demonstrates a scalable process devoid of chemical precursors or organic solvents."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.crfs.2022.08.015",
+      "title": "Intestinal microbiomics and liver metabolomics insights into the preventive effects of chromium (III)-enriched yeast on hyperlipidemia and hyperglycemia induced by high-fat and high-fructose diet",
+      "title_match": false,
+      "matched_snippet": "C; flow rate, 0.4 mL/min; injection volume, 2 u L; solvent system, water (25 mM ammonium formate/0.4% ammonia): acetonitrile; gradient program,"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.fochx.2025.102781",
+      "title": "Evaluation of the effects of Saccharomyces cerevisiae fermentation on the non-volatile compounds in semi-dry coffee beans using widely targeted metabolomics analysis",
+      "title_match": false,
+      "matched_snippet": "uipped with an Agilent SB-C18 UPLC column (1.8 u m, 2.1 mm × 100 mm). The mobile phase consisted of solvent A (0.1 % formic acid in"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.prenap.2026.100523",
+      "title": "Unraveling the therapeutic potential of Firmiana colorata bark extract: GC-MS profiling, pharmacological studies, and protein-ligand interaction analysis for pain, fever, and inflammation",
+      "title_match": false,
+      "matched_snippet": "The methanol extract of Firmiana colorata's bark (MEFCB) was the test material."
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1016/j.sajb.2026.02.016",
+      "title": "The effects of Polygonum capitatum in treating atopic dermatitis via modulation of the th2 cytokine pathway",
+      "title_match": false,
+      "matched_snippet": "flavonoid content being ethanol-dependent. The 95% ethanol extract inhibited bacterial growth and ameliorated AD-like pathology, including immune dysregulation. Both extracts reduced ROS/NO and fever responses, attenuating pro-inflammatory cytoki"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1038/ncomms1327",
+      "title": "A bacterial platform for fermentative production of plant alkaloids",
+      "title_match": false,
+      "matched_snippet": "stem (Agilent). The HPLC condi- tions were as follows: column, TSKgel ODS-80Ts (4.6×250 mm; Tosoh); solvent system, A: 0.1% acetic acid in water, B: 0.1% acetic acid in acetonitrile; gradient"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1038/s41467-020-15664-4",
+      "title": "Synthetic biology based construction of biological activity-related library of fungal decalin-containing diterpenoid pyrones",
+      "title_match": false,
+      "matched_snippet": " 9=Mean; Unnamed: 10=SD row 3: Unnamed: 1=2; Unnamed: 2=3; Unnamed: 5=10; Unnamed: 6=15; Unnamed: 8=Solvent; Unnamed: 9=5; Unnamed: 10=5"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1038/s41589-023-01430-2",
+      "title": "Biosynthesis of natural and halogenated plant monoterpene indole alkaloids in yeast",
+      "title_match": false,
+      "matched_snippet": "row 156: Peak Name=Caffeine; Area=13776; Amt=1.0; Sample_Notes=Solvent Blank row 157: Peak Name=Caffeine; Area=2825000; Amt=1.0; Sample_Notes=0,9 ug/L row 158: Peak Name=Caffeine; Area=2626000; Amt=1.0; Sample_Notes=1,9 ug/L"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1038/s41598-017-15005-4",
+      "title": "Engineering Saccharomyces cerevisiae for geranylgeraniol overproduction by combinatorial design",
+      "title_match": false,
+      "matched_snippet": "organic solvent was introduced to prevent air stripping of secreted GGOH from the fermentation medium. In defined media with controlled glucose feeding, GGOH production of the strain SyBE_Sc00011"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1038/s41598-019-54448-9",
+      "title": "Life-span extension by pigmented rice bran in the model yeast Saccharomyces cerevisiae",
+      "title_match": false,
+      "matched_snippet": "ource. A C18 reversed phase Acquity column (1.7 um, 150 mm × 4.6 mm). The mobile phase was a binary solvent system consisting of solvent A (water with 0.1% formic acid) and sol-"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1186/1754-6834-6-173",
+      "title": "Techno-economic potential of bioethanol from bamboo in China",
+      "title_match": false,
+      "matched_snippet": "tion. The vials have grade A (5% tolerance) calibrated, stemmed tips. The collection vial caps have solvent-resistant septa. During a run, the needle mechanism pierces the septum, creating a liquid flow path from the sample cell to the collectio"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1186/s13068-018-1272-z",
+      "title": "Renewable production of high density jet fuel precursor sesquiterpenes from Escherichia coli",
+      "title_match": false,
+      "matched_snippet": "Briefly, protein lysis and precipitation were achieved by using a chloroform-methanol extraction. The cell pellets were transferred to 1.5 mL tubes, followed by the addition of 400 uL of methanol, 100 uL of chloroform, and 300 uL of water, with vortexing in between each ad"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1186/s13568-024-01795-0",
+      "title": "Engineering Komagataella phaffii for ethylene glycol production from xylose",
+      "title_match": false,
+      "matched_snippet": "Figure 17. n-Butanol consumption in 2008. 18% 17% 12%15% 38% Acetate Glycol ethers Other Solvents Acrylate"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1186/s43008-023-00123-8",
+      "title": "Fucose as a nutrient ligand for Dikarya and a building block of early diverging lineages",
+      "title_match": false,
+      "matched_snippet": "ctone analog) and collected at 2 days after treatment; for the control samples, spores treated with solvent (M medium acetone 0.1%); Unnamed: 3=RIB22596.1; Unnamed: 4=-1.39925800079346; Unnamed: 5=C"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.1371/journal.pone.0126919",
+      "title": "Hbr1 activates and represses hyphal growth in Candida albicans and regulates fungal morphogenesis under embedded conditions",
+      "title_match": false,
+      "matched_snippet": "grown without added methionine (left), mutation of solvent-exposed Lys residue using strain R866R (center) and addition of a carboxyl-terminal protein tag using strain R8CTH (right). Arrows indicate sites of yeast production. Bars = 1.5 m"
+    },
+    {
+      "theme": "溶剂使用",
+      "doi": "10.3389/frfst.2026.1776568",
+      "title": "Bioactive composition, germination behavior and functional properties of three moroccan flaxseed origins ( Linum usitatissimum L . )",
+      "title_match": false,
+      "matched_snippet": "Fig. 1. Effects of extracting solvents on reducing power of ﬂ axseed extracts, expressed as absorbance at 700 nm Table 1. Effects of extracting solvents on the extract yields"
+    },
+    {
+      "theme": "能量与碳排放",
+      "doi": "10.3389/fmicb.2025.1753983",
+      "title": "Recent advances in microbial 3-methyl-1-butanol production",
+      "title_match": false,
+      "matched_snippet": "oduction fa- cility concluded that the corn grown by those farmers had on average 50 percent of the carbon footprint, in terms of gram CO2 equivalents/kg grain, as the ‘U.S. average’ as 4 303-858-8358 info@gevo.com www.gevo.com © 2023 Gevo, Inc."
+    },
+    {
+      "theme": "废物与副产物利用",
+      "doi": "10.1007/s12649-026-03528-9",
+      "title": "Assessing the Agronomic Quality of Compost from a Novel Rapid Composting System for Agri-Food Waste Valorization",
+      "title_match": true,
+      "matched_snippet": "Assessing the Agronomic Quality of Compost from a Novel Rapid Composting System for Agri-Food Waste Valorization"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s00253-014-5991-1",
+      "title": "Sustainable conversion of coffee and other crop wastes to biofuels and bioproducts using coupled biochemical and thermochemical processes in a multi-stage biorefinery concept",
+      "title_match": true,
+      "matched_snippet": "Sustainable conversion of coffee and other crop wastes to biofuels and bioproducts using coupled biochemical and thermochemical processes in a multi-stage biorefinery concept"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s00253-014-6217-2",
+      "title": "Modifying the lipid content and composition of plant seeds: engineering the production of LC-PUFA",
+      "title_match": false,
+      "matched_snippet": ") .T h e s eo m e g a - 3L C - P U F A levels are equivalent to those in fish oils, and represent a sustainable, terrestrial source of these FAs."
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s00253-014-6318-y",
+      "title": "Sustainable source of omega-3 eicosapentaenoic acid from metabolically engineered Yarrowia lipolytica: from fundamental research to commercial production",
+      "title_match": true,
+      "matched_snippet": "Sustainable source of omega-3 eicosapentaenoic acid from metabolically engineered Yarrowia lipolytica: from fundamental research to commercial production"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s00253-024-13261-9",
+      "title": "Innovative sustainable bioreactor-in-a-granule formulation of Trichoderma asperelloides",
+      "title_match": true,
+      "matched_snippet": "Innovative sustainable bioreactor-in-a-granule formulation of Trichoderma asperelloides"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s10668-024-04792-2",
+      "title": "Current progress on lignocellulosic bioethanol including a technological and economical perspective",
+      "title_match": false,
+      "matched_snippet": "bioethanol can become sustainable when the ethanol concentration exceeds 40 g/L"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s11240-025-02991-x",
+      "title": "Yeast extract elicitation enhances growth and metabolite production in Limonium algarvense callus cultures",
+      "title_match": false,
+      "matched_snippet": "callus cultures as a reliable and sustainable system for exploring and enhancing plant metabolite production. Cal- lus induction, achieved with picloram at 1 mg/L, provided"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1007/s42398-026-00416-9",
+      "title": "Optimization of eco-friendly synthesis of emollient esters catalyzed by immobilized lipase on Accurel MP 1000",
+      "title_match": false,
+      "matched_snippet": "Environmental Sustainability observed ester conversion of 80.32%, with a productivity of 1368.75 umol min-1 mg-1. This condition likely represents"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/b978-0-443-26795-6.00010-6",
+      "title": "Scope of plant metabolic engineering in the flavonoid pathway for crop sustainability",
+      "title_match": true,
+      "matched_snippet": "Scope of plant metabolic engineering in the flavonoid pathway for crop sustainability"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.afres.2026.102015",
+      "title": "Precision fermentation: Pioneering the future of sustainable and alternative animal protein production",
+      "title_match": true,
+      "matched_snippet": "Precision fermentation: Pioneering the future of sustainable and alternative animal protein production"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.aqrep.2026.103477",
+      "title": "Growth performance of GIFT tilapia (Oreochromis niloticus) in biofloc system supplemented with aquatic weed, Eichhornia crassipes: A sustainable waste-to-wealth approach",
+      "title_match": true,
+      "matched_snippet": "a (Oreochromis niloticus) in biofloc system supplemented with aquatic weed, Eichhornia crassipes: A sustainable waste-to-wealth approach"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.cej.2026.176984",
+      "title": "Metabolic engineering of Yarrowia lipolytica for liquiritin production",
+      "title_match": false,
+      "matched_snippet": "microbial yield reported to date. This study establishes Y. lipolytica as an efficient platform for sustainable flavonoid bioproduction and demonstrates a scalable process devoid of chemical precursors or organic solvents."
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.eurpolymj.2025.113909",
+      "title": "From betulin potentially bioproduced from plastics wastes to sustainable and high-performance cycloaliphatic polyurethanes: Towards a Biotech-Chem approach",
+      "title_match": true,
+      "matched_snippet": "From betulin potentially bioproduced from plastics wastes to sustainable and high-performance cycloaliphatic polyurethanes: Towards a Biotech-Chem approach"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.foodchem.2018.07.077",
+      "title": "Antimicrobial and antioxidant activities of phenolic metabolites from flavonoid-producing yeast: Potential as natural food preservatives",
+      "title_match": false,
+      "matched_snippet": "Our results suggested that phenolic metabolites secreted from naringenin-producing yeast would be a sustainable source of natural food preservatives."
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.ijbiomac.2025.146758",
+      "title": "Sustainable production of polyhydroxybutyrate (PHB) via valorisation of Aegle marmelos shell waste: Probe sonication-assisted extraction and optimization through box-behnken response surface methodology",
+      "title_match": true,
+      "matched_snippet": "Sustainable production of polyhydroxybutyrate (PHB) via valorisation of Aegle marmelos shell waste: Probe sonication-assisted extraction and optimization through box-behnken response surfac"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.ijbiomac.2025.149961",
+      "title": "Engineering polar protein-based biomolecular condensates for modular biosynthesis",
+      "title_match": false,
+      "matched_snippet": "sustainable and eco-friendly alternative for chemical synthesis [ 16 ]. For example, a crocin yield of 4.42 mg/L was obtained by integrating the crocin synthesis pathway into an E. coli cel"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.jgeb.2025.100655",
+      "title": "Tissue culture and elicitor applications for sustainable secondary metabolite enhancement in Mentha longifolia (L.) Huds",
+      "title_match": true,
+      "matched_snippet": "Tissue culture and elicitor applications for sustainable secondary metabolite enhancement in Mentha longifolia (L.) Huds"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.synbio.2026.01.019",
+      "title": "De novo biosynthesis of eriocitrin in Saccharomyces cerevisiae through deep learning-guided enzyme screening and systematic metabolic engineering",
+      "title_match": false,
+      "matched_snippet": "oof-of-concept for microbial production of flavonoid disaccharides, providing a foun - dation for a sustainable and scalable supply of eriocitrin."
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1016/j.ymben.2025.03.008",
+      "title": "Computer-assisted multilevel optimization of malonyl-CoA availability in Pseudomonas putida",
+      "title_match": false,
+      "matched_snippet": "bion has leveraged microbial fermentation to produce oils derived from microalgae, which serve as a sustainable source of "
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1038/s41598-024-77382-x",
+      "title": "Uncovering novel polyhydroxyalkanoate biosynthesis genes and unique pathway in yeast hanseniaspora valbyensis for sustainable bioplastic production",
+      "title_match": true,
+      "matched_snippet": "el polyhydroxyalkanoate biosynthesis genes and unique pathway in yeast hanseniaspora valbyensis for sustainable bioplastic production"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1038/s41598-026-58497-9",
+      "title": "Agronomic evaluation of microalgal extracts as seed bio stimulants for improving germination and early growth of common bean",
+      "title_match": false,
+      "matched_snippet": "s, which act synergistically to enhance crop productivity, yield, and quality in an environmentally sustainable manner3-5."
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.1186/s12934-024-02390-5",
+      "title": "Combinatorial metabolic engineering of Bacillus subtilis enables the efficient biosynthesis of isoquercitrin from quercetin",
+      "title_match": false,
+      "matched_snippet": "onclusion The engineered B. subtilis strain developed here holds great potential for initiating the sustainable and"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.3389/fbioe.2020.599560",
+      "title": "Sustainable Production of Microbial Isoprenoid Derived Advanced Biojet Fuels Using Different Generation Feedstocks: A Review",
+      "title_match": true,
+      "matched_snippet": "Sustainable Production of Microbial Isoprenoid Derived Advanced Biojet Fuels Using Different Generation Feedstocks: A Review"
+    },
+    {
+      "theme": "可持续性／生命周期",
+      "doi": "10.3389/fmicb.2025.1562103",
+      "title": "Baicalein as a potent antifungal agent against Candida albicans: synergy with fluconazole and sustainable production through probiotic-mediated bioconversion",
+      "title_match": true,
+      "matched_snippet": "Baicalein as a potent antifungal agent against Candida albicans: synergy with fluconazole and sustainable production through probiotic-mediated bioconversion"
+    }
+  ],
+  "interpretation": "Counts are DOI-level mentions in available title/extracted evidence text, not exhaustive fulltext searches or measured environmental benefits. Topics overlap."
+}

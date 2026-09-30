@@ -1,0 +1,137 @@
+{
+  "reference_count": 15,
+  "compound_count": 16,
+  "output_count": 288,
+  "member_count": 1440,
+  "fresh_inference_host": "Matvision via SSH alias autodl",
+  "comparisons": {
+    "ADMET-AI|Skin_Reaction": {
+      "target": 0.7554382085800171,
+      "reference_min": 0.2894222140312195,
+      "reference_max": 0.9000749588012695,
+      "reference_scores_above_target": 1,
+      "reference_scores_below_target": 14
+    },
+    "ADMET-AI|AMES": {
+      "target": 0.29778116941452026,
+      "reference_min": 0.02853414975106716,
+      "reference_max": 0.38109517097473145,
+      "reference_scores_above_target": 4,
+      "reference_scores_below_target": 11
+    },
+    "ADMET-AI|Carcinogens_Lagunin": {
+      "target": 0.053176265209913254,
+      "reference_min": 0.014999349601566792,
+      "reference_max": 0.3884364664554596,
+      "reference_scores_above_target": 11,
+      "reference_scores_below_target": 4
+    },
+    "MapLight|AMES": {
+      "target": 0.2171712492638988,
+      "reference_min": 0.04577595302913579,
+      "reference_max": 0.4745676313917503,
+      "reference_scores_above_target": 3,
+      "reference_scores_below_target": 12
+    },
+    "ADMET-AI|Lipophilicity_AstraZeneca": {
+      "target": 3.583479404449463,
+      "reference_min": -2.678882360458374,
+      "reference_max": 4.569084167480469,
+      "reference_scores_above_target": 1,
+      "reference_scores_below_target": 14
+    },
+    "ADMET-AI|Solubility_AqSolDB": {
+      "target": -4.315407752990723,
+      "reference_min": -6.539401054382324,
+      "reference_max": 0.8284711837768555,
+      "reference_scores_above_target": 14,
+      "reference_scores_below_target": 1
+    },
+    "ADMET-AI|NR-AR": {
+      "target": 0.026554081588983536,
+      "reference_min": 0.0022933916188776493,
+      "reference_max": 0.06412164866924286,
+      "reference_scores_above_target": 3,
+      "reference_scores_below_target": 12
+    },
+    "ADMET-AI|NR-AR-LBD": {
+      "target": 0.017915945500135422,
+      "reference_min": 0.000462865165900439,
+      "reference_max": 0.03484218195080757,
+      "reference_scores_above_target": 3,
+      "reference_scores_below_target": 12
+    },
+    "ADMET-AI|NR-AhR": {
+      "target": 0.5434524416923523,
+      "reference_min": 0.0006489897496066988,
+      "reference_max": 0.04535067081451416,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|NR-Aromatase": {
+      "target": 0.5187804102897644,
+      "reference_min": 0.0001348643854726106,
+      "reference_max": 0.018935326486825943,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|NR-ER": {
+      "target": 0.653143584728241,
+      "reference_min": 0.025002513080835342,
+      "reference_max": 0.16994121670722961,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|NR-ER-LBD": {
+      "target": 0.511715292930603,
+      "reference_min": 0.0003570567932911217,
+      "reference_max": 0.07425366342067719,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|NR-PPAR-gamma": {
+      "target": 0.07602403312921524,
+      "reference_min": 1.2651953511522152e-05,
+      "reference_max": 0.009285187348723412,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|SR-ARE": {
+      "target": 0.8091834783554077,
+      "reference_min": 0.006096887402236462,
+      "reference_max": 0.128267303109169,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|SR-ATAD5": {
+      "target": 0.13055898249149323,
+      "reference_min": 9.948750084731728e-05,
+      "reference_max": 0.026587113738059998,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|SR-HSE": {
+      "target": 0.5047330856323242,
+      "reference_min": 0.0001529917644802481,
+      "reference_max": 0.07745369523763657,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|SR-MMP": {
+      "target": 0.9566055536270142,
+      "reference_min": 0.00013562657113652676,
+      "reference_max": 0.1939024031162262,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    },
+    "ADMET-AI|SR-p53": {
+      "target": 0.4809419512748718,
+      "reference_min": 0.00020178031991235912,
+      "reference_max": 0.03499944508075714,
+      "reference_scores_above_target": 0,
+      "reference_scores_below_target": 15
+    }
+  },
+  "actual_resource_results": null,
+  "safe_glabridin_concentration": null
+}

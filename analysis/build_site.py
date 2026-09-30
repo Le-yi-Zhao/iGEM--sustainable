@@ -90,6 +90,8 @@ def build():
     import re
     from analysis.literature_section import render as render_literature
     body=re.sub(r'<section class="section" id="literature">.*?</section>',lambda _:render_literature(ROOT,table),body,flags=re.S)
+    from analysis.expanded_dashboard import integrate
+    body=integrate(ROOT,body)
     index=ROOT/'index.html'; index.write_text(body,encoding='utf-8');return index
 
 def export_wiki():
@@ -97,7 +99,7 @@ def export_wiki():
     if destination.exists():shutil.rmtree(destination)
     destination.mkdir()
     shutil.copy2(ROOT/'index.html',destination/'index.html')
-    for directory in ['assets','figures/wiki_zh','figures/literature_content','figures/evidence','figures/supporting','figures/framework','figures/skincare',
+    for directory in ['assets','figures/expanded_analysis','figures/wiki_zh','figures/literature_content','figures/evidence','figures/supporting','figures/framework','figures/skincare',
         'analysis/adapters','analysis/models','results/tables','results/summaries','data/literature','data/wetlab',
         'data/raw/admet_ai','data/raw/skincare','data/raw/admetlab','data/raw/chemprop','data/raw/vega','data/raw/episuite',
         'data/raw/admetsar','data/raw/ecosar','data/raw/protox','data/raw/maplight',
@@ -105,6 +107,7 @@ def export_wiki():
         shutil.copytree(ROOT/directory,destination/directory,dirs_exist_ok=True)
     (destination/'data/compounds').mkdir(parents=True,exist_ok=True)
     shutil.copy2(ROOT/'data/compounds/skincare_reference_panel.json',destination/'data/compounds/skincare_reference_panel.json')
+    shutil.copy2(ROOT/'data/compounds/skincare_reference_panel_expanded.json',destination/'data/compounds/skincare_reference_panel_expanded.json')
     for p in (destination/'data/wetlab').glob('*.csv'):
         p.write_bytes(p.read_bytes().rstrip(b'\r\n')+b'\n')
     shutil.copy2(ROOT/'data/skincare_exposure.csv',destination/'data/skincare_exposure.csv')

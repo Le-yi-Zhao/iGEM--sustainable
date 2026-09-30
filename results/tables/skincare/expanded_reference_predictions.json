@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.29778116941452026,
+    "sd": 0.037160638719797134,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.053176265209913254,
+    "sd": 0.0338960662484169,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.017915945500135422,
+    "sd": 0.012895746156573296,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.026554081588983536,
+    "sd": 0.01348800491541624,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.5434524416923523,
+    "sd": 0.15791893005371094,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.5187804102897644,
+    "sd": 0.12726466357707977,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.511715292930603,
+    "sd": 0.07465989142656326,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.653143584728241,
+    "sd": 0.09051509201526642,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.07602403312921524,
+    "sd": 0.03604186698794365,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.8091834783554077,
+    "sd": 0.05966411903500557,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.13055898249149323,
+    "sd": 0.038352880626916885,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.5047330856323242,
+    "sd": 0.1391781121492386,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.9566055536270142,
+    "sd": 0.02310675010085106,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.4809419512748718,
+    "sd": 0.09334353357553482,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.7554382085800171,
+    "sd": 0.041052836924791336,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.3330043852329254,
+    "sd": 0.10908354818820953,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.03599213808774948,
+    "sd": 0.04063524305820465,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.02923189476132393,
+    "sd": 0.013172334991395473,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.06412164866924286,
+    "sd": 0.01325920782983303,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0255004670470953,
+    "sd": 0.013380867429077625,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.017292862758040428,
+    "sd": 0.009699703194200993,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.07425366342067719,
+    "sd": 0.020060136914253235,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.16994121670722961,
+    "sd": 0.052241381257772446,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.006249616853892803,
+    "sd": 0.002701835473999381,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.07880674302577972,
+    "sd": 0.04996732249855995,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.026587113738059998,
+    "sd": 0.01774202287197113,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.008285963907837868,
+    "sd": 0.009209745563566685,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.025799792259931564,
+    "sd": 0.018040183931589127,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.03378650173544884,
+    "sd": 0.014867342077195644,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.3486097753047943,
+    "sd": 0.20010976493358612,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.03176334500312805,
+    "sd": 0.011926191858947277,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.19340983033180237,
+    "sd": 0.05964060500264168,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.0017349182162433863,
+    "sd": 0.0008269611862488091,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.010775765404105186,
+    "sd": 0.0009313616901636124,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.009337907657027245,
+    "sd": 0.008532518520951271,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0014997657854110003,
+    "sd": 0.000764873344451189,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0012845767196267843,
+    "sd": 0.0004857038729824126,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.02984997257590294,
+    "sd": 0.002622073981910944,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0004424341022968292,
+    "sd": 0.00020314236462581903,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.006096887402236462,
+    "sd": 0.004239058122038841,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.0011353796580806375,
+    "sd": 0.0006770819891244173,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0026783954817801714,
+    "sd": 0.001428950228728354,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.00074498460162431,
+    "sd": 0.0004960939404554665,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0008850606391206384,
+    "sd": 0.00043197014019824564,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.2894222140312195,
+    "sd": 0.10080957412719727,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.2645532786846161,
+    "sd": 0.1429664045572281,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.014999349601566792,
+    "sd": 0.022719230502843857,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.03484218195080757,
+    "sd": 0.028183046728372574,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.052219439297914505,
+    "sd": 0.014583826996386051,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0014914126368239522,
+    "sd": 0.0009622859070077538,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.003210925031453371,
+    "sd": 0.0025659468956291676,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.03740378096699715,
+    "sd": 0.019009003415703773,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.1253991276025772,
+    "sd": 0.04328000918030739,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.002260199747979641,
+    "sd": 0.0033506432082504034,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.04576585069298744,
+    "sd": 0.02672210894525051,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.009252136573195457,
+    "sd": 0.007340366020798683,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0015555981080979109,
+    "sd": 0.0011772012803703547,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0018268346320837736,
+    "sd": 0.0008925495203584433,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0235196053981781,
+    "sd": 0.013751799240708351,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.333437979221344,
+    "sd": 0.20626245439052582,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.38109517097473145,
+    "sd": 0.18021619319915771,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.2723102271556854,
+    "sd": 0.021950876340270042,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.011242368258535862,
+    "sd": 0.0035663607995957136,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.013559304177761078,
+    "sd": 0.004458392504602671,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.04535067081451416,
+    "sd": 0.032778311520814896,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.003968826029449701,
+    "sd": 0.002044930122792721,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.013992312364280224,
+    "sd": 0.003318208269774914,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.06348921358585358,
+    "sd": 0.015412542037665844,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.009285187348723412,
+    "sd": 0.00404557166621089,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.11506287008523941,
+    "sd": 0.043824952095746994,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.013051939196884632,
+    "sd": 0.003139407839626074,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.027805158868432045,
+    "sd": 0.013894246891140938,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0173072200268507,
+    "sd": 0.012792982161045074,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.03499944508075714,
+    "sd": 0.012752753682434559,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.5948377847671509,
+    "sd": 0.11917179822921753,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.3450912833213806,
+    "sd": 0.12855641543865204,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.039780549705028534,
+    "sd": 0.04314231872558594,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.025803405791521072,
+    "sd": 0.012106059119105339,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.06004191190004349,
+    "sd": 0.011636218056082726,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.02972579002380371,
+    "sd": 0.015028557740151882,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.01681198924779892,
+    "sd": 0.00967714749276638,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0646716058254242,
+    "sd": 0.015802640467882156,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.15901565551757812,
+    "sd": 0.04921523481607437,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.005467382725328207,
+    "sd": 0.0024026306346058846,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.0766068696975708,
+    "sd": 0.04781471565365791,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.02512315846979618,
+    "sd": 0.018072359263896942,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0075523220002651215,
+    "sd": 0.00804390199482441,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.026267211884260178,
+    "sd": 0.020811595022678375,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.03172183781862259,
+    "sd": 0.016323836520314217,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.35822930932044983,
+    "sd": 0.18375347554683685,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.11652735620737076,
+    "sd": 0.049586862325668335,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.3504985272884369,
+    "sd": 0.15023404359817505,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.006886678747832775,
+    "sd": 0.0034560197964310646,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.011504752561450005,
+    "sd": 0.004137790761888027,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0038054753094911575,
+    "sd": 0.0026549643371254206,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0012807553866878152,
+    "sd": 0.000514224695507437,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.003388121025636792,
+    "sd": 0.0014376508770510554,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.026457607746124268,
+    "sd": 0.0062149749137461185,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0012055611005052924,
+    "sd": 0.0004610040632542223,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.031651850789785385,
+    "sd": 0.013668079860508442,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.000946969143114984,
+    "sd": 0.0005977394175715744,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.004429326392710209,
+    "sd": 0.0012561404146254063,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0010022735223174095,
+    "sd": 0.00015956767310854048,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0028056211303919554,
+    "sd": 0.0007757790153846145,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.5290454626083374,
+    "sd": 0.1270853728055954,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.06327587366104126,
+    "sd": 0.03618047758936882,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.3001262843608856,
+    "sd": 0.09772650897502899,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.004005061462521553,
+    "sd": 0.002905378583818674,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.012422746047377586,
+    "sd": 0.007712779566645622,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0015721948584541678,
+    "sd": 0.0014578783884644508,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0002858212683349848,
+    "sd": 0.00017258310981560498,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.001758052036166191,
+    "sd": 0.0008671638206578791,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.025002513080835342,
+    "sd": 0.0044874269515275955,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0003727964940480888,
+    "sd": 0.00020352510910015553,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.008672548457980156,
+    "sd": 0.003383249044418335,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.00029510149033740163,
+    "sd": 0.00019892600539606065,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0013649150496348739,
+    "sd": 0.0007624098216183484,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0003700961824506521,
+    "sd": 0.00021636689780279994,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0008200971642509103,
+    "sd": 0.0003642453521024436,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.511208176612854,
+    "sd": 0.1165575459599495,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.361127644777298,
+    "sd": 0.06456553190946579,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.24299664795398712,
+    "sd": 0.11377163976430893,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.00772513821721077,
+    "sd": 0.0072890534065663815,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.014765503816306591,
+    "sd": 0.0071173785254359245,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.002015534322708845,
+    "sd": 0.0009229479474015534,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.00020364325609989464,
+    "sd": 0.0002651492250151932,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0017594639211893082,
+    "sd": 0.0012562461197376251,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.05749708414077759,
+    "sd": 0.015221535228192806,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0003132013662252575,
+    "sd": 0.0003632475854828954,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.015058745630085468,
+    "sd": 0.009045575745403767,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.001638004556298256,
+    "sd": 0.001055756933055818,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0013168023433536291,
+    "sd": 0.0008708867244422436,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.00013562657113652676,
+    "sd": 0.00019541801884770393,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.00941954180598259,
+    "sd": 0.009976454079151154,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.5308915376663208,
+    "sd": 0.08437634259462357,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.1742979735136032,
+    "sd": 0.11418942362070084,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.17616072297096252,
+    "sd": 0.09205430746078491,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.008887117728590965,
+    "sd": 0.0029728510417044163,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.017876405268907547,
+    "sd": 0.007297230884432793,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0014541654381901026,
+    "sd": 0.0012655874015763402,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0010883595095947385,
+    "sd": 0.0006584031507372856,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.005177768878638744,
+    "sd": 0.002318059327080846,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.041665464639663696,
+    "sd": 0.015916064381599426,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0012231202563270926,
+    "sd": 0.0005571952206082642,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.024717576801776886,
+    "sd": 0.010621290653944016,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.000995029229670763,
+    "sd": 0.0006634482415392995,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.004103828687220812,
+    "sd": 0.001102164969779551,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0005654739215970039,
+    "sd": 0.0003557043964974582,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0037276081275194883,
+    "sd": 0.0022570318542420864,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.6161173582077026,
+    "sd": 0.12371556460857391,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.03129635006189346,
+    "sd": 0.0247394610196352,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.27098751068115234,
+    "sd": 0.18849322199821472,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.0016324948519468307,
+    "sd": 0.0014227869687601924,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.009345529600977898,
+    "sd": 0.005377080291509628,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0006489897496066988,
+    "sd": 0.0005794541211798787,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0001348643854726106,
+    "sd": 7.426572847180068e-05,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0024493837263435125,
+    "sd": 0.0010818163864314556,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.04086419194936752,
+    "sd": 0.015124616213142872,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 1.2651953511522152e-05,
+    "sd": 1.6139985746121965e-05,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.013037636876106262,
+    "sd": 0.009362696669995785,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 9.948750084731728e-05,
+    "sd": 0.00010622911941027269,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0001529917644802481,
+    "sd": 0.00011791547149186954,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.00017870424198918045,
+    "sd": 0.00016356809646822512,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.00020178031991235912,
+    "sd": 0.0001500982471043244,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.71149742603302,
+    "sd": 0.2284899204969406,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.11057255417108536,
+    "sd": 0.05841253697872162,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.20431296527385712,
+    "sd": 0.14180158078670502,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.001831025118008256,
+    "sd": 0.0005886456929147243,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.01191042922437191,
+    "sd": 0.0030091581866145134,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.0278038140386343,
+    "sd": 0.018611973151564598,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0007175665814429522,
+    "sd": 0.00021902041044086218,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0003570567932911217,
+    "sd": 0.00010148235014639795,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.028367843478918076,
+    "sd": 0.004645366687327623,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0003208051493857056,
+    "sd": 0.0001411625707987696,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.01049775630235672,
+    "sd": 0.003403434995561838,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.004849662538617849,
+    "sd": 0.0016954706516116858,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.0012451355578377843,
+    "sd": 0.0010809284867718816,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.00026001990772783756,
+    "sd": 7.390898826997727e-05,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.0026993420906364918,
+    "sd": 0.0010319139109924436,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.3008505702018738,
+    "sd": 0.16988669335842133,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.13895271718502045,
+    "sd": 0.09448525309562683,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.14819827675819397,
+    "sd": 0.07717163860797882,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.013371792621910572,
+    "sd": 0.013456753455102444,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.02304762229323387,
+    "sd": 0.0034077861346304417,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.014535161666572094,
+    "sd": 0.0060949185863137245,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.00236460380256176,
+    "sd": 0.002597412094473839,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.012848001904785633,
+    "sd": 0.014661567285656929,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.05134115740656853,
+    "sd": 0.025588585063815117,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.0025014840066432953,
+    "sd": 0.001691461424343288,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.048431944102048874,
+    "sd": 0.040249139070510864,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.002837606705725193,
+    "sd": 0.0010719186393544078,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.005921958480030298,
+    "sd": 0.004534056410193443,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0021103506442159414,
+    "sd": 0.001594174769707024,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.013285459950566292,
+    "sd": 0.011635320261120796,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.3996603488922119,
+    "sd": 0.09362582862377167,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.02853414975106716,
+    "sd": 0.015370132401585579,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.04773709177970886,
+    "sd": 0.054179847240448,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.000462865165900439,
+    "sd": 0.00013735854008700699,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.0022933916188776493,
+    "sd": 0.0004876136954408139,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.003871546359732747,
+    "sd": 0.003471552161499858,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.018935326486825943,
+    "sd": 0.012284787371754646,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.022590283304452896,
+    "sd": 0.016684135422110558,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.06219106167554855,
+    "sd": 0.025648925453424454,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.003940177150070667,
+    "sd": 0.004009102936834097,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.128267303109169,
+    "sd": 0.03611844405531883,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.00015342244296334684,
+    "sd": 0.00016339836292900145,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.07745369523763657,
+    "sd": 0.04960199445486069,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.1939024031162262,
+    "sd": 0.10137955844402313,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.008498551324009895,
+    "sd": 0.007144955452531576,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.9000749588012695,
+    "sd": 0.04551854357123375,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.08195821940898895,
+    "sd": 0.04751363769173622,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.3884364664554596,
+    "sd": 0.14574448764324188,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.006738229189068079,
+    "sd": 0.004026592243462801,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.014384356327354908,
+    "sd": 0.005706551019102335,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.006501337047666311,
+    "sd": 0.004385405220091343,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0010809837840497494,
+    "sd": 0.0006480654119513929,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.0062237950041890144,
+    "sd": 0.002821981906890869,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.04334915056824684,
+    "sd": 0.006927059032022953,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.003238318022340536,
+    "sd": 0.002034139819443226,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.04496929794549942,
+    "sd": 0.0217613372951746,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.0023804898373782635,
+    "sd": 0.002713142428547144,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.006097353994846344,
+    "sd": 0.004631997086107731,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.0016641771653667092,
+    "sd": 0.00127277965657413,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.00542098144069314,
+    "sd": 0.004463112913072109,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.4391767084598541,
+    "sd": 0.12597838044166565,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "AMES",
+    "mean": 0.03964020684361458,
+    "sd": 0.015926996245980263,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "Carcinogens_Lagunin",
+    "mean": 0.32987096905708313,
+    "sd": 0.05905725434422493,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR-LBD",
+    "mean": 0.004371348302811384,
+    "sd": 0.002541010733693838,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AR",
+    "mean": 0.02086268737912178,
+    "sd": 0.011675624176859856,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-AhR",
+    "mean": 0.039596907794475555,
+    "sd": 0.020428232848644257,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-Aromatase",
+    "mean": 0.0022111511789262295,
+    "sd": 0.001218729536049068,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER-LBD",
+    "mean": 0.02041866071522236,
+    "sd": 0.01026996597647667,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-ER",
+    "mean": 0.06680499017238617,
+    "sd": 0.02491132542490959,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "NR-PPAR-gamma",
+    "mean": 0.008507204242050648,
+    "sd": 0.0041123065166175365,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ARE",
+    "mean": 0.06017360836267471,
+    "sd": 0.019864214584231377,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-ATAD5",
+    "mean": 0.005158635787665844,
+    "sd": 0.003943132236599922,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-HSE",
+    "mean": 0.00882350467145443,
+    "sd": 0.0024142770562320948,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-MMP",
+    "mean": 0.015668287873268127,
+    "sd": 0.003038250608369708,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "SR-p53",
+    "mean": 0.008925985544919968,
+    "sd": 0.002490861341357231,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "Skin_Reaction",
+    "mean": 0.397847980260849,
+    "sd": 0.037909869104623795,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": 3.583479404449463,
+    "sd": 0.28559887409210205,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -4.315407752990723,
+    "sd": 0.32269176840782166,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.16102325916290283,
+    "sd": 0.48647862672805786,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.8844345808029175,
+    "sd": 0.2422270029783249,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.43461281061172485,
+    "sd": 0.07765115797519684,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.07071986049413681,
+    "sd": 0.19530291855335236,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -2.009692668914795,
+    "sd": 0.9359303116798401,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.39508771896362305,
+    "sd": 0.5361421704292297,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.43132176995277405,
+    "sd": 0.228934183716774,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.10398926585912704,
+    "sd": 0.3036857843399048,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.12974712252616882,
+    "sd": 0.45288732647895813,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.872052013874054,
+    "sd": 0.23214560747146606,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -1.2028957605361938,
+    "sd": 0.2219766229391098,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.8284711837768555,
+    "sd": 0.12231799215078354,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -1.3633131980895996,
+    "sd": 0.14982037246227264,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.1656501293182373,
+    "sd": 0.12966886162757874,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.8568657040596008,
+    "sd": 0.1952500194311142,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -1.005162000656128,
+    "sd": 0.06812410056591034,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.8772152662277222,
+    "sd": 0.28678369522094727,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.5455411672592163,
+    "sd": 0.1699550747871399,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -2.678882360458374,
+    "sd": 0.4672795236110687,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.26247793436050415,
+    "sd": 0.1506585329771042,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.17773933708667755,
+    "sd": 0.17606301605701447,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -0.9060890078544617,
+    "sd": 0.15752699971199036,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -2.235276699066162,
+    "sd": 0.6069340109825134,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.24971699714660645,
+    "sd": 0.15765592455863953,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": 4.569084167480469,
+    "sd": 0.47373872995376587,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -6.539401054382324,
+    "sd": 0.2284557819366455,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -2.306094169616699,
+    "sd": 0.38886210322380066,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": 0.5042948722839355,
+    "sd": 0.18142211437225342,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "Lipophilicity_AstraZeneca",
+    "mean": -0.7119144201278687,
+    "sd": 0.1520240157842636,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "ADMET-AI",
+    "task": "Solubility_AqSolDB",
+    "mean": -1.584290862083435,
+    "sd": 0.12182449549436569,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glabridin",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.2171712492638988,
+    "sd": 0.0437592836066599,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.21215995476305266,
+    "sd": 0.01654866549224119,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "niacinamide",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.10719083118629755,
+    "sd": 0.007489516583710811,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.1990965388412828,
+    "sd": 0.03916956648306813,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "kojic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.17448184668476624,
+    "sd": 0.023391311140188633,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "beta_arbutin",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.21215995476305266,
+    "sd": 0.01654866549224119,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "glycerin",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.21826116278584856,
+    "sd": 0.023807876770205717,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "urea",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.2185191825860749,
+    "sd": 0.01281819989490753,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "allantoin",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.4745676313917503,
+    "sd": 0.034170931456595534,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "d_panthenol",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.144555293835026,
+    "sd": 0.005490597763852388,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "betaine",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.09331269141027423,
+    "sd": 0.01396664870507829,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "caffeine",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.20212832464348213,
+    "sd": 0.027265892970795524,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "ascorbic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.21168141155265374,
+    "sd": 0.028589866953297526,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "alpha_tocopherol",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.04577595302913579,
+    "sd": 0.010031345684342198,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "l_lactic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.09566984749576438,
+    "sd": 0.007353138039316711,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  },
+  {
+    "id": "salicylic_acid",
+    "model": "MapLight",
+    "task": "AMES",
+    "mean": 0.08442567987315422,
+    "sd": 0.005642983103482545,
+    "n_members": 5,
+    "evidence_type": "PREDICTED"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "query_cas": "81-13-0",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/81-13-0/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "retrieved_utc": "2026-09-30T05:33:05.336586+00:00",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 131204,
+          "MolecularFormula": "C9H19NO4",
+          "MolecularWeight": "205.25",
+          "SMILES": "CC(C)(CO)[C@H](C(=O)NCCCO)O",
+          "InChIKey": "SNPLKNRPJHDVJA-ZETCQYMHSA-N"
+        }
+      ]
+    }
+  }
+}

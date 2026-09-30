@@ -1,0 +1,17 @@
+{
+  "query_cas": "84380-01-8",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/84380-01-8/property/IsomericSMILES,InChIKey,MolecularFormula,MolecularWeight/JSON",
+  "response": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 158637,
+          "MolecularFormula": "C12H16O7",
+          "MolecularWeight": "272.25",
+          "SMILES": "C1=CC(=CC=C1O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O",
+          "InChIKey": "BJRNKVDFDLYUGJ-ZIQFBCGOSA-N"
+        }
+      ]
+    }
+  }
+}

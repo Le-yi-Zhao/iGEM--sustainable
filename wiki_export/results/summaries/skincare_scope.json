@@ -43,6 +43,78 @@
       "sha256": "5a159f7e2b3bc1429dae45727c9cbf323ee0b01f94aa0a6ac381a09a58a6ccb7"
     },
     {
+      "path": "data/raw/skincare/expanded_references/member_predictions.json",
+      "sha256": "780a8e2b4668669fe2a291047129c7723aa062e2703a0386262303fd86ccad3a"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/allantoin.json",
+      "sha256": "a14230048f67595cfe5186df7bf1450a7b22a9bfe45c5fa1b00172a73a179676"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/alpha_arbutin.json",
+      "sha256": "f4eacb669dff3c3e456b089de52943433ae4bd13e4e61dd417509043e1de2537"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/alpha_tocopherol.json",
+      "sha256": "a227df05722d2f462a9acb660323199191f482e2852122ae4dabd74e6bc454a1"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/ascorbic_acid.json",
+      "sha256": "35c68e852ba9b56766a2b424b879e404cadd2947d1da22cff5dda2e658367776"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/ascorbyl_glucoside.json",
+      "sha256": "84a89f6648f17c6784f29d07dd767c5257ec7b0707f5460b2bd310a340e3bc03"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/beta_arbutin.json",
+      "sha256": "eb98db5e13e077baaafca8508ce28d87a565fbf9ffe2bcebabe0c7731702e047"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/betaine.json",
+      "sha256": "ba4cd467ab32586389b324f53318f9e2db6af1a8856635c9f98ba0313e57e312"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/caffeine.json",
+      "sha256": "dfa72f6316e34184edd21635d353097cad96c275a0cc8a26ba4bec89faa38b87"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/d_panthenol.json",
+      "sha256": "d6432e1c26a294887dfed75526ecff3f5e087523d04e01e5e40ef401fab1f6c1"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/glycerin.json",
+      "sha256": "51bda2af4fd2436ccc913e11b25b1aef1a7bd45725ac188647ad646d6cbf789a"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/kojic_acid.json",
+      "sha256": "315c5c00a861e287935c668e8f65857ac9117d57820db1cfe311427ccd5713fb"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/l_lactic_acid.json",
+      "sha256": "95cf2ee71b42ee0ac34639092280bc3eb524a167c360842c6b1cded90a36213c"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/niacinamide.json",
+      "sha256": "66eab419148d78993e82aebadc812c6bce52ccb2b0d34fedaf805ebd695b162a"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/salicylic_acid.json",
+      "sha256": "a4521e0e4c503e47d0fb8515824a1f988d2ac74c2ab10e489136d078364d778b"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/pubchem/urea.json",
+      "sha256": "57ff3ed7b28e3cb36690b7fef7c3922f0cfa90a633e664de10741e1266340d6d"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/run_metadata.json",
+      "sha256": "7e2139fa68acea2a806259cf717f3786b720cce3d4c78309890d6acf5502e7c5"
+    },
+    {
+      "path": "data/raw/skincare/expanded_references/structures.json",
+      "sha256": "cfc9fc40ea9e9893d4749d5c772a22ed0a8c7dc979fd93b3c590a5720f4434b9"
+    },
+    {
       "path": "data/raw/skincare/maplight/ames_test.csv",
       "sha256": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f"
     },
