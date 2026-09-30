@@ -67,6 +67,8 @@ def main() -> int:
     model_validation.run(ROOT); completed.append("MapLight GIN matched evaluation and chemical neighborhood diagnostics")
     from analysis.plotting import opera_analysis
     opera_analysis.run(ROOT); completed.append("OPERA environmental results, missing values and applicability domains")
+    from analysis import human_practices
+    human_practices.run(ROOT); completed.append("Professor interview decision map and three sustainability diagrams")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")

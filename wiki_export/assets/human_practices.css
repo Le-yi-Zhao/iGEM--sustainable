@@ -1,0 +1,16 @@
+#interviews .hp-quote{margin:1.6rem 0;padding:1.3rem 1.5rem;background:#eaf0e6;border-left:4px solid #4d705c;font-size:1.15rem;line-height:1.8;color:#263c31}
+#interviews .hp-quote cite{display:block;font-size:.86rem;font-style:normal;margin-top:.7rem;color:#4d5e53}
+#interviews .hp-feedback{margin:.7rem 0;background:#f6f4ee;border:1px solid #dddcd3;border-radius:10px;padding:.9rem 1.1rem}
+#interviews .hp-feedback summary{cursor:pointer;font-weight:650;line-height:1.65;min-height:28px}
+#interviews .hp-feedback[open] summary{margin-bottom:.8rem}
+#interviews .hp-feedback blockquote{margin:.7rem 0;padding:.6rem .9rem;border-left:3px solid #889b83;color:#334b3d}
+#interviews .hp-source{font-size:.85rem;color:#58665b}
+#interviews .hp-feedback dl{margin:1rem 0;display:grid;grid-template-columns:10rem minmax(0,1fr);gap:.55rem .9rem}
+#interviews .hp-feedback dt{font-weight:650;color:#3d5748}
+#interviews .hp-feedback dd{margin:0;line-height:1.8}
+#interviews .hp-readable{margin:1.2rem 0}
+#interviews .hp-readable li{margin:.65rem 0}
+#interviews .hp-vision{margin:1.5rem 0;padding:1.3rem;background:#eaf0e6;border-radius:10px;color:#2c4939}
+#interviews .hp-vision p{font-size:1.25rem;font-weight:650;margin:0 0 .5rem}
+#interviews .hp-vision small{font-size:.88rem}
+@media(max-width:600px){#interviews .hp-feedback dl{display:block}#interviews .hp-feedback dt{margin-top:.8rem}#interviews .hp-feedback summary{min-height:44px}#interviews .hp-quote{padding:1rem;font-size:1rem}}

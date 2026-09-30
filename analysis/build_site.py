@@ -98,6 +98,8 @@ def build():
     body=add_validation(ROOT,body)
     from analysis.plotting.opera_analysis import integrate as add_opera
     body=add_opera(ROOT,body)
+    from analysis.human_practices import integrate as add_interview
+    body=add_interview(ROOT,body)
     index=ROOT/'index.html'; index.write_text(body,encoding='utf-8');return index
 
 def export_wiki():
@@ -105,7 +107,7 @@ def export_wiki():
     if destination.exists():shutil.rmtree(destination)
     destination.mkdir()
     shutil.copy2(ROOT/'index.html',destination/'index.html')
-    for directory in ['assets','figures/research_enrichment','figures/expanded_analysis','figures/wiki_zh','figures/literature_content','figures/evidence','figures/supporting','figures/framework','figures/skincare',
+    for directory in ['assets','figures/human_practices','data/human_practices','figures/research_enrichment','figures/expanded_analysis','figures/wiki_zh','figures/literature_content','figures/evidence','figures/supporting','figures/framework','figures/skincare',
         'analysis/adapters','analysis/models','results/tables','results/summaries','data/literature','data/wetlab',
         'data/raw/admet_ai','data/raw/skincare','data/raw/admetlab','data/raw/chemprop','data/raw/vega','data/raw/episuite',
         'data/raw/admetsar','data/raw/ecosar','data/raw/protox','data/raw/maplight',
