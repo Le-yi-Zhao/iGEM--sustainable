@@ -245,6 +245,66 @@
         "sha256": "a528f57ce4efca23bb84d254436923bd8a74f3e067a9056c81d93637366654bd"
       },
       {
+        "path": "data/raw/skincare/maplight_gnn/heldout_predictions.csv",
+        "sha256": "ad94a60d4bbd8bac35a1fb887bbe132d0699a7613183b9096d97440acc308b1f"
+      },
+      {
+        "path": "data/raw/skincare/maplight_gnn/reference_members.csv",
+        "sha256": "8b5990649c0839f44c43597abf2a0509d97263e67ef18429078fe73b58105f4f"
+      },
+      {
+        "path": "data/raw/skincare/maplight_gnn/run_metadata.json",
+        "sha256": "4bc280dcd250322a869a42930936c6818be67abf2366e73d2fde2c20194adf17"
+      },
+      {
+        "path": "data/raw/skincare/maplight_gnn/training_neighbors.json",
+        "sha256": "edfabf26633ddb0d17119f4343a68efc6ce4633bb69fa96dc9a64fb5020d597d"
+      },
+      {
+        "path": "data/raw/skincare/opera/execution.log",
+        "sha256": "2d608e7b424d4b7d123bbb6dda8c72d2e627d1e9509009921ce5b936c0a41870"
+      },
+      {
+        "path": "data/raw/skincare/opera/input.sdf",
+        "sha256": "e25a0ebb6e4e7787daf6bc3d863d626e5f0f53f2c2d35c88b3a6761e6f41456d"
+      },
+      {
+        "path": "data/raw/skincare/opera/input_PadelDesc.csv",
+        "sha256": "9e82901ff1ad8e2f7c559cd60b3d2aaf5be94410f3571dc2274634a14c31ffef"
+      },
+      {
+        "path": "data/raw/skincare/opera/input_manifest.json",
+        "sha256": "19fa6c3e8234a3abdc32e606bb867302029491df50db6bb3fea1b848c58de147"
+      },
+      {
+        "path": "data/raw/skincare/opera/model_versions.txt",
+        "sha256": "b8a15d2ab8f3cf555cb0ac9d9c8a207e150b856e91f4e1ec489cdc749d9e90d4"
+      },
+      {
+        "path": "data/raw/skincare/opera/predictions.csv",
+        "sha256": "fa884d348de7588807d60e7f50840420092763ac96fc7259c6005e4f6850a538"
+      },
+      {
+        "path": "data/raw/skincare/opera/run_metadata.json",
+        "sha256": "75979eb390120013d20ce1c4807de3b39b5570c57295bbe9514b7154d85d60d2"
+      },
+      {
+        "path": "data/raw/skincare/opera/urea_repeat.log",
+        "sha256": "e358222e636439cb49a12e65baff4b492a0b53f89370d7501cba97eac0a4df7d"
+      },
+      {
+        "path": "data/raw/skincare/opera/urea_repeat_input.sdf",
+        "sha256": "d15b2ad2dbcd3d60301868cf68de0b8129e65d90e9c5cd87711c37afe773d142"
+      },
+      {
+        "path": "data/raw/skincare/opera/urea_repeat_input_PadelDesc.csv",
+        "sha256": "062c24f6f2f0b94f3b65c0b247462c0cba0761be38e77d00a33b14046a731430"
+      },
+      {
+        "path": "data/raw/skincare/opera/urea_repeat_predictions.csv",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
         "path": "data/raw/skincare/references/member_predictions.json",
         "sha256": "9f1525f219b8a6f615b06887c3dfbc8863031039d95945043d94eb042791d986"
       },

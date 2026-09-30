@@ -1,0 +1,241 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-30T09:14:16.007850+00:00",
+  "completed_utc": "2026-09-30T09:16:19.733566+00:00",
+  "source_commit": "c249378c63232354d17083c83fe94fe728960a27",
+  "official_source": "https://github.com/maplightrx/MapLight-TDC/blob/c249378c63232354d17083c83fe94fe728960a27/maplight_gnn.py",
+  "method": "Original MapLight 2563 features plus frozen gin_supervised_masking embeddings; CatBoost defaults matched to prior run",
+  "parameters": {
+    "iterations": 1000,
+    "depth": 6,
+    "random_strength": 2,
+    "thread_count": 12,
+    "nan_mode": "Min"
+  },
+  "task": "AMES",
+  "feature_count": 2863,
+  "train_n": 5821,
+  "test_n": 1457,
+  "test_training_connectivity_overlap_rows": 0,
+  "test_distinct_connectivities": 1292,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "test_used_for_fit_tuning_stopping": false,
+  "base_reproduction_max_allowed_error": 1e-10,
+  "embedding": {
+    "encoder": "gin_supervised_masking",
+    "checkpoint_source": "DGLLife official load_pretrained; molfeat public GCS returned 401; upstream checkpoint used with unchanged molfeat graph featurization and mean pooling",
+    "checkpoint_sha256": {
+      "gin_supervised_masking_pre_trained.pth": "a43274c29be5a8cf38f990794d0dc3fcc0572dfa5524240e77ed1c6aa1b54fb8"
+    },
+    "library": "molfeat",
+    "frozen_encoder": true,
+    "pretraining_overlap": "unknown",
+    "dimensions": 300,
+    "packages": {
+      "torch": "2.2.2+cpu",
+      "numpy": "1.26.4",
+      "dgl": "1.1.3",
+      "dgllife": "0.3.2",
+      "molfeat": "0.10.1",
+      "rdkit": "2026.3.6"
+    },
+    "smiles_sha256": "a4d13e7e2e33220411b25a80151a3cc3c4a63abd512e3e323993e73652671055"
+  },
+  "packages": {
+    "catboost": "1.2.8",
+    "rdkit": "2026.3.6",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.7.2"
+  },
+  "checksums": {
+    "base_features.npz": "4e1e27af0fcf72ce1c84fa6f07fb30c1c8863b6b1a369d05c4749ec968c39550",
+    "gin_features.npz": "7df81a91239f8d993a2228f9eeaa6d0d08e2f46cb68bdf87765d31a1ada83a69",
+    "smiles.json": "a4d13e7e2e33220411b25a80151a3cc3c4a63abd512e3e323993e73652671055",
+    "ames_train_val.csv": "8b3add847978ec60685541e07696c837f116b7cb245d44f86eb8f4f69da8e44d",
+    "ames_test.csv": "d87e29ad1f188d6ee4fcdd5c3c3aa4ba15e4fec657553353d0d951ad8df02d3f"
+  },
+  "checkpoints": [
+    {
+      "seed": 1,
+      "path": "/root/IGEM-storage/enrichment/gnn/gnn_seed_1.cbm",
+      "sha256": "c41dfdcb23a87d55c3f41b278654ca0004eb3f38a28f8fcaaa2b43b3444fee76",
+      "bytes": 1202672
+    },
+    {
+      "seed": 2,
+      "path": "/root/IGEM-storage/enrichment/gnn/gnn_seed_2.cbm",
+      "sha256": "1c9d29f66a9f09b9120d98b1ca1134df7820cabb4a3b7f8139f825811cbcd15f",
+      "bytes": 1203712
+    },
+    {
+      "seed": 3,
+      "path": "/root/IGEM-storage/enrichment/gnn/gnn_seed_3.cbm",
+      "sha256": "9c9183409be4a853d992894d1694667701d036fa7baddfa3de1cfa1b7c0eb431",
+      "bytes": 1203376
+    },
+    {
+      "seed": 4,
+      "path": "/root/IGEM-storage/enrichment/gnn/gnn_seed_4.cbm",
+      "sha256": "08ad0733ec9106301ff503616c86eddb0137bd564389d682bd9575a4d5d239a4",
+      "bytes": 1203480
+    },
+    {
+      "seed": 5,
+      "path": "/root/IGEM-storage/enrichment/gnn/gnn_seed_5.cbm",
+      "sha256": "ccf86f743c85987d7f4590f1ce652325534f083a4e4652d904921b2a32e63afc",
+      "bytes": 1203584
+    }
+  ],
+  "ensemble_metrics": [
+    {
+      "model": "MapLight",
+      "split": "official_test",
+      "n": 1457,
+      "positives": 870,
+      "roc_auc": 0.8679747008948678,
+      "average_precision": 0.9049457542067423,
+      "brier": 0.1434706106484598
+    },
+    {
+      "model": "MapLight+GIN",
+      "split": "official_test",
+      "n": 1457,
+      "positives": 870,
+      "roc_auc": 0.8709471499344025,
+      "average_precision": 0.9070016988798624,
+      "brier": 0.14220985134254535
+    },
+    {
+      "model": "MapLight",
+      "split": "test_without_training_overlap",
+      "n": 1457,
+      "positives": 870,
+      "roc_auc": 0.8679747008948678,
+      "average_precision": 0.9049457542067423,
+      "brier": 0.1434706106484598
+    },
+    {
+      "model": "MapLight+GIN",
+      "split": "test_without_training_overlap",
+      "n": 1457,
+      "positives": 870,
+      "roc_auc": 0.8709471499344025,
+      "average_precision": 0.9070016988798624,
+      "brier": 0.14220985134254535
+    }
+  ],
+  "member_metrics": [
+    {
+      "model": "MapLight",
+      "seed": 1,
+      "roc_auc": 0.8681176447551352,
+      "average_precision": 0.9063409984556906,
+      "brier": 0.14371338870358022
+    },
+    {
+      "model": "MapLight+GIN",
+      "seed": 1,
+      "roc_auc": 0.8708237874248566,
+      "average_precision": 0.9073106422863427,
+      "brier": 0.14224312605793937
+    },
+    {
+      "model": "MapLight",
+      "seed": 2,
+      "roc_auc": 0.8677553897667861,
+      "average_precision": 0.9039657507391582,
+      "brier": 0.14333116188352527
+    },
+    {
+      "model": "MapLight+GIN",
+      "seed": 2,
+      "roc_auc": 0.8666784154770996,
+      "average_precision": 0.9037094606917218,
+      "brier": 0.14455044600790926
+    },
+    {
+      "model": "MapLight",
+      "seed": 3,
+      "roc_auc": 0.8650551215022813,
+      "average_precision": 0.9007439296621669,
+      "brier": 0.14470780489063037
+    },
+    {
+      "model": "MapLight+GIN",
+      "seed": 3,
+      "roc_auc": 0.8705476903796824,
+      "average_precision": 0.9058615680450457,
+      "brier": 0.1422005112779169
+    },
+    {
+      "model": "MapLight",
+      "seed": 4,
+      "roc_auc": 0.8650727447179307,
+      "average_precision": 0.9044057397086839,
+      "brier": 0.14537039229979093
+    },
+    {
+      "model": "MapLight+GIN",
+      "seed": 4,
+      "roc_auc": 0.868799075760246,
+      "average_precision": 0.906111717331377,
+      "brier": 0.14340046642583174
+    },
+    {
+      "model": "MapLight",
+      "seed": 5,
+      "roc_auc": 0.8669682194677788,
+      "average_precision": 0.902862884622518,
+      "brier": 0.1438225274379123
+    },
+    {
+      "model": "MapLight+GIN",
+      "seed": 5,
+      "roc_auc": 0.8691476238030899,
+      "average_precision": 0.9050744298893971,
+      "brier": 0.14320529792166628
+    }
+  ],
+  "paired_bootstrap": {
+    "resamples": 1000,
+    "seed": 20260930,
+    "population": "test without training connectivity overlap",
+    "resampling_unit": "chemical connectivity group",
+    "results": {
+      "roc_auc": {
+        "delta_gnn_minus_base_mean": 0.0029060864176199347,
+        "percentile95": [
+          -0.004921442375335361,
+          0.011271130420278113
+        ]
+      },
+      "average_precision": {
+        "delta_gnn_minus_base_mean": 0.0019765311165483063,
+        "percentile95": [
+          -0.005157655244681264,
+          0.009567823482603328
+        ]
+      },
+      "brier": {
+        "delta_gnn_minus_base_mean": -0.0012548050748723936,
+        "percentile95": [
+          -0.00554695628960009,
+          0.0027580138040994356
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Benchmark test is not new independent cosmetic safety validation.",
+    "GIN pretraining overlap with benchmark compounds is unknown.",
+    "Bootstrap covers test-sample sampling uncertainty, not all model/data uncertainty.",
+    "Member SD is not a safety interval; no safe-concentration threshold selected.",
+    "Frozen GIN fingerprint + CatBoost, not an end-to-end retrained GNN."
+  ]
+}

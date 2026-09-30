@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE_WITH_THREE_MISSING_ENDPOINTS",
+  "release_tag": "v2.9.5",
+  "release_url": "https://github.com/kmansouri/OPERA/releases/tag/v2.9.5",
+  "runtime": "MATLAB Runtime R2023b Update 11, Linux",
+  "command": "run_OPERA.sh R2023b -s input.sdf -o predictions.csv -e logP WS BCF Koc RB KM -n -v 2",
+  "selected_models": [
+    "LogP",
+    "WS",
+    "BCF",
+    "Koc",
+    "ReadyBiodeg",
+    "KM"
+  ],
+  "completed_utc": "2026-09-30T09:15:57.303974+00:00",
+  "molecules": 21,
+  "requested_endpoint_values": 126,
+  "available_values": 123,
+  "missing_values": 3,
+  "missing_details": [
+    {
+      "id": "urea",
+      "endpoint": "ReadyBiodeg"
+    },
+    {
+      "id": "urea",
+      "endpoint": "KM"
+    },
+    {
+      "id": "urea",
+      "endpoint": "Koc"
+    }
+  ],
+  "retry": "Single-molecule urea rerun aborted at ReadyBiodeg due to failed descriptors. No missing value imputed.",
+  "excluded_model": "BioDeg log half-life restricted to C/H hydrocarbons; excluded before inference",
+  "binary_sha256": "99edd8e8c04e52591dd75fde02903e8a244997c128f91443cbdd90e8cc097d42",
+  "release_archive_sha256": "2cef7db56b18d75367a6f3c1ce45e595827181c1eb585dd08e2908dff6fe88cb",
+  "checksums": {
+    "input.sdf": "e25a0ebb6e4e7787daf6bc3d863d626e5f0f53f2c2d35c88b3a6761e6f41456d",
+    "input_manifest.json": "19fa6c3e8234a3abdc32e606bb867302029491df50db6bb3fea1b848c58de147",
+    "input_PadelDesc.csv": "9e82901ff1ad8e2f7c559cd60b3d2aaf5be94410f3571dc2274634a14c31ffef",
+    "predictions.csv": "fa884d348de7588807d60e7f50840420092763ac96fc7259c6005e4f6850a538"
+  },
+  "limitations": [
+    "Global AD inclusion is not safety or high local similarity.",
+    "No threshold for product or environmental safety was calibrated.",
+    "Three missing outputs remain missing.",
+    "Training-neighbor observations are external data, not new project experiments."
+  ]
+}

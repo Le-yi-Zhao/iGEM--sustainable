@@ -1,0 +1,127 @@
+﻿id,name_zh,endpoint,label_zh,value,unit,global_ad,local_ad,confidence_index,status,native_pred_range,evidence_type
+glabridin,光甘草定,LogP,亲脂性 logP,5.27,log10 比值,1,0.57,0.69,模型全局域内,[4.88:5.73],PREDICTED
+glabridin,光甘草定,WS,水溶解度 logS,-5.89,log10(mol/L),1,0.44,0.48,模型全局域内,[-6.78:-4.95],PREDICTED
+glabridin,光甘草定,BCF,鱼体富集 logBCF,1.7,log10(L/kg),1,0.37,0.65,模型全局域内,[1.47:1.93],PREDICTED
+glabridin,光甘草定,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.470105751748948,0.735052875874474,模型全局域内,,PREDICTED
+glabridin,光甘草定,KM,鱼体生物转化半衰期,-0.58,log10(天),1,0.3,0.48,模型全局域内,[-1.19:0.03],PREDICTED
+glabridin,光甘草定,Koc,土壤吸附 logKoc,5.56,log10(L/kg),1,0.32,0.45,模型全局域内,[4.73:6.22],PREDICTED
+alpha_arbutin,α-熊果苷,LogP,亲脂性 logP,-1.35,log10 比值,1,1.0,0.95,模型全局域内,[-1.4:-1.3],PREDICTED
+alpha_arbutin,α-熊果苷,WS,水溶解度 logS,-1.45,log10(mol/L),1,0.51,0.62,模型全局域内,[-2.04:-0.86],PREDICTED
+alpha_arbutin,α-熊果苷,BCF,鱼体富集 logBCF,0.31,log10(L/kg),1,0.3,0.62,模型全局域内,[-0.02:0.64],PREDICTED
+alpha_arbutin,α-熊果苷,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.323084543428103,0.467829328352655,模型全局域内,,PREDICTED
+alpha_arbutin,α-熊果苷,KM,鱼体生物转化半衰期,-0.87,log10(天),0,0.13,0.5,模型全局域外,[-1.27:-0.51],PREDICTED
+alpha_arbutin,α-熊果苷,Koc,土壤吸附 logKoc,1.99,log10(L/kg),1,0.35,0.61,模型全局域内,[1.68:2.3],PREDICTED
+niacinamide,烟酰胺,LogP,亲脂性 logP,-0.37,log10 比值,1,1.0,0.99,模型全局域内,[-0.39:-0.35],PREDICTED
+niacinamide,烟酰胺,WS,水溶解度 logS,0.68,log10(mol/L),1,1.0,0.8,模型全局域内,[0.58:0.69],PREDICTED
+niacinamide,烟酰胺,BCF,鱼体富集 logBCF,0.66,log10(L/kg),1,0.54,0.71,模型全局域内,[0.43:0.89],PREDICTED
+niacinamide,烟酰胺,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.67770700143081,0.684345003527931,模型全局域内,,PREDICTED
+niacinamide,烟酰胺,KM,鱼体生物转化半衰期,-0.58,log10(天),1,0.7,0.81,模型全局域内,[-0.71:-0.46],PREDICTED
+niacinamide,烟酰胺,Koc,土壤吸附 logKoc,1.87,log10(L/kg),1,0.6,0.64,模型全局域内,[1.46:2.28],PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,LogP,亲脂性 logP,-2.78,log10 比值,0,0.42,0.26,模型全局域外,[-4.69:-0.87],PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,WS,水溶解度 logS,0.32,log10(mol/L),1,0.57,0.67,模型全局域内,[-0.09:0.73],PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,BCF,鱼体富集 logBCF,0.33,log10(L/kg),0,0.13,0.54,模型全局域外,[0.05:0.61],PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,ReadyBiodeg,易生物降解,1.0,二分类 0/1,0,0.196975427108485,0.404774770192846,模型全局域外,,PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,KM,鱼体生物转化半衰期,-0.85,log10(天),0,0.08,0.4,模型全局域外,[-1.46:-0.24],PREDICTED
+ascorbyl_glucoside,抗坏血酸葡糖苷,Koc,土壤吸附 logKoc,1.62,log10(L/kg),0,0.21,0.63,模型全局域外,[1.45:1.79],PREDICTED
+kojic_acid,曲酸,LogP,亲脂性 logP,-0.55,log10 比值,1,0.57,0.61,模型全局域内,[-1.06:-0.04],PREDICTED
+kojic_acid,曲酸,WS,水溶解度 logS,-1.04,log10(mol/L),1,0.57,0.67,模型全局域内,[-1.55:-0.53],PREDICTED
+kojic_acid,曲酸,BCF,鱼体富集 logBCF,0.18,log10(L/kg),1,0.48,0.66,模型全局域内,[-0.2:0.56],PREDICTED
+kojic_acid,曲酸,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.569331150198618,0.630157077911835,模型全局域内,,PREDICTED
+kojic_acid,曲酸,KM,鱼体生物转化半衰期,-0.97,log10(天),1,0.44,0.57,模型全局域内,[-1.4:-0.54],PREDICTED
+kojic_acid,曲酸,Koc,土壤吸附 logKoc,1.56,log10(L/kg),1,0.52,0.5,模型全局域内,[0.82:2.3],PREDICTED
+beta_arbutin,β-熊果苷,LogP,亲脂性 logP,-1.35,log10 比值,1,1.0,0.95,模型全局域内,[-1.4:-1.3],PREDICTED
+beta_arbutin,β-熊果苷,WS,水溶解度 logS,-1.45,log10(mol/L),1,0.51,0.62,模型全局域内,[-2.04:-0.86],PREDICTED
+beta_arbutin,β-熊果苷,BCF,鱼体富集 logBCF,0.31,log10(L/kg),1,0.3,0.62,模型全局域内,[-0.02:0.64],PREDICTED
+beta_arbutin,β-熊果苷,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.323084543428103,0.467829328352655,模型全局域内,,PREDICTED
+beta_arbutin,β-熊果苷,KM,鱼体生物转化半衰期,-0.87,log10(天),0,0.13,0.5,模型全局域外,[-1.27:-0.51],PREDICTED
+beta_arbutin,β-熊果苷,Koc,土壤吸附 logKoc,1.99,log10(L/kg),1,0.35,0.61,模型全局域内,[1.68:2.3],PREDICTED
+glycerin,甘油,LogP,亲脂性 logP,-1.86,log10 比值,1,1.0,0.84,模型全局域内,[-1.94:-1.78],PREDICTED
+glycerin,甘油,WS,水溶解度 logS,1.08,log10(mol/L),1,1.0,0.83,模型全局域内,[1.03:1.08],PREDICTED
+glycerin,甘油,BCF,鱼体富集 logBCF,0.43,log10(L/kg),1,0.44,0.71,模型全局域内,[0.22:0.64],PREDICTED
+glycerin,甘油,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.485243238225497,0.588113121925275,模型全局域内,,PREDICTED
+glycerin,甘油,KM,鱼体生物转化半衰期,-1.02,log10(天),0,0.24,0.55,模型全局域外,[-1.35:-0.69],PREDICTED
+glycerin,甘油,Koc,土壤吸附 logKoc,0.55,log10(L/kg),1,0.51,0.61,模型全局域内,[0.19:0.91],PREDICTED
+urea,尿素,LogP,亲脂性 logP,-1.88,log10 比值,1,1.0,0.84,模型全局域内,[-1.89:-1.84],PREDICTED
+urea,尿素,WS,水溶解度 logS,0.96,log10(mol/L),1,1.0,0.81,模型全局域内,[0.87:1.05],PREDICTED
+urea,尿素,BCF,鱼体富集 logBCF,0.31,log10(L/kg),1,0.43,0.75,模型全局域内,[0.15:0.47],PREDICTED
+urea,尿素,ReadyBiodeg,易生物降解,,二分类 0/1,0,0.0,0.0,计算缺失,,PREDICTED
+urea,尿素,KM,鱼体生物转化半衰期,,log10(天),0,0.0,0.0,计算缺失,,PREDICTED
+urea,尿素,Koc,土壤吸附 logKoc,,log10(L/kg),0,0.0,0.0,计算缺失,,PREDICTED
+allantoin,尿囊素,LogP,亲脂性 logP,-2.26,log10 比值,1,1.0,0.81,模型全局域内,[-2.26:-2.2],PREDICTED
+allantoin,尿囊素,WS,水溶解度 logS,-1.54,log10(mol/L),1,1.0,0.9,模型全局域内,[-1.59:-1.49],PREDICTED
+allantoin,尿囊素,BCF,鱼体富集 logBCF,0.39,log10(L/kg),1,0.33,0.68,模型全局域内,[0.19:0.59],PREDICTED
+allantoin,尿囊素,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.378606654215534,0.534794829920293,模型全局域内,,PREDICTED
+allantoin,尿囊素,KM,鱼体生物转化半衰期,-0.96,log10(天),0,0.18,0.48,模型全局域外,[-1.4:-0.52],PREDICTED
+allantoin,尿囊素,Koc,土壤吸附 logKoc,2.26,log10(L/kg),1,0.35,0.32,模型全局域内,[1.27:3.25],PREDICTED
+d_panthenol,D-泛醇,LogP,亲脂性 logP,-1.04,log10 比值,1,1.0,0.98,模型全局域内,[-1.09:-0.99],PREDICTED
+d_panthenol,D-泛醇,WS,水溶解度 logS,0.69,log10(mol/L),1,1.0,0.86,模型全局域内,[0.64:0.69],PREDICTED
+d_panthenol,D-泛醇,BCF,鱼体富集 logBCF,0.07,log10(L/kg),1,0.49,0.65,模型全局域内,[-0.3:0.47],PREDICTED
+d_panthenol,D-泛醇,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.453538467840914,0.572260736732983,模型全局域内,,PREDICTED
+d_panthenol,D-泛醇,KM,鱼体生物转化半衰期,-1.09,log10(天),0,0.17,0.53,模型全局域外,[-1.43:-0.75],PREDICTED
+d_panthenol,D-泛醇,Koc,土壤吸附 logKoc,1.35,log10(L/kg),1,0.42,0.39,模型全局域内,[0.43:2.27],PREDICTED
+betaine,甜菜碱,LogP,亲脂性 logP,-1.65,log10 比值,1,0.49,0.49,模型全局域内,[-2.84:-0.55],PREDICTED
+betaine,甜菜碱,WS,水溶解度 logS,0.72,log10(mol/L),1,1.0,0.84,模型全局域内,[0.65:0.72],PREDICTED
+betaine,甜菜碱,BCF,鱼体富集 logBCF,0.45,log10(L/kg),1,0.51,0.71,模型全局域内,[0.2:0.65],PREDICTED
+betaine,甜菜碱,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.471945573240345,0.735972786620173,模型全局域内,,PREDICTED
+betaine,甜菜碱,KM,鱼体生物转化半衰期,-0.68,log10(天),1,0.47,0.55,模型全局域内,[-1.22:-0.14],PREDICTED
+betaine,甜菜碱,Koc,土壤吸附 logKoc,0.76,log10(L/kg),1,0.48,0.62,模型全局域内,[0.39:1.13],PREDICTED
+caffeine,咖啡因,LogP,亲脂性 logP,-0.07,log10 比值,1,1.0,0.94,模型全局域内,[-0.1:-0.07],PREDICTED
+caffeine,咖啡因,WS,水溶解度 logS,-0.95,log10(mol/L),1,1.0,0.97,模型全局域内,[-1:-0.9],PREDICTED
+caffeine,咖啡因,BCF,鱼体富集 logBCF,0.27,log10(L/kg),1,0.36,0.65,模型全局域内,[-0.02:0.51],PREDICTED
+caffeine,咖啡因,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.431080518830857,0.521827316054032,模型全局域内,,PREDICTED
+caffeine,咖啡因,KM,鱼体生物转化半衰期,-0.92,log10(天),1,0.25,0.52,模型全局域内,[-1.33:-0.46],PREDICTED
+caffeine,咖啡因,Koc,土壤吸附 logKoc,1.79,log10(L/kg),1,0.34,0.52,模型全局域内,[1.26:2.32],PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,LogP,亲脂性 logP,-1.78,log10 比值,1,0.51,0.63,模型全局域内,[-2.4:-1.16],PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,WS,水溶解度 logS,0.06,log10(mol/L),1,0.52,0.6,模型全局域内,[-0.66:0.78],PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,BCF,鱼体富集 logBCF,0.25,log10(L/kg),1,0.31,0.6,模型全局域内,[-0.1:0.6],PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.412502468680392,0.551742737152722,模型全局域内,,PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,KM,鱼体生物转化半衰期,-0.96,log10(天),0,0.18,0.49,模型全局域外,[-1.4:-0.52],PREDICTED
+ascorbic_acid,L-抗坏血酸（维C）,Koc,土壤吸附 logKoc,2.48,log10(L/kg),1,0.42,0.5,模型全局域内,[2.09:2.93],PREDICTED
+alpha_tocopherol,α-生育酚（维E）,LogP,亲脂性 logP,8.82,log10 比值,1,0.47,0.43,模型全局域内,[7.5:10.14],PREDICTED
+alpha_tocopherol,α-生育酚（维E）,WS,水溶解度 logS,-8.51,log10(mol/L),1,1.0,0.71,模型全局域内,[-8.52:-8.27],PREDICTED
+alpha_tocopherol,α-生育酚（维E）,BCF,鱼体富集 logBCF,3.23,log10(L/kg),0,0.21,0.33,模型全局域外,[2.07:4.36],PREDICTED
+alpha_tocopherol,α-生育酚（维E）,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.475232199798685,0.583107602711869,模型全局域内,,PREDICTED
+alpha_tocopherol,α-生育酚（维E）,KM,鱼体生物转化半衰期,-0.02,log10(天),0,0.19,0.37,模型全局域外,[-0.79:0.69],PREDICTED
+alpha_tocopherol,α-生育酚（维E）,Koc,土壤吸附 logKoc,4.72,log10(L/kg),0,0.27,0.45,模型全局域外,[4.1:5.34],PREDICTED
+l_lactic_acid,L-乳酸,LogP,亲脂性 logP,-0.72,log10 比值,1,1.0,0.99,模型全局域内,[-0.73:-0.72],PREDICTED
+l_lactic_acid,L-乳酸,WS,水溶解度 logS,1.04,log10(mol/L),1,1.0,0.84,模型全局域内,[0.99:1.05],PREDICTED
+l_lactic_acid,L-乳酸,BCF,鱼体富集 logBCF,0.62,log10(L/kg),1,0.35,0.67,模型全局域内,[0.42:0.82],PREDICTED
+l_lactic_acid,L-乳酸,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.579206037418676,0.789603018709338,模型全局域内,,PREDICTED
+l_lactic_acid,L-乳酸,KM,鱼体生物转化半衰期,-1.07,log10(天),1,0.31,0.55,模型全局域内,[-1.4:-0.68],PREDICTED
+l_lactic_acid,L-乳酸,Koc,土壤吸附 logKoc,1.01,log10(L/kg),1,0.6,0.58,模型全局域内,[0.48:1.54],PREDICTED
+salicylic_acid,水杨酸,LogP,亲脂性 logP,2.26,log10 比值,1,1.0,0.97,模型全局域内,[2.21:2.31],PREDICTED
+salicylic_acid,水杨酸,WS,水溶解度 logS,-1.83,log10(mol/L),1,1.0,0.97,模型全局域内,[-1.89:-1.77],PREDICTED
+salicylic_acid,水杨酸,BCF,鱼体富集 logBCF,0.62,log10(L/kg),1,0.48,0.71,模型全局域内,[0.41:0.83],PREDICTED
+salicylic_acid,水杨酸,ReadyBiodeg,易生物降解,1.0,二分类 0/1,1,0.598519510964809,0.644751258294931,模型全局域内,,PREDICTED
+salicylic_acid,水杨酸,KM,鱼体生物转化半衰期,-0.99,log10(天),1,0.46,0.58,模型全局域内,[-1.42:-0.56],PREDICTED
+salicylic_acid,水杨酸,Koc,土壤吸附 logKoc,1.58,log10(L/kg),1,0.73,0.78,模型全局域内,[1.43:1.81],PREDICTED
+pathway_9,路径化合物 9,LogP,亲脂性 logP,3.01,log10 比值,1,0.59,0.72,模型全局域内,[2.53:3.27],PREDICTED
+pathway_9,路径化合物 9,WS,水溶解度 logS,-4.54,log10(mol/L),1,0.44,0.47,模型全局域内,[-5.61:-3.47],PREDICTED
+pathway_9,路径化合物 9,BCF,鱼体富集 logBCF,1.59,log10(L/kg),1,0.39,0.66,模型全局域内,[1.32:1.86],PREDICTED
+pathway_9,路径化合物 9,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.480682941352989,0.585832973489021,模型全局域内,,PREDICTED
+pathway_9,路径化合物 9,KM,鱼体生物转化半衰期,-0.12,log10(天),1,0.31,0.54,模型全局域内,[-0.59:0.35],PREDICTED
+pathway_9,路径化合物 9,Koc,土壤吸附 logKoc,3.78,log10(L/kg),1,0.4,0.43,模型全局域内,[2.81:4.75],PREDICTED
+pathway_10,路径化合物 10,LogP,亲脂性 logP,5.38,log10 比值,1,0.55,0.56,模型全局域内,[4.33:6.43],PREDICTED
+pathway_10,路径化合物 10,WS,水溶解度 logS,-5.54,log10(mol/L),1,0.44,0.47,模型全局域内,[-6.66:-4.42],PREDICTED
+pathway_10,路径化合物 10,BCF,鱼体富集 logBCF,1.77,log10(L/kg),0,0.35,0.49,模型全局域外,[1.02:2.52],PREDICTED
+pathway_10,路径化合物 10,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.502356270778843,0.751178135389421,模型全局域内,,PREDICTED
+pathway_10,路径化合物 10,KM,鱼体生物转化半衰期,-0.58,log10(天),1,0.33,0.48,模型全局域内,[-1.21:0.05],PREDICTED
+pathway_10,路径化合物 10,Koc,土壤吸附 logKoc,4.06,log10(L/kg),1,0.33,0.41,模型全局域内,[3.14:4.98],PREDICTED
+pathway_11,路径化合物 11,LogP,亲脂性 logP,6.04,log10 比值,1,0.63,0.68,模型全局域内,[5.57:6.51],PREDICTED
+pathway_11,路径化合物 11,WS,水溶解度 logS,-3.53,log10(mol/L),1,0.42,0.53,模型全局域内,[-4.28:-2.78],PREDICTED
+pathway_11,路径化合物 11,BCF,鱼体富集 logBCF,1.75,log10(L/kg),1,0.37,0.5,模型全局域内,[1.01:2.49],PREDICTED
+pathway_11,路径化合物 11,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.479769686018662,0.739884843009331,模型全局域内,,PREDICTED
+pathway_11,路径化合物 11,KM,鱼体生物转化半衰期,-0.59,log10(天),1,0.27,0.48,模型全局域内,[-1.15:-0.03],PREDICTED
+pathway_11,路径化合物 11,Koc,土壤吸附 logKoc,5.54,log10(L/kg),1,0.29,0.42,模型全局域内,[4.71:6.22],PREDICTED
+pathway_13,路径化合物 13,LogP,亲脂性 logP,3.18,log10 比值,1,0.54,0.67,模型全局域内,[2.93:3.43],PREDICTED
+pathway_13,路径化合物 13,WS,水溶解度 logS,-4.19,log10(mol/L),1,0.43,0.49,模型全局域内,[-5.23:-3.27],PREDICTED
+pathway_13,路径化合物 13,BCF,鱼体富集 logBCF,1.75,log10(L/kg),1,0.35,0.6,模型全局域内,[1.4:2.1],PREDICTED
+pathway_13,路径化合物 13,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.448645213891093,0.569814109758073,模型全局域内,,PREDICTED
+pathway_13,路径化合物 13,KM,鱼体生物转化半衰期,-0.24,log10(天),0,0.25,0.57,模型全局域外,[-0.57:0.09],PREDICTED
+pathway_13,路径化合物 13,Koc,土壤吸附 logKoc,3.39,log10(L/kg),1,0.42,0.51,模型全局域内,[2.64:4.14],PREDICTED
+pathway_14,路径化合物 14,LogP,亲脂性 logP,4.92,log10 比值,1,0.48,0.5,模型全局域内,[3.99:5.85],PREDICTED
+pathway_14,路径化合物 14,WS,水溶解度 logS,-3.95,log10(mol/L),1,0.41,0.65,模型全局域内,[-4.35:-3.53],PREDICTED
+pathway_14,路径化合物 14,BCF,鱼体富集 logBCF,1.93,log10(L/kg),0,0.35,0.51,模型全局域外,[1.41:2.59],PREDICTED
+pathway_14,路径化合物 14,ReadyBiodeg,易生物降解,0.0,二分类 0/1,1,0.474656024153411,0.737328012076706,模型全局域内,,PREDICTED
+pathway_14,路径化合物 14,KM,鱼体生物转化半衰期,-0.54,log10(天),0,0.24,0.45,模型全局域外,[-1.16:0.08],PREDICTED
+pathway_14,路径化合物 14,Koc,土壤吸附 logKoc,4.21,log10(L/kg),1,0.35,0.36,模型全局域内,[3.19:5],PREDICTED

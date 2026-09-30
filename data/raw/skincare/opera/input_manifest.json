@@ -1,0 +1,205 @@
+{
+  "structures": [
+    {
+      "id": "glabridin",
+      "name": "Glabridin",
+      "name_zh": "光甘草定",
+      "smiles": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)O)O)C",
+      "inchikey": "LBQIJVLKGVZRIW-ZDUSSCGKSA-N",
+      "role": "TARGET"
+    },
+    {
+      "id": "alpha_arbutin",
+      "name": "Alpha-arbutin",
+      "name_zh": "α-熊果苷",
+      "role": "PRIMARY_FUNCTIONAL_REFERENCE",
+      "smiles": "C1=CC(=CC=C1O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O",
+      "inchikey": "BJRNKVDFDLYUGJ-ZIQFBCGOSA-N",
+      "cas": "84380-01-8",
+      "pubchem_cid": 158637
+    },
+    {
+      "id": "niacinamide",
+      "name": "Niacinamide",
+      "name_zh": "烟酰胺",
+      "role": "PRIMARY_FUNCTIONAL_REFERENCE",
+      "smiles": "C1=CC(=CN=C1)C(=O)N",
+      "inchikey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
+      "cas": "98-92-0",
+      "pubchem_cid": 936
+    },
+    {
+      "id": "ascorbyl_glucoside",
+      "name": "Ascorbyl glucoside",
+      "name_zh": "抗坏血酸葡糖苷",
+      "role": "SUPPORTING_ANTIOXIDANT_SKIN_CONDITIONING_REFERENCE",
+      "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)OC2=C([C@H](OC2=O)[C@H](CO)O)O)O)O)O)O",
+      "inchikey": "MLSJBGYKDYSOAE-DCWMUDTNSA-N",
+      "cas": "129499-78-1",
+      "pubchem_cid": 54693473
+    },
+    {
+      "id": "kojic_acid",
+      "name": "Kojic acid",
+      "name_zh": "曲酸",
+      "role": "CONDITIONAL_FUNCTIONAL_REFERENCE",
+      "smiles": "C1=C(OC=C(C1=O)O)CO",
+      "inchikey": "BEJNERDRQOWKJM-UHFFFAOYSA-N",
+      "cas": "501-30-4",
+      "pubchem_cid": 3840
+    },
+    {
+      "id": "beta_arbutin",
+      "name": "Beta-arbutin",
+      "name_zh": "β-熊果苷",
+      "role": "EXTENDED_FUNCTIONAL_STEREOISOMER_REFERENCE",
+      "smiles": "C1=CC(=CC=C1O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O",
+      "inchikey": "BJRNKVDFDLYUGJ-RMPHRYRLSA-N",
+      "cas": "497-76-7",
+      "pubchem_cid": 440936
+    },
+    {
+      "id": "glycerin",
+      "name": "Glycerin",
+      "name_zh": "甘油",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C(C(CO)O)O",
+      "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+      "cas": "56-81-5",
+      "pubchem_cid": 753
+    },
+    {
+      "id": "urea",
+      "name": "Urea",
+      "name_zh": "尿素",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C(=O)(N)N",
+      "inchikey": "XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+      "cas": "57-13-6",
+      "pubchem_cid": 1176
+    },
+    {
+      "id": "allantoin",
+      "name": "Allantoin",
+      "name_zh": "尿囊素",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C1(C(=O)NC(=O)N1)NC(=O)N",
+      "inchikey": "POJWUDADGALRAB-UHFFFAOYSA-N",
+      "cas": "97-59-6",
+      "pubchem_cid": 204
+    },
+    {
+      "id": "d_panthenol",
+      "name": "D-Panthenol",
+      "name_zh": "D-泛醇",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "CC(C)(CO)[C@H](C(=O)NCCCO)O",
+      "inchikey": "SNPLKNRPJHDVJA-ZETCQYMHSA-N",
+      "cas": "81-13-0",
+      "pubchem_cid": 131204
+    },
+    {
+      "id": "betaine",
+      "name": "Betaine",
+      "name_zh": "甜菜碱",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C[N+](C)(C)CC(=O)[O-]",
+      "inchikey": "KWIUHFFTVRNATP-UHFFFAOYSA-N",
+      "cas": "107-43-7",
+      "pubchem_cid": 247
+    },
+    {
+      "id": "caffeine",
+      "name": "Caffeine",
+      "name_zh": "咖啡因",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+      "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+      "cas": "58-08-2",
+      "pubchem_cid": 2519
+    },
+    {
+      "id": "ascorbic_acid",
+      "name": "L-Ascorbic acid",
+      "name_zh": "L-抗坏血酸（维C）",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O",
+      "inchikey": "CIWBSHSKHKDKBQ-JLAZNSOCSA-N",
+      "cas": "50-81-7",
+      "pubchem_cid": 54670067
+    },
+    {
+      "id": "alpha_tocopherol",
+      "name": "RRR-alpha-Tocopherol",
+      "name_zh": "α-生育酚（维E）",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "CC1=C(C2=C(CC[C@@](O2)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C(=C1O)C)C",
+      "inchikey": "GVJHHUAWPYXKBD-IEOSBIPESA-N",
+      "cas": "59-02-9",
+      "pubchem_cid": 14985
+    },
+    {
+      "id": "l_lactic_acid",
+      "name": "L-Lactic acid",
+      "name_zh": "L-乳酸",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C[C@@H](C(=O)O)O",
+      "inchikey": "JVTAAEKCZFNVCJ-REOHCLBHSA-N",
+      "cas": "79-33-4",
+      "pubchem_cid": 107689
+    },
+    {
+      "id": "salicylic_acid",
+      "name": "Salicylic acid",
+      "name_zh": "水杨酸",
+      "role": "CONTEXTUAL_COSMETIC_REFERENCE",
+      "smiles": "C1=CC=C(C(=C1)C(=O)O)O",
+      "inchikey": "YGSDEFSMJLZEOE-UHFFFAOYSA-N",
+      "cas": "69-72-7",
+      "pubchem_cid": 338
+    },
+    {
+      "id": "pathway_9",
+      "smiles": "COC1=CC(=C(C=C1)C2CC3=C(C=C(C=C3)O)OC2)O",
+      "name_zh": "路径化合物 9",
+      "role": "PATHWAY_INTERMEDIATE"
+    },
+    {
+      "id": "pathway_10",
+      "smiles": "CC(=CCC1=C(C=CC2=C1OCC(C2)C3=C(C=C(C=C3)OC)O)O)C",
+      "name_zh": "路径化合物 10",
+      "role": "PATHWAY_INTERMEDIATE"
+    },
+    {
+      "id": "pathway_11",
+      "smiles": "CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)OC)O)C",
+      "name_zh": "路径化合物 11",
+      "role": "PATHWAY_INTERMEDIATE"
+    },
+    {
+      "id": "pathway_13",
+      "smiles": "C1C(COC2=C1C=CC(=C2)O)C3=C(C=C(C=C3)O)O",
+      "name_zh": "路径化合物 13",
+      "role": "PATHWAY_INTERMEDIATE"
+    },
+    {
+      "id": "pathway_14",
+      "smiles": "CC(=CCC1=C(C=CC2=C1OC[C@@H](C2)C3=C(C=C(C=C3)O)O)O)C",
+      "name_zh": "路径化合物 14",
+      "role": "PATHWAY_INTERMEDIATE"
+    }
+  ],
+  "selected_endpoints": [
+    "logP",
+    "WS",
+    "BCF",
+    "Koc",
+    "RB",
+    "KM"
+  ],
+  "excluded_endpoints": {
+    "BioDeg": "Model limited to hydrocarbons (C/H); glabridin contains oxygen, so this half-life model is excluded."
+  },
+  "selection_basis": "Physicochemical/environmental fate endpoints selected before inference, independent of results.",
+  "input_sha256": "e25a0ebb6e4e7787daf6bc3d863d626e5f0f53f2c2d35c88b3a6761e6f41456d"
+}

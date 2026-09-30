@@ -1,0 +1,27 @@
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/root/IGEM-storage/enrichment/opera/installed/R2023b/runtime/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/bin/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/sys/os/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/sys/opengl/lib/glnxa64
+
+ Endpoints to be calculated: 
+ KOC, RB and KM
+
+ Initializing and loading models...
+
+============= Molecular Descriptors ============
+Loaded structures: 1.
+PaDEL calculating 2D descriptors...
+Descriptor calculation completed in 0.241 secs . Average speed: 0.24 s/mol.
+PaDEL descriptors calculated for: 1 molecules.
+Loading of PaDEL descriptors file...
+Molecule names found in input file(s).
+Checking loaded variables.
+Loaded 1444 PaDEL descriptors for 1 molecules.
+
+============== Running The Models ==============
+Predicting Ready-Biodegradability (Binary 0/1)...
+Weighted kNN model with 10 descriptors
+Error using OPERA
+Some RBiodeg descriptors failed. Check input and repeat calculation.
+
+

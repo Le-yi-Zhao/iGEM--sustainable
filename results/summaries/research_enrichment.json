@@ -1,0 +1,28 @@
+{
+  "efficacy_assays": 4,
+  "efficacy_distinct_papers": 3,
+  "time_series_rows": 198,
+  "time_series_observed_values": 197,
+  "missing_values": 1,
+  "source_sha256": "a9e0ffe6eb870b7e993a5ad7aeca685629408ab7f921a2803191c62826caf68d",
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-68881-8/MediaObjects/41467_2026_68881_MOESM9_ESM.xlsx",
+  "extraction_conditions": 7,
+  "resource_scenarios": 28,
+  "figure_names": [
+    "efficacy_ic50",
+    "efficacy_ratio",
+    "production_multiroute",
+    "production_singleroute",
+    "production_composition",
+    "extraction_purity",
+    "broth_volume"
+  ],
+  "scope": "定向补充原始研究；不是穷尽式系统综述。原数据库未按质量再次筛选。",
+  "limits": [
+    "2022 两个酶试验来自同篇论文，未做跨研究合并效应。",
+    "时间序列只重画外部文献原始重复；缺失保持缺失，零值保留原记录。",
+    "误差线不是项目湿实验或人体风险区间。",
+    "浓度构成不是物质通量、碳平衡或转化率；面板覆盖不同。",
+    "粗提物换算不包含后续纯化回收率。"
+  ]
+}

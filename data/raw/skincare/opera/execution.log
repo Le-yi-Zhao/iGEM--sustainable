@@ -1,0 +1,61 @@
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/root/IGEM-storage/enrichment/opera/installed/R2023b/runtime/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/bin/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/sys/os/glnxa64:/root/IGEM-storage/enrichment/opera/installed/R2023b/sys/opengl/lib/glnxa64
+
+ Endpoints to be calculated: 
+ LOGP, WS, BCF, KOC, RB and KM
+
+ Initializing and loading models...
+
+============= Molecular Descriptors ============
+Loaded structures: 21.
+PaDEL calculating 2D descriptors...
+Processing glabridin in input.sdf (1/21). 
+Processing niacinamide in input.sdf (3/21). 
+Processing ascorbyl_glucoside in input.sdf (4/21). 
+Processing alpha_arbutin in input.sdf (2/21). 
+Processing kojic_acid in input.sdf (5/21). 
+Processing beta_arbutin in input.sdf (6/21). 
+Processing glycerin in input.sdf (7/21). 
+Processing urea in input.sdf (8/21). 
+Processing allantoin in input.sdf (9/21). 
+Processing d_panthenol in input.sdf (10/21). 
+Processing betaine in input.sdf (11/21). 
+Processing caffeine in input.sdf (12/21). 
+Processing ascorbic_acid in input.sdf (13/21). 
+Processing l_lactic_acid in input.sdf (15/21). 
+Processing salicylic_acid in input.sdf (16/21). 
+Processing pathway_9 in input.sdf (17/21). 
+Processing alpha_tocopherol in input.sdf (14/21). 
+Processing pathway_10 in input.sdf (18/21). 
+Processing pathway_11 in input.sdf (19/21). 
+Processing pathway_13 in input.sdf (20/21). 
+Processing pathway_14 in input.sdf (21/21). 
+Descriptor calculation completed in 3.39 secs . Average speed: 0.14 s/mol.
+PaDEL descriptors calculated for: 21 molecules.
+Loading of PaDEL descriptors file...
+Molecule names found in input file(s).
+Checking loaded variables.
+Loaded 1444 PaDEL descriptors for 21 molecules.
+
+============== Running The Models ==============
+Predicting LogP values (Log10)...
+Weighted kNN model with 9 descriptors
+No salt info found. May affect predictions. Use standardize or provide IDs
+Predicting LogWS values (Log10 M)...
+Weighted kNN model with 11 descriptors
+Predicting LogBCF values (Log10)...
+Weighted kNN model with 10 descriptors
+Predicting Ready-Biodegradability (Binary 0/1)...
+Weighted kNN model with 10 descriptors
+WARNING: Seems like some compounds failed RBiodeg calculations. Check input and repeat calculation.
+Predicting LogKm half-life values (Log10 days)...
+Weighted kNN model with 12 descriptors
+WARNING: Seems like some compounds failed KM calculations. Check input and repeat calculation.
+Predicting LogKoc values (Log10 L/Kg)...
+Weighted kNN model with 12 descriptors
+WARNING: Seems like some compounds failed KOC calculations. Check input and repeat calculation.
+
+=============== End Of Calculation =============
+21 molecules predicted. Total process time: 00:00:17.

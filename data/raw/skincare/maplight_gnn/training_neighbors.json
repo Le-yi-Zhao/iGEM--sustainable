@@ -1,0 +1,658 @@
+[
+  {
+    "id": "glabridin",
+    "max_tanimoto": 0.2647058823529412,
+    "neighbors": [
+      {
+        "train_index": 5351,
+        "drug_id": "Drug 1586",
+        "smiles": "COC(=O)c1c2c(c3ccccc3c1O)OC(C)(C)C=C2",
+        "label": 1,
+        "tanimoto": 0.2647058823529412
+      },
+      {
+        "train_index": 2804,
+        "drug_id": "Drug 1756",
+        "smiles": "O=C1CC(c2ccc(O)cc2)Oc2cc(O)cc(O)c21",
+        "label": 0,
+        "tanimoto": 0.24615384615384617
+      },
+      {
+        "train_index": 2562,
+        "drug_id": "Drug 6181",
+        "smiles": "CC(C)NCC(O)COc1cccc2c1OCC(O)C2",
+        "label": 0,
+        "tanimoto": 0.24324324324324326
+      },
+      {
+        "train_index": 4718,
+        "drug_id": "Drug 7094",
+        "smiles": "O=c1oc2cccc(O)c2cc1C1CCc2ccccc2C1",
+        "label": 0,
+        "tanimoto": 0.23943661971830985
+      },
+      {
+        "train_index": 4719,
+        "drug_id": "Drug 2245",
+        "smiles": "O=c1oc2cccc(O)c2cc1[C@@H]1CCc2ccccc2C1",
+        "label": 0,
+        "tanimoto": 0.23943661971830985
+      }
+    ]
+  },
+  {
+    "id": "alpha_arbutin",
+    "max_tanimoto": 0.46296296296296297,
+    "neighbors": [
+      {
+        "train_index": 4510,
+        "drug_id": "Drug 6655",
+        "smiles": "O=c1c2c(OC3OC(CO)C(O)C(O)C3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.46296296296296297
+      },
+      {
+        "train_index": 4511,
+        "drug_id": "Drug 1732",
+        "smiles": "O=c1c2c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.46296296296296297
+      },
+      {
+        "train_index": 5585,
+        "drug_id": "Drug 2003",
+        "smiles": "OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O",
+        "label": 0,
+        "tanimoto": 0.4318181818181818
+      },
+      {
+        "train_index": 4509,
+        "drug_id": "Drug 3212",
+        "smiles": "COc1cc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2c(=O)c3c(O)ccc(O)c3oc2c1",
+        "label": 1,
+        "tanimoto": 0.43103448275862066
+      },
+      {
+        "train_index": 4512,
+        "drug_id": "Drug 6826",
+        "smiles": "COc1cc(OC2OC(CO)C(O)C(O)C2O)c2c(=O)c3c(O)ccc(O)c3oc2c1",
+        "label": 1,
+        "tanimoto": 0.43103448275862066
+      }
+    ]
+  },
+  {
+    "id": "niacinamide",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 5503,
+        "drug_id": "Drug 1103",
+        "smiles": "NC(=O)c1cccnc1",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 5508,
+        "drug_id": "Drug 3422",
+        "smiles": "O=C(O)c1cccnc1",
+        "label": 0,
+        "tanimoto": 0.6538461538461539
+      },
+      {
+        "train_index": 818,
+        "drug_id": "Drug 1401",
+        "smiles": "NC(=O)c1ccccc1",
+        "label": 0,
+        "tanimoto": 0.52
+      },
+      {
+        "train_index": 4999,
+        "drug_id": "Drug 4515",
+        "smiles": "CC(CNC(=O)c1cccnc1)NC(=O)c1cccnc1",
+        "label": 0,
+        "tanimoto": 0.4358974358974359
+      },
+      {
+        "train_index": 4243,
+        "drug_id": "Drug 368",
+        "smiles": "NC(=O)c1cnccn1",
+        "label": 0,
+        "tanimoto": 0.43333333333333335
+      }
+    ]
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "max_tanimoto": 0.4772727272727273,
+    "neighbors": [
+      {
+        "train_index": 5035,
+        "drug_id": "Drug 6527",
+        "smiles": "O=C1OC(C(O)CO)C(O)=C1O",
+        "label": 0,
+        "tanimoto": 0.4772727272727273
+      },
+      {
+        "train_index": 4975,
+        "drug_id": "Drug 7124",
+        "smiles": "OCC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "label": 0,
+        "tanimoto": 0.4117647058823529
+      },
+      {
+        "train_index": 4977,
+        "drug_id": "Drug 2764",
+        "smiles": "OC[C@H](O)[C@@H](O)[C@H](O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)CO",
+        "label": 0,
+        "tanimoto": 0.4117647058823529
+      },
+      {
+        "train_index": 4510,
+        "drug_id": "Drug 6655",
+        "smiles": "O=c1c2c(OC3OC(CO)C(O)C(O)C3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.3968253968253968
+      },
+      {
+        "train_index": 4511,
+        "drug_id": "Drug 1732",
+        "smiles": "O=c1c2c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.3968253968253968
+      }
+    ]
+  },
+  {
+    "id": "kojic_acid",
+    "max_tanimoto": 0.28205128205128205,
+    "neighbors": [
+      {
+        "train_index": 3316,
+        "drug_id": "Drug 5915",
+        "smiles": "O=C1c2cc(O)cc(O)c2C(=O)c2c(O)cc(CO)cc21",
+        "label": 1,
+        "tanimoto": 0.28205128205128205
+      },
+      {
+        "train_index": 3324,
+        "drug_id": "Drug 5758",
+        "smiles": "O=C1c2ccccc2C(=O)c2c1cc(O)c(CO)c2O",
+        "label": 1,
+        "tanimoto": 0.2682926829268293
+      },
+      {
+        "train_index": 3323,
+        "drug_id": "Drug 4008",
+        "smiles": "O=C1c2cccc(O)c2C(=O)c2c(O)cc(CO)cc21",
+        "label": 1,
+        "tanimoto": 0.2619047619047619
+      },
+      {
+        "train_index": 3328,
+        "drug_id": "Drug 1973",
+        "smiles": "O=C1c2ccccc2C(=O)c2cc(CO)ccc21",
+        "label": 0,
+        "tanimoto": 0.24324324324324326
+      },
+      {
+        "train_index": 3321,
+        "drug_id": "Drug 1443",
+        "smiles": "COc1c(CO)c(O)cc2c1C(=O)c1ccccc1C2=O",
+        "label": 1,
+        "tanimoto": 0.2391304347826087
+      }
+    ]
+  },
+  {
+    "id": "beta_arbutin",
+    "max_tanimoto": 0.46296296296296297,
+    "neighbors": [
+      {
+        "train_index": 4510,
+        "drug_id": "Drug 6655",
+        "smiles": "O=c1c2c(OC3OC(CO)C(O)C(O)C3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.46296296296296297
+      },
+      {
+        "train_index": 4511,
+        "drug_id": "Drug 1732",
+        "smiles": "O=c1c2c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)cc2oc2c(O)ccc(O)c12",
+        "label": 1,
+        "tanimoto": 0.46296296296296297
+      },
+      {
+        "train_index": 5585,
+        "drug_id": "Drug 2003",
+        "smiles": "OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O",
+        "label": 0,
+        "tanimoto": 0.4318181818181818
+      },
+      {
+        "train_index": 4509,
+        "drug_id": "Drug 3212",
+        "smiles": "COc1cc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2c(=O)c3c(O)ccc(O)c3oc2c1",
+        "label": 1,
+        "tanimoto": 0.43103448275862066
+      },
+      {
+        "train_index": 4512,
+        "drug_id": "Drug 6826",
+        "smiles": "COc1cc(OC2OC(CO)C(O)C(O)C2O)c2c(=O)c3c(O)ccc(O)c3oc2c1",
+        "label": 1,
+        "tanimoto": 0.43103448275862066
+      }
+    ]
+  },
+  {
+    "id": "glycerin",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 2233,
+        "drug_id": "Drug 6371",
+        "smiles": "OCC(O)CO",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 2271,
+        "drug_id": "Drug 6614",
+        "smiles": "OCC(O)CCl",
+        "label": 1,
+        "tanimoto": 0.5714285714285714
+      },
+      {
+        "train_index": 2216,
+        "drug_id": "Drug 6239",
+        "smiles": "OC[C@H](O)CCl",
+        "label": 1,
+        "tanimoto": 0.5714285714285714
+      },
+      {
+        "train_index": 2279,
+        "drug_id": "Drug 6677",
+        "smiles": "OCC(O)CI",
+        "label": 1,
+        "tanimoto": 0.5714285714285714
+      },
+      {
+        "train_index": 2071,
+        "drug_id": "Drug 5368",
+        "smiles": "OC[C@H](O)CI",
+        "label": 1,
+        "tanimoto": 0.5714285714285714
+      }
+    ]
+  },
+  {
+    "id": "urea",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 1623,
+        "drug_id": "Drug 2888",
+        "smiles": "NC(N)=O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 1783,
+        "drug_id": "Drug 3774",
+        "smiles": "CC(N)=O",
+        "label": 0,
+        "tanimoto": 0.5555555555555556
+      },
+      {
+        "train_index": 1525,
+        "drug_id": "Drug 2394",
+        "smiles": "NC(=O)NNC(N)=O",
+        "label": 0,
+        "tanimoto": 0.5
+      },
+      {
+        "train_index": 1719,
+        "drug_id": "Drug 3450",
+        "smiles": "NC(=O)N=NC(N)=O",
+        "label": 1,
+        "tanimoto": 0.45454545454545453
+      },
+      {
+        "train_index": 1406,
+        "drug_id": "Drug 1594",
+        "smiles": "NC(=O)NO",
+        "label": 1,
+        "tanimoto": 0.45454545454545453
+      }
+    ]
+  },
+  {
+    "id": "allantoin",
+    "max_tanimoto": 0.2692307692307692,
+    "neighbors": [
+      {
+        "train_index": 1525,
+        "drug_id": "Drug 2394",
+        "smiles": "NC(=O)NNC(N)=O",
+        "label": 0,
+        "tanimoto": 0.2692307692307692
+      },
+      {
+        "train_index": 1406,
+        "drug_id": "Drug 1594",
+        "smiles": "NC(=O)NO",
+        "label": 1,
+        "tanimoto": 0.25925925925925924
+      },
+      {
+        "train_index": 1742,
+        "drug_id": "Drug 3569",
+        "smiles": "NNC(N)=O",
+        "label": 0,
+        "tanimoto": 0.25925925925925924
+      },
+      {
+        "train_index": 4575,
+        "drug_id": "Drug 5510",
+        "smiles": "O=C1NC(=O)[C@@H]2CC=CC[C@H]12",
+        "label": 0,
+        "tanimoto": 0.24242424242424243
+      },
+      {
+        "train_index": 4578,
+        "drug_id": "Drug 6986",
+        "smiles": "O=C1NC(=O)C2CC=CCC12",
+        "label": 0,
+        "tanimoto": 0.24242424242424243
+      }
+    ]
+  },
+  {
+    "id": "d_panthenol",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 2116,
+        "drug_id": "Drug 5637",
+        "smiles": "CC(C)(CO)C(O)C(=O)NCCCO",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 1200,
+        "drug_id": "Drug 335",
+        "smiles": "CC(C)(CO)C(O)C(=O)NCCC(=O)O",
+        "label": 0,
+        "tanimoto": 0.6666666666666666
+      },
+      {
+        "train_index": 1611,
+        "drug_id": "Drug 2841",
+        "smiles": "CC(O)C(=O)NCCO",
+        "label": 1,
+        "tanimoto": 0.42424242424242425
+      },
+      {
+        "train_index": 2057,
+        "drug_id": "Drug 5301",
+        "smiles": "CC(Br)C(=O)NC(C)(C)C",
+        "label": 0,
+        "tanimoto": 0.2777777777777778
+      },
+      {
+        "train_index": 2212,
+        "drug_id": "Drug 6210",
+        "smiles": "CCCCCCCCCCCC(=O)NCCO",
+        "label": 0,
+        "tanimoto": 0.275
+      }
+    ]
+  },
+  {
+    "id": "betaine",
+    "max_tanimoto": 0.5263157894736842,
+    "neighbors": [
+      {
+        "train_index": 1383,
+        "drug_id": "Drug 1471",
+        "smiles": "C[N+](C)(C)CC(=O)O",
+        "label": 0,
+        "tanimoto": 0.5263157894736842
+      },
+      {
+        "train_index": 1849,
+        "drug_id": "Drug 4085",
+        "smiles": "CCC(=O)C(=O)CC",
+        "label": 1,
+        "tanimoto": 0.3157894736842105
+      },
+      {
+        "train_index": 1279,
+        "drug_id": "Drug 900",
+        "smiles": "C[N+](C)(C)CCO",
+        "label": 0,
+        "tanimoto": 0.2857142857142857
+      },
+      {
+        "train_index": 2079,
+        "drug_id": "Drug 5445",
+        "smiles": "CCC(=O)C(C)=O",
+        "label": 0,
+        "tanimoto": 0.2727272727272727
+      },
+      {
+        "train_index": 1824,
+        "drug_id": "Drug 3959",
+        "smiles": "C[N+](C)(C)NCCC(=O)O",
+        "label": 0,
+        "tanimoto": 0.25925925925925924
+      }
+    ]
+  },
+  {
+    "id": "caffeine",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 3632,
+        "drug_id": "Drug 5295",
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 3633,
+        "drug_id": "Drug 5207",
+        "smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+        "label": 0,
+        "tanimoto": 0.5294117647058824
+      },
+      {
+        "train_index": 4928,
+        "drug_id": "Drug 3494",
+        "smiles": "Cn1c(=O)c2nc[nH]c2n(C)c1=O",
+        "label": 0,
+        "tanimoto": 0.3783783783783784
+      },
+      {
+        "train_index": 2872,
+        "drug_id": "Drug 3175",
+        "smiles": "Cn1cnc2c(N)ncnc21",
+        "label": 1,
+        "tanimoto": 0.2894736842105263
+      },
+      {
+        "train_index": 4473,
+        "drug_id": "Drug 1071",
+        "smiles": "Cn1cnc2c(=N)[n+](=O)[cH-][nH]c21",
+        "label": 1,
+        "tanimoto": 0.2727272727272727
+      }
+    ]
+  },
+  {
+    "id": "ascorbic_acid",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 5035,
+        "drug_id": "Drug 6527",
+        "smiles": "O=C1OC(C(O)CO)C(O)=C1O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 4712,
+        "drug_id": "Drug 5193",
+        "smiles": "O=C1C(O)=C(O)O[C@@H]1[C@@H](O)CO",
+        "label": 0,
+        "tanimoto": 0.5625
+      },
+      {
+        "train_index": 4713,
+        "drug_id": "Drug 5217",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)OCC(O)C1OC(O)=C(O)C1=O",
+        "label": 0,
+        "tanimoto": 0.3
+      },
+      {
+        "train_index": 5019,
+        "drug_id": "Drug 3093",
+        "smiles": "COC(=O)C1=C(C)C(C(C)C)OC1=O",
+        "label": 1,
+        "tanimoto": 0.2558139534883721
+      },
+      {
+        "train_index": 3612,
+        "drug_id": "Drug 499",
+        "smiles": "CC(O)CN1CC(C)OC1=O",
+        "label": 0,
+        "tanimoto": 0.23255813953488372
+      }
+    ]
+  },
+  {
+    "id": "alpha_tocopherol",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 2565,
+        "drug_id": "Drug 4728",
+        "smiles": "Cc1c(C)c2c(c(C)c1O)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 2563,
+        "drug_id": "Drug 265",
+        "smiles": "CC(=O)Oc1c(C)c(C)c2c(c1C)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2",
+        "label": 0,
+        "tanimoto": 0.6981132075471698
+      },
+      {
+        "train_index": 3021,
+        "drug_id": "Drug 7162",
+        "smiles": "C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)CCCC(C)C",
+        "label": 0,
+        "tanimoto": 0.21794871794871795
+      },
+      {
+        "train_index": 3019,
+        "drug_id": "Drug 3189",
+        "smiles": "C=C1CC[C@H](O)C/C1=C/C=C1/CCC[C@]2(C)[C@@H]1CC[C@H]2[C@H](C)CCCC(C)C",
+        "label": 0,
+        "tanimoto": 0.21794871794871795
+      },
+      {
+        "train_index": 3990,
+        "drug_id": "Drug 4101",
+        "smiles": "CC(C)CCCC(C)C1CCC2C3CC=C4CCCCC4(C)C3CCC12C",
+        "label": 0,
+        "tanimoto": 0.21621621621621623
+      }
+    ]
+  },
+  {
+    "id": "l_lactic_acid",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 1229,
+        "drug_id": "Drug 534",
+        "smiles": "C[C@@H](O)C(=O)O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 2358,
+        "drug_id": "Drug 7071",
+        "smiles": "CC(O)C(=O)O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 1677,
+        "drug_id": "Drug 3161",
+        "smiles": "CC(=O)[C@@H](C)O",
+        "label": 0,
+        "tanimoto": 0.5714285714285714
+      },
+      {
+        "train_index": 2361,
+        "drug_id": "Drug 7081",
+        "smiles": "CC(=O)C(C)O",
+        "label": 0,
+        "tanimoto": 0.5714285714285714
+      },
+      {
+        "train_index": 1975,
+        "drug_id": "Drug 4835",
+        "smiles": "CC(Cl)C(=O)O",
+        "label": 0,
+        "tanimoto": 0.5333333333333333
+      }
+    ]
+  },
+  {
+    "id": "salicylic_acid",
+    "max_tanimoto": 1.0,
+    "neighbors": [
+      {
+        "train_index": 146,
+        "drug_id": "Drug 2250",
+        "smiles": "O=C(O)c1ccccc1O",
+        "label": 0,
+        "tanimoto": 1.0
+      },
+      {
+        "train_index": 794,
+        "drug_id": "Drug 1342",
+        "smiles": "O=C(O)c1ccccc1C(=O)O",
+        "label": 0,
+        "tanimoto": 0.6842105263157895
+      },
+      {
+        "train_index": 660,
+        "drug_id": "Drug 5197",
+        "smiles": "NC(=O)c1ccccc1O",
+        "label": 0,
+        "tanimoto": 0.6086956521739131
+      },
+      {
+        "train_index": 745,
+        "drug_id": "Drug 5352",
+        "smiles": "Nc1c(O)cccc1C(=O)O",
+        "label": 0,
+        "tanimoto": 0.6
+      },
+      {
+        "train_index": 69,
+        "drug_id": "Drug 114",
+        "smiles": "O=C(NO)c1ccccc1O",
+        "label": 1,
+        "tanimoto": 0.56
+      }
+    ]
+  }
+]

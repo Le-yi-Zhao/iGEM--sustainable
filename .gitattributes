@@ -1,0 +1,5 @@
+# Preserve byte-exact OPERA console output, including vendor whitespace.
+data/raw/skincare/opera/*.log -whitespace
+data/raw/skincare/opera/model_versions.txt -whitespace
+wiki_export/data/raw/skincare/opera/*.log -whitespace
+wiki_export/data/raw/skincare/opera/model_versions.txt -whitespace

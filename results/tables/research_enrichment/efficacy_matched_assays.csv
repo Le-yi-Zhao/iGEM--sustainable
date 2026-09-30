@@ -1,0 +1,5 @@
+﻿assay,doi,url,locator,method,glabridin_ic50_uM,kojic_ic50_uM,glabridin_reported_pm_uM,kojic_reported_pm_uM,pm_type,kojic_over_glabridin,evidence_type
+2016｜酶活性,10.1016/j.saa.2016.06.008,https://doi.org/10.1016/j.saa.2016.06.008,结果 Inhibitory effects；Fig. 2,蘑菇酪氨酸酶；原研究比色法,0.43,75.74,,,所用结果位置未给误差,176.13953488372093,EXTERNAL_LITERATURE_MEASURED
+2022｜单酚酶,10.1016/j.foodchem.2022.133423,https://doi.org/10.1016/j.foodchem.2022.133423,摘要,蘑菇酪氨酸酶；1 mM 底物；氧传感／比色法,0.08,33,0.008,8,摘要原文 ±；未据此构造置信区间,412.5,EXTERNAL_LITERATURE_MEASURED
+2022｜二酚酶,10.1016/j.foodchem.2022.133423,https://doi.org/10.1016/j.foodchem.2022.133423,摘要,蘑菇酪氨酸酶；1 mM 底物；氧传感／比色法,0.294,17,0.025,3,摘要原文 ±；未据此构造置信区间,57.823129251700685,EXTERNAL_LITERATURE_MEASURED
+2024｜酶活性,10.3389/fphar.2024.1422310,https://doi.org/10.3389/fphar.2024.1422310,Table 4；Methods 2.5,蘑菇酪氨酸酶；L-酪氨酸底物,0.1,25.9,,,所用结果位置未给误差,258.99999999999994,EXTERNAL_LITERATURE_MEASURED

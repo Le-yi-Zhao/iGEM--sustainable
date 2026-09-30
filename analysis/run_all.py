@@ -61,6 +61,12 @@ def main() -> int:
     from analysis import expanded_dashboard
     from analysis.plotting import expanded_analysis
     expanded_dashboard.run(ROOT); expanded_analysis.run(ROOT); completed.append("Expanded reference tables and environment/resource figures")
+    from analysis.plotting import research_enrichment
+    research_enrichment.run(ROOT); completed.append("Source-data efficacy, production and resource figures")
+    from analysis.plotting import model_validation
+    model_validation.run(ROOT); completed.append("MapLight GIN matched evaluation and chemical neighborhood diagnostics")
+    from analysis.plotting import opera_analysis
+    opera_analysis.run(ROOT); completed.append("OPERA environmental results, missing values and applicability domains")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")
