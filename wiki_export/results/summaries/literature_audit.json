@@ -1,0 +1,56 @@
+{
+  "source_sha256_uncompressed": "e3d9939c72c38013e17a23867c3be71bc984613b93c065fd623b01ba12dd4314",
+  "source_filename": "literature_database_source.csv",
+  "records": 20567,
+  "columns": 551,
+  "unique_nonempty_doi": 1397,
+  "missing_doi_records": 0,
+  "needs_human_review": {
+    "false": 7904,
+    "true": 12663
+  },
+  "extraction_qc": {
+    "not_requested": 2776,
+    "accepted": 8750,
+    "low_confidence": 9041
+  },
+  "metric_labels": {
+    "glabridin_titer": 7585,
+    "glabridin_yield": 10422,
+    "enzyme_activity": 1579,
+    "substrate_conversion": 493,
+    "km": 81,
+    "kcat": 23,
+    "specific_activity": 92,
+    "relative_activity": 58,
+    "kinetic_efficiency": 39,
+    "llps_state": 154,
+    "critical_phase_concentration": 41
+  },
+  "candidate_records": 108,
+  "candidate_dois": 18,
+  "title_hit_dois": 1,
+  "review_categories": {
+    "化学位次误抽取": 7,
+    "产物或指标映射待回查": 56,
+    "分离或活性研究待回查": 45
+  },
+  "approved_target_titer_records": 0,
+  "supplement_dois_present_in_input": {
+    "10.1038/s41467-026-68881-8": false,
+    "10.1038/s41467-026-72579-2": false
+  },
+  "screen_fields": [
+    "title_clean",
+    "best_canonical_product",
+    "primary_result_evidence"
+  ],
+  "screen_regex": "glabridin (case insensitive)",
+  "limitations_zh": [
+    "记录数不是论文数或独立重复数。",
+    "检索命中不是产物真实性验证。",
+    "未核准不等于原论文没有有效数据；必须回查原始表格、单位和实验条件。",
+    "该数据库不是穷尽检索，不能据此估计全球研究量或证明研究稀缺。",
+    "两篇外部补充论文单独登记，不混入原数据库计数。"
+  ]
+}

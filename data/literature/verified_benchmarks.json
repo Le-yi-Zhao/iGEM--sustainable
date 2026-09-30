@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-09-30",
+  "evidence_type": "LITERATURE",
+  "note_zh": "人工核对原始论文正文；均为外部研究结果，未作为本项目测量值，也不跨条件排名。",
+  "records": [
+    {"study_zh":"张等，2026：生物合成网络","doi":"10.1038/s41467-026-68881-8","url":"https://www.nature.com/articles/s41467-026-68881-8","route_zh":"工程酿酒酵母，从葡萄糖从头合成，摇瓶","titer_mg_l":0.5,"locator":"Results: Glabridin biosynthesis module assembly and de novo production; Fig. 4i","use_zh":"作为从头合成可行性和分析灵敏度的背景参考；不同菌株与工艺，不能推算本项目增益。"},
+    {"study_zh":"张等，2026：生物合成网络","doi":"10.1038/s41467-026-68881-8","url":"https://www.nature.com/articles/s41467-026-68881-8","route_zh":"工程酵母，前体补料后的多路径修饰模块","titer_mg_l":0.9,"locator":"Results: NhPDA1 multi-route architecture; Fig. 4d","use_zh":"与葡萄糖从头合成分列；支持跟踪中间体与泄漏，不能把前体成本忽略。"},
+    {"study_zh":"邓等，2026：模块组装","doi":"10.1038/s41467-026-72579-2","url":"https://www.nature.com/articles/s41467-026-72579-2","route_zh":"二倍体酿酒酵母，从葡萄糖从头合成","titer_mg_l":0.24,"locator":"Abstract; Fig. 5A","use_zh":"外部技术可行性参考；无统一条件，不作优劣排名。"},
+    {"study_zh":"邓等，2026：模块组装","doi":"10.1038/s41467-026-72579-2","url":"https://www.nature.com/articles/s41467-026-72579-2","route_zh":"从葡萄糖从头合成，5 L 生物反应器验证","titer_mg_l":1.20,"locator":"Results; Supplementary Fig. 9","use_zh":"提示规模和工艺条件必须记录；不能据此宣称本项目已达到该产率。"}
+  ]
+}

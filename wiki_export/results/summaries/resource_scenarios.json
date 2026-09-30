@@ -1,0 +1,10 @@
+{
+  "evidence_type": "SCENARIO",
+  "functional_unit_zh": "1 g 经纯度校正的分离光甘草定",
+  "boundary_zh": "匹配批次的培养、分离纯化及废物处理；上游原料和设备制造未纳入，不能称为完整生命周期评价。",
+  "formula": "relative_intensity = resource_ratio / pure_product_ratio",
+  "denominator_zh": "分离样品质量 × 光甘草定质量分数；已用该分离质量时不再乘回收率。",
+  "actual_project_resource_intensity": null,
+  "limitations_zh": "分别应用于水、溶剂、总投入质量、电耗或成本，不跨单位求总分；碳排放另需排放因子。",
+  "grid_rows": 42
+}

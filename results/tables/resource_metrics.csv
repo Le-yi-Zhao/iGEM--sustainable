@@ -1,1 +1,1 @@
-experiment_id,group,replicate,pmi_g_per_g,water_l_per_g,solvent_l_per_g,energy_kwh_per_g,evidence_type,status
+experiment_id,group,replicate,pure_product_mass_g,pmi_g_per_g,water_l_per_g,solvent_l_per_g,energy_kwh_per_g,energy_basis,evidence_type,status

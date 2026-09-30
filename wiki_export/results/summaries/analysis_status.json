@@ -171,6 +171,38 @@
       {
         "path": "data/raw/skincare/maplight/run_metadata.json",
         "sha256": "a528f57ce4efca23bb84d254436923bd8a74f3e067a9056c81d93637366654bd"
+      },
+      {
+        "path": "data/raw/skincare/references/member_predictions.json",
+        "sha256": "9f1525f219b8a6f615b06887c3dfbc8863031039d95945043d94eb042791d986"
+      },
+      {
+        "path": "data/raw/skincare/references/pubchem/alpha_arbutin.json",
+        "sha256": "f4eacb669dff3c3e456b089de52943433ae4bd13e4e61dd417509043e1de2537"
+      },
+      {
+        "path": "data/raw/skincare/references/pubchem/ascorbyl_glucoside.json",
+        "sha256": "84a89f6648f17c6784f29d07dd767c5257ec7b0707f5460b2bd310a340e3bc03"
+      },
+      {
+        "path": "data/raw/skincare/references/pubchem/beta_arbutin.json",
+        "sha256": "eb98db5e13e077baaafca8508ce28d87a565fbf9ffe2bcebabe0c7731702e047"
+      },
+      {
+        "path": "data/raw/skincare/references/pubchem/kojic_acid.json",
+        "sha256": "315c5c00a861e287935c668e8f65857ac9117d57820db1cfe311427ccd5713fb"
+      },
+      {
+        "path": "data/raw/skincare/references/pubchem/niacinamide.json",
+        "sha256": "66eab419148d78993e82aebadc812c6bce52ccb2b0d34fedaf805ebd695b162a"
+      },
+      {
+        "path": "data/raw/skincare/references/run_metadata.json",
+        "sha256": "9af7e98ffe550010731d1e6e950163f0e67bdfcf138223d9c1b5a890723d957f"
+      },
+      {
+        "path": "data/raw/skincare/references/structures.json",
+        "sha256": "0aadcc0e142cb980bd62771b2abacd5a2138e429317020f978a38c6c71623541"
       }
     ],
     "files": [

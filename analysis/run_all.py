@@ -15,6 +15,8 @@ from analysis.plotting import generate_figures, panel_coverage_figure
 from analysis.preprocessing import structure_qc
 from analysis.validation import analysis_status, link_check, readiness, execution_provenance
 from analysis import build_site
+from analysis.models import resource_scenarios
+from analysis.plotting import wiki_zh
 from analysis.models import skincare_evaluation
 from analysis.plotting import skincare_figures
 
@@ -54,6 +56,7 @@ def main() -> int:
     # Validated historical environmental plots remain available; no broad attribution rerun.
     execution_provenance.run(ROOT); completed.append("fresh-run provenance hashes")
     analysis_status.run(ROOT); completed.append("M0-M14 analysis status")
+    resource_scenarios.run(ROOT); wiki_zh.run(ROOT); completed.append("Chinese evidence figures and conditional resource analysis")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")

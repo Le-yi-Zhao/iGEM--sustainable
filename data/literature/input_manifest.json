@@ -1,0 +1,9 @@
+{
+  "original_filename": "optimized_experimental_database_with_supplementary_expanded160_union_evidence_aware_fulltext_pro_completed_si_rule_fieldbackfilled.csv",
+  "original_sha256": "e3d9939c72c38013e17a23867c3be71bc984613b93c065fd623b01ba12dd4314",
+  "original_bytes": 154102105,
+  "archive_on_matvision": "/root/IGEM-storage/source_archives/literature_database_source.csv.gz",
+  "original_unchanged": true,
+  "source_type": "USER_PROVIDED_EXTRACTION_DATABASE",
+  "notes_zh": "完整输入保存在虚拟机，仓库提供审计和校验，不将抽取字段当作经核实实验值。"
+}
