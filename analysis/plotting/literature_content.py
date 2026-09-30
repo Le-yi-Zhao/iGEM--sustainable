@@ -79,7 +79,8 @@ def run(root:Path):
         ax.set(xlim=(0,max(values)*1.32),xlabel='不同 DOI 数',title=title)
     fig.suptitle('研究对象与底盘选择｜以完整文献库为分母',fontsize=18)
     save(fig,'research_distribution')
-    families=list(s['counts']['family']);hosts=list(s['counts']['host'])
+    families=[label for label in s['counts']['family'] if label!='未标注']
+    hosts=[label for label in s['counts']['host'] if label!='未标注']
     a=np.array([[sum(p['family']==f and p['host']==h for p in papers) for h in hosts] for f in families])
     fig,ax=plt.subplots(figsize=(12.5,8),layout='constrained')
     for i in range(len(families)):
@@ -90,6 +91,7 @@ def run(root:Path):
     ax.set(xticks=range(len(hosts)),xticklabels=hosts,yticks=range(len(families)),yticklabels=families,
         title='研究对象 × 宿主｜圆面积随文献数增加',xlim=(-.7,len(hosts)-.3),ylim=(len(families)-.3,-.7))
     ax.tick_params(axis='x',rotation=35);ax.grid(alpha=.15)
+    fig.supxlabel(f'仅展示研究对象与宿主均有类别标签的 {int(a.sum()):,} 篇文献。',fontsize=10)
     save(fig,'host_object_matrix')
     topics=s['strategy_order'];pos=np.arange(len(topics));allv=[s['counts']['strategies'][t] for t in topics];titles=[s['counts']['title_strategies'][t] for t in topics]
     fig,ax=plt.subplots(figsize=(12,7),layout='constrained')
