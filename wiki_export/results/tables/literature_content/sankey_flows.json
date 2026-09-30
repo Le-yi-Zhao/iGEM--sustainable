@@ -1,0 +1,807 @@
+[
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "萜类／异戊二烯类",
+    "value": 51
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "萜类／异戊二烯类",
+    "value": 112
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "异黄酮类",
+    "value": 20
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "其他研究对象",
+    "value": 220
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "未标注",
+    "value": 18
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "其他研究对象",
+    "value": 45
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "未标注",
+    "value": 215
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "其他天然产物",
+    "value": 13
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "未标注",
+    "value": 39
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "未标注",
+    "target": "未标注",
+    "value": 10
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "其他研究对象",
+    "value": 79
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "未标注",
+    "value": 22
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "无细胞体系",
+    "target": "其他研究对象",
+    "value": 17
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "其他研究对象",
+    "value": 37
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "异黄酮类",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "黄酮类",
+    "value": 37
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "萜类／异戊二烯类",
+    "value": 11
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "其他研究对象",
+    "value": 38
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "凝聚体相关体系",
+    "value": 6
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "黄酮类",
+    "value": 48
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "苯丙素类",
+    "value": 11
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "未标注",
+    "value": 12
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "凝聚体相关体系",
+    "value": 55
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "萜类／异戊二烯类",
+    "value": 27
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "凝聚体相关体系",
+    "value": 7
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "多类别并列",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "其他天然产物",
+    "value": 5
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "黄酮类",
+    "value": 91
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "芪类",
+    "value": 9
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "无细胞体系",
+    "target": "未标注",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "其他天然产物",
+    "value": 31
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "其他天然产物",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "异黄酮类",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "蓝细菌",
+    "target": "其他研究对象",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "黄酮类",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "苯丙素类",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "无细胞体系",
+    "target": "黄酮类",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "凝聚体相关体系",
+    "value": 9
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "黄酮类",
+    "value": 11
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "多类别并列",
+    "target": "未标注",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "未标注",
+    "target": "凝聚体相关体系",
+    "value": 7
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "植物",
+    "target": "凝聚体相关体系",
+    "value": 5
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "异戊烯基黄酮",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "未标注",
+    "target": "萜类／异戊二烯类",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "芪类",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "酵母",
+    "target": "多类别并列",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "芪类",
+    "value": 6
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "无细胞体系",
+    "target": "凝聚体相关体系",
+    "value": 5
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "多类别并列",
+    "target": "多类别并列",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "其他宿主",
+    "target": "异黄酮类",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "未标注",
+    "target": "黄酮类",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "其他天然产物",
+    "value": 11
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "未标注",
+    "target": "其他研究对象",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "多类别并列",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "异黄酮类",
+    "value": 3
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "蓝细菌",
+    "target": "萜类／异戊二烯类",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "哺乳动物／细胞",
+    "target": "萜类／异戊二烯类",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "多类别并列",
+    "target": "黄酮类",
+    "value": 4
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "细菌",
+    "target": "苯丙素类",
+    "value": 2
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "多类别并列",
+    "target": "其他研究对象",
+    "value": 1
+  },
+  {
+    "source_stage": "host",
+    "target_stage": "family",
+    "source": "无细胞体系",
+    "target": "多类别并列",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "萜类／异戊二烯类",
+    "target": "体外测定",
+    "value": 33
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异黄酮类",
+    "target": "未标注",
+    "value": 7
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "未标注",
+    "value": 55
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "未标注",
+    "value": 88
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "细胞／活体反应",
+    "value": 163
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "体外测定",
+    "value": 84
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "体外测定",
+    "value": 84
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "细胞／活体反应",
+    "value": 21
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "细胞／活体反应",
+    "value": 102
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "无细胞／分离酶",
+    "value": 20
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "多类别并列",
+    "value": 2
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异黄酮类",
+    "target": "体外测定",
+    "value": 8
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "无细胞／分离酶",
+    "value": 4
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "体外测定",
+    "value": 46
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "无细胞／分离酶",
+    "value": 62
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "萜类／异戊二烯类",
+    "target": "未标注",
+    "value": 31
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "萜类／异戊二烯类",
+    "target": "细胞／活体反应",
+    "value": 92
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "发酵／反应器",
+    "value": 73
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他研究对象",
+    "target": "多类别并列",
+    "value": 3
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "未标注",
+    "value": 29
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "萜类／异戊二烯类",
+    "target": "发酵／反应器",
+    "value": 33
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "发酵／反应器",
+    "value": 4
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "发酵／反应器",
+    "value": 35
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "苯丙素类",
+    "target": "细胞／活体反应",
+    "value": 7
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "细胞／活体反应",
+    "value": 49
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "多类别并列",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "萜类／异戊二烯类",
+    "target": "无细胞／分离酶",
+    "value": 17
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "细胞／活体反应",
+    "value": 77
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "体外测定",
+    "value": 15
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "多类别并列",
+    "target": "细胞／活体反应",
+    "value": 8
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "体外测定",
+    "value": 21
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "未标注",
+    "target": "发酵／反应器",
+    "value": 24
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "芪类",
+    "target": "体外测定",
+    "value": 5
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "苯丙素类",
+    "target": "未标注",
+    "value": 2
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "多类别并列",
+    "value": 3
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "未标注",
+    "value": 9
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "其他天然产物",
+    "target": "发酵／反应器",
+    "value": 6
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异黄酮类",
+    "target": "发酵／反应器",
+    "value": 4
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "未标注",
+    "value": 17
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "凝聚体相关体系",
+    "target": "无细胞／分离酶",
+    "value": 8
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "无细胞／分离酶",
+    "value": 10
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异黄酮类",
+    "target": "细胞／活体反应",
+    "value": 10
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异戊烯基黄酮",
+    "target": "体外测定",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异戊烯基黄酮",
+    "target": "未标注",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "芪类",
+    "target": "发酵／反应器",
+    "value": 5
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "苯丙素类",
+    "target": "体外测定",
+    "value": 3
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "多类别并列",
+    "target": "未标注",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "黄酮类",
+    "target": "多类别并列",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "芪类",
+    "target": "细胞／活体反应",
+    "value": 5
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "芪类",
+    "target": "未标注",
+    "value": 3
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "苯丙素类",
+    "target": "发酵／反应器",
+    "value": 2
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "芪类",
+    "target": "无细胞／分离酶",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "多类别并列",
+    "target": "无细胞／分离酶",
+    "value": 1
+  },
+  {
+    "source_stage": "family",
+    "target_stage": "system",
+    "source": "异黄酮类",
+    "target": "无细胞／分离酶",
+    "value": 1
+  }
+]

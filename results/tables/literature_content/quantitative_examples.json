@@ -1,0 +1,83 @@
+{
+  "doi": "10.1016/j.jcou.2025.103269",
+  "product_zh": "甘氨酸",
+  "time_h": 1,
+  "unit": "mmol/L",
+  "control": 3.4,
+  "condensate": 5.0,
+  "raw_records": [
+    {
+      "source_record": 120,
+      "doi": "10.1186/s12934-025-02773-2",
+      "evidence": "de novo taxifolin titer of 120.3 ± 2.4 mg/L in shake-flask fermentation using minimal medium",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "120.3 ± 2.4",
+      "extracted_unit": "mg/L"
+    },
+    {
+      "source_record": 122,
+      "doi": "10.1186/s12934-025-02773-2",
+      "evidence": "cofactor supply and activation of fatty acids, we accomplished the de novo synthesis of taxifolin in peroxisomes for the first time, attaining a titer of 120.3 ± 2.4 mg/L in shake-flask fermentation using a minimal medium. Conclusion These findings highlight the feasibility of peroxisomal compartmentalization for flavonoid biosynthesis,",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "2.4",
+      "extracted_unit": "mg/L"
+    },
+    {
+      "source_record": 123,
+      "doi": "10.1186/s12934-025-02773-2",
+      "evidence": "first time, attaining a titer of 120.3 ± 2.4 mg/L in shake-flask fermentation using a minimal medium. Conclusion These findings highlight the feasibility of peroxisomal compartmentalization for flavonoid biosynthesis, providing new insights and a framework for the biosynthesis of other high-value flavonoids using yeast peroxisomes.",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "2.4",
+      "extracted_unit": "mg/L"
+    },
+    {
+      "source_record": 127,
+      "doi": "10.1186/s12934-025-02773-2",
+      "evidence": "tion. Ultimately, utilizing the minimal medium in shake flask fermentation, we achieved a de novo taxifolin titer of 120.3 ± 2.4 mg/L. The metabolic engineering strate -",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "2.4",
+      "extracted_unit": "mg/L"
+    },
+    {
+      "source_record": 500,
+      "doi": "10.1016/j.enzmictec.2026.110928",
+      "evidence": "In a 5-L bioreactor batch fermentation, the engineered strain achieved a final titer of ~50 g/L within 24 h",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "50",
+      "extracted_unit": "g/L"
+    },
+    {
+      "source_record": 1084,
+      "doi": "10.1016/j.jcou.2025.103269",
+      "evidence": "The condensate group made of P-Laf1, T-Laf1 and H-Laf1 gave rise to 5.0 mM glycine in 1 h",
+      "fold_change_evidence": "significantly positive effect (1.5-fold) of the constructed LLPS system",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "5.0",
+      "extracted_unit": "mM"
+    },
+    {
+      "source_record": 1085,
+      "doi": "10.1016/j.jcou.2025.103269",
+      "evidence": "control group (3.4 mM) comprised of individual P, T and H enzymes without Laf1 tags",
+      "fold_change_evidence": "",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "3.4",
+      "extracted_unit": "mM"
+    },
+    {
+      "source_record": 1086,
+      "doi": "10.1016/j.jcou.2025.103269",
+      "evidence": "rapid accumulation of glycine reaching a plateau at 28 mM after 5 h",
+      "fold_change_evidence": "LLPS system achieved 35-fold higher than RGP",
+      "extracted_metric": "glabridin_titer",
+      "extracted_value": "28",
+      "extracted_unit": "mM"
+    }
+  ],
+  "interpretation_zh": "同研究的 1 小时浓度比较；其他路径的 35 倍结果不用于相分离单因素增益。"
+}

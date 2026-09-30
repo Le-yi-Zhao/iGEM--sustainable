@@ -1,0 +1,200 @@
+{
+  "n_papers": 1397,
+  "n_records": 20567,
+  "quality_filter_applied": false,
+  "unit_zh": "不同 DOI 对应的文献条目",
+  "counts": {
+    "host": {
+      "酵母": 770,
+      "细菌": 233,
+      "植物": 143,
+      "哺乳动物／细胞": 107,
+      "其他宿主": 84,
+      "无细胞体系": 26,
+      "未标注": 22,
+      "多类别并列": 9,
+      "蓝细菌": 3
+    },
+    "family": {
+      "其他研究对象": 440,
+      "未标注": 320,
+      "萜类／异戊二烯类": 206,
+      "黄酮类": 198,
+      "凝聚体相关体系": 94,
+      "其他天然产物": 64,
+      "异黄酮类": 30,
+      "芪类": 19,
+      "苯丙素类": 14,
+      "多类别并列": 10,
+      "异戊烯基黄酮": 2
+    },
+    "system": {
+      "细胞／活体反应": 534,
+      "体外测定": 300,
+      "未标注": 243,
+      "发酵／反应器": 186,
+      "无细胞／分离酶": 124,
+      "多类别并列": 10
+    },
+    "phase_class": {
+      "非标题相分离主题": 1381,
+      "细胞机制与疾病": 6,
+      "工程平台与方法": 5,
+      "生物合成应用": 3,
+      "递送与仿生材料": 2
+    },
+    "strategies": {
+      "代谢与通路工程": 95,
+      "酶与蛋白工程": 16,
+      "前体与辅因子供给": 86,
+      "表达与动态调控": 143,
+      "竞争途径与转运": 34,
+      "空间组织与区室化": 48,
+      "发酵与过程优化": 108,
+      "资源与环境": 29
+    },
+    "title_strategies": {
+      "代谢与通路工程": 62,
+      "酶与蛋白工程": 5,
+      "前体与辅因子供给": 13,
+      "表达与动态调控": 25,
+      "竞争途径与转运": 10,
+      "空间组织与区室化": 19,
+      "发酵与过程优化": 10,
+      "资源与环境": 16
+    }
+  },
+  "overlap": {
+    "000": 453,
+    "010": 667,
+    "110": 132,
+    "100": 97,
+    "001": 22,
+    "011": 24,
+    "111": 2
+  },
+  "phase_title_n": 16,
+  "glabridin_title_n": 1,
+  "flow_totals": {
+    "host->family": 1397,
+    "family->system": 1397
+  },
+  "cooccurrence": [
+    [
+      95,
+      2,
+      21,
+      33,
+      4,
+      5,
+      24,
+      6
+    ],
+    [
+      2,
+      16,
+      2,
+      3,
+      0,
+      2,
+      8,
+      0
+    ],
+    [
+      21,
+      2,
+      86,
+      21,
+      5,
+      2,
+      20,
+      3
+    ],
+    [
+      33,
+      3,
+      21,
+      143,
+      7,
+      5,
+      32,
+      5
+    ],
+    [
+      4,
+      0,
+      5,
+      7,
+      34,
+      2,
+      5,
+      2
+    ],
+    [
+      5,
+      2,
+      2,
+      5,
+      2,
+      48,
+      7,
+      2
+    ],
+    [
+      24,
+      8,
+      20,
+      32,
+      5,
+      7,
+      108,
+      3
+    ],
+    [
+      6,
+      0,
+      3,
+      5,
+      2,
+      2,
+      3,
+      29
+    ]
+  ],
+  "strategy_order": [
+    "代谢与通路工程",
+    "酶与蛋白工程",
+    "前体与辅因子供给",
+    "表达与动态调控",
+    "竞争途径与转运",
+    "空间组织与区室化",
+    "发酵与过程优化",
+    "资源与环境"
+  ],
+  "rules": {
+    "代谢与通路工程": "metabolic engineer|pathway engineer|pathway optim|metabolic rewiring|flux optim|rewiring.*metabol",
+    "酶与蛋白工程": "enzyme engineer|protein engineer|directed evolution|site.directed mutagen|enzyme variant|rational design|enzyme mutant|ancestral.*reconstruct",
+    "前体与辅因子供给": "precursor suppl|precursor avail|cofactor|NADPH|NADH|malonyl.CoA|DMAPP",
+    "表达与动态调控": "overexpress|promoter|dynamic regulat|dynamic control|gene dosage|copy number|transcription.factor",
+    "竞争途径与转运": "competing pathway|competitive pathway|efflux|transporter|transport engineer|metabolic burden|by.product formation",
+    "空间组织与区室化": "compartmentaliz|compartmentalis|colocaliz|co.localiz|co.localis|substrate.channel|phase.separat|biomolecular condensate|synthetic condensate|membraneless|enzyme.scaffold",
+    "发酵与过程优化": "fed.batch|bioreactor|fermentation optim|process optim|medium optim|culture.*optimi|ferment.*strateg",
+    "资源与环境": "sustainab|renewable|wastewater|waste.valori|carbon footprint|life.cycle assessment|green extraction|solvent.recycl|environmental impact"
+  },
+  "evidence_fields": [
+    "primary_result_evidence",
+    "best_enzyme_name_evidence",
+    "best_main_product_name_evidence",
+    "best_reaction_system_type_evidence",
+    "best_llps_component_evidence",
+    "catalytic_efficiency_fold_change_evidence"
+  ],
+  "method_zh": [
+    "纳入完整输入表，不按质量分数、人工复核标记或上一轮候选清单过滤。",
+    "同一 DOI 归为一篇条目；桑基图使用每篇的源表主标签，统一类别后取非缺失记录众数，并列单列。",
+    "主题命中按 DOI 计一次，允许一篇有多个主题；共现表示同篇提及，不表示两个方法联用或有效。",
+    "主题分为标题命中与标题加已抽取证据句命中；后者也可能包含背景或引文。",
+    "比例仅描述这个项目收集的语料，不代表全球文献比例。没有可靠年份字段，未从 DOI 字符串推断年度趋势。",
+    "元数据类别用于研究布局描述，不对不同产物、单位和工艺的滴度作合并平均。"
+  ]
+}

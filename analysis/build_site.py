@@ -29,7 +29,7 @@ def build():
 <header class="hero"><div class="wrap"><div class="eyebrow">清华大学团队 · 国际基因工程机器大赛 · 2026</div><h1>让光甘草定的生产<br>更高效，也更可验证</h1><p>我们探索液液相分离能否改善微生物生产光甘草定，并用可追溯证据检验护肤用途、资源消耗和环境影响。</p><div class="sdgs"><span class="sdg-pill">目标 3 · 健康与福祉</span><span class="sdg-pill">目标 9 · 产业与创新</span><span class="sdg-pill">目标 12 · 负责任生产</span></div></div></header>
 <div class="layout"><aside class="sidebar" aria-label="页面导航"><b>阅读导航</b>'''+''.join(link('#'+i,t) for i,t in nav)+'''</aside><main>
 <section class="section" id="overview"><div class="kicker">01 / 项目与证据</div><h2>先定义要证明的改变</h2><p class="lead">核心实验比较是：低表达 OC/DMT、无相分离的基线组 G1，与相同背景的相分离组。我们希望检验生产效率是否改善，以及改善是否足以抵消额外的表达、培养和纯化负担。</p>
-<div class="grid2"><article class="card"><span class="status">已完成 · 计算</span><h3>护肤相关筛查</h3><p>使用固定的五种护肤成分参照，比较同一模型、同一终点；保留跨平台分歧。</p></article><article class="card"><span class="status">已完成 · 文献</span><h3>数据库核查与补充</h3><p>核查 20,567 条抽取记录，登记错配风险，并补充两篇原始生产研究。</p></article><article class="card"><span class="status">已完成 · 条件计算</span><h3>资源收支平衡</h3><p>计算纯产物增益与资源增量之间的关系，帮助确定实验目标。</p></article><article class="card"><span class="status missing">等待实测</span><h3>生产与成品效果</h3><p>尚无本项目匹配组产率、纯度、资源清单和配方安全结果。</p></article></div>
+<div class="grid2"><article class="card"><span class="status">已完成 · 计算</span><h3>护肤相关筛查</h3><p>使用固定的五种护肤成分参照，比较同一模型、同一终点；保留跨平台分歧。</p></article><article class="card"><span class="status">已完成 · 文献</span><h3>文献研究版图</h3><p>按 1,397 篇文献分析研究对象、宿主、工程策略与相分离应用，新增八张内容图。</p></article><article class="card"><span class="status">已完成 · 条件计算</span><h3>资源收支平衡</h3><p>计算纯产物增益与资源增量之间的关系，帮助确定实验目标。</p></article><article class="card"><span class="status missing">等待实测</span><h3>生产与成品效果</h3><p>尚无本项目匹配组产率、纯度、资源清单和配方安全结果。</p></article></div>
 <p>本轮继续完成的是数据分析和实验设计。模型记录来自已实际执行并保存的运行；本次重建页面读取这些结果，没有把读取缓存写成重新运行模型，也没有把实验计划写成湿实验完成。</p></section>
 <section class="section" id="literature"><div class="kicker">02 / 文献挖掘</div><h2>先排除错误数字，再建立生产参照</h2>'''
     body+=f'<p class="lead">原始数据库含 {audit["records"]:,} 条记录、{audit["columns"]} 个字段和 {audit["unique_nonempty_doi"]:,} 个不同 DOI。其中 {audit["needs_human_review"]["true"]:,} 条（{100*audit["needs_human_review"]["true"]/audit["records"]:.1f}%）被源数据库标记为需要人工复核。</p>'
@@ -87,6 +87,9 @@ def build():
     downloads=[('docs/methodology/wiki_zh_20260930.md','中文初稿与实验结果清单'),('results/tables/literature/candidate_audit.csv','108 条候选的核查记录'),('results/summaries/literature_audit.json','数据库统计与校验'),('data/literature/verified_benchmarks.json','外部文献生产参照'),('results/tables/skincare/reference_predictions.json','完整参照模型结果'),('results/tables/skincare/evidence.csv','各模型选定输出'),('results/tables/skincare/chemprop_atom_attribution.csv','原子归因数据'),('results/tables/skincare/chemprop_attribution_completeness.csv','原子解释的数值检查'),('data/processed/episuite_predictions.csv','环境归趋预测'),('data/processed/ecosar_predictions.csv','水生毒性及原始警告'),('results/tables/resource_scenarios.csv','资源条件计算数据'),('data/wetlab/metabolite_timecourse_template.csv','代谢物时间序列模板'),('data/wetlab/batch_summary_template.csv','批次产物与纯化模板'),('data/wetlab/material_inventory_template.csv','材料投入模板'),('data/wetlab/equipment_usage_template.csv','设备与电耗模板'),('data/wetlab/cost_inventory_template.csv','成本模板'),('data/wetlab/containment_template.csv','处理与控制模板'),('data/skincare_exposure.csv','配方暴露信息模板')]
     body+=''.join(link(p,t) for p,t in downloads)
     body+='''</div><p>复现入口：以下命令读取已保存预测、重算派生表格及中文图表，并检查页面链接。完整文献审计可通过独立脚本及原始文件复算，页面默认重建不要求下载 154 MB 的源数据库。</p><pre><code>python analysis/run_all.py</code></pre></section></main></div><footer><b>GALATEA｜光甘草定与可持续生产</b><br>数据截至 2026 年 9 月 30 日 · 缺失结果保持缺失，推断范围随证据更新。</footer></body></html>'''
+    import re
+    from analysis.literature_section import render as render_literature
+    body=re.sub(r'<section class="section" id="literature">.*?</section>',lambda _:render_literature(ROOT,table),body,flags=re.S)
     index=ROOT/'index.html'; index.write_text(body,encoding='utf-8');return index
 
 def export_wiki():
@@ -94,7 +97,7 @@ def export_wiki():
     if destination.exists():shutil.rmtree(destination)
     destination.mkdir()
     shutil.copy2(ROOT/'index.html',destination/'index.html')
-    for directory in ['assets','figures/wiki_zh','figures/evidence','figures/supporting','figures/framework','figures/skincare',
+    for directory in ['assets','figures/wiki_zh','figures/literature_content','figures/evidence','figures/supporting','figures/framework','figures/skincare',
         'analysis/adapters','analysis/models','results/tables','results/summaries','data/literature','data/wetlab',
         'data/raw/admet_ai','data/raw/skincare','data/raw/admetlab','data/raw/chemprop','data/raw/vega','data/raw/episuite',
         'data/raw/admetsar','data/raw/ecosar','data/raw/protox','data/raw/maplight',
