@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="950" viewBox="0 0 1800 950" role="img"><title>教授发言覆盖了哪些主题？</title><desc>规则命中的发言片段数 / 纳入片段数（n=14） · 同一片段可涉及多个主题</desc><rect width="1800" height="950" fill="#fcfaf7"/>
+<text x="65.0" y="42.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="48" fill="#244137">教授发言覆盖了哪些主题？</text>
+<text x="67.0" y="119.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" fill="#586b61">规则命中的发言片段数 / 纳入片段数（n=14） · 同一片段可涉及多个主题</text>
+<line x1="535.0" y1="215.0" x2="535.0" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="527.0" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">0</text>
+<line x1="671.4" y1="215.0" x2="671.4" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="663.4" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">2</text>
+<line x1="807.9" y1="215.0" x2="807.9" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="799.9" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">4</text>
+<line x1="944.3" y1="215.0" x2="944.3" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="936.3" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">6</text>
+<line x1="1080.7" y1="215.0" x2="1080.7" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="1072.7" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">8</text>
+<line x1="1217.1" y1="215.0" x2="1217.1" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="1209.1" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">10</text>
+<line x1="1353.6" y1="215.0" x2="1353.6" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="1345.6" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">12</text>
+<line x1="1490.0" y1="215.0" x2="1490.0" y2="803.0" stroke="#ccd7ce" stroke-width="2"/>
+<text x="1482.0" y="817.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">14</text>
+<text x="70.0" y="231.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">沟通与项目叙事</text>
+<rect x="535.0" y="230.0" width="477.5" height="41.0" fill="#39745f"/>
+<text x="1028.5" y="232.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">7/14  (50.0%)</text>
+<text x="70.0" y="301.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">酶与级联反应</text>
+<rect x="535.0" y="300.0" width="409.3" height="41.0" fill="#39745f"/>
+<text x="960.3" y="302.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">6/14  (42.9%)</text>
+<text x="70.0" y="371.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">区室化与液滴</text>
+<rect x="535.0" y="370.0" width="272.9" height="41.0" fill="#39745f"/>
+<text x="823.9" y="372.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">4/14  (28.6%)</text>
+<text x="70.0" y="441.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">计算与数据优化</text>
+<rect x="535.0" y="440.0" width="272.9" height="41.0" fill="#39745f"/>
+<text x="823.9" y="442.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">4/14  (28.6%)</text>
+<text x="70.0" y="511.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">实验与证据</text>
+<rect x="535.0" y="510.0" width="272.9" height="41.0" fill="#39745f"/>
+<text x="823.9" y="512.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">4/14  (28.6%)</text>
+<text x="70.0" y="581.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">学习与独立理解</text>
+<rect x="535.0" y="580.0" width="272.9" height="41.0" fill="#39745f"/>
+<text x="823.9" y="582.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">4/14  (28.6%)</text>
+<text x="70.0" y="651.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">通用性与未来拓展</text>
+<rect x="535.0" y="650.0" width="272.9" height="41.0" fill="#39745f"/>
+<text x="823.9" y="652.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">4/14  (28.6%)</text>
+<text x="70.0" y="721.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" fill="#244137">资源生态与可持续</text>
+<rect x="535.0" y="720.0" width="136.4" height="41.0" fill="#39745f"/>
+<text x="687.4" y="722.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#244137">2/14  (14.3%)</text>
+<text x="800.0" y="860.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" fill="#244137">命中的发言片段数（段）</text>
+<text x="67.0" y="906.0" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" fill="#586b61">主题非互斥，百分比不合计为 100%；关键词命中不等同于理解、认可或议题重要性。</text>
+</svg>

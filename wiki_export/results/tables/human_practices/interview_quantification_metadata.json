@@ -1,0 +1,23 @@
+{
+  "interviews": 1,
+  "professor_segments": 14,
+  "keyword_entries": 46,
+  "nonzero_keyword_entries": 43,
+  "themes": 8,
+  "source_selection": "纳入研究、学习、展示、应用与未来方向相关且明确归属教授的14段发言。此统计是选定范围内的描述性内容分析。",
+  "excluded": [
+    "所有学生发言及提问",
+    "团队人数与经费开场段：混有未单独标记的学生回答，且不在本轮研究内容范围内",
+    "团队照片及人物外观建议：不在本轮研究内容范围内",
+    "反应原理与策略章节的两段文字：上下文可能为教授发言，但原转写未明确标记说话人，本轮不纳入"
+  ],
+  "method": "探索性固定词表匹配；词频按字符原文计数，英文不区分大小写且匹配完整英文词。每个词条内部按长词优先进行非重叠匹配；不同词条允许嵌套，因此不是全词表互斥分词。",
+  "interpretation": "提及次数不是重要性、赞同度或因果证据。主题为预定义词项命中的发言片段数；同一片段可属于多个主题，未命中不等于没有相关含义。主题规则未作独立编码者验证。",
+  "source_sha256": "7a13078b3ea7cd82569a45faa107dd915d4f89d365f5538b4368541edcaa6b74",
+  "codebook_sha256": "2855d61be65a29c165d196ad9d43ba006c8a68103cef921a248e086dabea32f9",
+  "keyword_total_is_token_count": false,
+  "theme_categories_are_mutually_exclusive": false,
+  "source_technical_claims_verified_by_this_analysis": false,
+  "independent_coding_validation": false,
+  "charts": "Python/Pillow numeric plots, not image generation"
+}

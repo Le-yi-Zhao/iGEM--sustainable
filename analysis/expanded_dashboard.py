@@ -102,9 +102,8 @@ def render_models(root,old):
     return body+'</section>'
 
 def render_environment(root,old):
-    head='''<section class="section" id="environment"><div class="kicker">04 / 环境与资源</div><h2>把生产价值落实到可检验的环境与资源指标</h2><p class="lead">光甘草定的开发价值可以从“可生产、可回收、单位产物少消耗资源”三个方向验证。下面区分文献内容统计、既有模型预测和条件计算；目前没有用假设图代替项目实测结果。</p>'''
-    head+=fig('environment_literature','文献数据库中的环境与资源主题。按 DOI 去重，标题和已抽取证据句做多标签匹配；同一篇可命中多个主题，无质量筛选。未命中不表示全文未讨论该问题。')
-    head+='<p>这些主题把工艺研究与可持续性连接起来：需要记录原料来源、水与溶剂、处理负担和能耗，才能判断生产增益是否转化为资源优势。<a href="results/tables/environment/literature_topics.json">查看逐篇命中片段与检索词</a>。</p><h3>已有预测｜先看生产路径中的分子会去哪里</h3><p>以下三图使用已完成的 VEGA、EPI Suite 与 ECOSAR 导出数据，覆盖光甘草定和五个路径相关化合物；这些化合物不是已检出的排放物，也不是上面的 15 种护肤参照。</p>'
+    head='''<section class="section" id="environment"><div class="kicker">04 / 环境与资源</div><h2>把生产价值落实到可检验的环境与资源指标</h2><p class="lead">光甘草定的开发价值可以从“可生产、可回收、单位产物少消耗资源”三个方向验证。下面区分既有模型预测和条件计算；目前没有用假设图代替项目实测结果。</p>'''
+    head+='<h3>已有预测｜先看生产路径中的分子会去哪里</h3><p>以下三图使用已完成的 VEGA、EPI Suite 与 ECOSAR 导出数据，覆盖光甘草定和五个路径相关化合物；这些化合物不是已检出的排放物，也不是上面的 15 种护肤参照。</p>'
     head+=fig('environmental_fate','EPI Suite 预测的亲脂性、水溶解度、生物富集及降解模型分数。每个小图使用自己的单位；水溶解度和富集因子使用对数坐标。未导出正式适用域。')
     head+=fig('aquatic_toxicity','VEGA 水生急性毒性筛查。仅在同一小图内比较，浓度越低表示模型预测效应越强。颜色标注原报告可靠性；藻类报告均有分子量相关警告，不据此设排放限值。')
     head+=fig('ecosar_screening','ECOSAR 中性有机物类别的淡水急性终点。叉号保留原始标志；未触发亲脂性上限也不等于已通过完整适用域检验。水蚤 LC50 与 VEGA 的 EC50 不合并。')

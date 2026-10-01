@@ -100,6 +100,8 @@ def build():
     body=add_opera(ROOT,body)
     from analysis.human_practices import integrate as add_interview
     body=add_interview(ROOT,body)
+    from analysis.interview_quantification import integrate as add_interview_counts
+    body=add_interview_counts(ROOT,body)
     index=ROOT/'index.html'; index.write_text(body,encoding='utf-8');return index
 
 def export_wiki():

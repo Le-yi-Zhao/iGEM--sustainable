@@ -69,6 +69,8 @@ def main() -> int:
     opera_analysis.run(ROOT); completed.append("OPERA environmental results, missing values and applicability domains")
     from analysis import human_practices
     human_practices.run(ROOT); completed.append("Professor interview decision map and three sustainability diagrams")
+    from analysis import interview_quantification
+    interview_quantification.run(ROOT); completed.append("Reproducible professor interview keyword counts and theme coverage")
     build_site.build(); build_site.export_wiki(); completed.append("website and wiki export")
     missing_root = link_check.run(ROOT)
     missing_export = link_check.run(ROOT / "wiki_export", ROOT / "wiki_export/index.html")

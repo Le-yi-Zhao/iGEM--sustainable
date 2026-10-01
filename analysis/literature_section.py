@@ -1,4 +1,4 @@
-"""Chinese literature-content narrative and an in-browser DOI explorer."""
+"""Chinese literature-content narrative and traceable figure downloads."""
 import html,json
 from pathlib import Path
 
@@ -39,19 +39,7 @@ def render(root,table):
        {'case':'酵母过氧化物酶体合成二氢槲皮素','evidence':'数据库记录：摇瓶从头合成滴度 120.3 ± 2.4 mg/L；属于有膜细胞器区室化。','implication':'比其他产物更接近黄酮与酵母组合，支持空间组织的迁移思路；不作为液液相分离的直接验证。','doi':'10.1186/s12934-025-02773-2'}]
     out+=table(cases,[('case','可迁移案例'),('evidence','文献结果'),('implication','与项目的联系'),('doi','文献 DOI')])
     out+=fig('matched_condensate_example','图 8｜来自数据库的单研究定量例证。比较的是甘氨酸浓度，非光甘草定产率；仅展示原记录明确给出的两组数值，不补造误差条。')
-    out+='''<p>案例来源：<a href="https://doi.org/10.1016/j.jcou.2025.103269">甘氨酸研究</a>、<a href="https://doi.org/10.1016/j.enzmictec.2026.110928">依克多因研究</a>、<a href="https://doi.org/10.1186/s12934-025-02773-2">二氢槲皮素研究</a>。这是方法例示，不是全部研究的效果量综述。</p>
-<h3>五、光甘草定的研究必要性与路线依据</h3><div class="grid2"><article class="card"><h4>需要解决的生产问题</h4><p>既有光甘草定通路研究指出氧化成环步骤和中间体胞外分布值得关注。项目应检验生产是否受酶级联协调和局部反应环境限制，而不只追求更强表达。</p></article><article class="card"><h4>可借鉴的技术基础</h4><p>本库提供酵母、黄酮通路、酶共定位、区室化和凝聚体工程的相邻证据。选择这条路线具有可解释的方法基础。</p></article><article class="card"><h4>值得验证的交叉问题</h4><p>将空间组织方法放入光甘草定通路，检验产物形成、关键中间体分布和细胞负担是否一起改善。</p></article><article class="card"><h4>项目应交付的新增证据</h4><p>在匹配表达与培养条件下，获得产物及中间体时间序列、空间组织证据和纯产物资源强度。这些结果才能评价路线是否有效。</p></article></div>
-<p>上述结论中，“路线具有研究依据”是文献支持的判断，“相分离能提高本项目生产效率”仍是实验假设。必要性建立在具体生产问题及可检验的改进空间上，而非单凭论文数量少。</p>
-<h4>保留外部生产参照</h4>'''
-    bench=load('data/literature/verified_benchmarks.json')['records']
-    out+=table(bench,[('study_zh','研究'),('route_zh','条件'),('titer_mg_l','滴度（mg/L）')])
-    out+='''<p>来源：<a href="https://www.nature.com/articles/s41467-026-68881-8">光甘草定生物合成网络研究</a>、<a href="https://www.nature.com/articles/s41467-026-72579-2">酵母模块组装研究</a>。两篇外部补充不计入 1,397 篇数据库统计；不同条件分列。</p>
-<h3>按主题查阅文献</h3><p>可以按宿主、工程主题或关键词筛选，直接查看对应 DOI。论文题名保留原文，便于检索。</p><div class="lit-controls"><label>研究宿主<select id="lit-host"><option value="">全部宿主</option>'''
-    out+=''.join(f'<option>{esc(h)}</option>' for h in c['host'])+'</select></label><label>工程主题<select id="lit-topic"><option value="">全部主题</option>'
-    out+=''.join(f'<option>{esc(t)}</option>' for t in s['strategy_order'])+'</select></label><label>题名或 DOI<input id="lit-search" type="search" placeholder="例如 glabridin、peroxisome"></label></div><p id="lit-count" aria-live="polite"></p><div class="table-wrap"><table><thead><tr><th>文献原题与 DOI</th><th>宿主／对象</th><th>主题</th></tr></thead><tbody id="lit-results"></tbody></table></div><button id="lit-more" type="button">显示更多文献</button>'
-    compact=[{k:x[k] for k in ['doi','title','host','family','strategies']} for x in p]
-    payload=json.dumps(compact,ensure_ascii=False).replace('<','\\u003c')
-    out+=f'<script id="lit-data" type="application/json">{payload}</script><script src="assets/literature_explorer.js" defer></script>'
+    out+='''<p>案例来源：<a href="https://doi.org/10.1016/j.jcou.2025.103269">甘氨酸研究</a>、<a href="https://doi.org/10.1016/j.enzmictec.2026.110928">依克多因研究</a>、<a href="https://doi.org/10.1186/s12934-025-02773-2">二氢槲皮素研究</a>。这是方法例示，不是全部研究的效果量综述。</p>'''
     out+='<details><summary>统计口径与下载</summary><ul>'+''.join('<li>'+esc(x)+'</li>' for x in s['method_zh'])+'</ul>'
     out+='''<div class="downloads"><a href="results/tables/literature_content/paper_landscape.csv">逐篇文献分类与主题表</a><a href="results/tables/literature_content/sankey_flows.json">桑基图流量数据</a><a href="results/tables/literature_content/papers.json">逐篇主题命中与证据句</a><a href="results/summaries/literature_content.json">汇总计数与匹配规则</a><a href="docs/methodology/literature_content_zh.md">文献内容分析说明</a></div></details></section>'''
     return out

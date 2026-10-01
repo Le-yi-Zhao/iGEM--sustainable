@@ -42,9 +42,11 @@ class LiteratureContentTests(unittest.TestCase):
         page=(ROOT/'index.html').read_text()
         self.assertNotIn('figures/wiki_zh/literature_audit.svg',page)
         self.assertEqual(page.count('src="figures/literature_content/'),8)
-        self.assertIn('lit-data',page)
+        self.assertNotIn('lit-data',page)
+        self.assertNotIn('assets/literature_explorer.js',page)
         self.assertIn('源表主宿主',page)
-        self.assertIn('两篇外部补充不计入 1,397',page)
+        for removed in ['保留外部生产参照','按主题查阅文献','光甘草定的研究必要性与路线依据']:
+            self.assertNotIn(removed,page)
     def test_example_uses_within_study_comparator(self):
         case=json.loads((ROOT/'results/tables/literature_content/quantitative_examples.json').read_text())
         self.assertEqual(case['control'],3.4)
